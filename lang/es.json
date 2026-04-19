@@ -13,7 +13,9 @@
       "Nature": "Naturaleza",
       "EggGroup": "Grupo Huevo",
       "Diet": "Dieta",
-      "Loyalty": "Lealtad"
+      "Loyalty": "Lealtad",
+      "Loves": "Adora",
+      "Hates": "Odia"
     },
     "BSP": {
       "Title": "Bono de Stats Principales (BSP)",

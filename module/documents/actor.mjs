@@ -86,5 +86,9 @@ export class PTUNGActor extends Actor {
         cap.total = cap.base || 0;
       }
     }
+
+    // 5. CÁLCULO DE LÍMITE DE MOVIMIENTOS
+    // Base 6 + movimientos extra, con un tope absoluto de 10.
+    system.maxMoves = Math.min(7 + (system.extraMoves || 0), 11);
   }
 }

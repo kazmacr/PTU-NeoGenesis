@@ -53,7 +53,9 @@
         "spatk": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
         "spdef": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
         "spd": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 }
-      }
+      },
+      "maxMoves": 7,
+      "extraMoves": 0
     }
   },
   "Item": {

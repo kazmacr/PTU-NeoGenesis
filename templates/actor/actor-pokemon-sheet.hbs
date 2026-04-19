@@ -1,0 +1,591 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <header class="sheet-header flexrow">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" tittle="{{actor.name}}" height="100" width="100" />
+        <div class="header-fields">
+            <h1 class="charname"><input type="text" name="name" value="{{actor.name}}" placeholder="Mote del Pokémon" />
+            </h1>
+            <div class="resource-grid flexrow">
+                <div class="resource flex-group-center">
+                    <label class="resource-label">Nivel</label>
+                    <div class="resource-content">
+                        <input type="number" name="system.level" value="{{system.level}}" data-dtype="Number" />
+                    </div>
+                </div>
+                <div class="resource flex-group-center">
+                    <label class="resource-label">{{localize "PTUNG.Stats.hp.abbr"}} (Actual / Máx.)</label>
+                    <div class="resource-content flexrow">
+                        <input type="number" name="system.health.value" value="{{system.health.value}}"
+                            data-dtype="Number" />
+                        <span> / </span>
+                        <input type="numbre" name="system.health.max" value="{{system.health.max}}" disabled
+                            title="Calculado automáticamente" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="general">General</a>
+        <a class="item" data-tab="combate">Combate</a>
+        <a class="item" data-tab="habilidades">Habilidades y Pokérasgos</a>
+        <a class="item" data-tab="concursos">Concursos</a>
+        <a class="item" data-tab="niveles">Subidas de Nivel</a>
+        <a class="item" data-tab="importar">Importar</a>
+    </nav>
+
+    <section class="sheet-body">
+        <div class="tab general" data-group="primary" data-tab="general">
+            <div class="grid grid-2col">
+                <fieldset>
+                    <legend>Detalles Específicos</legend>
+                    <div class="form-group">
+                        <label>Especie</label>
+                        <input type="text" name="system.species" value="{{system.species}}" />
+                    </div>
+                    <div class="form-group">
+                        <label>{{localize "PTUNG.Details.Type"}} 1</label>
+                        <select name="system.type1">
+                            {{selectOptions config.tipos select=system.type1 blank=""}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>{{localize "PTUNG.Details.Type"}} 2</label>
+                        <select name="system.type2">
+                            {{selectOptions config.tipos select=system.type2 blank=""}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Género</label>
+                        <input type="text" name="system.gender" value="{{system.gender}}" />
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferencias y Crianza</legend>
+                    <div class="form-group">
+                        <label>{{localize "PTUNG.Details.Loves"}}</label>
+                        <select name="system.loves">
+                            {{selectOptions config.sabores selected=system.loves blank=""}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>{{localize "PTUNG.Details.Hates"}}</label>
+                        <select name="system.hates">
+                            {{selectOptions config.sabores selected=system.hates blank=""}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>{{localize PTUNG.Details.Diet}}</label>
+                        <select name="system.diet">
+                            {{selectOptions config.dietas selected=system.diet blank=""}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>{{localize PTUNG.Details.EggGroup}}</label>
+                        <input type="text" name="system.egg_group1" value="{{system.egg_group1}}/">
+                        <span> / </span>
+                        <input type="text" name="system.egg_group2" value="{{system.egg_group2}}/">
+                    </div>
+                    <div class="form-group flexrow">
+                        <label>Shiny?</label>
+                        <input type="checkbox" name="system.isShiny" {{checked.system.isShiny}} />
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="tab combate" data-group="primary" data-tab="combate">
+            <div class="grid grid-3col">
+                <div class="combat-stats flexcol col-span-2">
+                    <table class="ptu-table">
+                        <thead>
+                            <tr>
+                                <th>{{localize "PTUNG.Stats.Label"}}</th>
+                                <th>Base</th>
+                                <th>{{localize "PTUNG.Stats.Added"}}</th>
+                                <th>Nat.</th>
+                                <th>BSP</th>
+                                <th title="Modificador de Combate (-6 a +6)">MC</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{#each system.stats as |stat key|}}
+                            <tr>
+                                <td class="stat-name"><strong>{{localize (concat "PTUNG.Stats." key ".abbr")}}</strong>
+                                </td>
+                                <td><input type="number" name="system.stats.{{key}}.base" value="{{stat.base}}"
+                                        data-dtype="Number" /></td>
+                                <td><input type="number" name="system.stats.{{key}}.added" value="{{stat.added}}"
+                                        data-dtype="Number" /></td>
+                                <td><input type="number" name="system.stats.{{key}}.natureModifier"
+                                        value="{{stat.natureModifier}}" data-dtype="Number" /></td>
+                                <td class="bsp-cell">
+                                    {{#if (eq ../system.bsp.primary key)}}<span title="Primario">+{{math (floor (divide
+                                        ../system.level 10)) "*" 3}}</span>
+                                    {{else if (eq ../system.bsp.secondary key)}}<span title="Secundario">+{{math (floor
+                                        (divide ../system.level 10)) "*" 2}}</span>
+                                    {{else if (eq ../system.bsp.tertiary key)}}<span title="Terciario">+{{math (floor
+                                        (divide ../system.level 10)) "*" 1}}</span>
+                                    {{else}}0{{/if}}
+                                </td>
+                                <td><input type="number" name="system.stats.{{key}}.combatStages"
+                                        value="{{stat.combatStages}}" min="-6" max="6" class="mc-input" /></td>
+                                <td class="stat-total"><strong>{{stat.total}}</strong></td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="combat-sidebars flexcol">
+                    <fieldset>
+                        <legend>Defensas y Evasión</legend>
+                        {{#each system.evasion as |evas key|}}
+                        <div class="form-group">
+                            <label>{{localize (concat "PTUNG.Evasion." (capitalize key))}}</label>
+                            <div class="flexrow">
+                                <input type="number" name="system.evasion.{{key}}.mod" value="{{evas.mod}}"
+                                    placeholder="Mod" title="Modificadores manuales" />
+                                <span class="evasion-total">{{evas.value}}</span>
+                            </div>
+                        </div>
+                        {{/each}}
+                        <div class="form-group">
+                            <label>Iniciativa</label>
+                            <span class="init-total">{{system.stats.spd.total}}</span>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Umbrales de Daño</legend>
+                        <div class="health-thresholds grid grid-2col">
+                            <div class="threshold"><span>Heridas:</span> <strong>{{system.health.injuries}}</strong>
+                            </div>
+                            <div class="threshold"><span>Tick:</span> <strong>{{math (floor (divide system.health.max
+                                    10))}}</strong></div>
+                            <div class="threshold"><span>1/2 HP:</span> <strong>{{math (floor (divide system.health.max
+                                    2))}}</strong></div>
+                            <div class="threshold"><span>1/3 HP:</span> <strong>{{math (floor (divide system.health.max
+                                    3))}}</strong></div>
+                            <div class="threshold"><span>1/4 HP:</span> <strong>{{math (floor (divide system.health.max
+                                    4))}}</strong></div>
+                            <div class="threshold"><span>1/8 HP:</span> <strong>{{math (floor (divide system.health.max
+                                    8))}}</strong></div>
+                            <div class="threshold"><span>1/16 HP:</span> <strong>{{math (floor (divide system.health.max
+                                    16))}}</strong></div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+            <fieldset class="capabilities-row">
+                <legend>{{localize "PTUNG.Capabilities.Title"}}</legend>
+                <div class="flexrow capability-list">
+                    {{#each system.capabilities as |cap key|}}
+                    <div class="cap-item" title="Base: {{cap.base}}">
+                        <label>{{localize (concat "PTUNG.Capabilities." (capitalize key))}}</label>
+                        <input type="number" name="system.capabilities.{{key}}.base" value="{{cap.base}}"
+                            data-dtype="Number" />
+                        <span class="cap-total">({{cap.total}})</span>
+                    </div>
+                    {{/each}}
+                </div>
+            </fieldset>
+
+            <div class="moves-section">
+                <div class="section-header flexrow">
+                    <h3>{{localize "TYPES.Item.move"}} (<span class="move-count">{{moves.length}}</span> / 11)</h3>
+                    {{#if (lt moves.length 11)}}
+                    <a class="item-control item-create" title="Agregar Movimiento" data-type="move"><i
+                            class="fas fa-plus"></i></a>
+                    {{/if}}
+                </div>
+
+                <ol class="items-list">
+                    <li class="item flexrow list-header">
+                        <div class="item-name">Nombre</div>
+                        <div class="item-detail">Tipo</div>
+                        <div class="item-detail">Categoría</div>
+                        <div class="item-detail">Frecuencia</div>
+                        <div class="item-detail">DB</div>
+                        <div class="item-detail">Efecto</div>
+                        <div class="item-controls"></div>
+                    </li>
+
+                    {{#each moves as |item id|}}
+                    <li class="item flexrow" data-item-id="{{item._id}}">
+                        <div class="item-name flexrow">
+                            <img src="{{item.img}}" title="{{item.name}}" width="24" height="24" />
+                            <h4>{{item.name}}</h4>
+                        </div>
+                        <div class="item-detail type-badge" data-type="{{item.system.type}}">{{item.system.type}}</div>
+                        <div class="item-detail">{{item.system.category}}</div>
+                        <div class="item-detail">{{item.system.frequency}}</div>
+                        <div class="item-detail"><strong>{{item.system.damageBase}}</strong></div>
+                        <div class="item-detail">{{item.system.effects}}</div>
+
+                        <div class="item-controls">
+                            <a class="item-control item-edit" title="Editar"><i class="fas fa-edit"></i></a>
+                            {{#if (ne item.name "Forcejeo")}}
+                            <a class="item-control item-delete" title="Eliminar"><i class="fas fa-trash"></i></a>
+                            {{/if}}
+                        </div>
+                    </li>
+                    {{/each}}
+                </ol>
+            </div>
+        </div>
+
+        <div class="tab habilidades" data-group="primary" data-tab="habilidades">
+            <div class="grid grid-2col">
+
+                <div class="abilities-section flexcol">
+                    <div class="section-header flexrow">
+                        <h3>{{localize "TYPES.Item.ability"}}</h3>
+                        <a class="item-control item-create" title="Agregar Habilidad" data-type="ability"><i
+                                class="fas fa-plus"></i></a>
+                    </div>
+
+                    <ol class="items-list plain-list">
+                        {{#each abilities as |item id|}}
+                        <li class="item flexcol" data-item-id="{{item._id}}">
+                            <div class="item-header flexrow">
+                                <div class="item-name flexrow">
+                                    <img src="{{item.img}}" title="{{item.name}}" width="24" height="24" />
+                                    <h4>{{item.name}}</h4>
+                                </div>
+                                <div class="item-detail">{{item.system.frequency}}</div>
+                                <div class="item-controls">
+                                    <a class="item-control item-edit" title="Editar"><i class="fas fa-edit"></i></a>
+                                    <a class="item-control item-delete" title="Eliminar"><i
+                                            class="fas fa-trash"></i></a>
+                                </div>
+                            </div>
+                            <div class="item-summary">
+                                <strong>Trigger:</strong> {{item.system.trigger}}
+                            </div>
+                        </li>
+                        {{/each}}
+                    </ol>
+                </div>
+
+                <div class="poketraits-section flexcol">
+                    <div class="section-header flexrow">
+                        <h3>{{localize "TYPES.Item.poketrait"}}</h3>
+                        <a class="item-control item-create" title="Agregar Pokérasgo" data-type="poketrait"><i
+                                class="fas fa-plus"></i></a>
+                    </div>
+
+                    <ol class="items-list plain-list">
+                        {{#each poketraits as |item id|}}
+                        <li class="item flexcol" data-item-id="{{item._id}}">
+                            <div class="item-header flexrow">
+                                <div class="item-name flexrow">
+                                    <img src="{{item.img}}" title="{{item.name}}" width="24" height="24" />
+                                    <h4>{{item.name}}</h4>
+                                </div>
+                                <div class="item-controls">
+                                    <a class="item-control item-edit" title="Editar"><i class="fas fa-edit"></i></a>
+                                    <a class="item-control item-delete" title="Eliminar"><i
+                                            class="fas fa-trash"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        {{/each}}
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tab concursos" data-group="primary" data-tab="concursos">
+
+            <div class="grid grid-2col">
+
+                <div class="flexcol">
+                    <fieldset>
+                        <legend>Atributos de Concurso</legend>
+                        <table class="ptu-table text-small center-text">
+                            <thead>
+                                <tr>
+                                    <th>Atributo</th>
+                                    <th>Valor</th>
+                                    <th>Adyacentes</th>
+                                    <th>Opuestos</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Alarde</strong></td>
+                                    <td><input type="number" name="system.contestStats.alarde"
+                                            value="{{system.contestStats.alarde}}" data-dtype="Number" /></td>
+                                    <td>Dureza, Belleza</td>
+                                    <td>Ingenio, Dulzura</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Belleza</strong></td>
+                                    <td><input type="number" name="system.contestStats.belleza"
+                                            value="{{system.contestStats.belleza}}" data-dtype="Number" /></td>
+                                    <td>Alarde, Dulzura</td>
+                                    <td>Dureza, Ingenio</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Dulzura</strong></td>
+                                    <td><input type="number" name="system.contestStats.dulzura"
+                                            value="{{system.contestStats.dulzura}}" data-dtype="Number" /></td>
+                                    <td>Belleza, Ingenio</td>
+                                    <td>Alarde, Dureza</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Ingenio</strong></td>
+                                    <td><input type="number" name="system.contestStats.ingenio"
+                                            value="{{system.contestStats.ingenio}}" data-dtype="Number" /></td>
+                                    <td>Dulzura, Dureza</td>
+                                    <td>Belleza, Alarde</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Dureza</strong></td>
+                                    <td><input type="number" name="system.contestStats.dureza"
+                                            value="{{system.contestStats.dureza}}" data-dtype="Number" /></td>
+                                    <td>Ingenio, Alarde</td>
+                                    <td>Dulzura, Belleza</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Consumibles (Pokochos y Vitaminas)</legend>
+                        <div class="grid grid-2col">
+                            <div class="consumable-list">
+                                <h4>Pokochos ({{system.pokochos.length}} / {{system.maxPokochos}})</h4>
+                                {{#each system.pokochos as |pokocho i|}}
+                                <div class="form-group">
+                                    <select name="system.pokochos.{{i}}.sabor">
+                                        {{selectOptions ../config.pokochos selected=pokocho.sabor blank="-- Vacío --"}}
+                                    </select>
+                                </div>
+                                {{/each}}
+                            </div>
+
+                            <div class="consumable-list">
+                                <h4>Vitaminas ({{system.vitaminas.length}} / {{system.maxVitamins}})</h4>
+                                {{#each system.vitaminas as |vitamina i|}}
+                                <div class="form-group">
+                                    <select name="system.vitaminas.{{i}}.tipo">
+                                        {{selectOptions ../config.vitaminas selected=vitamina.tipo blank="-- Vacío --"}}
+                                    </select>
+                                </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="flexcol">
+                    <fieldset class="contest-reference">
+                        <legend>Matriz de Efectos de Concurso</legend>
+                        <table class="ptu-table text-small center-text">
+                            <thead>
+                                <tr>
+                                    <th>Frecuencia \ Clase</th>
+                                    <th>Físico</th>
+                                    <th>Especial</th>
+                                    <th>Estatus</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>A Voluntad</strong></td>
+                                    <td>Confiable</td>
+                                    <td>Confiable</td>
+                                    <td>Fastidiar</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Recarga</strong></td>
+                                    <td>Atención Constante</td>
+                                    <td>Atención Dividida</td>
+                                    <td>Atención Doble</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Escena X</strong></td>
+                                    <td>Doble o Nada</td>
+                                    <td>Apelación Reflejada</td>
+                                    <td>Inquietante</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Diario X</strong></td>
+                                    <td>Emocionante</td>
+                                    <td>Gran Espectáculo</td>
+                                    <td>Aún No Habéis Visto Nada</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="contest-dice-widget flexcol" style="margin-top: 10px;">
+                            <label><strong>Dados de Concurso</strong></label>
+                            <div class="flexrow">
+                                <input type="number" name="system.contestDice.bonus"
+                                    value="{{system.contestDice.bonus}}" placeholder="+ Dados Extra" />
+                                <button type="button" class="roll-contest" title="Lanzar Dados de Concurso"><i
+                                        class="fas fa-dice-d20"></i> Tirar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+            </div>
+
+            <div class="moves-section contest-moves">
+                <div class="section-header flexrow">
+                    <h3>Movimientos (Modo Concurso)</h3>
+                </div>
+
+                <ol class="items-list plain-list">
+                    <li class="item flexrow list-header">
+                        <div class="item-name">Nombre</div>
+                        <div class="item-detail">Tipo</div>
+                        <div class="item-detail">Frecuencia</div>
+                        <div class="item-detail">Categoría</div>
+                        <div class="item-detail" style="flex: 2;">Efecto de Concurso</div>
+                    </li>
+
+                    {{#each moves as |item id|}}
+                    <li class="item flexcol" data-item-id="{{item._id}}">
+                        <div class="item-header flexrow">
+                            <div class="item-name flexrow">
+                                <img src="{{item.img}}" title="{{item.name}}" width="24" height="24" />
+                                <h4>{{item.name}}</h4>
+                            </div>
+                            <div class="item-detail type-badge" data-type="{{item.system.type}}">{{item.system.type}}
+                            </div>
+                            <div class="item-detail">{{item.system.frequency}}</div>
+                            <div class="item-detail">{{item.system.category}}</div>
+
+                            <div class="item-detail contest-effect-name" style="flex: 2;">
+                                <strong>{{item.system.contestEffectName}}</strong>
+                            </div>
+                        </div>
+
+                        <div class="item-summary text-small italic">
+                            {{lookup ../config.descripcionesConcurso item.system.contestEffectKey}}
+                        </div>
+                    </li>
+                    {{/each}}
+                </ol>
+            </div>
+
+        </div>
+
+        <div class="tab niveles" data-group="primary" data-tab="niveles">
+            <div class="grid grid-2col">
+
+                <div class="flexcol">
+                    <fieldset>
+                        <legend>Progreso de Experiencia</legend>
+                        <div class="form-group">
+                            <label>Experiencia Actual</label>
+                            <input type="number" name="system.experience" value="{{system.experience}}"
+                                data-dtype="Number" />
+                        </div>
+                        <div class="form-group">
+                            <label>Siguiente Nivel (Meta)</label>
+                            <input type="number" name="system.nextLevelExp" value="{{system.nextLevelExp}}"
+                                placeholder="Ej: 100" data-dtype="Number" />
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Personalidad y Crecimiento</legend>
+                        <div class="form-group">
+                            <label>{{localize "PTUNG.Details.Nature"}} 1</label>
+                            <input type="text" name="system.nature1" value="{{system.nature1}}"
+                                placeholder="Ej: Firme" />
+                        </div>
+                        <div class="form-group">
+                            <label>{{localize "PTUNG.Details.Nature"}} 2 (Mentor)</label>
+                            <input type="text" name="system.nature2" value="{{system.nature2}}"
+                                placeholder="Naturaleza adicional" />
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Puntos de Tutor</legend>
+                        <div class="flexrow">
+                            <div class="form-group">
+                                <label>Gastados</label>
+                                <input type="number" name="system.tutorPoints.spent"
+                                    value="{{system.tutorPoints.spent}}" data-dtype="Number" />
+                            </div>
+                            <div class="form-group">
+                                <label>Totales</label>
+                                <input type="number" name="system.tutorPoints.total"
+                                    value="{{system.tutorPoints.total}}" data-dtype="Number" />
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="flexcol">
+                    <fieldset>
+                        <legend>{{localize "PTUNG.BSP.Title"}}</legend>
+                        <div class="form-group">
+                            <label>{{localize "PTUNG.BSP.Primary"}}</label>
+                            <select name="system.bsp.primary">
+                                {{selectOptions config.stats selected=system.bsp.primary blank="-- Seleccionar --"}}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>{{localize "PTUNG.BSP.Secondary"}}</label>
+                            <select name="system.bsp.secondary">
+                                {{selectOptions config.stats selected=system.bsp.secondary blank="-- Seleccionar --"}}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>{{localize "PTUNG.BSP.Tertiary"}}</label>
+                            <select name="system.bsp.tertiary">
+                                {{selectOptions config.stats selected=system.bsp.tertiary blank="-- Seleccionar --"}}
+                            </select>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Puntos de Nivel (Stats)</legend>
+                        <p class="text-small italic">Puntos totales: Nivel + 10 (aprox. según especie)</p>
+                        <div class="flexrow">
+                            <div class="form-group">
+                                <label>Invertidos</label>
+                                <input type="number" name="system.statPoints.spent" value="{{system.statPoints.spent}}"
+                                    data-dtype="Number" />
+                            </div>
+                            <div class="form-group">
+                                <label>Disponibles</label>
+                                <input type="number" name="system.statPoints.available"
+                                    value="{{system.statPoints.available}}" data-dtype="Number" />
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+            <fieldset class="inherited-moves">
+                <legend>Movimientos Heredados / Notas de Tutoría</legend>
+                <textarea name="system.notes.inherited"
+                    placeholder="Lista aquí los movimientos de huevo o técnicas especiales heredadas...">{{system.notes.inherited}}</textarea>
+            </fieldset>
+        </div>
+
+        <div class="tab importar" data-group="primary" data-tab="importar">
+            <p>Aquí se pega el enlace de la ficha de Google Sheets.</p>
+            <div class="form-group">
+                <input type="text" id="import-sheet-url" placeholder="https://docs.google.com/spreadsheets/d/..." />
+                <button type="button" id="btn-import-sheet">
+                    <i class="fas fa-file-import"></i>
+                    Importar Datos
+                </button>
+            </div>
+        </div>
+
+    </section>
+</form>
