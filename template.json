@@ -53,14 +53,14 @@
     },
     "ability": {
       "description": "",
-      "frequency": "Estática",
+      "frequency": "Pasivo",
       "trigger": "",
       "effect": ""
     },
     "feature": {
       "description": "",
       "prerequisites": "",
-      "frequency": "Estática",
+      "frequency": "Pasivo",
       "tags": ""
     },
     "poketrait": {

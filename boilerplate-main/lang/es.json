@@ -1,0 +1,38 @@
+{
+  "PTUNG": {
+    "Stats": {
+      "hp": { "long": "Puntos de Salud", "abbr": "PS" },
+      "atk": { "long": "Ataque", "abbr": "ATK" },
+      "def": { "long": "Defensa", "abbr": "DEF" },
+      "spatk": { "long": "Ataque Especial", "abbr": "SATK" },
+      "spdef": { "long": "Defensa Especial", "abbr": "SDEF" },
+      "spd": { "long": "Velocidad", "abbr": "VEL" }
+    },
+    "SheetLabels": {
+      "Trainer": "Ficha de Entrenador",
+      "Pokemon": "Ficha de Pokémon",
+      "Item": "Hoja de Objeto"
+    },
+    "Effect": {
+      "Source": "Origen",
+      "Toggle": "Alternar Efecto",
+      "Temporary": "Efectos Temporales",
+      "Passive": "Efectos Pasivos",
+      "Inactive": "Efectos Inactivos"
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "trainer": "Entrenador",
+      "pokemon": "Pokémon"
+    },
+    "Item": {
+      "move": "Movimiento",
+      "ability": "Habilidad",
+      "feature": "Rasgo / Talento",
+      "poketrait": "Pokérasgo",
+      "gear": "Equipo / Objeto"
+    }
+  }
+}
