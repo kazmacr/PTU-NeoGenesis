@@ -8,6 +8,33 @@
       "spdef": { "long": "Defensa Especial", "abbr": "SDEF" },
       "spd": { "long": "Velocidad", "abbr": "VEL" }
     },
+    "Details": {
+      "Type": "Tipo",
+      "Nature": "Naturaleza",
+      "EggGroup": "Grupo Huevo",
+      "Diet": "Dieta",
+      "Loyalty": "Lealtad"
+    },
+    "BSP": {
+      "Title": "Bono de Stats Principales (BSP)",
+      "Primary": "Primario (+3)",
+      "Secondary": "Secundario (+2)",
+      "Tertiary": "Terciario (+1)"
+    },
+    "Capabilities": {
+      "Title": "Capacidades de Desplazamiento",
+      "Overland": "Suelo",
+      "Swim": "Nado",
+      "Jump": "Salto",
+      "Sky": "Cielo",
+      "Burrow": "Cavar",
+      "Power": "Vigor"
+    },
+    "Evasion": {
+      "Physical": "Evasión Física",
+      "Special": "Evasión Especial",
+      "Speed": "Evasión de Velocidad"
+    },
     "SheetLabels": {
       "Trainer": "Ficha de Entrenador",
       "Pokemon": "Ficha de Pokémon",

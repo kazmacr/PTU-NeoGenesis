@@ -1,5 +1,5 @@
 // Import document classes.
-import { BoilerplateActor } from './documents/actor.mjs';
+import { PTUNGActor } from './documents/actor.mjs';
 import { BoilerplateItem } from './documents/item.mjs';
 // Import sheet classes.
 import { BoilerplateActorSheet } from './sheets/actor-sheet.mjs';
@@ -34,7 +34,7 @@ Hooks.once('init', function () {
   };
 
   // Define custom Document classes
-  CONFIG.Actor.documentClass = BoilerplateActor;
+  CONFIG.Actor.documentClass = PTUNGActor;
   CONFIG.Item.documentClass = BoilerplateItem;
 
   // Active Effects are never copied to the Actor,

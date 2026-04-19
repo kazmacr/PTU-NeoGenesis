@@ -13,9 +13,28 @@
     "pokemon": {
       "biography": "",
       "level": 1,
+      "bps": {
+        "primary": "hp",
+        "secondary": "atk",
+        "tertiary": "def"
+      },
       "experience": 0,
       "loyalty": 2,
-      "nature": "",
+      "type1": "",
+      "type2": "",
+      "nature1": "",
+      "nature2": "",
+      "egg_group1": "",
+      "egg_group2": "",
+      "diet": "",
+      "capabilities": {
+        "overland": { "base": 0, "total": 0 },
+        "swim": { "base": 0, "total": 0 },
+        "jump": { "base": 0, "total": 0 },
+        "sky": { "base": 0, "total": 0 },
+        "burrow": { "base": 0, "total": 0 },
+        "power": { "base": 0, "total": 0 }
+      },
       "health": {
         "value": 10,
         "min": 0,
@@ -23,9 +42,9 @@
         "injuries": 0
       },
       "evasion": {
-        "physical": 0,
-        "special": 0,
-        "speed": 0
+        "physical": { "value": 0, "mod": 0 },
+        "special": { "value": 0, "mod": 0 },
+        "speed": { "value": 0, "mod": 0 }
       },
       "stats": {
         "hp": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
@@ -48,7 +67,7 @@
       "frequency": "A Voluntad",
       "range": "Cuerpo a cuerpo, 1 Objetivo",
       "ac": 2,
-      "damageBase": "1",
+      "damageBase": 1,
       "effects": ""
     },
     "ability": {
