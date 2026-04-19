@@ -1,0 +1,76 @@
+{
+  "Actor": {
+    "types": ["trainer", "pokemon"],
+    "htmlFields": ["biography"],
+    "templates": {},
+    "trainer": {
+      "biography": "",
+      "level": 1,
+      "actionPoints": 5,
+      "experience": 0,
+      "money": 0
+    },
+    "pokemon": {
+      "biography": "",
+      "level": 1,
+      "experience": 0,
+      "loyalty": 2,
+      "nature": "",
+      "health": {
+        "value": 10,
+        "min": 0,
+        "max": 10,
+        "injuries": 0
+      },
+      "evasion": {
+        "physical": 0,
+        "special": 0,
+        "speed": 0
+      },
+      "stats": {
+        "hp": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
+        "atk": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
+        "def": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
+        "spatk": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
+        "spdef": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
+        "spd": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 }
+      }
+    }
+  },
+  "Item": {
+    "types": ["move", "ability", "feature", "poketrait", "gear"],
+    "htmlFields": ["description"],
+    "templates": {},
+    "move": {
+      "description": "",
+      "type": "Normal",
+      "category": "Físico",
+      "frequency": "A Voluntad",
+      "range": "Cuerpo a cuerpo, 1 Objetivo",
+      "ac": 2,
+      "damageBase": "1",
+      "effects": ""
+    },
+    "ability": {
+      "description": "",
+      "frequency": "Estática",
+      "trigger": "",
+      "effect": ""
+    },
+    "feature": {
+      "description": "",
+      "prerequisites": "",
+      "frequency": "Estática",
+      "tags": ""
+    },
+    "poketrait": {
+      "description": ""
+    },
+    "gear": {
+      "description": "",
+      "quantity": 1,
+      "price": 0,
+      "weight": 0
+    }
+  }
+}
