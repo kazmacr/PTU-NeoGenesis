@@ -1,6 +1,18 @@
 export const PTUNG = {};
 
 /**
+ * Lista de caracteristicas
+ */
+PTUNG.stats = {
+  "hp": "PS",
+  "atk": "ATK",
+  "def": "DEF",
+  "satk": "SATK",
+  "sdef": "DEF",
+  "spd": "VEL"
+};
+
+/**
  * Tipos de Pokémon
  */
 PTUNG.tipos = {

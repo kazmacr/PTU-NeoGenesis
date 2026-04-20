@@ -5,7 +5,7 @@ export class PTUNGActorSheet extends ActorSheet {
 
   /** @override */
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["ptunga", "sheet", "actor"],
       width: 800,
       height: 700,
@@ -98,5 +98,13 @@ export class PTUNGActorSheet extends ActorSheet {
       system: {}
     };
     return this.actor.createEmbeddedDocuments("Item", [itemData]);
+  }
+
+  _onDropItem() {
+    /**
+     * Cuando el jugador suelte un ítem tipo 'especie' sobre la ficha, 
+     * no lo guardes en el inventario; en su lugar, copia su nombre a system.species 
+     * y reemplaza los Stats Base del Pokémon actual
+     */
   }
 }

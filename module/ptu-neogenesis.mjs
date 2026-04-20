@@ -27,6 +27,16 @@ Hooks.once('init', async function() {
     label: "PTUNG.SheetLabels.Pokemon"
   });
 
+  // --- Ayudantes lógicos para el HTML (Handlebars Helpers) ---
+  Handlebars.registerHelper('eq', function (a, b) { return a === b; });
+  Handlebars.registerHelper('ne', function (a, b) { return a !== b; });
+  Handlebars.registerHelper('lt', function (a, b) { return a < b; });
+  Handlebars.registerHelper('concat', function (...args) {
+    // Une los textos ignorando el último argumento interno de Handlebars
+    return args.slice(0, -1).join('');
+  });
+  // --------------------------------------------------------------------------
+
   // Pre-cargar plantillas de Handlebars (Opcional por ahora, útil para partials)
   // return preloadHandlebarsTemplates();
 });

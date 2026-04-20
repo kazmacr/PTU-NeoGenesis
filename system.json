@@ -1,10 +1,10 @@
 {
-  "id":"ptu-neogenesis",
-  "tittle":"Pokémon Tabletop United: Neo Genesis",
+  "id": "ptu-neogenesis",
+  "title": "Pokémon Tabletop United: Neo Genesis",
   "description": "Sistema de juego no oficial para PTU: Neo Genesis en Español.",
   "authors": [
     {
-      "name": "Kazmacrc"
+      "name": "Kazmacrc - randyweb20@gmail.com"
     }
     
   ],

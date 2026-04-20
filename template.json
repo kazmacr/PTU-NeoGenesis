@@ -1,7 +1,12 @@
 {
   "Actor": {
-    "types": ["trainer", "pokemon"],
-    "htmlFields": ["biography"],
+    "types": [
+      "trainer",
+      "pokemon"
+    ],
+    "htmlFields": [
+      "biography"
+    ],
     "templates": {},
     "trainer": {
       "biography": "",
@@ -13,7 +18,7 @@
     "pokemon": {
       "biography": "",
       "level": 1,
-      "bps": {
+      "bsp": {
         "primary": "hp",
         "secondary": "atk",
         "tertiary": "def"
@@ -28,12 +33,30 @@
       "egg_group2": "",
       "diet": "",
       "capabilities": {
-        "overland": { "base": 0, "total": 0 },
-        "swim": { "base": 0, "total": 0 },
-        "jump": { "base": 0, "total": 0 },
-        "sky": { "base": 0, "total": 0 },
-        "burrow": { "base": 0, "total": 0 },
-        "power": { "base": 0, "total": 0 }
+        "overland": {
+          "base": 0,
+          "total": 0
+        },
+        "swim": {
+          "base": 0,
+          "total": 0
+        },
+        "jump": {
+          "base": 0,
+          "total": 0
+        },
+        "sky": {
+          "base": 0,
+          "total": 0
+        },
+        "burrow": {
+          "base": 0,
+          "total": 0
+        },
+        "power": {
+          "base": 0,
+          "total": 0
+        }
       },
       "health": {
         "value": 10,
@@ -42,25 +65,78 @@
         "injuries": 0
       },
       "evasion": {
-        "physical": { "value": 0, "mod": 0 },
-        "special": { "value": 0, "mod": 0 },
-        "speed": { "value": 0, "mod": 0 }
+        "physical": {
+          "value": 0,
+          "mod": 0
+        },
+        "special": {
+          "value": 0,
+          "mod": 0
+        },
+        "speed": {
+          "value": 0,
+          "mod": 0
+        }
       },
       "stats": {
-        "hp": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
-        "atk": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
-        "def": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
-        "spatk": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
-        "spdef": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 },
-        "spd": { "base": 0, "added": 0, "combatStages": 0, "natureModifier": 0, "total": 0 }
+        "hp": {
+          "base": 0,
+          "added": 0,
+          "combatStages": 0,
+          "natureModifier": 0,
+          "total": 0
+        },
+        "atk": {
+          "base": 0,
+          "added": 0,
+          "combatStages": 0,
+          "natureModifier": 0,
+          "total": 0
+        },
+        "def": {
+          "base": 0,
+          "added": 0,
+          "combatStages": 0,
+          "natureModifier": 0,
+          "total": 0
+        },
+        "satk": {
+          "base": 0,
+          "added": 0,
+          "combatStages": 0,
+          "natureModifier": 0,
+          "total": 0
+        },
+        "sdef": {
+          "base": 0,
+          "added": 0,
+          "combatStages": 0,
+          "natureModifier": 0,
+          "total": 0
+        },
+        "spd": {
+          "base": 0,
+          "added": 0,
+          "combatStages": 0,
+          "natureModifier": 0,
+          "total": 0
+        }
       },
       "maxMoves": 7,
       "extraMoves": 0
     }
   },
   "Item": {
-    "types": ["move", "ability", "feature", "poketrait", "gear"],
-    "htmlFields": ["description"],
+    "types": [
+      "move",
+      "ability",
+      "feature",
+      "poketrait",
+      "gear"
+    ],
+    "htmlFields": [
+      "description"
+    ],
     "templates": {},
     "move": {
       "description": "",
@@ -92,6 +168,9 @@
       "quantity": 1,
       "price": 0,
       "weight": 0
+    },
+    "dex": {
+      /* Aquí iran las especies de los Pokémon para tener un compendium de bichos */
     }
   }
 }

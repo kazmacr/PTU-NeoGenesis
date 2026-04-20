@@ -1,11 +1,13 @@
 {
   "PTUNG": {
     "Stats": {
+      "Label": "Stats",
+      "Added": "Añadido",
       "hp": { "long": "Puntos de Salud", "abbr": "PS" },
       "atk": { "long": "Ataque", "abbr": "ATK" },
       "def": { "long": "Defensa", "abbr": "DEF" },
-      "spatk": { "long": "Ataque Especial", "abbr": "SATK" },
-      "spdef": { "long": "Defensa Especial", "abbr": "SDEF" },
+      "satk": { "long": "Ataque Especial", "abbr": "SATK" },
+      "sdef": { "long": "Defensa Especial", "abbr": "SDEF" },
       "spd": { "long": "Velocidad", "abbr": "VEL" }
     },
     "Details": {
@@ -25,17 +27,17 @@
     },
     "Capabilities": {
       "Title": "Capacidades de Desplazamiento",
-      "Overland": "Suelo",
-      "Swim": "Nado",
-      "Jump": "Salto",
-      "Sky": "Cielo",
-      "Burrow": "Cavar",
-      "Power": "Vigor"
+      "overland": "Suelo",
+      "swim": "Nado",
+      "jump": "Salto",
+      "sky": "Cielo",
+      "burrow": "Cavar",
+      "power": "Vigor"
     },
     "Evasion": {
-      "Physical": "Evasión Física",
-      "Special": "Evasión Especial",
-      "Speed": "Evasión de Velocidad"
+      "physical": "Ev. Física",
+      "special": "Ev. Especial",
+      "speed": "Ev. Velocidad"
     },
     "SheetLabels": {
       "Trainer": "Ficha de Entrenador",
