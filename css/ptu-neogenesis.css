@@ -290,7 +290,7 @@
 }
 
 /* ========================================== */
-/* TABLAS DE STATS (COMBATE, CONCURSOS Y EVA) */
+/* TABLAS DE STATS (COMBATE Y CONCURSOS)      */
 /* ========================================== */
 .ptunga .ptu-table {
   width: 100%;
@@ -330,9 +330,74 @@
   width: 40px !important;
 }
 
-.ptu-header-eva th {
-  padding: 0 15px;
-  font: bold var(--ptu-dark-blue);
+/* ========================================== */
+/* CABECERAS Y ALINEACIÓN DE EVASIONES        */
+/* ========================================== */
+
+/* Contenedor de la cabecera */
+.ptunga .evasiones-header {
+  border-bottom: 2px solid var(--ptu-border);
+  padding-bottom: 3px;
+  margin-bottom: 8px;
+}
+
+/* Estilo de los textos: Azul oscuro y Negrita */
+.ptunga .evasiones-header label,
+.ptunga .evasiones-header span {
+  color: var(--ptu-dark-blue);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* Replicamos el candado de tamaño del input para la palabra "Mod." */
+.ptunga .evasiones-header .eva-head-mod {
+  width: 32px;
+  flex: 0 0 32px;
+  margin-right: 5px; /* Debe coincidir con el margin-right de tu input */
+  text-align: center;
+}
+
+/* Ancho fijo para la palabra "Final" */
+.ptunga .evasiones-header .eva-head-final {
+  width: 35px;
+  flex: 0 0 35px;
+  text-align: center;
+}
+
+/* Obligamos al número total a tener el mismo ancho que la palabra "Final" */
+.ptunga .evasion-row .evasion-total {
+  width: 35px;
+  flex: 0 0 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilo para la Reducción de Daño (DR) */
+.ptunga .dr-row {
+  margin-top: 5px;
+  border-top: 1px dashed var(--ptu-border);
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+
+.ptunga .dr-row label {
+  white-space: nowrap;
+  font-size: 12px;
+  flex: 1;
+}
+
+.ptunga .dr-row input {
+  flex: 2 !important; /* Ocupa el resto de la fila */
+  width: auto !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* Evitamos que el botón de iniciativa rompa la caja */
+.ptunga .init-row button {
+  padding: 2px 6px;
+  font-size: 12px;
+  flex: 0 0 auto;
 }
 
 /* ========================================== */
@@ -540,4 +605,37 @@
   text-align: center;
   padding: 0;
   margin-right: 5px;
+}
+
+/* ========================================== */
+/* NUEVOS ELEMENTOS DE COMBATE Y EQUIPO       */
+/* ========================================== */
+
+/* Sección de Equipamiento y Bufos */
+.ptunga .equipment-buffs-section {
+  margin: 10px 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.ptunga .item-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.ptunga .item-slot label {
+  font-size: 11px;
+  text-transform: uppercase; 
+  color: var(--ptu-dark);
+  font-weight: bold;
+}
+
+.ptunga .item-slot input {
+  width: 100% !important;
+  background: white !important;
+  border: 1px solid var(--ptu-border);
+  font-style: italic;
+  font-size: 13px;
+  text-align: left;
 }
