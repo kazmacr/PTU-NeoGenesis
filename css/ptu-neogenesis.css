@@ -290,7 +290,7 @@
 }
 
 /* ========================================== */
-/* TABLAS DE STATS (COMBATE Y CONCURSOS)      */
+/* TABLAS DE STATS (COMBATE, CONCURSOS Y EVA) */
 /* ========================================== */
 .ptunga .ptu-table {
   width: 100%;
@@ -328,6 +328,11 @@
 
 .ptunga .mc-input {
   width: 40px !important;
+}
+
+.ptu-header-eva th {
+  padding: 0 15px;
+  font: bold var(--ptu-dark-blue);
 }
 
 /* ========================================== */

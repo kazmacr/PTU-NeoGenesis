@@ -215,7 +215,14 @@
 
         <div class="combat-col-defensas flexcol">
             <fieldset>
-                <legend>Defensas y Evasión</legend>
+                <legend>Evasiones</legend>
+                <thead class="ptu-header-eva">
+                    <tr>
+                        <th>Evasión</th>
+                        <th>Mod.</th>
+                        <th>Final</th>
+                    </tr>
+                </thead>
                 {{#each system.evasion as |evas key|}}
                 <div class="form-group">
                     <label>{{localize (concat "PTUNG.Evasion." key)}}</label>

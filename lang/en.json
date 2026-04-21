@@ -35,9 +35,9 @@
       "power": "Vigor"
     },
    "Evasion": {
-      "physical": "Evasión Física",
-      "special": "Evasión Especial",
-      "speed": "Evasión Velocidad"
+      "physical": "Física",
+      "special": "Especial",
+      "speed": "Velocidad"
     },
     "SheetLabels": {
       "Trainer": "Ficha de Entrenador",
