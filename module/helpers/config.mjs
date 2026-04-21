@@ -147,6 +147,15 @@ PTUNG.pokochos = {
 };
 
 /**
+ * Genero del Pokémon 
+ */
+PTUNG.genero = {
+  "macho": "Macho",
+  "hembra": "Hembra", 
+  "ninguno": "Ninguno"
+};
+
+/*
  * Efectos de Concurso (Descripciones completas)
  */
 PTUNG.descripcionesConcurso = {
@@ -162,3 +171,64 @@ PTUNG.descripcionesConcurso = {
   "gran_espectaculo": "1d6 – El usuario gana 3 de Furor.",
   "inquietante": "5d6 – El usuario pierde 2 de Furor y los participantes adyacentes pierden 1 de Furor."
 };
+
+/**
+ * Naturalezas de los Pokémons
+ */
+PTUNG.nature = {
+  "mimosa": "Mimosa [+PS -ATK]",
+  "distraida": "Distraída [+PS -DEF]",
+  "orgullosa": "Orgullosa [+PS -SATK]",
+  "decidida": "Decidida [+PS -SDEF]",
+  "paciente": "Paciente [+PS -VEL]",
+  "desesperada": "Desesperada [+ATK -PS]",
+  "huraña": "Huraña [+ATK -DEF]",
+  "firme": "Firme [+ATK -SATK]",
+  "picara": "Pícara [+ATK -SDEF]",
+  "audaz": "Audaz [+ATK -VEL]",
+  "rigida": "Rígida [+DEF -PS]",
+  "osada": "Osada [+DEF -ATK]",
+  "agitada": "Agitada [+DEF -SATK]",
+  "floja": "Floja [+DEF -SDEF]",
+  "placida": "Plácida [+DEF -VEL]",
+  "curiosa": "Curiosa [+SATK -PS]",
+  "modesta": "Modesta [+SATK -ATK]",
+  "afable": "Afable [+SATK -DEF]",
+  "alocada": "Alocada [+SATK -SDEF]",
+  "mansa": "Mansa [+SATK -VEL]",
+  "soñadora": "Soñadora [+SDEF -PS]",
+  "serena": "Serena [+SDEF -ATK]",
+  "amable": "Amable [+SDEF -DEF]",
+  "cauta": "Cauta [+SDEF -SATK]",
+  "grosera": "Grosera [+SDEF -VEL]",
+  "asustadiza": "Asustadiza [+VEL -PS]",
+  "miedosa": "Miedosa [+VEL -ATK]",
+  "activa": "Activa [+VEL -DEF]",
+  "alegre": "Alegre [+VEL -SATK]",
+  "ingenua": "Ingenua [+VEL -SDEF]",
+  "fuerte": "Fuerte [+ATK -ATK]",
+  "docil": "Dócil [+DEF -DEF]",
+  "timida": "Tímida [+SATK -SATK]",
+  "rara": "Rara [+SDEF -SDEF]",
+  "seria": "Seria [+VEL -VEL]",
+  "calmada": "Calmada [+PS -PS]"
+};
+
+/**
+ *  Modificadores de Combate (MC)
+ */
+  PTUNG.combatStages = {
+    "-6": "-6",
+    "-5": "-5",
+    "-4": "-4",
+    "-3": "-3",
+    "-2": "-2",
+    "-1": "-1",
+    "0": "0",
+    "1": "+1",
+    "2": "+2",
+    "3": "+3",
+    "4": "+4",
+    "5": "+5",
+    "6": "+6"
+  };

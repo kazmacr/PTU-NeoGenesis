@@ -27,7 +27,7 @@
       "loyalty": 2,
       "type1": "",
       "type2": "",
-      "nature1": "",
+      "nature1": "Calmada",
       "nature2": "",
       "egg_group1": "",
       "egg_group2": "",
@@ -170,7 +170,7 @@
       "weight": 0
     },
     "dex": {
-      /* Aquí iran las especies de los Pokémon para tener un compendium de bichos */
+      "_comment": "Aquí iran las especies de los Pokémon para tener un compendium de bichos"
     }
   }
 }

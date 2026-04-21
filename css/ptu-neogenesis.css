@@ -1,8 +1,5 @@
-/* Fuente general de la ficha */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 /* ========================================== */
-/* VARIABLES DE COLOR - TEMA NEO GENESIS      */
+/* PALETA DE COLORES BASADO TEMA NEO GENESIS  */
 /* ========================================== */
 :root {
   --ptu-red: #E3350D;
@@ -18,8 +15,8 @@
 /* ESTRUCTURA GENERAL DE LA FICHA             */
 /* ========================================== */
 .ptunga.sheet.actor {
-  min-width: 700px;
-  min-height: 600px;
+  min-width: 850px;
+  min-height: 650px;
 }
 
 .ptunga .window-content {
@@ -30,37 +27,155 @@
 }
 
 /* ========================================== */
-/* ENCABEZADO Y PERFIL                        */
+/* ENCABEZADO Y PERFIL - LAYOUT NEO GENESIS   */
 /* ========================================== */
 .ptunga .sheet-header {
-  flex: 0 0 100px;
+  flex: 0 0 110px;
   border-bottom: 3px solid var(--ptu-dark);
   padding-bottom: 10px;
   margin-bottom: 10px;
+  align-items: stretch; /* Estira los hijos a la altura máxima */
 }
 
-.ptunga .profile-img {
-  flex: 0 0 100px;
+/* MARCO DEL HEXÁGONO */
+.ptunga .profile-hex-outer {
+  flex: 0 0 110px;
   height: 100px;
-  border: 2px solid var(--ptu-dark);
-  border-radius: 8px;
-  background: white;
-  margin-right: 15px;
+  background: var(--ptu-red);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  transform: skewX(-1deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 10px 0 0;
+}
+.ptunga .profile-hex-inner {
+  width: calc(100% - 6px); 
+  height: calc(100% - 6px);
+  background: #232a34;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.ptunga .profile-img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  transform: skewX(0deg) scale(1.15) translate(4%, 0%); 
+  border: none;
+  background: transparent;
 }
 
+.ptunga .header-divider {
+  flex: 0 0 2px;
+  margin: 0 15px 0 0;  
+  align-self: stretch;
+  background-color: var(--ptu-border); 
+}
+
+/* ------------------------------------------ */
+/* LAYOUT DE LOS CAMPOS (NUEVO)               */
+/* ------------------------------------------ */
 .ptunga .header-fields {
-  flex: 1;
+  flex: 1 !important;
+  display: flex;
+  align-items: start;
+  gap: 15px; /* Espacio entre el logo y la info principal */
+}
+
+/* BLOQUE DEL LOGO DE PTU */
+.ptunga .header-logo-block {
+  flex: 1 !important; /* Esto es clave: "Ocupa todo el resto de la pantalla" */
+  height: 100px !important; /* Se iguala a la altura del hexágono */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px !important;
+  margin-top: 30px;
+}
+
+.ptunga .header-logo {
+  width: 100% !important; 
+  height: 100% !important;
+  max-height: none !important;
+  object-fit: contain !important; /* Estira la imagen hasta tocar los bordes */
+  border: none;
+  transform: scale(1.5) !important;
+}
+
+/* BLOQUE DE INFO PRINCIPAL (Pushed to the right) */
+.ptunga .header-main-info {
+  flex: 0 0 320px !important; /* Le damos un ancho fijo, dejando libre toda la derecha */
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+/* ------------------------------------------ */
+/* ELEMENTOS DEL ENCABEZADO PULIDOS           */
+/* ------------------------------------------ */
+
+/* NOMBRE (Mote) - AHORA MÁS ALTO */
+.ptunga .charname {
+  height: 55px !important; /* Altura física del contenedor mucho más grande */
+  margin: 0 0 10px 0 !important;
 }
 
 .ptunga .charname input {
-  font-size: 28px;
-  font-weight: bold;
-  border: none;
-  border-bottom: 2px solid var(--ptu-red);
-  background: transparent;
-  color: var(--ptu-dark);
+  height: 100% !important; /* Obligamos al input a llenar esos 55px */
+  font-size: 38px !important; /* Letra imponente */
+  font-weight: bold !important;
+  border: none !important;
+  border-bottom: 3px solid var(--ptu-red) !important; /* Línea más gruesa */
+  background: transparent !important;
+  color: var(--ptu-dark) !important;
+  width: 100% !important;
+}
+
+/* GRID DE RECURSOS */
+.ptunga .resource-grid {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Caja de Nivel (Más estrecha) */
+.ptunga .lv-resource {
+  flex: 0 0 60px;
+}
+
+/* Caja de PS (NUEVA VERTICAL) */
+.ptunga .hp-resource {
+  flex: 1; /* Ocupa el resto del ancho */
+  align-items: start;
+}
+
+.ptunga .hp-vertical-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Espacio uniforme entre Actual y Máximo */
   width: 100%;
+}
+
+.ptunga .hp-vertical-list .form-group {
+  margin: 0;
+  justify-content: start; /* Alinea los labels y inputs a la izquierda */
+  font-size: 13px; /* Un poco más pequeño para que quepa */
+}
+
+.ptunga .hp-vertical-list .form-group label {
+  flex: 0 0 60px; /* Ancho fijo para que las cajas de número se alineen */
+  font-weight: normal;
+  color: #666;
+}
+
+.ptunga .hp-vertical-list input {
+  width: 50px !important; /* Cajas de número pequeñas */
+  height: 22px;
+  text-align: left;
 }
 
 /* ========================================== */
@@ -94,9 +209,18 @@
   display: grid;
   gap: 15px;
 }
-.ptunga .grid-2col { grid-template-columns: repeat(2, 1fr); }
-.ptunga .grid-3col { grid-template-columns: repeat(3, 1fr); }
-.ptunga .col-span-2 { grid-column: span 2; }
+
+.ptunga .grid-2col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.ptunga .grid-3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ptunga .col-span-2 {
+  grid-column: span 2;
+}
 
 .ptunga fieldset {
   border: 1px solid var(--ptu-border);
@@ -144,6 +268,27 @@
   text-align: center;
 }
 
+/* Agrupador para inputs múltiples en la misma línea */
+.ptunga .input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* Empuja todo hacia la derecha */
+  gap: 5px;
+  /* Espacio uniforme entre las cajas y la barra '/' */
+  flex: 2;
+  /* Le da el mismo ancho que tienen los select e inputs sueltos */
+}
+
+.ptunga .input-group input {
+  width: 100%;
+  /* Hace que ambas cajas midan lo mismo */
+}
+
+.desplazamiento {
+  width: 50% !important;
+}
+
 /* ========================================== */
 /* TABLAS DE STATS (COMBATE Y CONCURSOS)      */
 /* ========================================== */
@@ -160,6 +305,7 @@
   padding: 5px;
   font-size: 14px;
   border: 1px solid #1a252f;
+  text-align: center;
 }
 
 .ptunga .ptu-table td {
@@ -172,7 +318,6 @@
 }
 
 .ptunga .stat-name {
-  text-align: left;
   color: var(--ptu-dark-blue);
 }
 
@@ -259,4 +404,135 @@
   justify-content: space-between;
   border-bottom: 1px dashed var(--ptu-border);
   margin-bottom: 3px;
+}
+
+/* ========================================== */
+/* LAYOUT PESTAÑA COMBATE (3 COLUMNAS)        */
+/* ========================================== */
+.ptunga .combat-top-area {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+/* 1. Columna Izquierda: Desplazamiento */
+.ptunga .combat-col-desplazamiento {
+  flex: 0 0 200px; /* Ancho fijo para no robar espacio a los stats */
+}
+
+.ptunga .desplazamiento-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.ptunga .desp-subcol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Estilo apilado (Label arriba, Input abajo) para ahorrar espacio horizontal */
+.ptunga .form-group.stacked {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ptunga .form-group.stacked label {
+  font-size: 11px;
+  line-height: 1;
+  margin-bottom: 2px;
+  color: #555;
+}
+
+/* NUEVO: Contenedor del input y el total en desplazamiento */
+.ptunga .cap-input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  width: 100%;
+}
+
+.ptunga .cap-input-wrapper input {
+  width: 35px !important; /* Más pequeño para dar espacio al texto */
+  height: 22px;
+  text-align: center;
+}
+
+.ptunga .cap-input-wrapper .cap-total {
+  font-size: 11px;
+  color: #666;
+}
+
+/* 2. Columna Central: Estadísticas */
+.ptunga .combat-col-stats {
+  flex: 1; /* Toma todo el espacio sobrante en el medio */
+  overflow-x: auto; /* Por si la pantalla es muy pequeña, no rompe el diseño */
+}
+
+/* Magia para hacer la tabla de Stats más angosta */
+.ptunga .combat-col-stats table th,
+.ptunga .combat-col-stats table td {
+  padding: 3px 1px !important; /* Quitamos casi todo el relleno lateral */
+  font-size: 12px;
+}
+
+.ptunga .combat-col-stats table input[type="text"],
+.ptunga .combat-col-stats table input[type="number"] {
+  width: 35px !important; /* Forzamos cajas muy pequeñas */
+  height: 22px;
+  text-align: center;
+}
+
+/* 3. Columna Derecha: Defensas y Umbrales */
+.ptunga .combat-col-defensas {
+  flex: 0 0 180px; /* Ancho fijo a la derecha */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Separación vertical entre Defensas y Umbrales */
+}
+
+/* Compactamos también los inputs de la derecha */
+.ptunga .combat-col-defensas input {
+  width: 2px !important;
+  height: 22px;
+  text-align: center;
+}
+
+/* 3. Columna Derecha: Defensas y Umbrales */
+.ptunga .combat-col-defensas {
+  flex: 0 0 180px; /* Ancho fijo a la derecha */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Separación vertical entre Defensas y Umbrales */
+}
+
+/* Forzamos que las etiquetas de defensa NO se dividan en dos líneas */
+.ptunga .combat-col-defensas .form-group label {
+  flex: 1; 
+  white-space: nowrap; /* PROHÍBE que el texto salte a la siguiente línea */
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+/* Controlamos el contenedor interno (input + total) para que no aplaste a la etiqueta */
+.ptunga .combat-col-defensas .form-group .flexrow {
+  flex: 0 0 auto; /* Evita que el contenedor se estire elásticamente */
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px; /* Espacio entre el input y el total (0) */
+}
+
+/* Hacemos los inputs más pequeños y firmes */
+.ptunga .combat-col-defensas input {
+  width: 32px !important;
+  flex: 0 0 32px !important; /* Candado estricto de tamaño */
+  height: 22px;
+  text-align: center;
+  padding: 0;
+  margin-right: 5px;
 }
