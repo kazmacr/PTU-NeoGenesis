@@ -63,7 +63,8 @@
       "ability": "Habilidad",
       "feature": "Rasgo / Talento",
       "poketrait": "Pokérasgo",
-      "gear": "Equipo / Objeto"
+      "gear": "Equipo / Objeto",
+      "species": "Especies"
     }
   }
 }

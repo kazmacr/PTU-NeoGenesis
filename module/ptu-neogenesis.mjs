@@ -5,6 +5,36 @@ import { PTUNGActorSheet } from "./sheets/actor-sheet.mjs";
 // Importar Configuración
 import { PTUNG } from "./helpers/config.mjs";
 
+export class PTUNeogenesisItemSheet extends ItemSheet {
+    static get defaultOptions() {
+        return foundry.utils.mergeObject(super.defaultOptions, {
+            classes: ["ptu-neogenesis", "sheet", "item"],
+            width: 600,
+            height: 550, // Lo hice un poco más alto para que los campos respiren mejor
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "datos" }]
+        });
+    }
+
+    get template() {
+        return `systems/ptu-neogenesis/templates/item/item-${this.item.type}-sheet.hbs`;
+    }
+
+    // NUEVO: Esta función prepara y envía los datos al HTML
+    async getData(options) {
+        // Obtenemos los datos base que Foundry genera para el ítem
+        const context = await super.getData(options);
+        
+        // Inyectamos nuestro diccionario de configuración (Tipos, Categorías, etc.)
+        // Asumo que tu diccionario global se llama CONFIG.PTUNG (basado en tu cuaderno de diseño)
+        context.config = CONFIG.PTUNG; 
+        
+        // Creamos un atajo directo a "system" para que el HTML lea variables como {{system.diet}}
+        context.system = context.item.system;
+        
+        return context;
+    }
+}
+
 /* -------------------------------------------- */
 /* Inicialización del Sistema                  */
 /* -------------------------------------------- */
@@ -39,6 +69,12 @@ Hooks.once('init', async function() {
 
   // Pre-cargar plantillas de Handlebars (Opcional por ahora, útil para partials)
   // return preloadHandlebarsTemplates();
+
+  // Desregistrar la hoja por defecto de Foundry
+    Items.unregisterSheet("core", ItemSheet);
+    
+    // Registrar tu nueva hoja personalizada
+    Items.registerSheet("ptu-neogenesis", PTUNeogenesisItemSheet, { makeDefault: true });
 });
 
 /* -------------------------------------------- */

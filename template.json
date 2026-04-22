@@ -132,7 +132,8 @@
       "ability",
       "feature",
       "poketrait",
-      "gear"
+      "gear",
+      "species"
     ],
     "htmlFields": [
       "description"
@@ -169,8 +170,64 @@
       "price": 0,
       "weight": 0
     },
-    "dex": {
-      "_comment": "Aquí iran las especies de los Pokémon para tener un compendium de bichos"
+    "species": {
+      "type1": "",
+      "type2": "",
+      "diet": "",
+      "eggGroup1": "",
+      "eggGroup2": "",
+      "size": "",
+      "weightClass": "",
+      "stats": {
+        "hp": {
+          "base": 0
+        },
+        "atk": {
+          "base": 0
+        },
+        "def": {
+          "base": 0
+        },
+        "spatk": {
+          "base": 0
+        },
+        "spdef": {
+          "base": 0
+        },
+        "spd": {
+          "base": 0
+        }
+      },
+      "capabilities": {
+        "overland": 0,
+        "swim": 0,
+        "jump": 0,
+        "sky": 0,
+        "burrow": 0,
+        "power": 0
+      },
+      "skills": {
+        "acrobatics": "",
+        "athletics": "",
+        "combat": "",
+        "stealth": "",
+        "perception": "",
+        "focus": ""
+      },
+      "evolution": {
+        "stage": 1,
+        "nextStage": "",
+        "criteria": "",
+        "evoLevel": 0
+      },
+      "lists": {
+        "abilitiesBasic": "",
+        "abilitiesAdvanced": "",
+        "abilitiesHigh": "",
+        "movesLevelUp": "",
+        "movesTutor": "",
+        "specialCapabilities": ""
+      }
     }
   }
 }
