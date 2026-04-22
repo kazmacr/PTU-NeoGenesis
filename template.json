@@ -176,8 +176,15 @@
       "diet": "",
       "eggGroup1": "",
       "eggGroup2": "",
+      "hatchDays": 0,
       "size": "",
       "weightClass": "",
+      "habitats": "",
+      "gender": {
+        "male": 50,
+        "female": 50,
+        "genderless": false
+      },
       "stats": {
         "hp": {
           "base": 0

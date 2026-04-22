@@ -34,27 +34,42 @@
         <div class="tab" data-group="primary" data-tab="datos">
             <div class="grid grid-2col">
                 <fieldset>
-                    <legend>Biología y Skills</legend>
-                    <div class="form-group"><label>Dieta</label><input type="text" name="system.diet" value="{{system.diet}}"/></div>
+                    <legend>Información General</legend>
                     <div class="form-group"><label>Tamaño</label><input type="text" name="system.size" value="{{system.size}}"/></div>
-                    <div class="form-group"><label>Índice Peso</label><input type="text" name="system.weightClass" value="{{system.weightClass}}"/></div>
-                    <div class="form-group"><label>Grupo Huevo 1</label><input type="text" name="system.eggGroup1" value="{{system.eggGroup1}}"/></div>
-                    <div class="form-group"><label>Grupo Huevo 2</label><input type="text" name="system.eggGroup2" value="{{system.eggGroup2}}"/></div>
+                    <div class="form-group"><label>Índice Peso</label><input type="number" name="system.weightClass" value="{{system.weightClass}}"/></div>
+                    <div class="form-group"><label>Dieta</label><input type="text" name="system.diet" value="{{system.diet}}"/></div>
+                    <div class="form-group"><label>Habitats</label><input type="text" name="system.habitats" value="{{system.habitats}}"/></div>
+                    <div class="grid grid-3col" style="gap: 5px;">
+                        <div class="form-group"><label>Grupo Huevo 1</label><input type="text" name="system.eggGroup1" value="{{system.eggGroup1}}"/></div>
+                        <div class="form-group"><label>Grupo Huevo 2</label><input type="text" name="system.eggGroup2" value="{{system.eggGroup2}}"/></div>
+                        <div class="form-group"><label>Días Eclosión</label><input type="number" name="system.hatchDays" value="{{system.hatchDays}}"/></div>
+                    </div>
+                    
+                    <hr>
+                    <label>Ratios de Género (%)</label>
+                    <div class="grid grid-3col" style="gap: 5px; align-items: end;">
+                        <div class="form-group flexcol">
+                            <label><i class="fas fa-mars" style="color: #4b89dc;"></i> Macho</label>
+                            <input type="number" name="system.gender.male" value="{{system.gender.male}}" step="0.1"/>
+                        </div>
+                        <div class="form-group flexcol">
+                            <label><i class="fas fa-venus" style="color: #d75a8a;"></i> Hembra</label>
+                            <input type="number" name="system.gender.female" value="{{system.gender.female}}" step="0.1"/>
+                        </div>
+                        <div class="form-group flexrow" style="justify-content: center; padding-bottom: 5px;">
+                            <label title="Sin Género">Ninguno</label>
+                            <input type="checkbox" name="system.gender.genderless" {{checked system.gender.genderless}}/>
+                        </div>
+                    </div>
+
                     <hr>
                     <div class="grid grid-2col" style="gap: 5px;">
-                        <div class="form-group"><label style="font-size: 11px;">Acrobacias</label><input type="text" name="system.skills.acrobatics" value="{{system.skills.acrobatics}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Atletismo</label><input type="text" name="system.skills.athletics" value="{{system.skills.athletics}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Combate</label><input type="text" name="system.skills.combat" value="{{system.skills.combat}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Sigilo</label><input type="text" name="system.skills.stealth" value="{{system.skills.stealth}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Percepción</label><input type="text" name="system.skills.perception" value="{{system.skills.perception}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Concentración</label><input type="text" name="system.skills.focus" value="{{system.skills.focus}}" placeholder="2d6"/></div>
-                       
-                        <div class="form-group"><label style="font-size: 11px;">Acrobacias</label><input type="text" name="system.skills.acrobatics" value="{{system.skills.acrobatics}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Atletismo</label><input type="text" name="system.skills.athletics" value="{{system.skills.athletics}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Combate</label><input type="text" name="system.skills.combat" value="{{system.skills.combat}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Sigilo</label><input type="text" name="system.skills.stealth" value="{{system.skills.stealth}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Percepción</label><input type="text" name="system.skills.perception" value="{{system.skills.perception}}" placeholder="2d6"/></div>
-                        <div class="form-group"><label style="font-size: 11px;">Concentración</label><input type="text" name="system.skills.focus" value="{{system.skills.focus}}" placeholder="2d6"/></div>
+                        <div class="form-group"><label>Acrobacias</label><input type="text" name="system.skills.acrobatics" value="{{system.skills.acrobatics}}" placeholder="2d6-3"/></div>
+                        <div class="form-group"><label>Atletismo</label><input type="text" name="system.skills.athletics" value="{{system.skills.athletics}}" placeholder="2d6-3"/></div>
+                        <div class="form-group"><label>Combate</label><input type="text" name="system.skills.combat" value="{{system.skills.combat}}" placeholder="2d6-3"/></div>
+                        <div class="form-group"><label>Concentración</label><input type="text" name="system.skills.focus" value="{{system.skills.focus}}" placeholder="2d6-3"/></div>
+                        <div class="form-group"><label>Percepción</label><input type="text" name="system.skills.perception" value="{{system.skills.perception}}" placeholder="2d6-3"/></div>
+                        <div class="form-group"><label>Sigilo</label><input type="text" name="system.skills.stealth" value="{{system.skills.stealth}}" placeholder="2d6-3"/></div>                        
                     </div>
                 </fieldset>
                 
@@ -88,7 +103,7 @@
                     <legend>Estadísticas Base de Especie</legend>
                     {{#each system.stats as |stat key|}}
                     <div class="form-group">
-                        <label style="text-transform: uppercase; font-weight: bold;">{{key}}</label>
+                        <label style="text-transform: uppercase;">{{key}}</label>
                         <input type="number" name="system.stats.{{key}}.base" value="{{stat.base}}" data-dtype="Number"/>
                     </div>
                     {{/each}}
@@ -97,7 +112,7 @@
                     <legend>Capacidades de Desplazamiento</legend>
                     {{#each system.capabilities as |cap key|}}
                     <div class="form-group">
-                        <label style="text-transform: capitalize;">{{key}}</label>
+                        <label style="text-transform: capitalize;">{{localize (concat "PTUNG.Capabilities." key)}}</label>
                         <input type="number" name="system.capabilities.{{key}}" value="{{cap}}" data-dtype="Number"/>
                     </div>
                     {{/each}}
@@ -108,9 +123,9 @@
         <div class="tab" data-group="primary" data-tab="listas">
             <fieldset>
                 <legend>Habilidades de Especie</legend>
-                <div class="form-group"><label>Básicas</label><input type="text" name="system.lists.abilitiesBasic" value="{{system.lists.abilitiesBasic}}" placeholder="Separar por comas"/></div>
-                <div class="form-group"><label>Avanzadas</label><input type="text" name="system.lists.abilitiesAdvanced" value="{{system.lists.abilitiesAdvanced}}"/></div>
-                <div class="form-group"><label>Suprema</label><input type="text" name="system.lists.abilitiesHigh" value="{{system.lists.abilitiesHigh}}"/></div>
+                <div class="form-group"><label>Básicas</label><input type="text" name="system.lists.abilitiesBasic" value="{{system.lists.abilitiesBasic}}" placeholder="Separadas por comas"/></div>
+                <div class="form-group"><label>Avanzadas</label><input type="text" name="system.lists.abilitiesAdvanced" value="{{system.lists.abilitiesAdvanced}}" placeholder="Separadas por comas"/></div>
+                <div class="form-group"><label>Suprema</label><input type="text" name="system.lists.abilitiesHigh" value="{{system.lists.abilitiesHigh}}" placeholder="Separadas por comas"/></div>
             </fieldset>
             <fieldset>
                 <legend>Movimientos y Capacidades Especiales</legend>
