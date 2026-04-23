@@ -2,6 +2,16 @@
 
 Este repositorio contiene el código fuente para el sistema de juego no oficial de **Pokémon Tabletop United: Neo Genesis (Edición en Español)** para la plataforma [Foundry Virtual Tabletop](https://foundryvtt.com/).
 
+## Agradecimientos y Créditos
+
+Este sistema ha sido desarrollado con mucho esfuerzo para la comunidad, pero no habría sido posible sin el excelente trabajo de otros creadores que comparten sus recursos. 
+
+Un agradecimiento especial a:
+
+* **Riley Wong ([@rileynwong](https://github.com/rileynwong))**: Por la inmensa labor de recopilación y organización de los recursos gráficos utilizados para los tokens y compendios de la Pokédex en este sistema. Las imágenes de los Pokémon han sido extraídas de su repositorio público: [pokemon-images-dataset-by-type](https://github.com/rileynwong/pokemon-images-dataset-by-type).
+
+Si disfrutas de este sistema en tu mesa virtual, asegúrate de apoyar y agradecer a los artistas y recopiladores originales que hacen que nuestras partidas se vean increíbles.
+
 ## Descripción del Proyecto
 Este sistema está diseñado desde cero para automatizar y agilizar las mecánicas específicas de la versión Neo Genesis, manejando la alta densidad de datos que requiere el juego. 
 

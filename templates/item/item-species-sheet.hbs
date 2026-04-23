@@ -1,10 +1,10 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
-    
+
     <header class="sheet-header flexrow">
-        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
         <div class="header-fields flexcol">
             <h1 class="charname">
-                <input name="name" type="text" value="{{item.name}}" placeholder="Nombre de la Especie"/>
+                <input name="name" type="text" value="{{item.name}}" placeholder="Nombre de la Especie" />
             </h1>
             <div class="grid grid-2col">
                 <div class="form-group">
@@ -35,66 +35,233 @@
             <div class="grid grid-2col">
                 <fieldset>
                     <legend>Información General</legend>
-                    <div class="form-group"><label>Tamaño</label><input type="text" name="system.size" value="{{system.size}}"/></div>
-                    <div class="form-group"><label>Índice Peso</label><input type="number" name="system.weightClass" value="{{system.weightClass}}"/></div>
-                    <div class="form-group"><label>Dieta</label><input type="text" name="system.diet" value="{{system.diet}}"/></div>
-                    <div class="form-group"><label>Habitats</label><input type="text" name="system.habitats" value="{{system.habitats}}"/></div>
+                    <div class="form-group"><label>Tamaño</label><input type="text" name="system.size"
+                            value="{{system.size}}" /></div>
+                    <div class="form-group"><label>Índice Peso</label><input type="number" name="system.weightClass"
+                            value="{{system.weightClass}}" /></div>
+                    <div class="form-group"><label>Dieta</label><input type="text" name="system.diet"
+                            value="{{system.diet}}" /></div>
+                    <div class="form-group"><label>Habitats</label><input type="text" name="system.habitats"
+                            value="{{system.habitats}}" /></div>
                     <div class="grid grid-3col" style="gap: 5px;">
-                        <div class="form-group"><label>Grupo Huevo 1</label><input type="text" name="system.eggGroup1" value="{{system.eggGroup1}}"/></div>
-                        <div class="form-group"><label>Grupo Huevo 2</label><input type="text" name="system.eggGroup2" value="{{system.eggGroup2}}"/></div>
-                        <div class="form-group"><label>Días Eclosión</label><input type="number" name="system.hatchDays" value="{{system.hatchDays}}"/></div>
+                        <div class="form-group"><label>Grupo Huevo 1</label><input type="text" name="system.eggGroup1"
+                                value="{{system.eggGroup1}}" /></div>
+                        <div class="form-group"><label>Grupo Huevo 2</label><input type="text" name="system.eggGroup2"
+                                value="{{system.eggGroup2}}" /></div>
+                        <div class="form-group"><label>Días Eclosión</label><input type="number" name="system.hatchDays"
+                                value="{{system.hatchDays}}" /></div>
                     </div>
-                    
+
                     <hr>
                     <label>Ratios de Género (%)</label>
                     <div class="grid grid-3col" style="gap: 5px; align-items: end;">
                         <div class="form-group flexcol">
                             <label><i class="fas fa-mars" style="color: #4b89dc;"></i> Macho</label>
-                            <input type="number" name="system.gender.male" value="{{system.gender.male}}" step="0.1"/>
+                            <input type="number" name="system.gender.male" value="{{system.gender.male}}" step="0.1" />
                         </div>
                         <div class="form-group flexcol">
                             <label><i class="fas fa-venus" style="color: #d75a8a;"></i> Hembra</label>
-                            <input type="number" name="system.gender.female" value="{{system.gender.female}}" step="0.1"/>
+                            <input type="number" name="system.gender.female" value="{{system.gender.female}}"
+                                step="0.1" />
                         </div>
                         <div class="form-group flexrow" style="justify-content: center; padding-bottom: 5px;">
                             <label title="Sin Género">Ninguno</label>
-                            <input type="checkbox" name="system.gender.genderless" {{checked system.gender.genderless}}/>
+                            <input type="checkbox" name="system.gender.genderless" {{checked
+                                system.gender.genderless}} />
                         </div>
                     </div>
 
                     <hr>
                     <div class="grid grid-2col" style="gap: 5px;">
-                        <div class="form-group"><label>Acrobacias</label><input type="text" name="system.skills.acrobatics" value="{{system.skills.acrobatics}}" placeholder="2d6-3"/></div>
-                        <div class="form-group"><label>Atletismo</label><input type="text" name="system.skills.athletics" value="{{system.skills.athletics}}" placeholder="2d6-3"/></div>
-                        <div class="form-group"><label>Combate</label><input type="text" name="system.skills.combat" value="{{system.skills.combat}}" placeholder="2d6-3"/></div>
-                        <div class="form-group"><label>Concentración</label><input type="text" name="system.skills.focus" value="{{system.skills.focus}}" placeholder="2d6-3"/></div>
-                        <div class="form-group"><label>Percepción</label><input type="text" name="system.skills.perception" value="{{system.skills.perception}}" placeholder="2d6-3"/></div>
-                        <div class="form-group"><label>Sigilo</label><input type="text" name="system.skills.stealth" value="{{system.skills.stealth}}" placeholder="2d6-3"/></div>                        
+                        <div class="form-group"><label>Acrobacias</label><input type="text"
+                                name="system.skills.acrobatics" value="{{system.skills.acrobatics}}"
+                                placeholder="2d6-3" /></div>
+                        <div class="form-group"><label>Atletismo</label><input type="text"
+                                name="system.skills.athletics" value="{{system.skills.athletics}}"
+                                placeholder="2d6-3" /></div>
+                        <div class="form-group"><label>Combate</label><input type="text" name="system.skills.combat"
+                                value="{{system.skills.combat}}" placeholder="2d6-3" /></div>
+                        <div class="form-group"><label>Concentración</label><input type="text"
+                                name="system.skills.focus" value="{{system.skills.focus}}" placeholder="2d6-3" /></div>
+                        <div class="form-group"><label>Percepción</label><input type="text"
+                                name="system.skills.perception" value="{{system.skills.perception}}"
+                                placeholder="2d6-3" /></div>
+                        <div class="form-group"><label>Sigilo</label><input type="text" name="system.skills.stealth"
+                                value="{{system.skills.stealth}}" placeholder="2d6-3" /></div>
                     </div>
                 </fieldset>
-                
+
                 <fieldset>
                     <legend>Lógica de Evolución</legend>
                     <div class="grid grid-2col" style="gap: 10px;">
                         <div class="form-group">
                             <label title="1=Base, 2=Fase 1, 3=Fase 2">Etapa</label>
-                            <input type="number" name="system.evolution.stage" value="{{system.evolution.stage}}"/>
+                            <input type="number" name="system.evolution.stage" value="{{system.evolution.stage}}" />
                         </div>
                         <div class="form-group">
-                            <label title="Nivel mínimo para evolucionar (usar si el Director desactiva objetos)">Nivel Mín.</label>
-                            <input type="number" name="system.evolution.evoLevel" value="{{system.evolution.evoLevel}}"/>
+                            <label title="Nivel mínimo para evolucionar (usar si el Director desactiva objetos)">Nivel
+                                Mín.</label>
+                            <input type="number" name="system.evolution.evoLevel"
+                                value="{{system.evolution.evoLevel}}" />
                         </div>
                     </div>
                     <div class="form-group flexcol">
                         <label>Siguiente(s) Etapa(s) (Separar por comas)</label>
-                        <textarea name="system.evolution.nextStage" style="min-height: 45px; resize: none;" placeholder="Ej: Vaporeon, Jolteon, Flareon">{{system.evolution.nextStage}}</textarea>
+                        <textarea name="system.evolution.nextStage" style="min-height: 45px; resize: none;"
+                            placeholder="Ej: Vaporeon, Jolteon, Flareon">{{system.evolution.nextStage}}</textarea>
                     </div>
                     <div class="form-group flexcol">
                         <label>Condiciones (Objetos, Horas, etc.)</label>
-                        <textarea name="system.evolution.criteria" style="min-height: 45px; resize: none;" placeholder="Ej: Piedra Agua, Piedra Trueno, Piedra Fuego">{{system.evolution.criteria}}</textarea>
+                        <textarea name="system.evolution.criteria" style="min-height: 45px; resize: none;"
+                            placeholder="Ej: Piedra Agua, Piedra Trueno, Piedra Fuego">{{system.evolution.criteria}}</textarea>
                     </div>
                 </fieldset>
             </div>
+            <fieldset>
+                <legend>Mega Evoluciones / Formas Especiales</legend>
+                <div class="form-group">
+                    <label>¿Posee Mega Evolución?</label>
+                    <input type="checkbox" name="system.megaEvo.hasMega" {{checked system.megaEvo.hasMega}} />
+                </div>
+
+                {{#if system.megaEvo.hasMega}}
+                <div class="mega-block-container" style="border: 1px solid #7a7971; padding: 5px; margin-top: 5px;">
+                    <div class="grid grid-2col">
+                        <div class="form-group"><label>Nombre Mega</label><input type="text"
+                                name="system.megaEvo.megaA.name" value="{{system.megaEvo.megaA.name}}"
+                                placeholder="Ej: Mega Charizard X" /></div>
+                        <div class="form-group"><label>Imagen de la Mega</label><div class="form-fields">
+                            <input type="text" name="system.megaEvo.megaA.img" placeholder="Ruta de la imagen" />
+                            {{filePicker target="system.megaEvo.megaA.img" type="image"}}</div></div>
+                        <div class="form-group"><label>Mega Piedra</label><input type="text"
+                                name="system.megaEvo.megaA.stone" value="{{system.megaEvo.megaA.stone}}" /></div>
+                    </div>
+                    <div class="form-group"><label>Nueva Habilidad</label><input type="text"
+                            name="system.megaEvo.megaA.ability" value="{{system.megaEvo.megaA.ability}}" /></div>
+                    <div class="grid grid-2col">
+                        <div class="form-group"><label>Tipo 1</label><select
+                                name="system.megaEvo.megaA.type1">{{selectOptions config.tipos
+                                selected=system.megaEvo.megaA.type1 blank="Sin cambio"}}</select></div>
+                        <div class="form-group"><label>Tipo 2</label><select
+                                name="system.megaEvo.megaA.type2">{{selectOptions config.tipos
+                                selected=system.megaEvo.megaA.type2 blank="Sin cambio"}}</select></div>
+                    </div>
+                    <p class="text-small center-text"><strong>Bonos a Stats Base</strong></p>
+                    <div class="grid grid-5col center-text">
+                        {{#each system.stats as |stat key|}}
+                        <div class="form-group">
+                            <label style="text-transform: uppercase;">{{key}}</label>
+                            <input type="number" name="system.megaEvo.megaA.stats.{{key}}.base" value="{{stat.base}}"
+                                data-dtype="Number" />
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+
+                <div class="form-group" style="margin-top: 10px;">
+                    <label>¿Posee Segunda Mega (X/Y)?</label>
+                    <input type="checkbox" name="system.megaEvo.megaB.hasMegaB" {{checked
+                        system.megaEvo.megaB.hasMegaB}} />
+                </div>
+
+                {{#if system.megaEvo.megaB.hasMegaB}}
+                <div class="mega-block-container" style="border: 1px solid #7a7971; padding: 5px; margin-top: 5px;">
+                    <div class="grid grid-2col">
+                        <div class="form-group"><label>Nombre Mega 2</label><input type="text"
+                                name="system.megaEvo.megaB.name" value="{{system.megaEvo.megaB.name}}"
+                                placeholder="Ej: Mega Charizard Y" /></div>
+                                <div class="form-group"><label>Imagen de la Mega 2</label><div class="form-fields">
+                            <input type="text" name="system.megaEvo.megaB.img" placeholder="Ruta de la imagen" />
+                            {{filePicker target="system.megaEvo.megaB.img" type="image"}}</div></div>
+                        <div class="form-group"><label>Mega Piedra</label><input type="text"
+                                name="system.megaEvo.megaB.stone" value="{{system.megaEvo.megaB.stone}}" /></div>
+                    </div>
+                    <div class="form-group"><label>Nueva Habilidad</label><input type="text"
+                            name="system.megaEvo.megaB.ability" value="{{system.megaEvo.megaB.ability}}" /></div>
+                    <div class="grid grid-2col">
+                        <div class="form-group"><label>Tipo 1</label><select
+                                name="system.megaEvo.megaB.type1">{{selectOptions config.tipos
+                                selected=system.megaEvo.megaB.type1 blank="Sin cambio"}}</select></div>
+                        <div class="form-group"><label>Tipo 2</label><select
+                                name="system.megaEvo.megaB.type2">{{selectOptions config.tipos
+                                selected=system.megaEvo.megaB.type2 blank="Sin cambio"}}</select></div>
+                    </div>
+                    <p class="text-small center-text"><strong>Bonos a Stats Base</strong></p>
+                    <div class="grid grid-5col center-text">
+                        {{#each system.stats as |stat key|}}
+                    <div class="form-group">
+                        <label style="text-transform: uppercase;">{{key}}</label>
+                        <input type="number" name="system.megaEvo.megaB.stats.{{key}}.base" value="{{stat.base}}"
+                            data-dtype="Number" />
+                    </div>
+                    {{/each}}
+                    </div>
+                </div>
+                {{/if}}
+                {{/if}}
+            </fieldset>
+            <fieldset>
+                <legend>Mecánicas Especiales de Región</legend>
+
+                <div class="form-group">
+                    <label><i class="fas fa-mountain"></i> ¿Posee Forma Gigamax?</label>
+                    <input type="checkbox" name="system.specialForms.hasGMax" {{checked system.specialForms.hasGMax}} />
+                </div>
+
+                {{#if system.specialForms.hasGMax}}
+                <div class="special-form-block"
+                    style="background: rgba(255, 0, 0, 0.05); padding: 8px; border-radius: 4px; border: 1px solid #a03030; margin-bottom: 10px;">
+                    <div class="grid grid-2col">
+                        <div class="form-group"><label>Nombre G-Max</label><input type="text"
+                                name="system.specialForms.gmax.name" value="{{system.specialForms.gmax.name}}"
+                                placeholder="Ej: Meowth Gigamax" /></div>
+                        <div class="form-group">
+                            <label>Imagen G-Max</label>
+                            <div class="form-fields">
+                                <input type="text" name="system.specialForms.gmax.img" value="{{system.specialForms.gmax.img}}" placeholder="Ruta de la imagen"/>
+                                {{filePicker target="system.specialForms.gmax.img" type="image"}}
+                            </div>
+                        </div>
+                        <div class="form-group"><label>Altura G-Max</label><input type="text"
+                                name="system.specialForms.gmax.height" value="{{system.specialForms.gmax.height}}"
+                                placeholder="Ej: > 33.0m" /></div>
+                    </div>
+                    <div class="form-group"><label>Movimiento G-Max</label><input type="text"
+                            name="system.specialForms.gmax.gmaxMove" value="{{system.specialForms.gmax.gmaxMove}}"
+                            placeholder="Ej: Gigamonedas" /></div>
+                    <div class="form-group"><label>Habilidad G-Max</label><input type="text"
+                            name="system.specialForms.gmax.ability" value="{{system.specialForms.gmax.ability}}" />
+                    </div>
+                </div>
+                {{/if}}
+
+                <hr>
+
+                <div class="form-group">
+                    <label><i class="fas fa-gem"></i> ¿Permitir Teracristalización Fija?</label>
+                    <input type="checkbox" name="system.specialForms.hasTera" {{checked system.specialForms.hasTera}} />
+                </div>
+
+                {{#if system.specialForms.hasTera}}
+                <div class="special-form-block"
+                    style="background: rgba(0, 255, 255, 0.05); padding: 8px; border-radius: 4px; border: 1px solid #30a0a0;">
+                    <p class="text-small italic">Usa esto solo para Pokémon con Teratipo fijo (como Terapagos o
+                        eventos).</p>
+                    <div class="form-group">
+                        <label>Teratipo Determinado</label>
+                        <select name="system.specialForms.tera.fixedType">
+                            {{selectOptions config.tipos selected=system.specialForms.tera.fixedType blank="Aleatorio /
+                            Por defecto"}}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Modificador Teraestallido</label>
+                        <input type="text" name="system.specialForms.tera.teraBlastMod"
+                            value="{{system.specialForms.tera.teraBlastMod}}" placeholder="Ej: Cambia a daño estelar" />
+                    </div>
+                </div>
+                {{/if}}
+            </fieldset>
         </div>
 
         <div class="tab" data-group="primary" data-tab="stats">
@@ -104,7 +271,8 @@
                     {{#each system.stats as |stat key|}}
                     <div class="form-group">
                         <label style="text-transform: uppercase;">{{key}}</label>
-                        <input type="number" name="system.stats.{{key}}.base" value="{{stat.base}}" data-dtype="Number"/>
+                        <input type="number" name="system.stats.{{key}}.base" value="{{stat.base}}"
+                            data-dtype="Number" />
                     </div>
                     {{/each}}
                 </fieldset>
@@ -112,8 +280,9 @@
                     <legend>Capacidades de Desplazamiento</legend>
                     {{#each system.capabilities as |cap key|}}
                     <div class="form-group">
-                        <label style="text-transform: capitalize;">{{localize (concat "PTUNG.Capabilities." key)}}</label>
-                        <input type="number" name="system.capabilities.{{key}}" value="{{cap}}" data-dtype="Number"/>
+                        <label style="text-transform: capitalize;">{{localize (concat "PTUNG.Capabilities."
+                            key)}}</label>
+                        <input type="number" name="system.capabilities.{{key}}" value="{{cap}}" data-dtype="Number" />
                     </div>
                     {{/each}}
                 </fieldset>
@@ -123,23 +292,29 @@
         <div class="tab" data-group="primary" data-tab="listas">
             <fieldset>
                 <legend>Habilidades de Especie</legend>
-                <div class="form-group"><label>Básicas</label><input type="text" name="system.lists.abilitiesBasic" value="{{system.lists.abilitiesBasic}}" placeholder="Separadas por comas"/></div>
-                <div class="form-group"><label>Avanzadas</label><input type="text" name="system.lists.abilitiesAdvanced" value="{{system.lists.abilitiesAdvanced}}" placeholder="Separadas por comas"/></div>
-                <div class="form-group"><label>Suprema</label><input type="text" name="system.lists.abilitiesHigh" value="{{system.lists.abilitiesHigh}}" placeholder="Separadas por comas"/></div>
+                <div class="form-group"><label>Básicas</label><input type="text" name="system.lists.abilitiesBasic"
+                        value="{{system.lists.abilitiesBasic}}" placeholder="Separadas por comas" /></div>
+                <div class="form-group"><label>Avanzadas</label><input type="text" name="system.lists.abilitiesAdvanced"
+                        value="{{system.lists.abilitiesAdvanced}}" placeholder="Separadas por comas" /></div>
+                <div class="form-group"><label>Suprema</label><input type="text" name="system.lists.abilitiesHigh"
+                        value="{{system.lists.abilitiesHigh}}" placeholder="Separadas por comas" /></div>
             </fieldset>
             <fieldset>
                 <legend>Movimientos y Capacidades Especiales</legend>
                 <div class="form-group flexcol">
                     <label>Movimientos por Nivel (Ej: 1 Placaje, 5 Gruñido)</label>
-                    <textarea name="system.lists.movesLevelUp" style="min-height: 80px;">{{system.lists.movesLevelUp}}</textarea>
+                    <textarea name="system.lists.movesLevelUp"
+                        style="min-height: 80px;">{{system.lists.movesLevelUp}}</textarea>
                 </div>
                 <div class="form-group flexcol">
                     <label>Movimientos Tutor / Huevo</label>
-                    <textarea name="system.lists.movesTutor" style="min-height: 60px;">{{system.lists.movesTutor}}</textarea>
+                    <textarea name="system.lists.movesTutor"
+                        style="min-height: 60px;">{{system.lists.movesTutor}}</textarea>
                 </div>
                 <div class="form-group flexcol">
                     <label>Capacidades Especiales (Pokédex)</label>
-                    <textarea name="system.lists.specialCapabilities" style="min-height: 60px;">{{system.lists.specialCapabilities}}</textarea>
+                    <textarea name="system.lists.specialCapabilities"
+                        style="min-height: 60px;">{{system.lists.specialCapabilities}}</textarea>
                 </div>
             </fieldset>
         </div>

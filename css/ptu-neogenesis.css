@@ -639,3 +639,25 @@
   font-size: 13px;
   text-align: left;
 }
+
+/* ========================================== */
+/* CORRECCIÓN DE PESTAÑAS EN FICHAS DE ÍTEMS  */
+/* ========================================== */
+
+/* Evita que la barra de pestañas se estire verticalmente */
+.ptu-neogenesis.sheet.item nav.sheet-tabs {
+    flex: 0 0 auto;
+    margin-bottom: 5px; /* Un pequeño respiro visual */
+}
+
+/* Obliga al cuerpo a absorber todo el espacio restante y manejar el scroll */
+.ptu-neogenesis.sheet.item section.sheet-body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    height: 100%; /* Asegura que llene el contenedor */
+}
+
+/* (Opcional) Asegurar que la cabecera tampoco se estire */
+.ptu-neogenesis.sheet.item header.sheet-header {
+    flex: 0 0 auto;
+}

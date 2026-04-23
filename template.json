@@ -227,6 +227,75 @@
         "criteria": "",
         "evoLevel": 0
       },
+      "megaEvo": {
+        "hasMega": false,
+        "megaA": {
+          "name": "",
+          "stone": "",
+          "ability": "",
+          "img": "",
+          "type1": "",
+          "type2": "",
+          "stats": {
+            "atk": {
+              "base": 0
+            },
+            "def": {
+              "base": 0
+            },
+            "spatk": {
+              "base": 0
+            },
+            "spdef": {
+              "base": 0
+            },
+            "spd": {
+              "base": 0
+            }
+          }
+        },
+        "megaB": {
+          "name": "",
+          "stone": "",
+          "ability": "",
+          "img": "",
+          "type1": "",
+          "type2": "",
+          "stats": {
+            "atk": {
+              "base": 0
+            },
+            "def": {
+              "base": 0
+            },
+            "spatk": {
+              "base": 0
+            },
+            "spdef": {
+              "base": 0
+            },
+            "spd": {
+              "base": 0
+            }
+          }
+        }
+      },
+      "specialForms": {
+        "hasGMax": false,
+        "gmax": {
+          "name": "",
+          "gmaxMove": "",
+          "ability": "",
+          "height": "",
+          "img": ""
+        },
+        "hasTera": false,
+        "tera": {
+          "fixedType": "",
+          "teraBlastMod": "",
+          "img": ""
+        }
+      },
       "lists": {
         "abilitiesBasic": "",
         "abilitiesAdvanced": "",
