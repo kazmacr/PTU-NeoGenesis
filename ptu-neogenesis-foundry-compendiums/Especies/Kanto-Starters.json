@@ -8358,5 +8358,2853 @@
                 "specialCapabilities": "Terreno Dominado: (Bosque), Curandero, Montable 1"
             }
         }
+    },
+  {
+    "name": "Slowpoke",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0079.png",
+    "system": {
+      "type1": "agua",
+      "type2": "psíquico",
+      "diet": "Herbívoro",
+      "size": "36Kg, 1.2m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Agua Dulce, Playa",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Agua 1",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 9 }, "atk": { "base": 7 }, "def": { "base": 7 },
+        "spatk": { "base": 4 }, "spdef": { "base": 4 }, "spd": { "base": 2 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+0", "combat": "2d6+0",
+        "stealth": "2d6+0", "perception": "2d6+0", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Slowbro, Slowking", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Despiste, Ritmo Propio",
+        "abilitiesAdvanced": "Reacción Retardada, Ignorante",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "1 Placaje, 1 Maldición, 3 Gruñido, 6 Pistola Agua, 9 Bostezo, 12 Confusión, 15 Anulación, 18 Hidropulso, 21 Golpe Cabeza, 24 Cabezazo Zen, 27 Amnesia, 30 Surf, 30 Descanso, 31 Relajo, 33 Psíquico, 36 Autosugestión, 38 Danza Lluvia, 41 Pulso Cura",
+        "movesTutor": "Tier 1: Agua Fría, Amnesia, Bloqueo, Bofetón Lodo, Calcinación, Chapoteo Lodo, Destello, Disparo Lodo, Eco Voz, Furia, Golpe Cabeza, Hidropulso, Hierba Lazo, Meteoros, Paz Mental, Pisotón, Pistola Agua, Poder Reserva, Psicoonda, Psicorrayo, Rayo Burbuja, Refuerzo, Terratemblor, Viento Hielo\nTier 2: Acua Cola, Autosugestión, Bola Sombra, Buceo, Cabezazo Zen, Campo Psíquico, Cascada, Cede Paso, Comesueños, Danza Lluvia, Derribo, Día Soleado, Escaldar, Excavar, Fuerza, Golpe Cuerpo, Hidroariete, Intercambio, Lanzallamas, Meteorobola, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Pesadilla, Psicocarga, Psicoonda, Psíquico, Rayo Hielo, Rayo Señal, Reciclaje, Reflejo, Surf, Tambor, Telequinesis, Teletransporte, Torbellino, Triataque, Truco, Vasta Fuerza, Velo Sagrado, Venganza, Yo Primero\nTier 3: Alud, Cabezazo, Capa Mágica, Cola Férrea, Día de Pago, Doble Filo, Electrocañón, Eructo, Espacio Raro, Fisura, Hidrobomba, Juego Sucio, Llamarada, Premonición (N), Salmuera, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pantano), Evolución Ramificada, Potencial Latente"
+      }
     }
+  },
+  {
+    "name": "Slowbro",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0080.png",
+    "system": {
+      "type1": "agua",
+      "type2": "psíquico",
+      "diet": "Herbívoro",
+      "size": "78.5Kg, 1.6m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Agua Dulce, Playa",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Agua 1",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 8 }, "def": { "base": 11 },
+        "spatk": { "base": 10 }, "spdef": { "base": 8 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 4, "jump": 1, "sky": 0, "burrow": 0, "power": 7
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "2d6+0", "perception": "2d6+0", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Despiste, Ritmo Propio",
+        "abilitiesAdvanced": "Reacción Retardada, Ignorante",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "Evo Refugio, 1 Maldición, 3 Gruñido, 6 Pistola Agua, 9 Bostezo, 12 Confusión, 15 Anulación, 18 Hidropulso, 21 Golpe Cabeza, 24 Cabezazo Zen, 27 Amnesia, 30 Surf, 30 Descanso, 31 Puño Mareo, 33 Relajo, 36 Psíquico, 39 Autosugestión, 42 Danza Lluvia, 45 Pulso Cura",
+        "movesTutor": "Tier 1: Agua Fría, Amnesia, Bloqueo, Bofetón Lodo, Calcinación, Chapoteo Lodo, Corte Furia, Defensa Férrea, Destello, Disparo Lodo, Eco Voz, Furia, Golpe Aéreo, Golpe Cabeza, Golpe Roca, Hidropulso, Hierba Lazo, Maquinación, Meteoros, Paz Mental, Pisotón, Pistola Agua, Poder Reserva, Psicoonda, Psicorrayo, Rayo Burbuja, Refuerzo, Terratemblor, Viento Hielo\nTier 2: Acua Cola, Agua Lodosa, Autosugestión, Bola Sombra, Buceo, Cabezazo Zen, Campo Psíquico, Cascada, Cede Paso, Comesueños, Concha Filo, Contraataque, Danza Lluvia, Demolición, Derribo, Día Soleado, Escaldar, Excavar, Fría Acogida (N), Fuerza, Golpe Cuerpo, Hidroariete, Intercambio, Lanzallamas, Lanzamiento, Megapuño, Meteorobola, Metrónomo, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Pesadilla, Plancha Corporal, Psicocarga, Psicoonda, Psicorruido, Psíquico, Puño Drenaje, Puño Hielo, Rayo Hielo, Rayo Señal, Reciclaje, Reflejo, Sísmico, Sumisión, Surf, Tambor, Telequinesis, Teletransporte, Torbellino, Triataque, Truco, Vasta Fuerza, Velo Sagrado, Venganza, Yo Primero\nTier 3: Alud, Cabezazo, Capa Mágica, Cola Férrea, Día de Pago, Doble Filo, Electrocañón, Eructo, Espacio Raro, Fisura, Gigaimpacto, Hidrobomba, Hiperrayo, Juego Sucio, Llamarada, Megapatada, Onda Certera, Premonición (N), Pulso Cura (N), Puño Certero, Puño Dinámico, Salmuera, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pantano)"
+      }
+    }
+  },
+  {
+    "name": "Slowking",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0199.png",
+    "system": {
+      "type1": "agua",
+      "type2": "psíquico",
+      "diet": "Herbívoro",
+      "size": "79.5Kg, 2m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Agua Dulce, Playa",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Agua 1",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 8 }, "def": { "base": 8 },
+        "spatk": { "base": 10 }, "spdef": { "base": 11 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 5
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+7", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Despiste, Ritmo Propio",
+        "abilitiesAdvanced": "Precognición, Alerta",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "Evo Maquinación, 1 Maldición, 3 Gruñido, 6 Pistola Agua, 9 Bostezo, 12 Confusión, 15 Anulación, 18 Hidropulso, 21 Golpe Cabeza, 24 Cabezazo Zen, 27 Amnesia, 30 Surf, 30 Descanso, 31 Poder Oculto, 33 Joya de Luz, 35 Psíquico, 37 As Oculto, 39 Contoneo, 40 Autosugestión, 42 Danza Lluvia, 45 Pulso Cura",
+        "movesTutor": "Tier 1: Agua Fría, Amnesia, Bloqueo, Bofetón Lodo, Calcinación, Chapoteo Lodo, Corte Furia, Defensa Férrea, Destello, Disparo Lodo, Eco Voz, Furia, Golpe Cabeza, Golpe Roca, Hidropulso, Hierba Lazo, Maquinación, Meteoros, Paz Mental, Pisotón, Pistola Agua, Poder Oculto (N), Poder Reserva, Psicoonda, Psicorrayo, Puño Incremento, Rayo Burbuja, Refuerzo, Terratemblor, Tumba Rocas, Último Lugar, Viento Hielo\nTier 2: Acua Cola, Agua Lodosa, Aguzar, Autosugestión, Avalancha, Bola Sombra, Buceo, Cabezazo Zen, Cambio de Banda, Campo Psíquico, Cascada, Cede Paso, Cola Dragón, Comesueños, Concha Filo, Contraataque, Danza Lluvia, Demolición, Derribo, Día Soleado, Escaldar, Excavar, Fría Acogida (N), Fuerza, Golpe Cuerpo, Hidroariete, Intercambio, Joya de Luz (N), Lanzallamas, Lanzamiento, Megapuño, Meteorobola, Metrónomo, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Pesadilla, Psicocarga, Psicoonda, Psicorruido, Psíquico, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo Hielo, Rayo Señal, Reciclaje, Reflejo, Sísmico, Sumisión, Surf, Tambor, Telequinesis, Teletransporte, Torbellino, Triataque, Truco, Vasta Fuerza, Velo Sagrado, Venganza, Yo Primero\nTier 3: Alud, Cabezazo, Capa Mágica, Cola Férrea, Día de Pago, Doble Filo, Electrocañón, Eructo, Espacio Raro, Fisura, Gigaimpacto, Hidrobomba, Hiperrayo, Juego Sucio, Llamarada, Megapatada, Onda Certera, Premonición, Pulso Cura (N), Puño Certero, Puño Dinámico, Salmuera, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pantano), Alfa, Telepático"
+      }
+    }
+  },
+  {
+    "name": "Slowpoke Galar",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0079-Galar.png",
+    "system": {
+      "type1": "psíquico",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "36Kg, 1.2m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Pantano",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Agua 1",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 9 }, "atk": { "base": 7 }, "def": { "base": 7 },
+        "spatk": { "base": 4 }, "spdef": { "base": 4 }, "spd": { "base": 2 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+0", "combat": "2d6+0",
+        "stealth": "3d6+0", "perception": "2d6+0", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Slowbro Galar, Slowking Galar", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Gula, Ritmo Propio",
+        "abilitiesAdvanced": "Punto Tóxico, Ignorante",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "1 Placaje, 3 Gruñido, 6 Ácido, 9 Bostezo, 12 Confusión, 15 Anulación, 18 Hidropulso, 21 Golpe Cabeza, 24 Cabezazo Zen, 27 Amnesia, 30 Surf, 33 Relajo, 36 Psíquico, 39 Autosugestión, 42 Danza Lluvia, 45 Pulso Cura",
+        "movesTutor": "Tier 1: Agua Fría, Amnesia, Bloqueo, Disparo Lodo, Hidropulso, Hierba Lazo, Meteoros, Paz Mental, Pisotón, Poder Reserva, Psicorrayo, Refuerzo, Refugio (N), Terratemblor, Viento Hielo\nTier 2: Autosugestión, Bola Sombra, Buceo, Cabezazo Zen, Campo Psíquico, Cascada, Contoneo (N), Danza Lluvia, Derribo, Día Soleado, Escaldar, Excavar, Golpe Cuerpo, Hidroariete, Intercambio, Lanzallamas, Meteorobola, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Psicocarga, Psíquico, Rayo Hielo, Surf, Tambor, Torbellino, Triataque, Truco, Vasta Fuerza, Velo Sagrado\nTier 3: Alud, Cola Férrea, Día de Pago, Eructo, Espacio Raro, Hidrobomba, Juego Sucio, Llamarada, Premonición, Salmuera, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pantano), Evolución Ramificada, Potencial Latente, Telequinético"
+      }
+    }
+  },
+  {
+    "name": "Slowbro Galar",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0080-Galar.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "psíquico",
+      "diet": "Herbívoro",
+      "size": "70.5Kg, 1.6m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Pantano",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Agua 1",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 10 }, "def": { "base": 10 },
+        "spatk": { "base": 10 }, "spdef": { "base": 7 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 4, "jump": 1, "sky": 0, "burrow": 0, "power": 7
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "2d6+0", "perception": "2d6+0", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Mano Rápida, Ritmo Propio",
+        "abilitiesAdvanced": "Punto Tóxico, Francotirador",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "Evo Moluscañón, 3 Gruñido, 6 Ácido, 9 Bostezo, 12 Confusión, 15 Anulación, 18 Hidropulso, 21 Golpe Cabeza, 24 Cabezazo Zen, 27 Amnesia, 30 Surf, 33 Relajo, 36 Psíquico, 39 Autosugestión, 42 Danza Lluvia, 45 Pulso Cura",
+        "movesTutor": "Tier 1: Agua Fría, Amnesia, Antiaéreo, Bloqueo, Bomba Ácida, Cara Susto, Colmillo Hielo, Defensa Férrea, Disparo Lodo, Giro Vil, Hidropulso, Hierba Lazo, Maquinación, Meteoros, Paz Mental, Pedrada, Pisotón, Poder Reserva, Psicorrayo, Refuerzo, Terratemblor, Viento Hielo\nTier 2: Agua Lodosa, Autosugestión, Bola Sombra, Bomba Lodo, Buceo, Cabezazo Zen, Campo Psíquico, Cascada, Concha Filo, Danza Lluvia, Demolición, Derribo, Día Soleado, Escaldar, Excavar, Golpe Cuerpo, Hidroariete, Intercambio, Joya de Luz, Lanzallamas, Lanzamiento, Megapuño, Meteorobola, Metrónomo, Niebla, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Plancha Corporal, Psicocarga, Psíquico, Puño Drenaje, Puño Hielo, Puya Nociva, Rayo Hielo, Surf, Tambor, Torbellino, Tormenta de Arena, Triataque, Truco, Vasta Fuerza, Velo Sagrado\nTier 3: Alud, Carga Tóxica, Cola Férrea, Día de Pago, Doble Filo, Eructo, Espacio Raro, Gigaimpacto, Hidrobomba, Hiperrayo, Juego Sucio, Lanzamugre, Llamarada, Megapatada, Onda Certera, Onda Tóxica, Premonición, Salmuera, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pantano), Telequinético"
+      }
+    }
+  },
+  {
+    "name": "Slowking Galar",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0199-Galar.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "psíquico",
+      "diet": "Herbívoro",
+      "size": "79.5Kg, 1.8m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Pantano",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Agua 1",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 7 }, "def": { "base": 8 },
+        "spatk": { "base": 11 }, "spdef": { "base": 11 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 5
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+7", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Medicina Extraña, Ritmo Propio",
+        "abilitiesAdvanced": "Punto Tóxico, Alma Cura",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "Evo Conjuro Funesto, 3 Gruñido, 6 Ácido, 9 Bostezo, 12 Confusión, 15 Anulación, 18 Hidropulso, 21 Golpe Cabeza, 24 Cabezazo Zen, 27 Amnesia, 30 Surf, 33 Relajo, 36 Psíquico, 39 Autosugestión, 42 Danza Lluvia, 45 Pulso Cura",
+        "movesTutor": "Tier 1: Agua Fría, Alarido, Amnesia, Antiaéreo, Bloqueo, Bomba Ácida, Cara Susto, Contoneo (N), Defensa Férrea, Disparo Lodo, Hidropulso, Hierba Lazo, Maquinación (N), Meteoros, Mofa, Paz Mental, Pisotón, Poder Oculto (N), Poder Reserva, Psicorrayo, Puntapié, Refuerzo, Terratemblor, Trampa Venenosa, Viento Hielo\nTier 2: Agua Lodosa, Autosugestión, Bola Sombra, Bomba Lodo, Buceo, Cabezazo Zen, Campo Psíquico, Cascada, Concha Filo, Danza Lluvia, Demolición, Derribo, Día Soleado, Escaldar, Excavar, Fría Acogida (N), Golpe Cuerpo, Hidroariete, Intercambio, Joya de Luz (N), Lanzallamas, Lanzamiento, Megapuño, Meteorobola, Metrónomo, Niebla, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Psicocarga, Psicorruido, Psíquico, Púas Tóxicas, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo Hielo, Surf, Tambor, Torbellino, Triataque, Truco, Vasta Fuerza, Velo Sagrado\nTier 3: Alud, Carga Tóxica, Cola Férrea, Día de Pago, Doble Filo, Eructo, Espacio Raro, Gigaimpacto, Hidrobomba, Hiperrayo, Infortunio, Juego Sucio, Lanzamugre, Llamarada, Megapatada, Onda Certera, Onda Tóxica, Pataleta, Premonición, Salmuera, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pantano), Telepático, Telequinético"
+      }
+    }
+  },
+  {
+    "name": "Magnemite",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0081.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "acero",
+      "diet": "Ergóvoro",
+      "size": "6Kg, 0.3m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Montaña, Urbano",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 3 }, "atk": { "base": 4 }, "def": { "base": 7 },
+        "spatk": { "base": 10 }, "spdef": { "base": 6 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 2, "swim": 3, "jump": 0, "sky": 4, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Magneton", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Imán, Robustez",
+        "abilitiesAdvanced": "Cálculo Final, Insonorizar",
+        "abilitiesHigh": "Autoapuntado",
+        "movesLevelUp": "1 Placaje, 1 Supersónico, 5 Impactrueno, 7 Onda Trueno, 11 Bomba Imán, 13 Pantalla de Luz, 17 Bomba Sónica, 19 Chispa, 23 Disparo Espejo, 25 Eco Metálico, 29 Bola Voltio, 31 Foco Resplandor, 35 Chirrido, 37 Chispazo, 41 Fijar Blanco, 43 Levitón, 47 Giro Bola, 49 Electrocañón",
+        "movesTutor": "Tier 1: Carga, Chirrido, Defensa Férrea, Destello, Eco Metálico, Electrotela, Furia, Golpe Cabeza, Meteoros, Onda Anómala, Onda Voltio, Rayo Carga, Refuerzo, Rodar, Voltiocambio\nTier 2: Alto Voltaje, Autosugestión, Bola Voltio, Cabeza de Hierro, Campo Eléctrico, Danza Lluvia, Derribo, Día Soleado, Foco Resplandor, Giro Bola, Mimético, Onda Trueno, Pantalla de Luz, Rayo, Rayo Confuso, Rayo Señal, Reciclaje, Reflejo, Teletransporte, Tormenta de Arena, Venganza, Voltio Cruel\nTier 3: Capa Mágica, Cuerpo Pesado, Doble Filo, Electrocañón, Gravedad, Levitón, Metaláser, Trueno",
+        "specialCapabilities": "Anaerobio, Magnético, Potencial Latente, Sigiloso"
+      }
+    }
+  },
+  {
+    "name": "Magneton",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0082.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "acero",
+      "diet": "Ergóvoro",
+      "size": "60Kg, 1m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Montaña, Urbano",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 6 }, "def": { "base": 10 },
+        "spatk": { "base": 12 }, "spdef": { "base": 7 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 4, "jump": 0, "sky": 5, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+1",
+        "stealth": "3d6+0", "perception": "3d6+3", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 40, "nextStage": "Magnezone", "criteria": "Piedra Trueno"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Imán, Robustez",
+        "abilitiesAdvanced": "Cálculo Final, Insonorizar",
+        "abilitiesHigh": "Autoapuntado",
+        "movesLevelUp": "Evo Triataque, 5 Impactrueno, 7 Onda Trueno, 11 Bomba Imán, 13 Pantalla de Luz, 17 Bomba Sónica, 19 Chispa, 23 Disparo Espejo, 25 Eco Metálico, 29 Bola Voltio, 33 Foco Resplandor, 39 Chirrido, 43 Chispazo, 49 Fijar Blanco, 53 Levitón, 59 Giro Bola, 63 Electrocañón",
+        "movesTutor": "Tier 1: Carga, Chirrido, Defensa Férrea, Destello, Eco Metálico, Electrotela, Furia, Golpe Cabeza, Meteoros, Onda Anómala, Onda Voltio, Rayo Carga, Refuerzo, Rodar, Voltiocambio\nTier 2: Alto Voltaje, Autosugestión, Bola Voltio, Cabeza de Hierro, Campo Eléctrico, Danza Lluvia, Derribo, Día Soleado, Foco Resplandor, Giro Bola, Mimético, Onda Trueno, Pantalla de Luz, Rayo, Rayo Confuso, Rayo Señal, Reciclaje, Reflejo, Teletransporte, Tormenta de Arena, Triataque, Venganza, Voltio Cruel\nTier 3: Capa Mágica, Cuerpo Pesado, Doble Filo, Electrocañón (N), Gigaimpacto, Gravedad, Hiperrayo, Levitón, Metaláser, Trueno",
+        "specialCapabilities": "Anaerobio, Magnético, Sigiloso"
+      }
+    }
+  },
+  {
+    "name": "Magnezone",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0462.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "acero",
+      "diet": "Ergóvoro",
+      "size": "180Kg, 1.2m (5, Mediano)",
+      "weightClass": 5,
+      "habitats": "Montaña",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 7 }, "atk": { "base": 7 }, "def": { "base": 12 },
+        "spatk": { "base": 13 }, "spdef": { "base": 9 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 5, "jump": 0, "sky": 7, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+4", "combat": "3d6+3",
+        "stealth": "3d6+0", "perception": "3d6+3", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 3, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Imán, Robustez",
+        "abilitiesAdvanced": "Cálculo Final, Insonorizar",
+        "abilitiesHigh": "Autoapuntado",
+        "movesLevelUp": "Evo Triataque, 5 Impactrueno, 7 Onda Trueno, 11 Bomba Imán, 13 Pantalla de Luz, 17 Bomba Sónica, 19 Chispa, 23 Disparo Espejo, 25 Eco Metálico, 29 Bola Voltio, 33 Foco Resplandor, 39 Chirrido, 43 Chispazo, 49 Fijar Blanco, 53 Levitón, 59 Giro Bola, 63 Electrocañón",
+        "movesTutor": "Tier 1: Carga, Chirrido, Defensa Férrea, Destello, Eco Metálico, Electrotela, Furia, Golpe Cabeza, Meteoros, Onda Anómala, Onda Voltio, Rayo Carga, Refuerzo, Rodar, Voltiocambio\nTier 2: Alto Voltaje, Aura Magnética, Autosugestión, Bola Voltio, Cabeza de Hierro, Cambio de Banda, Campo Eléctrico, Danza Lluvia, Derribo, Día Soleado, Foco Resplandor, Giro Bola, Golpe Cuerpo, Manto Espejo, Mimético, Onda Trueno, Pantalla de Luz, Plancha Corporal, Rayo, Rayo Confuso, Rayo Señal, Reciclaje, Reflejo, Teletransporte, Tormenta de Arena, Triataque, Venganza, Voltio Cruel\nTier 3: Allanador Férreo, Autodestrucción, Capa Mágica, Cuerpo Pesado, Doble Filo, Electrocañón (N), Gigaimpacto, Gravedad, Hiperrayo, Levitón, Metaláser, Plancha Voltaica, Prensa Metálica, Trueno",
+        "specialCapabilities": "Anaerobio, Magnético, Sigiloso"
+      }
+    }
+  },
+  {
+    "name": "Farfetch'd",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0083.png",
+    "system": {
+      "type1": "normal",
+      "type2": "volador",
+      "diet": "Herbívoro",
+      "size": "15Kg, 0.8m (2, Pequeño)",
+      "weightClass": 2,
+      "habitats": "Agua Dulce, Pantano, Pradera",
+      "eggGroup1": "Volador",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 9 }, "def": { "base": 6 },
+        "spatk": { "base": 6 }, "spdef": { "base": 6 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 2, "jump": 1, "sky": 7, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+5", "athletics": "3d6+4", "combat": "3d6+4",
+        "stealth": "3d6+5", "perception": "3d6+5", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Vista Lince, Fuerza Mental",
+        "abilitiesAdvanced": "Competitivo, Afortunado",
+        "abilitiesHigh": "Dominio del Puerro",
+        "movesLevelUp": "1 Malicioso, 1 Picotazo, 1 Ataque Arena, 1 Corte Furia, 7 Ataque Furia, 9 Golpe Aéreo, 13 Desarme, 19 Cuchillada, 21 Aire Afilado, 25 Danza Espada, 31 Agilidad, 33 Tajo Umbrío, 37 Acróbata, 43 Amago, 45 Falso Tortazo, 49 Tajo Aéreo, 55 Pájaro Osado",
+        "movesTutor": "Tier 1: Agilidad, Aire Afilado, Ala de Acero, Antojo, Ataque Rápido, Avivar, Bofetón Lodo, Corte, Corte Furia, Danza Espada, Falso Tortazo, Foco Energía, Furia, Giro Vil, Golpe Aéreo, Golpe Cabeza, Ida y Vuelta, Ladrón, Meteoros, Picoteo, Refuerzo, Relevo, Represalia, Tajo Umbrío, Viento Aciago\nTier 2: Aguzar, Ala Bis, Alboroto, Autosugestión, Azote, Ciclón, Danza Pluma, Derribo, Desarme, Despejar, Desquite, Detección, Día Soleado, Escaramuza, Espejo, Golpe Cuerpo, Golpe Mordaza, Hoja Aguda, Mimético, Onda Simple, Profecía, Puya Nociva (N), Reflejo, Remolino, Sacrificio, Tajo Aéreo, Tornado, Venganza, Viento Afín, Viento Cortante, Vuelo\nTier 3: A Bocajarro, Acróbata, As Oculto, Ataque Aéreo, Cabezazo, Cola Férrea, Cuchilla Solar, Doble Filo, Onda Ígnea, Pájaro Osado (N), Respiro, Última Baza",
+        "specialCapabilities": "Armado, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Farfetch'd Galar",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0083-Galar.png",
+    "system": {
+      "type1": "lucha",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "42Kg, 0.8m (3, Pequeño)",
+      "weightClass": 3,
+      "habitats": "Pradera",
+      "eggGroup1": "Volador",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 10 }, "def": { "base": 6 },
+        "spatk": { "base": 6 }, "spdef": { "base": 6 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 2, "jump": 2, "sky": 2, "burrow": 0, "power": 5
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+4", "combat": "3d6+5",
+        "stealth": "3d6+5", "perception": "3d6+4", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Sirfetch'd", "criteria": "Nivel 25"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Intrépido, Corte Fuerte",
+        "abilitiesAdvanced": "Competitivo, Afortunado",
+        "abilitiesHigh": "Empuje",
+        "movesLevelUp": "1 Picotazo, 1 Ataque Arena, 1 Corpulencia, 5 Foco Energía, 8 Corte Furia, 11 Golpe Roca, 14 Detección, 17 Despejar, 20 Demolición, 23 Atizar, 26 Danza Espada, 30 Desarme, 34 Hoja Aguda, 38 Sacrificio, 42 Pájaro Osado, 46 Cuchilla Solar",
+        "movesTutor": "Tier 1: Ala de Acero, Antojo, Ataque Rápido, Avivar, Danza Espada, Foco Energía, Giro Vil, Refuerzo, Represalia, Tajo Umbrío\nTier 2: Ala Bis, Amago, Anticipo, Azote, Buena Baza, Contraataque, Demolición, Desquite, Día Soleado, Golpe Cuerpo, Golpe Mordaza, Hoja Aguda, Onda Simple, Puya Nociva\nTier 3: A Bocajarro, Ataque Aéreo, Cuchilla Solar, Doble Filo, Fuerza Bruta, Pájaro Osado",
+        "specialCapabilities": "Armado, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Sirfetch'd",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0865.png",
+    "system": {
+      "type1": "lucha",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "117Kg, 0.8m (5, Pequeño)",
+      "weightClass": 5,
+      "habitats": "Pradera",
+      "eggGroup1": "Volador",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 14 }, "def": { "base": 10 },
+        "spatk": { "base": 7 }, "spdef": { "base": 8 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 8, "swim": 3, "jump": 2, "sky": 2, "burrow": 0, "power": 7
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+6", "combat": "3d6+8",
+        "stealth": "3d6+4", "perception": "3d6+6", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Intrépido, Cortante",
+        "abilitiesAdvanced": "Lancero, Afortunado",
+        "abilitiesHigh": "Parar",
+        "movesLevelUp": "Evo Defensa Férrea, 1 Ataque Arena, 1 Corpulencia, 5 Foco Energía, 8 Corte Furia, 11 Golpe Roca, 14 Detección, 17 Despejar, 20 Demolición, 23 Atizar, 26 Danza Espada, 30 Tajo Umbrío, 34 Hoja Aguda, 38 Sacrificio, 42 Pájaro Osado, 46 Aguante, 50 Asalto Estelar, 55 Cuchilla Solar",
+        "movesTutor": "Tier 1: Ala de Acero, Antojo, Ataque Rápido, Avivar, Danza Espada, Defensa Férrea (N), Fitoimpulso, Foco Energía, Giro Vil, Motivación, Refuerzo, Represalia, Tajo Umbrío\nTier 2: Ala Bis, Amago, Anticipo, Azote, Buena Baza, Contraataque, Demolición, Desquite, Día Soleado, Escaramuza (N), Golpe Cuerpo, Golpe Mordaza, Hoja Aguda, Onda Simple, Puya Nociva\nTier 3: A Bocajarro, Asalto Estelar (N), Ataque Aéreo, Cuchilla Solar, Doble Filo, Fuerza Bruta, Pájaro Osado",
+        "specialCapabilities": "Armado"
+      }
+    }
+  },
+  {
+    "name": "Doduo",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0084.png",
+    "system": {
+      "type1": "normal",
+      "type2": "volador",
+      "diet": "Herbívoro",
+      "size": "39.2Kg, 1.4m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Desierto, Pradera",
+      "eggGroup1": "Volador",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 4 }, "atk": { "base": 9 }, "def": { "base": 5 },
+        "spatk": { "base": 4 }, "spdef": { "base": 4 }, "spd": { "base": 8 }
+      },
+      "capabilities": {
+        "overland": 7, "swim": 2, "jump": 4, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+2", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+4", "focus": "3d6+-1"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Dodrio", "criteria": "Nivel 25"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Madrugar, Fuga",
+        "abilitiesAdvanced": "Tumbos, Policéfalo",
+        "abilitiesHigh": "Vanguardia",
+        "movesLevelUp": "1 Gruñido, 1 Picotazo, 5 Ataque Rapido, 8 Furia, 12 Ataque Furia, 15 Persecución, 19 Picoteo, 22 Doble Golpe, 26 Agilidad, 29 Alboroto, 33 Acupresión, 36 Danza Espada, 40 Patada Salto, 43 Pico Taladro, 47 Esfuerzo, 50 Saña",
+        "movesTutor": "Tier 1: Agilidad, Aire Afilado, Ala de Acero, Ataque Rápido, Avivar, Bofetón Lodo, Danza Espada, Eco Voz, Finta, Furia, Golpe Aéreo, Golpe Cabeza, Ladrón, Meteoros, Patada Baja, Picoteo, Refuerzo, Relevo\nTier 2: Alboroto, Azote, Buena Baza, Danza Lluvia, Danza Pluma, Derribo, Desarme, Día Soleado, Esfuerzo, Espejo, Golpe Cuerpo, Golpe Mordaza, Mimético, Niebla, Plancha, Reflejo, Remolino, Supersónico, Triataque, Venganza, Viento Afín, Vuelo\nTier 3: Acróbata, Ataque Aéreo, Cabezazo, Doble Filo, Pájaro Osado, Respiro",
+        "specialCapabilities": "Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Dodrio",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0085.png",
+    "system": {
+      "type1": "normal",
+      "type2": "volador",
+      "diet": "Herbívoro",
+      "size": "85.2Kg, 1.8m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Desierto, Pradera",
+      "eggGroup1": "Volador",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 11 }, "def": { "base": 7 },
+        "spatk": { "base": 6 }, "spdef": { "base": 6 }, "spd": { "base": 11 }
+      },
+      "capabilities": {
+        "overland": 9, "swim": 4, "jump": 5, "sky": 2, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+4", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+8", "focus": "3d6+-1"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Madrugar, Fuga",
+        "abilitiesAdvanced": "Trinidad, Policéfalo",
+        "abilitiesHigh": "Vanguardia",
+        "movesLevelUp": "Evo Triataque, 5 Ataque Rapido, 8 Furia, 12 Ataque Furia, 15 Persecución, 19 Picoteo, 22 Doble Golpe, 26 Agilidad, 29 Alboroto, 34 Acupresión, 38 Danza Espada, 43 Patada Salto, 47 Pico Taladro, 52 Esfuerzo, 56 Saña",
+        "movesTutor": "Tier 1: Abrecaminos, Agilidad, Aire Afilado, Ala de Acero, Ataque Rápido, Avivar, Bofetón Lodo, Brinco, Cara Susto, Danza Espada, Eco Voz, Finta, Furia, Golpe Aéreo, Golpe Cabeza, Ladrón, Meteoros, Mofa, Patada Baja, Picoteo, Refuerzo, Relevo\nTier 2: Alboroto, Azote, Buena Baza, Danza Lluvia, Danza Pluma, Derribo, Desarme, Día Soleado, Esfuerzo, Espejo, Golpe Cuerpo, Golpe Mordaza, Mimético, Niebla, Plancha, Reflejo, Remolino, Supersónico, Taladradora, Tormento, Triataque, Vendetta, Venganza, Viento Afín, Vuelo\nTier 3: Acróbata, Ataque Aéreo, Cabezazo, Doble Filo, Gigaimpacto, Hiperrayo, Pájaro Osado, Pataleta, Respiro",
+        "specialCapabilities": ""
+      }
+    }
+  },
+  {
+    "name": "Seel",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0086.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Carnívoro",
+      "size": "90Kg, 1.1m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Océano, Tundra",
+      "eggGroup1": "Agua 1",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 7 }, "atk": { "base": 5 }, "def": { "base": 6 },
+        "spatk": { "base": 5 }, "spdef": { "base": 7 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 5, "jump": 1, "sky": 0, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Dewgong", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Sebo, Beso Invernal",
+        "abilitiesAdvanced": "Gélido, Hidratación",
+        "abilitiesHigh": "Congelación",
+        "movesLevelUp": "1 Golpe Cabeza, 3 Gruñido, 6 Hidrochorro, 10 Viento Hielo, 12 Pistola Agua, 14 Sorpresa, 16 Otra Vez, 18 Esquirla Helada, 20 Descanso, 22 Acua Aro, 24 Agua Fría, 26 Rayo Aurora, 30 Acua Jet, 32 Derribo, 35 Buceo, 37 Acua Cola, 39 Doble Filo, 41 Rayo Hielo, 44 Velo Sagrado, 46 Paisaje Nevado",
+        "movesTutor": "Tier 1: Agua Fría, Carámbano, Cuerno Certero, Eco Voz, Encanto, Furia, Golpe Cabeza, Hidropulso, Ladrón, Lengüetazo, Picotazo, Pistola Agua, Rayo Burbuja, Refuerzo, Reserva, Sorpresa, Viento Hielo, Viraje\nTier 2: Acua Cola, Agua Lodosa, Alboroto, Anulación, Atizar, Buceo, Cascada, Danza Amiga, Danza Lluvia, Derribo, Fuerza, Golpe Cuerpo, Lanzamiento, Meteorobola, Mimético, Niebla, Otra Vez, Paisaje Nevado, Pirueta Helada, Rayo Hielo, Rayo Señal, Surf, Taladradora, Torbellino, Triple Axel, Velo Sagrado, Venganza\nTier 3: Alud, Cabezazo, Canto Mortal, Cola Férrea, Día de Pago, Doble Filo, Eructo, Escupir, Hidrobomba, Megacuerno, Salmuera, Tragar, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano, Tundra), Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Dewgong",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0087.png",
+    "system": {
+      "type1": "agua",
+      "type2": "hielo",
+      "diet": "Carnívoro",
+      "size": "120Kg, 1.7m (5, Mediano)",
+      "weightClass": 5,
+      "habitats": "Océano, Tundra",
+      "eggGroup1": "Agua 1",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 9 }, "atk": { "base": 7 }, "def": { "base": 8 },
+        "spatk": { "base": 7 }, "spdef": { "base": 10 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 7, "jump": 1, "sky": 0, "burrow": 0, "power": 5
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+5", "combat": "3d6+0",
+        "stealth": "2d6+0", "perception": "3d6+0", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Sebo, Beso Invernal",
+        "abilitiesAdvanced": "Gélido, Hidratación",
+        "abilitiesHigh": "Congelación",
+        "movesLevelUp": "Evo Ventisca, 3 Gruñido, 6 Hidrochorro, 10 Viento Hielo, 12 Pistola Agua, 14 Sorpresa, 16 Otra Vez, 18 Esquirla Helada, 20 Descanso, 22 Acua Aro, 24 Agua Fría, 26 Rayo Aurora, 30 Acua Jet, 32 Salmuera, 34 Derribo, 38 Buceo, 41 Doble Filo, 44 Rayo Hielo, 46 Velo Sagrado, 49 Paisaje Nevado, 53 Frío Polar",
+        "movesTutor": "Tier 1: Agua Fría, Carámbano, Cuerno Certero, Eco Voz, Encanto, Furia, Golpe Cabeza, Hidropulso, Ladrón, Lengüetazo, Picotazo, Pistola Agua, Rayo Burbuja, Refuerzo, Reserva, Sorpresa, Vaho Gélido, Viento Hielo, Viraje\nTier 2: Acua Cola, Agua Lodosa, Alboroto, Anulación, Atizar, Buceo, Canto Encantador, Carantoña, Cascada, Danza Amiga, Danza Lluvia, Derribo, Desarme, Esfuerzo, Fuerza, Golpe Cuerpo, Hidroariete, Lanzamiento, Meteorobola, Mimético, Niebla, Otra Vez, Paisaje Nevado, Pirueta Helada, Rayo Hielo, Rayo Señal (N), Surf, Taladradora, Torbellino, Triple Axel, Velo Sagrado, Venganza\nTier 3: Alud, Cabezazo, Canto Mortal, Cola Férrea, Día de Pago, Doble Filo, Eructo, Escupir, Gigaimpacto, Hidrobomba, Hiperrayo, Megacuerno, Salmuera, Tragar, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano, Tundra)"
+      }
+    }
+  },
+  {
+    "name": "Grimer",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0088.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "",
+      "diet": "Terrávoro",
+      "size": "30Kg, 0.9m (3, Pequeño)",
+      "weightClass": 3,
+      "habitats": "Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 8 }, "atk": { "base": 8 }, "def": { "base": 5 },
+        "spatk": { "base": 4 }, "spdef": { "base": 5 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Muk", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Hedor, Poder Retorcido",
+        "abilitiesAdvanced": "Punto Tóxico, Aceleración Mitótica",
+        "abilitiesHigh": "Absorbeimpacto",
+        "movesLevelUp": "1 Gas Venenoso, 1 Destructor, 4 Fortaleza, 7 Bofetón Lodo, 12 Anulación, 15 Residuos, 18 Bomba Fango, 21 Reducción, 26 Lanzamiento, 29 Bomba Lodo, 32 Onda Tóxica, 37 Chirrido, 40 Lanzamugre, 43 Armadura Ácida, 46 Eructo, 48 Legado",
+        "movesTutor": "Tier 1: Bofetón Lodo, Bomba Ácida, Calcinación, Cara Susto, Disparo Lodo, Furia, Golpe Cabeza, Ladrón, Lengüetazo, Megaagotar, Mofa, Onda Voltio, Puño Incremento, Puño Sombra, Refuerzo, Reserva, Sombra Vil, Tumba Rocas\nTier 2: Acoso, Avalancha, Bola Sombra, Bomba Lodo, Cabezazo Zen, Danza Lluvia, Derribo, Día Soleado, Excavar, Fuerza, Gigadrenado, Golpe Cuerpo, Lanzallamas, Lanzamiento, Mal de Ojo, Metrónomo, Mimético, Niebla, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Confuso, Tormenta de Arena, Tormento, Vendetta, Venganza\nTier 3: Autodestrucción, Carga Tóxica, Divide Dolor, Electrocañón, Escupir, Infortunio, Lanzamugre, Llamarada, Onda Tóxica, Puño Dinámico, Tragar, Trueno",
+        "specialCapabilities": "Anaerobio, Maleable, Potencial Latente, Trepamuros, Viscosidad"
+      }
+    }
+  },
+  {
+    "name": "Muk",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0089.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "",
+      "diet": "Terrávoro",
+      "size": "30Kg, 1.2m (3, Grande)",
+      "weightClass": 3,
+      "habitats": "Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 11 }, "atk": { "base": 11 }, "def": { "base": 8 },
+        "spatk": { "base": 7 }, "spdef": { "base": 10 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 4, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Hedor, Poder Retorcido",
+        "abilitiesAdvanced": "Punto Tóxico, Aceleración Mitótica",
+        "abilitiesHigh": "Absorbeimpacto",
+        "movesLevelUp": "Evo Trampa Venenosa, 4 Fortaleza, 7 Bofetón Lodo, 12 Anulación, 15 Residuos, 18 Bomba Fango, 21 Reducción, 26 Lanzamiento, 29 Bomba Lodo, 32 Onda Tóxica, 37 Chirrido, 40 Lanzamugre, 46 Armadura Ácida, 52 Eructo, 57 Legado",
+        "movesTutor": "Tier 1: Bloqueo, Bofetón Lodo, Bomba Ácida, Calcinación, Cara Susto, Disparo Lodo, Furia, Golpe Cabeza, Golpe Roca, Ladrón, Lengüetazo, Megaagotar, Meteoros, Mofa, Onda Voltio, Puño Incremento, Puño Sombra, Refuerzo, Reserva, Sombra Vil, Tumba Rocas\nTier 2: Acoso, Avalancha, Bola Sombra, Bomba Lodo, Cabezazo Zen, Danza Lluvia, Demolición, Derribo, Desarme, Día Soleado, Excavar, Fuerza, Gigadrenado, Golpe Cuerpo, Lanzallamas, Lanzamiento, Mal de Ojo, Metrónomo, Mimético, Niebla, Plancha, Púas Tóxicas, Pulso Umbrío, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Confuso, Rencor, Tormenta de Arena, Tormento, Vendetta, Venganza\nTier 3: Autodestrucción, Carga Tóxica, Desahogo, Divide Dolor, Electrocañón, Escupir, Gigaimpacto, Hiperrayo, Infortunio, Lanzamugre, Llamarada, Onda Certera, Onda Tóxica, Puño Certero, Puño Dinámico, Tragar, Trueno",
+        "specialCapabilities": "Anaerobio, Maleable, Trepamuros, Viscosidad"
+      }
+    }
+  },
+  {
+    "name": "Grimer Alola",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0088-Alola.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "siniestro",
+      "diet": "Omnívoro",
+      "size": "42Kg, 0.7m (3, Pequeño)",
+      "weightClass": 3,
+      "habitats": "Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 8 }, "atk": { "base": 8 }, "def": { "base": 5 },
+        "spatk": { "base": 4 }, "spdef": { "base": 5 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Muk Alola", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Gula, Poder Retorcido",
+        "abilitiesAdvanced": "Punto Tóxico, Aceleración Mitótica",
+        "abilitiesHigh": "Receptor",
+        "movesLevelUp": "1 Destructor, 1 Gas Venenoso, 4 Fortaleza, 7 Mordisco, 12 Anulación, 15 Bomba Ácida, 18 Colmillo Veneno, 21 Reducción, 26 Lanzamiento, 29 Desarme, 32 Triturar, 37 Chirrido, 40 Lanzamugre, 43 Armadura Ácida, 46 Eructo, 48 Legado",
+        "movesTutor": "Tier 1: Alarido, Bofetón Lodo, Bomba Ácida, Cara Susto, Disparo Lodo, Embargo, Giro Vil, Golpe Cabeza, Ladrón, Megaagotar, Meteoros, Mofa, Onda Voltio, Pulimento, Puño Incremento, Refuerzo, Reserva, Sombra Vil, Tumba Rocas, Último Lugar\nTier 2: Acoso, Avalancha, Bilis, Bola Sombra, Bomba Lodo, Buena Baza, Cabezazo Zen, Danza Lluvia, Demolición, Derribo, Desarme, Dia Soleado, Excavar, Gigadrenado, Golpe Cuerpo, Lanzallamas, Lanzamiento, Mal de Ojo, Metrónomo, Niebla Clara, Persecución, Pulso Umbrío, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rencor, Tormenta de Arena, Tormento, Triturar, Vendetta\nTier 3: Autodestrucción, Carga Tóxica, Divide Dolor, Escupir, Gigaimpacto, Hiperrayo, Infortunio, Lanzamugre, Llamarada, Onda Tóxica, Roca Afilada, Tragar, Trueno",
+        "specialCapabilities": "Anaerobio, Maleable, Potencial Latente, Trepamuros, Viscosidad, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Muk Alola",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0089-Alola.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "siniestro",
+      "diet": "Omnívoro",
+      "size": "52Kg, 1m (4, Grande)",
+      "weightClass": 4,
+      "habitats": "Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 11 }, "atk": { "base": 11 }, "def": { "base": 8 },
+        "spatk": { "base": 7 }, "spdef": { "base": 10 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 4, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Gula, Poder Retorcido",
+        "abilitiesAdvanced": "Punto Tóxico, Aceleración Mitótica",
+        "abilitiesHigh": "Receptor",
+        "movesLevelUp": "Evo Trampa Venenosa, 4 Fortaleza, 7 Mordisco, 12 Anulación, 15 Bomba Ácida, 18 Colmillo Veneno, 21 Reducción, 26 Lanzamiento, 29 Desarme, 32 Triturar, 37 Chirrido, 40 Lanzamugre, 46 Armadura Ácida, 52 Eructo, 57 Legado",
+        "movesTutor": "Tier 1: Alarido, Bloqueo, Bofetón Lodo, Bomba Ácida, Cara Susto, Disparo Lodo, Embargo, Giro Vil, Golpe Cabeza, Ladrón, Megaagotar, Meteoros, Mofa, Onda Voltio, Pulimento, Puño Incremento, Refuerzo, Reserva, Sombra Vil, Tumba Rocas, Último Lugar\nTier 2: Acoso, Avalancha, Bilis, Bola Sombra, Bomba Lodo, Buena Baza, Cabezazo Zen, Danza Lluvia, Demolición, Derribo, Desarme, Dia Soleado, Excavar, Gigadrenado, Golpe Cuerpo, Lanzallamas, Lanzamiento, Mal de Ojo, Metrónomo, Niebla, Niebla Clara, Persecución, Pulso Umbrío, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Reciclaje, Rencor, Tormenta de Arena, Tormento, Triturar, Vendetta\nTier 3: Autodestrucción, Carga Tóxica, Desahogo, Divide Dolor, Escupir, Gigaimpacto, Hiperrayo, Infortunio, Juego Sucio, Lanzamugre, Llamarada, Onda Certera, Onda Tóxica, Puño Certero, Roca Afilada, Tragar, Trueno",
+        "specialCapabilities": "Anaerobio, Maleable, Trepamuros, Viscosidad, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Shellder",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0090.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "4Kg, 0.3m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Océano",
+      "eggGroup1": "Agua 3",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 3 }, "atk": { "base": 7 }, "def": { "base": 10 },
+        "spatk": { "base": 5 }, "spdef": { "base": 3 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 1, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "2d6+0", "combat": "2d6+0",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Cloyster", "criteria": "Piedra Agua"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Caparazón, Funda",
+        "abilitiesAdvanced": "Retraer, Piel Milagro",
+        "abilitiesHigh": "Encadenado",
+        "movesLevelUp": "1 Placaje, 1 Pistola Agua, 4 Refugio, 8 Supersónico, 13 Carámbano, 16 Protección, 20 Malicioso, 25 Tenaza, 28 Esquirla Helada, 32 Concha Filo, 37 Rayo Aurora, 40 Torbellino, 44 Salmuera, 49 Defensa Férrea, 52 Rayo Hielo, 56 Rompecoraza, 61 Hidrobomba",
+        "movesTutor": "Tier 1: Agua Fría, Carámbano, Chirrido, Defensa Férrea, Disparo Lodo, Doble Ataque, Furia, Giro Rápido, Golpe Cabeza, Hidropulso, Meteoros, Pedrada, Pistola Agua, Púas, Rayo Burbuja, Refuerzo, Viento Hielo\nTier 2: Acua Aro, Alivio, Barrera, Buceo, Cascada, Concha Filo, Danza Lluvia, Derribo, Hidroariete, Mimético, Paisaje Nevado, Pirueta Helada, Púas Tóxicas, Rayo Hielo, Reflejo, Surf, Teletransporte, Torbellino, Triataque, Vendetta, Venganza\nTier 3: Alud, Autodestrucción, Doble Filo, Hidrobomba, Salmuera, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias, Creación de Perlas, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Cloyster",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0091.png",
+    "system": {
+      "type1": "agua",
+      "type2": "hielo",
+      "diet": "Herbívoro",
+      "size": "132.5Kg, 1.5m (5, Mediano)",
+      "weightClass": 5,
+      "habitats": "Océano, Tundra",
+      "eggGroup1": "Agua 3",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 10 }, "def": { "base": 18 },
+        "spatk": { "base": 9 }, "spdef": { "base": 5 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 2, "swim": 5, "jump": 0, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+0", "combat": "3d6+2",
+        "stealth": "2d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Caparazón, Funda",
+        "abilitiesAdvanced": "Retraer, Piel Milagro",
+        "abilitiesHigh": "Encadenado",
+        "movesLevelUp": "4 Refugio, 8 Supersónico, 13 Clavo Cañón, 16 Protección, 20 Malicioso, 25 Tenaza, 28 Púas, 32 Concha Filo, 37 Rayo Aurora, 40 Torbellino, 44 Salmuera, 49 Defensa Férrea, 50 Chuzos, 52 Rayo Hielo, 56 Rompecoraza, 61 Hidrobomba",
+        "movesTutor": "Tier 1: Agua Fría, Cara Susto, Carámbano, Chirrido, Cuerno Certero, Defensa Férrea, Disparo Lodo, Doble Ataque, Furia, Giro Rápido, Golpe Cabeza, Hidropulso, Meteoros, Pedrada, Pin Misil, Pistola Agua, Púas, Rayo Aurora (N), Rayo Burbuja, Refuerzo, Vaho Gélido, Viento Hielo\nTier 2: Acua Aro, Alivio, Barrera, Buceo, Cascada, Concha Filo, Danza Lluvia, Derribo, Golpe Cuerpo, Hidroariete, Meteorobola, Mimético, Paisaje Nevado, Pantalla de Luz, Pirueta Helada, Púas Tóxicas (N), Puya Nociva, Rayo Hielo, Rayo Señal, Reflejo, Rompecoraza (N), Surf, Taladradora, Teletransporte, Torbellino, Tormento, Triataque, Vendetta, Venganza\nTier 3: Allanador Férreo, Alud, Autodestrucción, Doble Filo, Gigaimpacto, Hidrobomba (N), Hiperrayo, Salmuera, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias"
+      }
+    }
+  },
+  {
+    "name": "Gastly",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0092.png",
+    "system": {
+      "type1": "fantasma",
+      "type2": "veneno",
+      "diet": "Nulívoro",
+      "size": "0.1Kg, 1.3m (1, Mediano)",
+      "weightClass": 1,
+      "habitats": "Cueva, Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 3 }, "atk": { "base": 4 }, "def": { "base": 3 },
+        "spatk": { "base": 10 }, "spdef": { "base": 4 }, "spd": { "base": 8 }
+      },
+      "capabilities": {
+        "overland": 1, "swim": 2, "jump": 0, "sky": 4, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "3d6+3", "athletics": "2d6+0", "combat": "3d6+0",
+        "stealth": "3d6+3", "perception": "3d6+2", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 20, "nextStage": "Haunter", "criteria": "Nivel 20"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Levitación",
+        "abilitiesAdvanced": "Espantar, Cuerpo Maldito, Intervención Rencorosa",
+        "abilitiesHigh": "Bromista",
+        "movesLevelUp": "1 Hipnosis, 1 Lengüetazo, 5 Rencor, 8 Mal de Ojo, 12 Maldición, 15 Tinieblas, 19 Rayo Confuso, 22 Golpe Bajo, 26 Vendetta, 29 Bola Sombra, 33 Comesueños, 36 Pulso Umbrio, 40 Mismo Destino, 43 Infortunio, 47 Pesadilla",
+        "movesTutor": "Tier 1: Bomba Ácida, Camuflaje, Cara Susto, Embargo, Fuego Fatuo, Furia, Gas Corrosivo, Golpe Bajo, Golpe Cabeza, Golpe Rastrero, Impresionar, Ladrón, Maquinación, Megaagotar, Mofa, Polución, Psicoonda, Tinieblas, Viento Aciago, Viento Hielo\nTier 2: Acoso, Alboroto, Anulación, Autosugestión, Bola Sombra, Bomba Lodo, Brillo Mágico, Cambio de Banda, Clonatipo, Comesueños, Danza Lluvia, Desarme, Día Soleado, Energibola, Gigadrenado, Intercambio, Mimético, Niebla, Niebla Clara, Pesadilla, Psicoonda, Psíquico, Pulso Umbrío, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Confuso, Rencor, Robo, Telequinesis, Tormento, Truco, Vendetta, Venganza\nTier 3: Autodestrucción, Canto Mortal, Carga Tóxica, Divide Dolor, Electrocañón, Espacio Raro, Infortunio, Juego Sucio, Lanzamugre, Onda Tóxica, Poltergeist, Rabia, Trueno",
+        "specialCapabilities": "Anaerobio, Intangible, Invisibilidad, Potencial Latente, Sigiloso, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Haunter",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0093.png",
+    "system": {
+      "type1": "fantasma",
+      "type2": "veneno",
+      "diet": "Nulívoro",
+      "size": "0.1Kg, 1.6m (1, Mediano)",
+      "weightClass": 1,
+      "habitats": "Cueva, Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 5 }, "def": { "base": 5 },
+        "spatk": { "base": 12 }, "spdef": { "base": 6 }, "spd": { "base": 10 }
+      },
+      "capabilities": {
+        "overland": 2, "swim": 2, "jump": 0, "sky": 4, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+5", "athletics": "2d6+0", "combat": "3d6+2",
+        "stealth": "3d6+5", "perception": "3d6+2", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 35, "nextStage": "Gengar", "criteria": "Intercambio"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Levitación",
+        "abilitiesAdvanced": "Espantar, Cuerpo Maldito, Intervención Rencorosa",
+        "abilitiesHigh": "Bromista",
+        "movesLevelUp": "Evo Puño Sombra, 5 Rencor, 8 Mal de Ojo, 12 Maldición, 15 Tinieblas, 19 Rayo Confuso, 22 Golpe Bajo, 28 Vendetta, 33 Bola Sombra, 39 Comesueños, 44 Pulso Umbrio, 50 Mismo Destino, 55 Infortunio, 61 Pesadilla",
+        "movesTutor": "Tier 1: Bomba Ácida, Camuflaje, Cara Susto, Embargo, Fuego Fatuo, Furia, Garra Umbría, Gas Corrosivo, Golpe Bajo, Golpe Cabeza, Golpe Rastrero, Impresionar, Ladrón, Maquinación, Megaagotar, Mofa, Polución, Psicoonda, Tinieblas, Viento Aciago, Viento Hielo\nTier 2: Acoso, Alboroto, Anulación, Autosugestión, Bola Sombra, Bomba Lodo, Brillo Mágico, Cambio de Banda, Clonatipo, Comesueños, Danza Lluvia, Desarme, Día Soleado, Energibola, Gigadrenado, Intercambio, Lanzamiento, Metrónomo, Mimético, Niebla, Niebla Clara, Otra Vez, Pesadilla, Psicoonda, Psíquico, Púas Tóxicas, Pulso Umbrío, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Confuso, Rencor, Robo, Telequinesis, Tormento, Truco, Vendetta, Venganza\nTier 3: Autodestrucción, Canto Mortal, Carga Tóxica, Divide Dolor, Electrocañón, Espacio Raro, Golpe Umbrío, Infortunio, Juego Sucio, Lanzamugre, Onda Certera, Onda Tóxica, Poltergeist, Rabia, Trueno",
+        "specialCapabilities": "Anaerobio, Intangible, Invisibilidad, Potencial Latente, Sigiloso, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Gengar",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0094.png",
+    "system": {
+      "type1": "fantasma",
+      "type2": "veneno",
+      "diet": "Nulívoro",
+      "size": "40.5Kg, 1.5m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 7 }, "def": { "base": 6 },
+        "spatk": { "base": 13 }, "spdef": { "base": 8 }, "spd": { "base": 11 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 1, "sky": 5, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+5", "athletics": "3d6+0", "combat": "3d6+5",
+        "stealth": "3d6+7", "perception": "3d6+2", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 3, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": {
+        "hasMega": true,
+        "megaA": {
+          "name": "Mega Gengar",
+          "stone": "Gengarita",
+          "ability": "Sombra Trampa",
+          "img": "systems/ptu-neogenesis/assets/images/species/images/0094-Mega.png",
+          "type1": "fantasma",
+          "type2": "veneno",
+          "stats": { "atk": 0, "def": 2, "spatk": 4, "spdef": 2, "spd": 2 }
+        },
+        "megaB": { "hasMegaB": false }
+      },
+      "specialForms": {
+        "hasGMax": true,
+        "gmax": {
+          "name": "Gengar Gigamax",
+          "gmaxMove": "Gigaaparición",
+          "ability": "Cuerpo Maldito",
+          "height": "> 20.0m",
+          "img": "systems/ptu-neogenesis/assets/images/species/images/0094-Gmax.png"
+        },
+        "hasTera": false
+      },
+      "lists": {
+        "abilitiesBasic": "Levitación",
+        "abilitiesAdvanced": "Espantar, Cuerpo Maldito, Intervención Rencorosa",
+        "abilitiesHigh": "Ladrón de Almas",
+        "movesLevelUp": "5 Rencor, 8 Mal de Ojo, 12 Maldición, 15 Tinieblas, 19 Rayo Confuso, 22 Golpe Bajo, 28 Vendetta, 33 Bola Sombra, 39 Comesueños, 44 Pulso Umbrío, 50 Mismo Destino, 55 Infortunio, 61 Pesadilla",
+        "movesTutor": "Tier 1: Bomba Ácida, Camuflaje, Cara Susto, Embargo, Fuego Fatuo, Furia, Garra Umbría, Gas Corrosivo, Golpe Bajo, Golpe Cabeza, Golpe Rastrero, Golpe Roca, Impresionar, Ladrón, Maquinación, Megaagotar, Mofa, Polución, Psicoonda, Puño Incremento, Puño Sombra (N), Tinieblas, Viento Aciago, Viento Hielo\nTier 2: Acoso, Aguzar, Alboroto, Anulación, Autosugestión, Bola Sombra, Bomba Lodo, Brillo Mágico, Cambio de Banda, Clonatipo, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Día Soleado, Energibola, Fuerza, Gigadrenado, Golpe Cuerpo, Intercambio, Lanzamiento, Megapuño, Metrónomo, Mimético, Niebla, Niebla Clara, Onda Trueno, Otra Vez, Pesadilla, Psicoonda, Psicorruido, Psíquico, Púas Tóxicas, Pulso Umbrío, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Confuso, Rencor, Robo, Sísmico, Sumisión, Telequinesis, Tormento, Truco, Vendetta, Venganza\nTier 3: Autodestrucción, Cabezazo, Canto Mortal, Carga Tóxica, Divide Dolor, Doble Filo, Electrocañón, Espacio Raro, Gigaimpacto, Golpe Umbrío, Hiperrayo, Imitación, Infortunio, Juego Sucio, Lanzamugre, Megapatada, Onda Certera, Onda Tóxica, Poltergeist, Puño Certero, Puño Dinámico, Rabia, Trueno",
+        "specialCapabilities": "Anaerobio, Habitasombras, Intangible, Invisibilidad, Sigiloso, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Onix",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0095.png",
+    "system": {
+      "type1": "roca",
+      "type2": "tierra",
+      "diet": "Terrávoro",
+      "size": "210Kg, 8.8m (6, Enorme)",
+      "weightClass": 6,
+      "habitats": "Cueva, Montaña",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 7 }, "def": { "base": 14 },
+        "spatk": { "base": 3 }, "spdef": { "base": 5 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 7, "swim": 4, "jump": 1, "sky": 0, "burrow": 7, "power": 10
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+5", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+2", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Steelix", "criteria": "Intercambio"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Robustez, Armadura Frágil",
+        "abilitiesAdvanced": "Espantar, Vanguardia",
+        "abilitiesHigh": "Cabeza Roca",
+        "movesLevelUp": "1 Placaje, 1 Fortaleza, 1 Chapoteo Lodo, 1 Atadura, 4 Maldición, 7 Lanzarrocas, 10 Furia, 12 Terratemblor, 15 Trampa Rocas, 17 Tumba Rocas, 19 Pulimento, 20 Giro Bola, 22 Antiaéreo, 25 Atizar, 27 Magnitud, 29 Chirrido, 31 Avalancha, 34 Bucle Arena, 37 Cola Férrea, 40 Tormenta de Arena, 43 Excavar, 46 Roca Afilada, 49 Doble Filo",
+        "movesTutor": "Tier 1: Antiaéreo, Atadura, Bloqueo, Bofetón Lodo, Cara Susto, Chirrido, Danza Dragón, Furia, Giro Vil, Golpe Cabeza, Golpe Roca, Mofa, Pedrada, Poder Pasado, Pulimento, Rizo Defensa, Rodar, Terratemblor, Tumba Rocas, Vasto Impacto\nTier 2: Adaptación, Arenas Ardientes, Autosugestión, Avalancha, Azote, Bucle Arena, Cabeza de Hierro, Ciclón, Cola Dragón, Derribo, Día Soleado, Excavar, Fertilizante, Foco Resplandor, Fuerza, Giro Bola, Golpe Cuerpo, Mimético, Plancha Corporal, Pulso Dragón, Rugido, Taladradora, Tierra Viva, Tormenta de Arena, Tormento, Trampa Rocas, Treparrocas, Vasta Guardia, Vendetta, Venganza\nTier 3: Autodestrucción, Cabezazo, Cola Férrea, Cuerpo Pesado, Doble Filo, Fisura, Fuerza Equina, Pataleta, Rayo Meteórico, Roca Afilada, Terremoto",
+        "specialCapabilities": "Terreno Dominado: (Cueva, Montaña), Extensible, Potencial Latente, Sismosentido, Terraformación"
+      }
+    }
+  },
+  {
+    "name": "Steelix",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0208.png",
+    "system": {
+      "type1": "acero",
+      "type2": "tierra",
+      "diet": "Terrávoro",
+      "size": "400Kg, 9.2m (6, Gigante)",
+      "weightClass": 6,
+      "habitats": "Cueva, Desierto, Montaña",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 8 }, "atk": { "base": 9 }, "def": { "base": 20 },
+        "spatk": { "base": 6 }, "spdef": { "base": 7 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 7, "swim": 4, "jump": 1, "sky": 0, "burrow": 7, "power": 14
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+7", "combat": "3d6+3",
+        "stealth": "2d6+0", "perception": "3d6+2", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": {
+        "hasMega": true,
+        "megaA": {
+          "name": "Mega Steelix",
+          "stone": "Steelixita",
+          "ability": "Poder Arena",
+          "img": "systems/ptu-neogenesis/assets/images/species/images/0208-Mega.png",
+          "type1": "acero",
+          "type2": "tierra",
+          "stats": { "atk": 4, "def": 3, "spatk": 0, "spdef": 3, "spd": 0 }
+        },
+        "megaB": { "hasMegaB": false }
+      },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Robustez, Armadura Frágil",
+        "abilitiesAdvanced": "Espantar, Caparazón",
+        "abilitiesHigh": "Cabeza Roca",
+        "movesLevelUp": "4 Maldición, 7 Lanzarrocas, 10 Furia, 12 Terratemblor, 15 Trampa Rocas, 17 Tumba Rocas, 19 Aligerar, 20 Giro Bola, 22 Antiaéreo, 25 Atizar, 27 Magnitud, 29 Chirrido, 31 Avalancha, 34 Triturar, 37 Cola Férrea, 40 Tormenta de Arena, 43 Excavar, 46 Roca Afilada, 49 Doble Filo",
+        "movesTutor": "Tier 1: Antiaéreo, Atadura, Bloqueo, Bofetón Lodo, Bola Hielo, Cara Susto, Chirrido, Colmillo Hielo (N), Colmillo igneo (N), Colmillo Rayo (N), Corte, Danza Dragón, Defensa Férrea, Dragoaliento, Furia, Giro Vil, Golpe Cabeza, Golpe Roca, Mofa, Pedrada, Poder Pasado, Pulimento, Rizo Defensa, Rodar, Terratemblor, Tumba Rocas, Vasto Impacto\nTier 2: Acua Cola, Adaptación, Arenas Ardientes, Autosugestión, Avalancha, Azote, Bucle Arena, Cabeza de Hierro, Ciclón, Cola Dragón, Derribo, Día Soleado, Excavar, Fertilizante, Foco Resplandor, Fuerza, Giro Bola, Golpe Cuerpo, Mimético, Plancha Corporal, Psicocolmillo, Pulso Dragón, Pulso Umbrío, Rugido, Taladradora, Tierra Viva, Tormenta de Arena, Tormento, Trampa Rocas, Treparrocas, Triturar, Vasta Guardia, Vendetta, Venganza\nTier 3: Allanador Férreo, Autodestrucción, Cabezazo, Cola Férrea, Cuerpo Pesado, Doble Filo, Fisura, Fuerza Equina, Gigaimpacto, Hiperrayo, Levitón, Metaláser, Pataleta, Rayo Meteórico, Roca Afilada, Terremoto",
+        "specialCapabilities": "Terreno Dominado: (Cueva, Desierto, Montaña), Extensible, Sismosentido, Terraformación"
+      }
+    }
+  },
+  {
+    "name": "Drowzee",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0096.png",
+    "system": {
+      "type1": "psíquico",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "32.4Kg, 1m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Pantano, Pradera, Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 5 }, "def": { "base": 5 },
+        "spatk": { "base": 4 }, "spdef": { "base": 9 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+3", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Hypno", "criteria": "Nivel 25"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Insomnio, Hipnótico",
+        "abilitiesAdvanced": "Atrapasueños, Fuerza Mental",
+        "abilitiesHigh": "Alerta",
+        "movesLevelUp": "1 Hipnosis, 1 Destructor, 5 Anulación, 9 Confusión, 13 Golpe Cabeza, 17 Gas Venenoso, 21 Meditación, 25 Psicorrayo, 29 Espabila, 33 Autosugestión, 37 Sincrorruido, 41 Cabezazo Zen, 45 Contoneo, 49 Psíquico, 53 Maquinación, 57 Psicocarga, 61 Premonición",
+        "movesTutor": "Tier 1: Abrecaminos, Beso Drenaje, Camelo, Destello, Furia, Golpe Cabeza, Hierba Lazo, Ladrón, Maquinación, Meteoros, Mofa, Patada Baja, Paz Mental, Poder Reserva, Psicocorte, Psicoonda, Psicorrayo, Puño Incremento, Puntapié, Refuerzo, Tinieblas\nTier 2: Autosugestión, Ayuda, Barrera, Bola Sombra, Brillo Mágico, Cabezazo Zen, Cambio de Banda, Campo Psíquico, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Día Soleado, Esfuerzo, Golpe Cuerpo, Intercambio, Isofuerza, Lanzamiento, Megapuño, Metrónomo, Mimético, Niebla, Onda Trueno, Otra Vez, Pantalla de Luz, Pesadilla, Psicocarga, Psicoonda, Psicorruido, Psíquico, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo Señal, Reciclaje, Reflejo, Robo, Sísmico, Sumisión, Tambor, Telequinesis, Teletransporte, Tormento, Triataque, Truco, Vasta Fuerza, Velo Sagrado, Venganza\nTier 3: Cabezazo, Capa Mágica, Deseo, Doble Filo, Electrocañón, Espacio Raro, Imitación, Juego Sucio, Megapatada, Onda Certera, Premonición, Puño Certero, Puño Dinámico",
+        "specialCapabilities": "Terreno Dominado: (Pradera), Mente Sellada, Potencial Latente, Visión Onírica"
+      }
+    }
+  },
+  {
+    "name": "Hypno",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0097.png",
+    "system": {
+      "type1": "psíquico",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "75.6Kg, 1.6m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Pantano, Pradera, Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 9 }, "atk": { "base": 7 }, "def": { "base": 7 },
+        "spatk": { "base": 7 }, "spdef": { "base": 12 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+3", "combat": "3d6+2",
+        "stealth": "3d6+5", "perception": "3d6+3", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Insomnio, Hipnótico",
+        "abilitiesAdvanced": "Atrapasueños, Fuerza Mental",
+        "abilitiesHigh": "Alerta",
+        "movesLevelUp": "5 Anulación, 9 Confusión, 13 Golpe Cabeza, 17 Gas Venenoso, 21 Meditación, 25 Psicorrayo, 29 Espabila, 33 Autosugestión, 37 Sincrorruido, 41 Cabezazo Zen, 45 Contoneo, 49 Psíquico, 53 Maquinación, 57 Psicocarga, 61 Premonición",
+        "movesTutor": "Tier 1: Abrecaminos, Beso Drenaje, Camelo, Cara Susto, Destello, Furia, Golpe Cabeza, Hierba Lazo, Ladrón, Maquinación (N), Meteoros, Mofa, Patada Baja, Paz Mental, Poder Reserva, Psicocorte, Psicoonda, Psicorrayo, Puño Incremento, Puntapié, Refuerzo, Relevo, Tinieblas, Trapicheo (N)\nTier 2: Autosugestión, Ayuda, Barrera, Bola Sombra, Brillo Mágico, Cabezazo Zen, Cambio de Banda, Campo Psíquico, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Día Soleado, Esfuerzo, Golpe Cuerpo, Intercambio, Isofuerza, Lanzamiento, Megapuño, Metrónomo, Mimético, Niebla, Onda Trueno, Otra Vez, Pantalla de Luz, Pesadilla (N), Plancha Corporal, Psicocarga, Psicoonda, Psicorruido, Psíquico, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo Confuso, Rayo Señal, Reciclaje, Reflejo, Robo, Sísmico, Sumisión, Tambor, Telequinesis, Teletransporte, Tormento, Triataque, Truco, Vasta Fuerza, Velo Sagrado, Venganza\nTier 3: Cabezazo, Capa Mágica, Deseo, Doble Filo, Electrocañón, Espacio Raro, Gigaimpacto, Hiperrayo, Imitación, Infortunio, Juego Sucio, Megapatada, Onda Certera, Premonición (N), Puño Certero, Puño Dinámico",
+        "specialCapabilities": "Terreno Dominado: (Pradera), Mente Sellada, Visión Onírica"
+      }
+    }
+  },
+  {
+    "name": "Krabby",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0098.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Carnívoro",
+      "size": "6.5Kg, 0.4m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Playa",
+      "eggGroup1": "Agua 3",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 3 }, "atk": { "base": 11 }, "def": { "base": 9 },
+        "spatk": { "base": 3 }, "spdef": { "base": 3 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 1, "sky": 0, "burrow": 1, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Kingler", "criteria": "Nivel 25"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Corte Fuerte, Caparazón",
+        "abilitiesAdvanced": "Pompa, Potencia Bruta",
+        "abilitiesHigh": "Parar",
+        "movesLevelUp": "1 Burbuja, 1 Chapoteo Lodo, 1 Agarre, 5 Tenaza, 9 Garra Metal, 11 Fortaleza, 14 Malicioso, 17 Rayo Burbuja, 21 Disparo Lodo, 25 Concha Filo, 29 Danza Espada, 31 Protección, 35 Salmuera, 39 Atizar, 41 Martillazo, 43 Machada, 46 Azote, 48 Guillotina",
+        "movesTutor": "Tier 1: Afilagarras, Agilidad, Amnesia, Bofetón Lodo, Corte, Corte Furia, Cosquillas, Danza Espada, Defensa Férrea, Disparo Lodo, Falso Tortazo, Furia, Golpe Cabeza, Golpe Roca, Guardia Baja, Hidropulso, Ladrón, Pistola Agua, Poder Pasado, Rayo Burbuja, Tumba Rocas, Viento Hielo\nTier 2: Atizar, Avalancha, Azote, Buceo, Cambio de Banda, Concha Filo, Danza Lluvia, Demolición, Derribo, Desarme, Escaldar, Excavar, Fuerza, Golpe Cuerpo, Hidroariete, Lanzamiento, Mimético, Niebla, Paisaje Nevado, Rayo Hielo, Surf, Tijera X, Torbellino, Venganza\nTier 3: Aguante, Doble Filo, Fuerza Bruta, Salmuera, Ventisca",
+        "specialCapabilities": "Branquias, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Kingler",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0099.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Carnívoro",
+      "size": "60Kg, 1.3m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Playa",
+      "eggGroup1": "Agua 3",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 13 }, "def": { "base": 12 },
+        "spatk": { "base": 5 }, "spdef": { "base": 5 }, "spd": { "base": 8 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 4, "jump": 1, "sky": 0, "burrow": 1, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+5", "combat": "3d6+4",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": {
+        "hasGMax": true,
+        "gmax": {
+          "name": "Kingler Gigamax",
+          "gmaxMove": "Gigaespuma",
+          "ability": "Corte Fuerte",
+          "height": "> 19.0m",
+          "img": "systems/ptu-neogenesis/assets/images/species/images/0099-Gmax.png"
+        },
+        "hasTera": false
+      },
+      "lists": {
+        "abilitiesBasic": "Corte Fuerte, Caparazón",
+        "abilitiesAdvanced": "Pompa, Potencia Bruta",
+        "abilitiesHigh": "Entusiasmo",
+        "movesLevelUp": "Evo Pisotón, 1 Chapoteo Lodo, 1 Agarre, 5 Tenaza, 9 Garra Metal, 11 Fortaleza, 14 Malicioso, 17 Rayo Burbuja, 21 Disparo Lodo, 25 Concha Filo, 29 Danza Espada, 31 Protección, 35 Salmuera, 39 Atizar, 41 Martillazo, 43 Machada, 46 Azote, 48 Guillotina",
+        "movesTutor": "Tier 1: Afilagarras, Agilidad (N), Amnesia (N), Bofetón Lodo, Corte, Corte Furia, Cosquillas, Danza Espada, Defensa Férrea, Disparo Lodo, Falso Tortazo, Furia, Giro Vil, Golpe Cabeza, Golpe Roca, Guardia Baja, Hidropulso, Ladrón, Pistola Agua, Poder Pasado, Rayo Burbuja, Tumba Rocas, Último Lugar, Viento Hielo\nTier 2: Atizar, Avalancha, Azote, Buceo, Cambio de Banda, Concha Filo, Danza Lluvia, Demolición, Derribo, Desarme, Escaldar, Excavar, Fuerza, Golpe Cuerpo, Hidroariete, Lanzamiento, Mimético, Niebla, Paisaje Nevado, Rayo Hielo, Surf, Tijera X, Torbellino, Vasta Guardia (N), Venganza\nTier 3: Aguante, Doble Filo, Fuerza Bruta, Fuerza Equina, Gigaimpacto, Hidrobomba, Hiperrayo, Machada (N), Pataleta, Salmuera, Ventisca",
+        "specialCapabilities": "Branquias"
+      }
+    }
+  },
+  {
+    "name": "Voltorb",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0100.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "",
+      "diet": "Ergóvoro",
+      "size": "10.4Kg, 0.5m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Urbano",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 4 }, "atk": { "base": 3 }, "def": { "base": 5 },
+        "spatk": { "base": 6 }, "spdef": { "base": 6 }, "spd": { "base": 10 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "2d6+0",
+        "stealth": "3d6+3", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Electrode", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Electricidad Estática, Insonorizar",
+        "abilitiesAdvanced": "Impulso, Menos",
+        "abilitiesHigh": "Detonación",
+        "movesLevelUp": "1 Impactrueno, 1 Placaje, 5 Onda Trueno, 8 Rodar, 11 Bomba Sónica, 14 Cara Susto, 17 Rayo Carga, 19 Malicioso, 21 Onda Anómala, 24 Pantalla de Luz, 27 Bola Voltio, 30 Carga, 33 Levitón, 35 Disparo Espejo, 37 Chispazo, 40 Manto Espejo, 43 Trueno, 45 Autodestrucción",
+        "movesTutor": "Tier 1: Agilidad, Carga, Destello, Eco Metálico, Electrotela, Furia, Golpe Bajo, Golpe Cabeza, Ladrón, Meteoros, Mofa, Onda Anómala, Onda Voltio, Rayo Carga, Refuerzo, Rodar, Voltiocambio\nTier 2: Alivio, Bola Voltio, Campo Eléctrico, Danza Lluvia, Derribo, Giro Bola, Mimético, Onda Trueno, Pantalla de Luz, Rayo, Rayo Señal, Reflejo, Teletransporte, Tormento, Venganza, Voltio Cruel\nTier 3: Autodestrucción, Capa Mágica, Doble Filo, Electrocañón, Juego Sucio, Levitón, Trueno",
+        "specialCapabilities": "Encogible, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Electrode",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0101.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "",
+      "diet": "Ergóvoro",
+      "size": "66.6Kg, 1.2m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Urbano",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 5 }, "def": { "base": 7 },
+        "spatk": { "base": 8 }, "spdef": { "base": 8 }, "spd": { "base": 15 }
+      },
+      "capabilities": {
+        "overland": 8, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+4", "combat": "2d6+0",
+        "stealth": "3d6+5", "perception": "3d6+2", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Electricidad Estática, Insonorizar",
+        "abilitiesAdvanced": "Impulso, Más",
+        "abilitiesHigh": "Detonación",
+        "movesLevelUp": "5 Onda Trueno, 8 Rodar, 11 Bomba Sónica, 14 Cara Susto, 17 Rayo Carga, 19 Malicioso, 21 Onda Anómala, 24 Pantalla de Luz, 27 Bola Voltio, 30 Carga, 33 Levitón, 35 Disparo Espejo, 37 Chispazo, 40 Manto Espejo, 43 Trueno, 45 Autodestrucción",
+        "movesTutor": "Tier 1: Agilidad, Cara Susto, Carga, Destello, Eco Metálico, Electrotela, Furia, Golpe Bajo, Golpe Cabeza, Ladrón, Meteoros, Mofa, Onda Anómala, Onda Voltio, Rayo Carga, Refuerzo, Rodar, Voltiocambio\nTier 2: Alivio, Aura Magnética (N), Bola Voltio, Campo Eléctrico, Danza Lluvia, Derribo, Giro Bola, Mimético, Onda Trueno, Pantalla de Luz, Rayo, Rayo Señal, Reflejo, Telequinesis, Teletransporte, Tormento, Venganza, Voltio Cruel\nTier 3: Autodestrucción, Cabezazo, Capa Mágica, Doble Filo, Electrocañón, Gigaimpacto, Hiperrayo, Juego Sucio, Levitón, Plancha Voltaica, Trueno",
+        "specialCapabilities": "Encogible"
+      }
+    }
+  },
+  {
+    "name": "Voltorb Hisui",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0100-Hisui.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "planta",
+      "diet": "Ergóvoro",
+      "size": "13Kg, 0.5m (2, Pequeño)",
+      "weightClass": 2,
+      "habitats": "Pradera",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 4 }, "atk": { "base": 3 }, "def": { "base": 5 },
+        "spatk": { "base": 6 }, "spdef": { "base": 6 }, "spd": { "base": 10 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "2d6+0",
+        "stealth": "3d6+3", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Electrode Hisui", "criteria": "Piedra Hoja"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Electricidad Estática, Insonorizar",
+        "abilitiesAdvanced": "Celebrar, Confianza",
+        "abilitiesHigh": "Detonación",
+        "movesLevelUp": "1 Impactrueno, 1 Placaje, 5 Onda Trueno, 8 Semilladora, 11 Bomba Sónica, 14 Camaradería, 17 Rayo Carga, 19 Ojitos Tiernos, 21 Megaagotar, 24 Drenadoras, 27 Bola Voltio, 30 Carga, 33 Abatidoras, 35 Energibola, 37 Chispazo, 40 Manto Espejo, 43 Clorofiláser, 45 Autodestrucción",
+        "movesTutor": "Tier 1: Agilidad, Bola Hielo, Carga, Drenadoras, Electrotela, Fitoimpulso, Hierba Lazo, Hoja Mágica, Ladrón, Meteoros, Mofa, Rayo Carga, Semilladora, Voltiocambio\nTier 2: Abatidoras, Bola Voltio, Bomba Germen, Campo de Hierba, Campo Eléctrico, Danza Lluvia, Derribo, Energibola, Gigadrenado, Giro Bola, Onda Trueno, Rayo, Reciclaje, Reflejo, Voltio Cruel\nTier 3: Doble Filo, Juego Sucio, Lluevehojas, Rayo Solar, Trueno",
+        "specialCapabilities": "Encogible, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Electrode Hisui",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0101-Hisui.png",
+    "system": {
+      "type1": "eléctrico",
+      "type2": "planta",
+      "diet": "Ergóvoro",
+      "size": "71Kg, 1.2m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Pradera",
+      "eggGroup1": "Mineral",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 5 }, "def": { "base": 7 },
+        "spatk": { "base": 8 }, "spdef": { "base": 8 }, "spd": { "base": 15 }
+      },
+      "capabilities": {
+        "overland": 8, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+4", "combat": "2d6+0",
+        "stealth": "3d6+5", "perception": "3d6+2", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Electricidad Estática, Insonorizar",
+        "abilitiesAdvanced": "Celebrar, Confianza",
+        "abilitiesHigh": "Detonación",
+        "movesLevelUp": "5 Onda Trueno, 8 Semilladora, 11 Bomba Sónica, 14 Camaradería, 17 Rayo Carga, 19 Ojitos Tiernos, 21 Megaagotar, 24 Drenadoras, 27 Bola Voltio, 30 Carga, 33 Abatidoras, 35 Energibola, 37 Chispazo, 40 Manto Espejo, 43 Clorofiláser, 45 Autodestrucción",
+        "movesTutor": "Tier 1: Agilidad, Bola Hielo, Cara Susto, Carga, Drenadoras, Electrotela, Fitoimpulso, Hierba Lazo, Hoja Mágica, Ladrón, Meteoros, Mofa, Rayo Carga, Semilladora, Voltiocambio\nTier 2: Abatidoras, Bola Voltio, Bomba Germen, Campo de Hierba, Campo Eléctrico, Danza Lluvia, Derribo, Energibola, Gigadrenado, Giro Bola, Onda Trueno, Rayo, Reciclaje, Reflejo, Voltio Cruel\nTier 3: Doble Filo, Gigaimpacto, Hiperrayo, Juego Sucio, Lluevehojas, Rayo Solar, Trueno",
+        "specialCapabilities": "Encogible"
+      }
+    }
+  },
+  {
+    "name": "Exeggcute",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0102.png",
+    "system": {
+      "type1": "planta",
+      "type2": "psíquico",
+      "diet": "Fotótrofo",
+      "size": "2.5Kg, 0.4m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Bosque, Pradera, Selva",
+      "eggGroup1": "Planta",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 4 }, "def": { "base": 8 },
+        "spatk": { "base": 6 }, "spdef": { "base": 5 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 1, "jump": 1, "sky": 0, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+0", "combat": "3d6+1",
+        "stealth": "3d6+3", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Exeggutor, Exeggutor Alola", "criteria": "Piedra Hoja"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Filtro",
+        "abilitiesAdvanced": "Mente Compartida, Clorofila",
+        "abilitiesHigh": "Molar un Huevo",
+        "movesLevelUp": "1 Absorber, 1 Confusión, 1 Bombardeo, 4 Polvo Veneno, 7 Paralizador, 10 Camaradería, 13 Hipnosis, 16 Semilladora, 19 Reflejo, 22 Drenadoras, 25 Abatidoras",
+        "movesTutor": "Tier 1: Bloqueo, Danza Espada, Destello, Fitoimpulso, Furia, Golpe Cabeza, Hierba Lazo, Ladrón, Megaagotar, Poder Pasado, Poder Reserva, Polvo Veneno, Psicoonda, Psicorrayo, Refuerzo, Rodar, Semilladora\nTier 2: Abatidoras, Acoso, Adaptación, Alboroto, Arraigo, Autosugestión, Bomba Germen, Bomba Lodo, Cabezazo Zen, Campo de Hierba, Comesueños, Conjuro, Derribo, Día Soleado, Dulce Aroma, Energibola, Fuerza, Gigadrenado, Intercambio, Mimético, Pantalla de Luz, Paralizador, Pesadilla, Psicocarga, Psicoonda, Psicorruido, Psíquico, Reflejo, Somnífero, Telequinesis, Teletransporte, Truco, Venganza\nTier 3: Autodestrucción, Bomba Huevo, Deseo, Doble Filo, Espacio Raro, Gravedad, Lluevehojas, Luz Lunar, Rayo Solar, Síntesis",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera), Evolución Ramificada, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Exeggutor",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0103.png",
+    "system": {
+      "type1": "planta",
+      "type2": "psíquico",
+      "diet": "Fotótrofo",
+      "size": "120Kg, 2m (5, Grande)",
+      "weightClass": 5,
+      "habitats": "Bosque, Selva",
+      "eggGroup1": "Planta",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 10 }, "def": { "base": 9 },
+        "spatk": { "base": 13 }, "spdef": { "base": 8 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+3", "combat": "3d6+0",
+        "stealth": "3d6+5", "perception": "3d6+5", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Filtro",
+        "abilitiesAdvanced": "Mente Compartida, Clorofila",
+        "abilitiesHigh": "Molar un Huevo",
+        "movesLevelUp": "Evo Psicorrayo, 4 Polvo Veneno, 7 Paralizador, 10 Camaradería, 13 Hipnosis, 16 Semilladora, 19 Reflejo, 22 Drenadoras, 25 Abatidoras, 28 Pisotón, 31 Ciclón de Hojas, 34 Paz Mental, 37 Bomba Huevo, 40 Psíquico, 43 Rayo Solar, 47 Premonición",
+        "movesTutor": "Tier 1: Bloqueo, Confusión (N), Danza Espada, Destello, Fitoimpulso, Furia, Golpe Cabeza, Hierba Lazo, Hoja Mágica, Ladrón, Megaagotar, Patada Baja, Paz Mental, Poder Pasado, Poder Reserva, Polvo Veneno, Psicocorte, Psicoonda, Psicorrayo, Refuerzo, Rodar, Semilladora, Terratemblor\nTier 2: Abatidoras, Acoso, Adaptación, Alboroto, Arraigo, Autosugestión, Bomba Germen (N), Bomba Lodo, Cabezazo Zen, Campo de Hierba, Campo Psíquico, Comesueños, Conjuro, Derribo, Día Soleado, Dulce Aroma, Energibola, Fuerza, Gigadrenado, Golpe Cuerpo, Intercambio, Mimético, Pantalla de Luz, Paralizador, Pesadilla, Psicocarga, Psicoonda, Psicorruido, Psíquico, Pulso de Campo, Reflejo, Somnífero, Telequinesis, Teletransporte, Truco, Vasta Fuerza, Venganza\nTier 3: Autodestrucción, Bomba Huevo, Deseo, Doble Filo, Espacio Raro, Gigaimpacto, Gravedad, Hiperrayo, Lluevehojas, Luz Lunar, Pataleta, Premonición, Rayo Solar, Síntesis, Terremoto",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera)"
+      }
+    }
+  },
+  {
+    "name": "Exeggutor Alola",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0103-Alola.png",
+    "system": {
+      "type1": "planta",
+      "type2": "dragón",
+      "diet": "Fotótrofo",
+      "size": "415.6Kg, 10.9m (6, Enorme)",
+      "weightClass": 6,
+      "habitats": "Pradera, Selva",
+      "eggGroup1": "Planta",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 11 }, "def": { "base": 9 },
+        "spatk": { "base": 13 }, "spdef": { "base": 8 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+3", "combat": "3d6+2",
+        "stealth": "3d6+3", "perception": "3d6+7", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Filtro",
+        "abilitiesAdvanced": "Mente Compartida, Cacheo",
+        "abilitiesHigh": "Molar un Huevo",
+        "movesLevelUp": "Evo Cola Dragón, 4 Polvo Veneno, 7 Paralizador, 10 Camaradería, 13 Hipnosis, 16 Semilladora, 19 Reflejo, 22 Drenadoras, 25 Abatidoras, 28 Pisotón, 31 Ciclón de Hojas, 34 Danza Dragón, 37 Bomba Huevo, 40 Martillo Dragón, 43 Rayo Solar, 47 Cometa Draco",
+        "movesTutor": "Tier 1: Abrecaminos, Bloqueo, Bramido Dragón, Danza Espada, Destello, Fitoimpulso, Furia, Giro Vil, Golpe Cabeza, Hierba Lazo, Hoja Mágica, Ladrón, Megaagotar, Patada Baja, Paz Mental, Poder Pasado, Poder Reserva, Polvo Veneno, Psicoonda, Psicorrayo, Refuerzo, Rodar, Semilladora, Terratemblor, Vasto Impacto\nTier 2: Abatidoras, Acoso, Adaptación, Alboroto, Arraigo, Autosugestión, Bomba Germen, Bomba Lodo, Cabeza de Hierro, Cabezazo Zen, Campo de Hierba, Campo Psíquico, Cola Dragón, Comesueños, Conjuro, Demolición, Derribo, Desarme, Día Soleado, Dulce Aroma, Energibola, Fuerza, Gigadrenado, Golpe Cuerpo, Intercambio, Lanzallamas, Mimético, Pantalla de Luz, Paralizador, Pesadilla, Psicocarga, Psicoonda, Psicorruido, Psíquico, Pulso de Campo, Pulso Dragón, Reflejo, Somnífero, Telequinesis, Teletransporte, Truco, Venganza\nTier 3: Autodestrucción, Bomba Huevo, Cola Férrea, Cometa Draco, Deseo, Doble Filo, Enfado, Espacio Raro, Fuerza Bruta, Gigaimpacto, Gravedad, Hiperrayo, Latigazo, Lluevehojas, Luz Lunar, Pataleta, Rayo Solar, Síntesis, Terremoto",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera), Extensible"
+      }
+    }
+  },
+  {
+    "name": "Cubone",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0104.png",
+    "system": {
+      "type1": "tierra",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "6.5Kg, 0.4m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Cueva, Montaña, Urbano",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 5 }, "def": { "base": 10 },
+        "spatk": { "base": 4 }, "spdef": { "base": 5 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+2",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Marowak, Marowak Alola", "criteria": "Nivel 25 / Noche (Alola)"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Blandehuesos",
+        "abilitiesAdvanced": "Caparazón, Pararrayos",
+        "abilitiesHigh": "Cabeza Roca",
+        "movesLevelUp": "1 Gruñido, 3 Látigo, 7 Hueso Palo, 11 Golpe Cabeza, 13 Malicioso, 17 Foco Energia, 21 Huesomerang, 23 Furia, 27 Falso Tortazo, 31 Saña, 33 Lanzamiento, 37 Pataleta, 41 Esfuerzo, 43 Doble Filo, 47 Represalia, 51 Ataque Óseo",
+        "movesTutor": "Tier 1: Antiaéreo, Bofetón Lodo, Calcinación, Chirrido, Danza Espada, Defensa Férrea, Doble Patada, Eco Voz, Falso Tortazo, Foco Energía, Furia, Giro Vil, Golpe Aéreo, Golpe Cabeza, Golpe Roca, Guardia Baja, Ladrón, Malicioso, Meteoros, Patada Baja, Pistola Agua, Poder Pasado, Puño Incremento, Rayo Burbuja, Represalia, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Alboroto, Arenas Ardientes, Avalancha, Cabeza de Hierro, Contraataque, Demolición, Derribo, Desarme, Detección, Día Soleado, Esfuerzo, Excavar, Fuerza, Golpe Cuerpo, Lanzallamas, Lanzamiento, Megapuño, Mimético, Puño Fuego, Puño Trueno, Rayo Hielo, Sísmico, Sumisión, Tambor, Tierra Viva, Tormenta de Arena, Trampa Rocas, Treparrocas, Venganza\nTier 3: Aguante, Cabezazo, Canto Mortal, Cola Férrea, Doble Filo, Fisura, Llamarada, Megapatada, Pataleta, Puño Certero, Puño Dinámico, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Cueva, Montaña), Armado, Evolución Ramificada, Potencial Latente, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Marowak",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0105.png",
+    "system": {
+      "type1": "tierra",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "45Kg, 1m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Cueva, Montaña, Urbano",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 8 }, "def": { "base": 11 },
+        "spatk": { "base": 5 }, "spdef": { "base": 8 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 3, "jump": 2, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+4", "combat": "3d6+4",
+        "stealth": "3d6+4", "perception": "3d6+2", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Blandehuesos",
+        "abilitiesAdvanced": "Caparazón, Pararrayos",
+        "abilitiesHigh": "Cabeza Roca",
+        "movesLevelUp": "3 Látigo, 7 Hueso Palo, 11 Golpe Cabeza, 13 Malicioso, 17 Foco Energia, 21 Huesomerang, 23 Furia, 27 Falso Tortazo, 33 Saña, 37 Lanzamiento, 43 Pataleta, 49 Esfuerzo, 53 Doble Filo, 59 Represalia, 65 Ataque Óseo",
+        "movesTutor": "Tier 1: Antiaéreo, Bofetón Lodo, Calcinación, Chirrido, Danza Espada, Defensa Férrea, Doble Patada, Eco Voz, Falso Tortazo, Foco Energía, Furia, Giro Vil, Golpe Aéreo, Golpe Cabeza, Golpe Roca, Guardia Baja, Ladrón, Malicioso, Meteoros, Patada Baja, Pistola Agua, Poder Pasado, Puño Incremento, Rayo Burbuja, Represalia, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Aguzar, Alboroto, Arenas Ardientes, Avalancha, Cabeza de Hierro, Contraataque, Demolición, Derribo, Desarme, Detección, Día Soleado, Esfuerzo, Excavar, Fuerza, Golpe Cuerpo, Golpe Mordaza, Lanzallamas, Lanzamiento, Megapuño, Mimético, Puño Fuego, Puño Trueno, Rayo Hielo, Sísmico, Sumisión, Tambor, Tierra Viva, Tormenta de Arena, Trampa Rocas, Treparrocas, Venganza\nTier 3: Aguante, Cabezazo, Canto Mortal, Cola Férrea, Doble Filo, Enfado, Fisura, Gigaimpacto, Hiperrayo, Llamarada, Megapatada, Onda Certera, Pataleta, Puño Certero, Puño Dinámico, Roca Afilada, Terremoto, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Cueva, Montaña), Armado, Potencial Latente, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Marowak Alola",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0105-Alola.png",
+    "system": {
+      "type1": "fuego",
+      "type2": "fantasma",
+      "diet": "Herbívoro",
+      "size": "34Kg, 1m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Cueva, Montaña, Urbano",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 8 }, "def": { "base": 11 },
+        "spatk": { "base": 5 }, "spdef": { "base": 8 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 3, "jump": 2, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+4", "athletics": "3d6+2", "combat": "3d6+4",
+        "stealth": "3d6+4", "perception": "3d6+2", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Blandehuesos",
+        "abilitiesAdvanced": "Cuerpo Maldito, Pararrayos",
+        "abilitiesHigh": "Cabeza Roca",
+        "movesLevelUp": "3 Látigo, 7 Hueso Palo, 11 Rueda Fuego, 13 Malicioso, 17 Infortunio, 21 Huesomerang, 23 Fuego Fatuo, 27 Hueso Sombrío, 33 Saña, 37 Lanzamiento, 43 Pataleta, 49 Esfuerzo, 53 Envite Ígneo, 59 Represalia, 65 Ataque Óseo",
+        "movesTutor": "Tier 1: Antiaéreo, Chirrido, Danza Espada, Defensa Férrea, Doble Patada, Eco Voz, Envidia Ardiente, Falso Tortazo, Foco Energía, Fuego Fatuo, Giro Vil, Golpe Aéreo, Golpe Cabeza, Guardia Baja, Ladrón, Malicioso, Meteoros, Nitrocarga, Patada Baja, Poder Pasado, Represalia, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Aguzar, Alboroto, Arenas Ardientes, Avalancha, Bola Sombra, Cabeza de Hierro, Cambio de Banda, Comesueños, Danza Lluvia, Demolición, Desarme, Detección, Día Soleado, Esfuerzo, Excavar, Giro Fuego, Golpe Cuerpo, Golpe Mordaza, Lanzallamas, Lanzamiento, Megapuño, Pulso Umbrío, Puño Fuego, Puño Trueno, Rayo, Rayo Hielo, Rencor, Sísmico, Tambor, Tierra Viva, Tormenta de Arena, Trampa Rocas\nTier 3: Aguante, Cabezazo, Canto Mortal, Cola Férrea, Divide Dolor, Enfado, Envite Ígneo, Fisura, Gigaimpacto, Hiperrayo, Infortunio, Llamarada, Megapatada, Onda Certera, Onda Ígnea, Pataleta, Poltergeist, Puño Certero, Roca Afilada, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Cueva, Montaña), Armado, Luminoso, Potencial Latente, Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Tyrogue",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0236.png",
+    "system": {
+      "type1": "lucha",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "21Kg, 0.7m (2, Pequeño)",
+      "weightClass": 2,
+      "habitats": "Montaña, Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 100, "female": 0, "genderless": false },
+      "stats": {
+        "hp": { "base": 4 }, "atk": { "base": 4 }, "def": { "base": 4 },
+        "spatk": { "base": 4 }, "spdef": { "base": 4 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+3", "combat": "3d6+2",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 20, "nextStage": "Hitmonlee, Hitmonchan, Hitmontop", "criteria": "Nivel 20 (Diferentes stats)"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Agallas, Impasible",
+        "abilitiesAdvanced": "Insomnio, Disciplina",
+        "abilitiesHigh": "Celebrar",
+        "movesLevelUp": "1 Sorpresa, 1 Refuerzo, 1 Placaje, 1 Profecía",
+        "movesTutor": "Tier 1: Antojo, Avivar, Bofetón Lodo, Corpulencia, Foco Energía, Giro Rápido, Golpe Cabeza, Golpe Roca, Ladrón, Meteoros, Onda Vacío, Patada Baja, Puño Bala, Puño Mareo, Puntapié, Refuerzo, Represalia, Terratemblor, Ultrapuño\nTier 2: Aguzar, Alboroto, Amago, Avalancha, Contraataque, Danza Lluvia, Demolición, Derribo, Detección, Día Soleado, Fuerza, Golpe Cuerpo, Megapuño, Mimético, Persecución, Sísmico, Telépata\nTier 3: Aguante, Doble Filo, Imitación, Megapatada, Patada Salto Alta, Terremoto",
+        "specialCapabilities": "Evolución Ramificada, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Hitmonlee",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0106.png",
+    "system": {
+      "type1": "lucha",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "49.8Kg, 1.5m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Montaña, Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 100, "female": 0, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 12 }, "def": { "base": 5 },
+        "spatk": { "base": 4 }, "spdef": { "base": 11 }, "spd": { "base": 9 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 3, "jump": 3, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+6", "athletics": "3d6+7", "combat": "3d6+6",
+        "stealth": "3d6+2", "perception": "3d6+2", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Audaz, Liviano",
+        "abilitiesAdvanced": "Flexibilidad, Disciplina",
+        "abilitiesHigh": "Patadas Centella",
+        "movesLevelUp": "Evo Doble Patada, 5 Meditación, 9 Patada Giro, 13 Patada Salto, 17 Demolición, 21 Foco Energia, 25 Amago, 29 Patada Salto Alta, 33 Telépata, 37 Profecía, 41 Vasta Guardia, 45 Patada Ígnea, 49 Aguante, 53 Megapatada, 57 A Bocajarro, 61 Inversión",
+        "movesTutor": "Tier 1: Antojo, Avivar, Bofetón Lodo, Cara Susto, Corpulencia, Danza Espada, Foco Energía, Furia, Golpe Bajo, Golpe Cabeza, Golpe Roca, Ladrón, Meteoros, Mofa, Motivación, Onda Vacío, Patada Baja, Puño Incremento, Puntapié, Refuerzo, Relevo, Represalia, Terratemblor, Tumba Rocas\nTier 2: Aguzar, Alboroto, Amago, Avalancha, Bote, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Desquite, Detección, Día Soleado, Esfera Aural, Esfuerzo, Fuerza, Golpe Cuerpo, Golpe Mordaza, Lanzamiento, Megapuño, Metrónomo, Mimético, Patada Ígnea, Plancha, Puya Nociva, Sísmico, Sumisión, Treparrocas, Venganza\nTier 3: A Bocajarro, Aguante, Bote, Cabezazo, Doble Filo, Fuerza Bruta, Gigaimpacto, Imitación, Inversión (N), Megapatada, Onda Certera, Pataleta, Puño Certero, Puño Dinámico, Roca Afilada, Terremoto",
+        "specialCapabilities": "Extensible"
+      }
+    }
+  },
+  {
+    "name": "Hitmonchan",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0107.png",
+    "system": {
+      "type1": "lucha",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "50.2Kg, 1.4m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Montaña, Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 100, "female": 0, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 11 }, "def": { "base": 8 },
+        "spatk": { "base": 4 }, "spdef": { "base": 11 }, "spd": { "base": 8 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 2, "sky": 0, "burrow": 0, "power": 7
+      },
+      "skills": {
+        "acrobatics": "3d6+1", "athletics": "3d6+7", "combat": "3d6+6",
+        "stealth": "3d6+2", "perception": "3d6+2", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Puño Férreo, Vista Lince",
+        "abilitiesAdvanced": "Fuerza Mental, Disciplina",
+        "abilitiesHigh": "Guardaespaldas",
+        "movesLevelUp": "Evo Puño Cometa, 6 Agilidad, 11 Persecución, 16 Puño Bala, 16 Ultrapuño, 21 Amago, 26 Onda Vacío, 31 Anticipo, 36 Puño Fuego, 36 Puño Hielo, 36 Puño Trueno, 41 Gancho Alto, 46 Megapuño, 50 Detección, 56 Puño Certero, 61 Contraataque, 66 A Bocajarro",
+        "movesTutor": "Tier 1: Abrecaminos, Agilidad, Antojo, Avivar, Bofetón Lodo, Cara Susto, Corpulencia, Danza Espada, Foco Energía, Furia, Golpe Cabeza, Golpe Roca, Ladrón, Meteoros, Mofa, Motivación, Onda Vacío, Patada Baja, Puño Incremento, Puntapié, Refuerzo, Relevo, Represalia, Terratemblor, Tumba Rocas\nTier 2: Aguzar, Alboroto, Amago, Avalancha, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Desquite (N), Detección, Día Soleado, Esfera Aural, Esfuerzo, Fuerza, Golpe Cuerpo, Golpe Mordaza, Lanzamiento, Megapuño, Metrónomo, Mimético, Otra Vez, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Sísmico, Sumisión, Treparrocas, Venganza\nTier 3: A Bocajarro, Aguante, Cabezazo, Doble Filo, Gigaimpacto, Imitación, Inversión, Megapatada, Onda Certera, Puño Certero, Puño Dinámico, Roca Afilada, Terremoto",
+        "specialCapabilities": ""
+      }
+    }
+  },
+  {
+    "name": "Hitmontop",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0237.png",
+    "system": {
+      "type1": "lucha",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "48Kg, 1.4m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Montaña, Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 100, "female": 0, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 10 }, "def": { "base": 10 },
+        "spatk": { "base": 4 }, "spdef": { "base": 11 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 2, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+4", "athletics": "3d6+7", "combat": "3d6+6",
+        "stealth": "3d6+2", "perception": "3d6+2", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Intimidación, Experto",
+        "abilitiesAdvanced": "Impasible, Disciplina",
+        "abilitiesHigh": "Patada Torbellino",
+        "movesLevelUp": "Evo Patada Giro, 6 Foco Energía, 10 Persecución, 15 Ataque Rápido, 19 Giro Rápido, 24 Amago, 28 Contraataque, 33 Triple Patada, 37 Agilidad, 42 Giro Bola, 46 Anticipo, 46 Vasta Guardia, 50 Detección, 55 A Bocajarro, 60 Esfuerzo",
+        "movesTutor": "Tier 1: Agilidad, Antojo, Avivar, Bofetón Lodo, Corpulencia, Foco Energía, Giro Vil, Golpe Aéreo, Golpe Bajo, Golpe Cabeza, Golpe Roca, Ladrón, Meteoros, Motivación, Onda Vacío, Patada Baja, Puntapié, Refuerzo, Relevo, Represalia, Rodar, Terratemblor\nTier 2: Aguzar, Alboroto, Amago, Avalancha, Ciclón, Contraataque, Danza Lluvia, Demolición, Derribo, Desquite (N), Detección (N), Día Soleado, Esfuerzo (N), Excavar, Fuerza, Giro Bola, Golpe Cuerpo, Megapuño, Mimético, Pirueta Helada, Sísmico, Taladradora, Tormenta de Arena, Triple Axel\nTier 3: A Bocajarro, Aguante, Doble Filo, Gigaimpacto, Imitación, Inversión, Megapatada, Onda Certera, Roca Afilada, Terremoto",
+        "specialCapabilities": ""
+      }
+    }
+  },
+  {
+    "name": "Lickitung",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0108.png",
+    "system": {
+      "type1": "normal",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "65.5Kg, 1.2m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Bosque, Pradera, Selva",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 9 }, "atk": { "base": 6 }, "def": { "base": 8 },
+        "spatk": { "base": 6 }, "spdef": { "base": 8 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 4, "jump": 1, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Lickilicky", "criteria": "Conoce Desenrollar (Adaptado a Nivel 25 mínimo)"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Lengua Látigo",
+        "abilitiesAdvanced": "Despiste, Ritmo Propio, Repelús",
+        "abilitiesHigh": "Aclimatación",
+        "movesLevelUp": "1 Lengüetazo, 5 Supersónico, 9 Rizo Defensa, 13 Desarme, 17 Atadura, 21 Pisotón, 25 Anulación, 29 Atizar, 33 Rodar, 37 Guardia Baja, 41 Yo Primero, 45 Alivio, 49 Chirrido, 53 Latigazo, 57 Estrujón",
+        "movesTutor": "Tier 1: Amnesia, Atadura, Avivar, Bofetón Lodo, Bola Hielo, Calcinación, Chirrido, Corte, Danza Espada, Furia, Giro Vil, Golpe Cabeza, Golpe Roca, Hidropulso, Ladrón, Onda Voltio, Pistola Agua, Puño Incremento, Rayo Burbuja, Refuerzo, Represalia, Rizo Defensa, Rodar, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Acua Cola, Agua Lodosa, Autosugestión, Avalancha, Bola Sombra, Cabezazo Zen, Cola Dragón, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Día Soleado, Excavar, Fuerza, Golpe Cuerpo, Lanzallamas, Lanzamiento, Magnitud, Megapuño, Mimético, Pesadilla, Plancha Corporal, Pulso de Campo, Puño Fuego, Puño Hielo, Puño Trueno, Rayo, Rayo Hielo, Sísmico, Sumisión, Surf, Sustituto, Tambor, Torbellino, Tormenta de Arena, Treparrocas, Venganza\nTier 3: Allanador Férreo, Cabezazo, Cola Férrea, Doble Filo, Eructo, Estímulo, Fisura, Gigaimpacto, Hidrobomba, Hiperrayo, Latigazo, Llamarada, Machada, Megapatada, Pataleta, Puño Certero, Puño Dinámico, Rayo Solar, Saña, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera), Extensible, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Lickilicky",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0463.png",
+    "system": {
+      "type1": "normal",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "140Kg, 1.7m (5, Mediano)",
+      "weightClass": 5,
+      "habitats": "Bosque, Pradera, Selva",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 11 }, "atk": { "base": 9 }, "def": { "base": 10 },
+        "spatk": { "base": 8 }, "spdef": { "base": 10 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 4, "jump": 1, "sky": 0, "burrow": 0, "power": 5
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Lengua Látigo",
+        "abilitiesAdvanced": "Despiste, Ritmo Propio, Repelús",
+        "abilitiesHigh": "Aclimatación",
+        "movesLevelUp": "5 Supersónico, 9 Rizo Defensa, 13 Desarme, 17 Atadura, 21 Pisotón, 25 Anulación, 29 Atizar, 33 Rodar, 37 Guardia Baja, 41 Yo Primero, 45 Alivio, 49 Chirrido, 53 Latigazo, 57 Estrujón, 61 Giro Bola",
+        "movesTutor": "Tier 1: Amnesia, Atadura, Avivar, Bloqueo, Bofetón Lodo, Bola Hielo, Calcinación, Chirrido, Corte, Danza Espada, Furia, Giro Vil, Golpe Cabeza, Golpe Roca, Hidropulso, Ladrón, Onda Voltio, Pistola Agua, Puño Incremento, Rayo Burbuja, Refuerzo, Represalia, Rizo Defensa, Rodar, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Acua Cola, Agua Lodosa, Autosugestión, Avalancha, Bola Sombra, Cabezazo Zen, Cola Dragón, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Desarme, Día Soleado, Excavar, Fuerza, Giro Bola, Golpe Cuerpo, Lanzallamas, Lanzamiento, Magnitud, Megapuño, Mimético, Pesadilla, Plancha Corporal, Pulso de Campo, Puño Fuego, Puño Hielo, Puño Trueno, Rayo, Rayo Hielo, Sísmico, Sumisión, Surf, Sustituto, Tambor, Torbellino, Tormenta de Arena, Treparrocas, Venganza\nTier 3: Allanador Férreo, Autodestrucción, Cabezazo, Cola Férrea, Doble Filo, Eructo, Estímulo, Fisura, Gigaimpacto, Hidrobomba, Hiperrayo, Latigazo, Llamarada, Machada, Megapatada, Onda Certera, Pataleta, Puño Certero, Puño Dinámico, Rayo Solar, Saña, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera), Extensible"
+      }
+    }
+  },
+  {
+    "name": "Koffing",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0109.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "",
+      "diet": "Nulívoro",
+      "size": "1Kg, 0.6m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Montaña, Pantano, Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 4 }, "atk": { "base": 7 }, "def": { "base": 10 },
+        "spatk": { "base": 6 }, "spdef": { "base": 5 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 1, "jump": 0, "sky": 5, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+0", "combat": "3d6+1",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Weezing, Weezing Galar", "criteria": "Nivel 30"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Levitación",
+        "abilitiesAdvanced": "Humo Viscoso, Detonación, Hedor",
+        "abilitiesHigh": "Gas Reactivo",
+        "movesLevelUp": "1 Gas Venenoso, 1 Placaje, 4 Polución, 7 Pantalla de Humo, 12 Buena Baza, 15 Niebla Clara, 18 Residuos, 23 Autodestrucción, 26 Niebla, 29 Giro Bola, 34 Bomba Lodo, 37 Mismo Destino, 40 Eructo, 42 Legado",
+        "movesTutor": "Tier 1: Bomba Ácida, Calcinación, Cara Susto, Chirrido, Destello, Fuego Fatuo, Furia, Gas Corrosivo, Golpe Cabeza, Ladrón, Mofa, Onda Voltio, Psicoonda, Psicorrayo, Reserva, Rodar, Trampa Venenosa\nTier 2: Acoso, Alboroto, Bola Sombra, Bomba Lodo, Buena Baza, Danza Lluvia, Derribo, Día Soleado, Giro Bola, Golpe Cuerpo, Lanzallamas, Mimético, Mismo Destino, Niebla, Psicoonda, Púas Tóxicas, Pulso Umbrío, Rayo, Rencor, Tormento, Vendetta, Venganza\nTier 3: Autodestrucción, Carga Tóxica, Divide Dolor, Electrocañón, Escupir, Lanzamugre, Llamarada, Onda Tóxica, Rabia, Tragar, Trueno",
+        "specialCapabilities": "Inflable, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Weezing",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0110.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "",
+      "diet": "Nulívoro",
+      "size": "9.5Kg, 1.2m (1, Mediano)",
+      "weightClass": 1,
+      "habitats": "Montaña, Pantano, Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 7 }, "atk": { "base": 9 }, "def": { "base": 12 },
+        "spatk": { "base": 9 }, "spdef": { "base": 7 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 2, "swim": 1, "jump": 0, "sky": 6, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+0",
+        "stealth": "2d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Levitación",
+        "abilitiesAdvanced": "Humo Viscoso, Detonación, Hedor",
+        "abilitiesHigh": "Gas Reactivo",
+        "movesLevelUp": "Evo Doble Golpe, 4 Polución, 7 Pantalla de Humo, 12 Buena Baza, 15 Niebla Clara, 18 Residuos, 23 Autodestrucción, 26 Niebla, 29 Giro Bola, 34 Bomba Lodo, 40 Mismo Destino, 46 Eructo, 51 Legado",
+        "movesTutor": "Tier 1: Bomba Ácida, Calcinación, Cara Susto, Chirrido, Destello, Fuego Fatuo, Furia, Gas Corrosivo, Golpe Cabeza, Ladrón, Mofa, Onda Voltio, Psicoonda, Psicorrayo, Reserva, Rodar, Trampa Venenosa\nTier 2: Acoso, Alboroto, Bola Sombra, Bomba Lodo, Buena Baza, Danza Lluvia, Derribo, Día Soleado, Giro Bola, Golpe Cuerpo, Lanzallamas, Mimético, Mismo Destino, Niebla, Psicoonda, Púas Tóxicas, Pulso Umbrío, Rayo, Rencor, Tormento, Vendetta, Venganza\nTier 3: Autodestrucción, Carga Tóxica, Divide Dolor, Electrocañón, Escupir, Gigaimpacto, Hiperrayo, Lanzamugre, Llamarada, Onda ígnea, Onda Tóxica, Rabia, Tragar, Trueno",
+        "specialCapabilities": "Inflable"
+      }
+    }
+  },
+  {
+    "name": "Weezing Galar",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0110-Galar.png",
+    "system": {
+      "type1": "veneno",
+      "type2": "hada",
+      "diet": "Nulívoro",
+      "size": "16Kg, 3m (2, Grande)",
+      "weightClass": 2,
+      "habitats": "Bosque, Urbano",
+      "eggGroup1": "Amorfo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 7 }, "atk": { "base": 9 }, "def": { "base": 12 },
+        "spatk": { "base": 9 }, "spdef": { "base": 7 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 2, "swim": 1, "jump": 0, "sky": 4, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+0",
+        "stealth": "2d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Levitación",
+        "abilitiesAdvanced": "Humo Viscoso, Detonación, Nebulogénesis",
+        "abilitiesHigh": "Gas Reactivo",
+        "movesLevelUp": "Evo Doble Golpe, 4 Viento Feérico, 8 Niebla Aromática, 12 Niebla Clara, 16 Buena Baza, 20 Residuos, 24 Aromaterapia, 28 Autodestrucción, 32 Bomba Lodo, 38 Tóxico, 44 Eructo, 50 Legado, 56 Mismo Destino, 62 Campo de Niebla",
+        "movesTutor": "Tier 1: Bomba Ácida, Calcinación, Cara Susto, Chirrido, Destello, Fuego Fatuo, Furia, Gas Corrosivo, Giro Vil, Golpe Cabeza, Ladrón, Mofa, Onda Voltio, Psicoonda, Psicorrayo, Reserva, Rodar, Trampa Venenosa\nTier 2: Acoso, Alboroto, Bola Sombra, Bomba Lodo, Brillo Mágico, Buena Baza, Campo de Niebla (N), Carantoña, Cautivapor (N), Danza Lluvia, Derribo, Día Soleado, Giro Bola, Golpe Cuerpo, Lanzallamas, Mimético, Mismo Destino, Niebla (N), Psicoonda, Púas Tóxicas, Pulso Umbrío, Rayo, Rencor, Tormento, Vendetta, Venganza\nTier 3: Autodestrucción, Bruma Explosiva, Carga Tóxica, Divide Dolor, Doble Filo, Electrocañón, Escupir, Gigaimpacto, Hiperrayo, Lanzamugre, Llamarada, Onda Ígnea (N), Onda Tóxica, Rabia, Sofoco, Tragar, Trueno",
+        "specialCapabilities": "Inflable"
+      }
+    }
+  }
 ]
+
+[
+  {
+    "name": "Rhyhorn",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0111.png",
+    "system": {
+      "type1": "tierra",
+      "type2": "roca",
+      "diet": "Herbívoro",
+      "size": "115Kg, 1m (5, Mediano)",
+      "weightClass": 5,
+      "habitats": "Cueva, Montaña, Pradera",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 8 }, "atk": { "base": 9 }, "def": { "base": 10 },
+        "spatk": { "base": 3 }, "spdef": { "base": 3 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "2d6+0", "athletics": "3d6+3", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "2d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Rhydon", "criteria": "Nivel 25"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cabeza Roca, Roca Sólida",
+        "abilitiesAdvanced": "Robustez, Audaz",
+        "abilitiesHigh": "Pararrayos",
+        "movesLevelUp": "1 Antiaéreo, 1 Látigo, 1 Ataque Furia, 1 Bola Arcilla, 4 Cara Susto, 7 Afilar, 11 Cornada, 14 Terratemblor, 18 Trampa Rocas, 22 Derribo, 23 Avalancha, 27 Defensa Férrea, 31 Taladradora, 34 Vasta Guardia, 38 Roca Afilada, 42 Fuerza Equina, 45 Perforador, 48 Megacuerno, 52 Romperrocas",
+        "movesTutor": "Tier 1: Antiaéreo, Bofetón Lodo, Calcinación, Cara Susto, Colmillo Hielo, Colmillo Ígneo, Colmillo Rayo, Cuerno Certero, Danza Espada, Disparo Lodo, Furia, Garra Brutal, Golpe Cabeza, Golpe Roca, Ladrón, Onda Voltio, Pedrada, Poder Pasado, Pulimento, Rodar, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Acua Cola, Alboroto, Arenas Ardientes, Avalancha, Contraataque, Danza Lluvia, Derribo, Día Soleado, Esfuerzo, Excavar, Fertilizante, Fuerza, Golpe Cuerpo, Isofuerza, Lanzallamas, Magnitud, Mimético, Persecución, Plancha Corporal, Pulso Dragón, Puya Nociva, Rayo, Rayo Hielo, Rencor, Represión Metal, Rugido, Taladradora, Tierra Viva, Tormenta de Arena, Trampa Rocas, Treparrocas, Triturar, Vendetta, Venganza\nTier 3: Cabezazo, Carga Dragón, Cola Férrea, Cuerpo Pesado, Doble Filo, Electrocañón, Fisura, Fuerza Bruta, Fuerza Equina, Gigaimpacto, Inversión, Llamarada, Megacuerno, Pataleta, Perforador, Plancha Voltaica, Roca Afilada, Saña, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Montaña), Potencial Latente, Rastreador"
+      }
+    }
+  },
+  {
+    "name": "Rhydon",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0112.png",
+    "system": {
+      "type1": "tierra",
+      "type2": "roca",
+      "diet": "Herbívoro",
+      "size": "120Kg, 1.9m (5, Grande)",
+      "weightClass": 5,
+      "habitats": "Cueva, Montaña, Pradera",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 11 }, "atk": { "base": 13 }, "def": { "base": 12 },
+        "spatk": { "base": 5 }, "spdef": { "base": 5 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 8
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+5", "combat": "3d6+4",
+        "stealth": "3d6+0", "perception": "3d6+2", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 40, "nextStage": "Rhyperior", "criteria": "Intercambio con Protector"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cabeza Roca, Roca Sólida",
+        "abilitiesAdvanced": "Robustez, Audaz",
+        "abilitiesHigh": "Pararrayos",
+        "movesLevelUp": "Evo Machada, 1 Látigo, 1 Ataque Furia, 1 Bola Arcilla, 4 Cara Susto, 7 Afilar, 11 Cornada, 14 Terratemblor, 18 Trampa Rocas, 22 Derribo, 23 Avalancha, 27 Defensa Férrea, 31 Taladradora, 34 Vasta Guardia, 38 Roca Afilada, 42 Fuerza Equina, 45 Perforador, 48 Megacuerno, 52 Romperrocas",
+        "movesTutor": "Tier 1: Antiaéreo, Bloqueo, Bofetón Lodo, Calcinación, Cara Susto, Colmillo Hielo, Colmillo Ígneo, Colmillo Rayo, Corte, Corte Furia, Cuerno Certero, Danza Espada, Defensa Férrea, Disparo Lodo, Furia, Garra Brutal, Garra Metal, Garra Umbría, Giro Vil, Golpe Cabeza, Golpe Roca, Ladrón, Onda Voltio, Pedrada, Pistola Agua, Poder Pasado, Pulimento, Puño Incremento, Rayo Burbuja, Refuerzo, Rodar, Terratemblor, Tumba Rocas, Vasto Impacto, Viento Hielo\nTier 2: Acua Cola, Alboroto, Arenas Ardientes, Avalancha, Cola Dragón, Contraataque, Danza Lluvia, Demolición, Derribo, Día Soleado, Esfuerzo, Excavar, Fertilizante, Fuerza, Golpe Cuerpo, Isofuerza, Lanzallamas, Lanzamiento, Magnitud, Megapuño, Mimético, Persecución, Plancha Corporal, Pulso Dragón, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Hielo, Rencor, Represión Metal, Rugido, Sísmico, Sumisión, Surf, Taladradora, Tierra Viva, Torbellino, Tormenta de Arena, Trampa Rocas, Treparrocas, Triturar, Vendetta, Venganza\nTier 3: Alud, Cabezazo, Carga Dragón, Cola Férrea, Cuerpo Pesado, Día de Pago, Doble Filo, Electrocañón, Enfado, Fisura, Fuerza Bruta, Fuerza Equina, Gigaimpacto, Golpe Calor, Hidrobomba, Hiperrayo, Inversión, Llamarada, Megacuerno, Megapatada, Onda Certera, Pataleta, Perforador, Plancha Voltaica, Puño Certero, Puño Dinámico, Rayo Meteórico, Roca Afilada, Saña, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Montaña), Rastreador"
+      }
+    }
+  },
+  {
+    "name": "Rhyperior",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0464.png",
+    "system": {
+      "type1": "tierra",
+      "type2": "roca",
+      "diet": "Herbívoro",
+      "size": "120Kg, 2.4m (6, Grande)",
+      "weightClass": 6,
+      "habitats": "Montaña",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "Campo",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 12 }, "atk": { "base": 14 }, "def": { "base": 13 },
+        "spatk": { "base": 6 }, "spdef": { "base": 6 }, "spd": { "base": 4 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 11
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+7", "combat": "3d6+6",
+        "stealth": "3d6+0", "perception": "3d6+3", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 3, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cabeza Roca, Roca Sólida",
+        "abilitiesAdvanced": "Robustez, Parar",
+        "abilitiesHigh": "Pararrayos",
+        "movesLevelUp": "Evo Terremoto, 1 Látigo, 1 Ataque Furia, 1 Bola Arcilla, 4 Cara Susto, 7 Afilar, 11 Cornada, 14 Terratemblor, 18 Trampa Rocas, 22 Derribo, 23 Avalancha, 27 Defensa Férrea, 31 Taladradora, 34 Vasta Guardia, 38 Roca Afilada, 42 Fuerza Equina, 45 Perforador, 48 Megacuerno, 52 Romperrocas",
+        "movesTutor": "Tier 1: Antiaéreo, Bloqueo, Bofetón Lodo, Calcinación, Cara Susto, Colmillo Hielo, Colmillo Ígneo, Colmillo Rayo, Corte, Corte Furia, Cuerno Certero, Danza Espada, Defensa Férrea, Disparo Lodo, Furia, Garra Brutal, Garra Metal, Garra Umbría, Giro Vil, Golpe Cabeza, Golpe Roca, Ladrón, Onda Voltio, Pedrada, Pistola Agua, Poder Pasado, Pulimento, Puño Incremento, Rayo Burbuja, Refuerzo, Rodar, Terratemblor, Tumba Rocas, Vasto Impacto, Viento Hielo\nTier 2: Acua Cola, Alboroto, Arenas Ardientes, Avalancha, Cabeza de Hierro, Cola Dragón, Contraataque, Danza Lluvia, Demolición, Derribo, Día Soleado, Esfuerzo, Excavar, Fertilizante, Foco Resplandor, Fuerza, Golpe Cuerpo, Isofuerza, Lanzallamas, Lanzamiento, Magnitud, Megapuño, Mimético, Persecución, Plancha Corporal, Pulso Dragón, Puño Fuego, Puño Hielo, Puño Trueno, Puya Nociva, Rayo, Rayo Hielo, Rencor, Represión Metal, Rugido, Sísmico, Sumisión, Surf, Taladradora, Tierra Viva, Torbellino, Tormenta de Arena, Trampa Rocas, Treparrocas, Triturar, Vendetta, Venganza\nTier 3: Alud, Cabezazo, Carga Dragón, Cola Férrea, Cólera Ardiente, Cuerpo Pesado, Día de Pago, Doble Filo, Electrocañón, Enfado, Fisura, Fuerza Bruta, Fuerza Equina, Gigaimpacto, Golpe Calor, Hidrobomba, Hiperrayo, Inversión, Llamarada, Machada, Megacuerno, Megapatada, Onda Certera, Pataleta, Perforador, Plancha Voltaica, Puño Certero, Puño Dinámico, Rayo Meteórico, Roca Afilada, Romperrocas (N), Saña, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Montaña), Rastreador, Terraformación"
+      }
+    }
+  },
+  {
+    "name": "Happiny",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0440.png",
+    "system": {
+      "type1": "normal",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "24.4Kg, 0.6m (2, Pequeño)",
+      "weightClass": 2,
+      "habitats": "Pradera, Urbano",
+      "eggGroup1": "Hada",
+      "eggGroup2": "",
+      "hatchDays": 25,
+      "gender": { "male": 0, "female": 100, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 1 }, "def": { "base": 1 },
+        "spatk": { "base": 2 }, "spdef": { "base": 7 }, "spd": { "base": 3 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 1, "jump": 1, "sky": 0, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "2d6+0", "combat": "2d6+0",
+        "stealth": "3d6+2", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 20, "nextStage": "Chansey", "criteria": "Piedra Oval de Día"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cura Natural, Dicha",
+        "abilitiesAdvanced": "Compiescolta, Alma Cura",
+        "abilitiesHigh": "Toque Curativo",
+        "movesLevelUp": "1 Encanto, 1 Destructor, 5 Copión, 9 Alivio, 12 Beso Dulce",
+        "movesTutor": "Tier 1: Antojo, Avivar, Bofetón Lodo, Bomba Fango, Calcinación, Destello, Eco Voz, Encanto, Golpe Cabeza, Hidropulso, Hierba Lazo, Meteoros, Ojitos Tiernos, Onda Voltio, Paz Mental, Poder Reserva, Presente, Refuerzo, Rodar, Viento Hielo, Voz Cautivadora\nTier 2: Alboroto, Autosugestión, Beso Dulce, Bola Sombra, Cabezazo Zen, Cascabel Cura, Comesueños, Contraataque, Danza Lluvia, Derribo, Día Soleado, Esfuerzo, Lanzallamas, Lanzamiento, Metrónomo, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Presente, Psíquico, Puño Drenaje, Reciclaje, Sísmico, Velo Sagrado, Vozarrón\nTier 3: Aromaterapia, Gravedad, Llamarada, Rayo Solar, Última Baza",
+        "specialCapabilities": "Terreno Dominado: (Pradera, Urbano), Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Chansey",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0113.png",
+    "system": {
+      "type1": "normal",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "34.6Kg, 1.1m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Pradera, Urbano",
+      "eggGroup1": "Hada",
+      "eggGroup2": "",
+      "hatchDays": 25,
+      "gender": { "male": 0, "female": 100, "genderless": false },
+      "stats": {
+        "hp": { "base": 25 }, "atk": { "base": 1 }, "def": { "base": 1 },
+        "spatk": { "base": 4 }, "spdef": { "base": 11 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+0", "combat": "2d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 30, "nextStage": "Blissey", "criteria": "Lealtad Máxima"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cura Natural, Dicha",
+        "abilitiesAdvanced": "Compiescolta, Alma Cura",
+        "abilitiesHigh": "Toque Curativo",
+        "movesLevelUp": "5 Látigo, 9 Alivio, 12 Doble Bofetón, 16 Ovocuración, 20 Ofrenda, 23 Reducción, 27 Derribo, 31 Canto, 35 Lanzamiento, 39 Pulso Cura, 44 Bomba Huevo, 50 Pantalla de Luz, 57 Deseo Cura, 65 Doble Filo",
+        "movesTutor": "Tier 1: Abrecaminos, Agua Fría, Antojo, Avivar, Bofetón Lodo, Bomba Fango, Calcinación, Destello, Eco Voz, Encanto, Furia, Golpe Cabeza, Golpe Roca, Gruñido (N), Hidropulso, Hierba Lazo, Ladrón, Meteoros, Ojitos Tiernos, Onda Voltio, Paz Mental, Pistola Agua, Poder Reserva, Presente, Psicoonda, Puño Incremento, Rayo Burbuja, Rayo Carga, Refuerzo, Represalia, Rizo Defensa (N), Rodar, Terratemblor, Tumba Rocas, Viento Hielo, Voz Cautivadora\nTier 2: Aguzar, Alboroto, Autosugestión, Avalancha, Beso Dulce, Bola Sombra, Brillo Mágico, Cabezazo Zen, Cambio de Banda, Campo Eléctrico, Cascabel Cura, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Dia Soleado, Esfuerzo, Fuerza, Golpe Cuerpo, Intercambio, Lanzallamas, Lanzamiento, Megapuño, Metrónomo, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Presente, Psicoonda, Psíquico, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo, Rayo Hielo, Reciclaje, Reflejo, Robo, Sísmico, Sumisión, Telequinesis, Teletransporte, Tormenta de Arena, Trampa Rocas, Treparrocas, Triataque, Velo Sagrado, Venganza, Voltio Cruel, Vozarrón\nTier 3: Aguante, Aromaterapia, Bomba Huevo, Cabezazo, Cola Férrea, Doble Filo (N), Electrocañón, Gigaimpacto, Gravedad, Hiperrayo, Llamarada, Megapatada, Onda Certera, Ovocuración, Pataleta, Puño Certero, Puño Dinámico, Rayo Solar, Terremoto, Trueno, Última Baza, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pradera, Urbano)"
+      }
+    }
+  },
+  {
+    "name": "Blissey",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0242.png",
+    "system": {
+      "type1": "normal",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "46.8Kg, 1.5m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Pradera, Urbano",
+      "eggGroup1": "Hada",
+      "eggGroup2": "",
+      "hatchDays": 25,
+      "gender": { "male": 0, "female": 100, "genderless": false },
+      "stats": {
+        "hp": { "base": 26 }, "atk": { "base": 1 }, "def": { "base": 1 },
+        "spatk": { "base": 8 }, "spdef": { "base": 14 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 6, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+1", "athletics": "3d6+2", "combat": "2d6+0",
+        "stealth": "3d6+0", "perception": "3d6+1", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 3, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cura Natural, Dicha",
+        "abilitiesAdvanced": "Compiescolta, Alma Cura",
+        "abilitiesHigh": "Toque Curativo",
+        "movesLevelUp": "5 Látigo, 9 Alivio, 12 Doble Bofetón, 16 Ovocuración, 20 Ofrenda, 23 Reducción, 27 Derribo, 31 Canto, 35 Lanzamiento, 39 Pulso Cura, 44 Bomba Huevo, 50 Pantalla de Luz, 57 Deseo Cura, 65 Doble Filo",
+        "movesTutor": "Tier 1: Abrecaminos, Agua Fría, Antojo, Avivar, Bloqueo, Bofetón Lodo, Bomba Fango, Calcinación, Destello, Eco Voz, Encanto, Furia, Golpe Cabeza, Golpe Roca, Gruñido (N), Hidropulso, Hierba Lazo, Ladrón, Meteoros, Ojitos Tiernos, Onda Voltio, Paz Mental, Pistola Agua, Poder Reserva, Presente, Psicoonda, Puño Incremento, Rayo Burbuja, Rayo Carga, Refuerzo, Represalia, Rizo Defensa (N), Rodar, Terratemblor, Tumba Rocas, Viento Hielo, Voz Cautivadora\nTier 2: Aguzar, Alboroto, Autosugestión, Avalancha, Beso Dulce, Bola Sombra, Brillo Mágico, Cabezazo Zen, Cambio de Banda, Campo Eléctrico, Canto Encantador, Cascabel Cura, Comesueños, Contraataque, Danza Lluvia, Demolición, Derribo, Día Soleado, Esfuerzo, Fuerza, Golpe Cuerpo, Intercambio, Lanzallamas, Lanzamiento, Megapuño, Metrónomo, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Presente, Psicoonda, Psíquico, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo, Rayo Hielo, Reciclaje, Reflejo, Robo, Sísmico, Sumisión, Telequinesis, Teletransporte, Tormenta de Arena, Trampa Rocas, Treparrocas, Triataque, Truco, Velo Sagrado, Venganza, Voltio Cruel, Vozarrón\nTier 3: Aguante, Alud, Aromaterapia, Bomba Huevo, Cabezazo, Cola Férrea, Doble Filo, Electrocañón, Gigaimpacto, Gravedad, Hiperrayo, Llamarada, Megapatada, Onda Certera, Ovocuración, Pataleta, Puño Certero, Puño Dinámico, Rayo Solar, Terremoto, Trueno, Última Baza, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Pradera, Urbano)"
+      }
+    }
+  },
+  {
+    "name": "Tangela",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0114.png",
+    "system": {
+      "type1": "planta",
+      "type2": "",
+      "diet": "Fotótrofo",
+      "size": "35Kg, 1m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Bosque, Montaña, Pradera, Selva",
+      "eggGroup1": "Planta",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 7 }, "atk": { "base": 6 }, "def": { "base": 12 },
+        "spatk": { "base": 10 }, "spdef": { "base": 4 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 4, "swim": 1, "jump": 1, "sky": 0, "burrow": 0, "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+1",
+        "stealth": "3d6+3", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 30, "nextStage": "Tangrowth", "criteria": "Conoce Poder Pasado"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Manto Frondoso, Fuerza Vital",
+        "abilitiesAdvanced": "Clorofila, Defensa Hoja",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "1 Absorber, 1 Restricción, 4 Polvo Veneno, 7 Atadura, 10 Paralizador, 13 Desarme, 16 Megaagotar, 19 Somnífero, 21 Desarrollo, 24 Arraigo, 27 Cosquillas, 30 Gigadrenado, 33 Polvo Ira, 36 Atizar, 39 Bloqueo, 42 Enrosque, 45 Campo de Hierba, 48 Estrujón, 51 Latigazo",
+        "movesTutor": "Tier 1: Amnesia, Atadura, Confusión, Corte, Danza Espada, Destello, Drenadoras, Fitoimpulso, Furia, Golpe Cabeza, Golpe Roca, Hierba Lazo, Ladrón, Megaagotar, Onda Voltio, Poder Pasado, Semilladora\nTier 2: Abatidoras, Acoso, Adaptación, Autosugestión, Azote, Bomba Germen, Bomba Lodo, Campo de Hierba, Derribo, Desarme, Día Soleado, Dulce Aroma, Energibola, Esfuerzo, Gigadrenado, Golpe Cuerpo, Mimético, Polvo Ira, Reflejo, Venganza\nTier 3: Cabezazo, Divide Dolor, Doble Filo, Espabila, Gigaimpacto, Hiperrayo, Latigazo, Lluevehojas, Rayo Solar, Sintesis, Sol Matinal",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera), Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Tangrowth",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0465.png",
+    "system": {
+      "type1": "planta",
+      "type2": "",
+      "diet": "Fotótrofo",
+      "size": "128.6Kg, 2m (5, Grande)",
+      "weightClass": 5,
+      "habitats": "Pantano, Selva",
+      "eggGroup1": "Planta",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 10 }, "atk": { "base": 10 }, "def": { "base": 13 },
+        "spatk": { "base": 11 }, "spdef": { "base": 5 }, "spd": { "base": 5 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 2, "jump": 1, "sky": 0, "burrow": 0, "power": 7
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+5", "combat": "3d6+2",
+        "stealth": "3d6+5", "perception": "3d6+0", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Manto Frondoso, Fuerza Vital",
+        "abilitiesAdvanced": "Clorofila, Defensa Hoja",
+        "abilitiesHigh": "Regeneración",
+        "movesLevelUp": "Evo Poder Pasado, 4 Polvo Veneno, 7 Atadura, 10 Paralizador, 13 Desarme, 16 Megaagotar, 19 Somnífero, 21 Desarrollo, 24 Arraigo, 27 Cosquillas, 30 Gigadrenado, 33 Polvo Ira, 36 Atizar, 39 Bloqueo, 42 Enrosque, 45 Campo de Hierba, 48 Estrujón, 51 Latigazo",
+        "movesTutor": "Tier 1: Amnesia, Atadura, Bloqueo, Bofetón Lodo, Confusión, Corte, Danza Espada, Destello, Drenadoras, Fitoimpulso, Furia, Giro Vil, Golpe Aéreo, Golpe Cabeza, Golpe Roca, Hierba Lazo, Ladrón, Megaagotar, Meteoros, Onda Voltio, Poder Pasado, Semilladora, Terratemblor, Tumba Rocas\nTier 2: Abatidoras, Acoso, Adaptación, Autosugestión, Avalancha, Azote, Bomba Germen, Bomba Lodo, Campo de Hierba, Demolición, Derribo, Desarme, Día Soleado, Dulce Aroma, Energibola, Esfuerzo, Fuerza, Gigadrenado, Golpe Cuerpo, Lanzamiento, Mimético, Polvo Ira, Puya Nociva, Reflejo, Vendetta, Venganza\nTier 3: Cabezazo, Cuchilla Solar, Divide Dolor, Doble Filo, Espabila, Gigaimpacto, Hiperrayo, Latigazo, Lluevehojas, Onda Certera, Pataleta, Rayo Solar, Síntesis, Sol Matinal, Terremoto",
+        "specialCapabilities": "Terreno Dominado: (Bosque, Pradera), Extensible"
+      }
+    }
+  },
+  {
+    "name": "Kangaskhan",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0115.png",
+    "system": {
+      "type1": "normal",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "80Kg, 2.2m (4, Grande)",
+      "weightClass": 4,
+      "habitats": "Pradera, Selva",
+      "eggGroup1": "Monstruo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 100, "genderless": false },
+      "stats": {
+        "hp": { "base": 11 }, "atk": { "base": 10 }, "def": { "base": 8 },
+        "spatk": { "base": 4 }, "spdef": { "base": 8 }, "spd": { "base": 9 }
+      },
+      "capabilities": {
+        "overland": 7, "swim": 4, "jump": 2, "sky": 0, "burrow": 0, "power": 7
+      },
+      "skills": {
+        "acrobatics": "3d6+5", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+2", "focus": "3d6+1"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": {
+        "hasMega": true,
+        "megaA": {
+          "name": "Mega Kangaskhan",
+          "stone": "Kangaskhanita",
+          "ability": "Amor Filial",
+          "img": "systems/ptu-neogenesis/assets/images/species/images/0115-Mega.png",
+          "type1": "normal",
+          "type2": "",
+          "stats": { "atk": 3, "def": 2, "spatk": 2, "spdef": 2, "spd": 1 }
+        },
+        "megaB": { "hasMegaB": false }
+      },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Madrugar, Intrépido",
+        "abilitiesAdvanced": "Fuerza Mental, Competitivo",
+        "abilitiesHigh": "Guardaespaldas",
+        "movesLevelUp": "1 Puño Cometa, 1 Malicioso, 7 Sorpresa, 10 Látigo, 13 Mordisco, 19 Doble Golpe, 22 Furia, 25 Megapuño, 31 Guardia Baja, 34 Puño Mareo, 37 Triturar, 43 Aguante, 46 Enfado, 49 Golpe Bajo, 50 Inversión",
+        "movesTutor": "Tier 1: Antojo, Avivar, Bofetón Lodo, Calcinación, Corte, Corte Furia, Foco Energía, Furia, Garra Brutal, Garra Umbría, Golpe Aéreo, Golpe Bajo, Golpe Cabeza, Golpe Roca, Hidropulso, Ladrón, Llave Giro, Onda Voltio, Paliza, Patada Baja, Pisotón, Pistola Agua, Puño Incremento, Rayo Burbuja, Refuerzo, Represalia, Terratemblor, Tumba Rocas, Viento Hielo\nTier 2: Acua Cola, Alboroto, Anulación, Avalancha, Bola Sombra, Buena Baza, Canto, Contraataque, Danza Lluvia, Demolición, Derribo, Día Soleado, Esfuerzo, Excavar, Fuerza, Golpe Cuerpo, Lanzallamas, Lanzamiento, Megapuño, Mimético, Paisaje Nevado, Profecía, Pulso de Campo, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo, Rayo Hielo, Rencor, Rugido, Sísmico, Sumisión, Surf, Sustituto, Torbellino, Tormenta de Arena, Treparrocas, Triturar, Velo Sagrado, Venganza\nTier 3: Alud, As Oculto, Cabezazo, Cola Férrea, Doble Filo, Electrocañón, Enfado, Fisura, Gigaimpacto, Hidrobomba, Hiperrayo, Inversión, Llamarada, Machada, Megapatada, Onda Certera, Puño Certero, Puño Dinámico, Rayo Solar, Terremoto, Trueno, Ventisca",
+        "specialCapabilities": "Dependiente"
+      }
+    }
+  },
+  {
+    "name": "Horsea",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0116.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "8Kg, 0.4m (1, Pequeño)",
+      "weightClass": 1,
+      "habitats": "Océano",
+      "eggGroup1": "Agua 1",
+      "eggGroup2": "Dragón",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 3 }, "atk": { "base": 4 }, "def": { "base": 7 },
+        "spatk": { "base": 7 }, "spdef": { "base": 3 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 2, "swim": 5, "jump": 1, "sky": 0, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+0", "combat": "2d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Seadra", "criteria": "Nivel 25"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Francotirador",
+        "abilitiesAdvanced": "Humedad, Nado Rápido",
+        "abilitiesHigh": "Multiescamas",
+        "movesLevelUp": "1 Burbuja, 5 Pantalla de Humo, 9 Malicioso, 13 Pistola Agua, 17 Ciclón, 21 Rayo Burbuja, 26 Foco Energia, 31 Salmuera, 36 Agilidad, 41 Pulso Dragón, 46 Danza Dragón, 52 Hidrobomba",
+        "movesTutor": "Tier 1: Agilidad, Agua Fría, Danza Dragón, Dragoaliento, Foco Energía, Furia, Furia Dragón, Golpe Cabeza, Hidropulso, Meteoros, Pistola Agua, Pulpocañón, Rayo Aurora, Rayo Burbuja, Salpicadura, Viento Hielo, Viraje\nTier 2: Agua Lodosa, Anulación, Azote, Bote, Buceo, Cascada, Ciclón, Danza Lluvia, Derribo, Escaldar, Foco Resplandor, Hidroariete, Meteorobola, Mimético, Niebla Clara, Paisaje Nevado, Pulso Dragón, Ráfaga Escamas, Rayo Hielo, Rayo Señal, Surf, Torbellino, Venganza, Viento Cortante\nTier 3: Bote, Cabezazo, Doble Filo, Enfado, Hidrobomba, Salmuera, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Seadra",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0117.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "25Kg, 1.2m (2, Mediano)",
+      "weightClass": 2,
+      "habitats": "Océano",
+      "eggGroup1": "Agua 1",
+      "eggGroup2": "Dragón",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 7 }, "def": { "base": 10 },
+        "spatk": { "base": 10 }, "spdef": { "base": 5 }, "spd": { "base": 9 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 6, "jump": 1, "sky": 0, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+2", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+1", "focus": "3d6+3"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 40, "nextStage": "Kingdra", "criteria": "Intercambio con Escama Dragón"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Francotirador",
+        "abilitiesAdvanced": "Humedad, Punto Tóxico",
+        "abilitiesHigh": "Multiescamas",
+        "movesLevelUp": "5 Pantalla de Humo, 9 Malicioso, 13 Pistola Agua, 17 Ciclón, 21 Rayo Burbuja, 26 Foco Energia, 31 Salmuera, 36 Agilidad, 45 Pulso Dragón, 52 Danza Dragón, 60 Hidrobomba",
+        "movesTutor": "Tier 1: Agilidad, Agua Fría, Cara Susto, Danza Dragón, Dragoaliento, Foco Energía, Furia, Furia Dragón, Golpe Cabeza, Hidropulso, Meteoros, Pistola Agua, Pulpocañón, Rayo Aurora, Rayo Burbuja, Salpicadura, Viento Hielo, Viraje\nTier 2: Agua Lodosa, Aguzar, Anulación, Azote, Bote, Buceo, Cascada, Ciclón, Danza Lluvia, Derribo, Escaldar, Foco Resplandor, Hidroariete, Meteorobola, Mimético, Niebla Clara, Paisaje Nevado, Pulso Dragón, Ráfaga Escamas, Rayo Hielo, Rayo Señal, Surf, Torbellino, Venganza, Viento Cortante\nTier 3: Bote, Cabezazo, Doble Filo, Enfado, Gigaimpacto, Hidrobomba (N), Hiperrayo, Salmuera, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias"
+      }
+    }
+  },
+  {
+    "name": "Kingdra",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0230.png",
+    "system": {
+      "type1": "agua",
+      "type2": "dragón",
+      "diet": "Omnívoro",
+      "size": "152Kg, 1.8m (5, Mediano)",
+      "weightClass": 5,
+      "habitats": "Océano",
+      "eggGroup1": "Agua 1",
+      "eggGroup2": "Dragón",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 8 }, "atk": { "base": 10 }, "def": { "base": 10 },
+        "spatk": { "base": 10 }, "spdef": { "base": 10 }, "spd": { "base": 9 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 8, "jump": 1, "sky": 0, "burrow": 0, "power": 6
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+6", "combat": "3d6+5",
+        "stealth": "3d6+0", "perception": "3d6+3", "focus": "3d6+5"
+      },
+      "evolution": {
+        "stage": 3, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Francotirador",
+        "abilitiesAdvanced": "Humedad, Punto Tóxico",
+        "abilitiesHigh": "Multiescamas",
+        "movesLevelUp": "5 Pantalla de Humo, 9 Malicioso, 13 Pistola Agua, 17 Ciclón, 21 Rayo Burbuja, 26 Foco Energia, 31 Salmuera, 36 Agilidad, 45 Pulso Dragón, 52 Danza Dragón, 60 Hidrobomba",
+        "movesTutor": "Tier 1: Agilidad, Agua Fría, Cara Susto, Danza Dragón, Dragoaliento, Foco Energía, Furia, Furia Dragón, Golpe Cabeza, Hidropulso, Meteoros, Pistola Agua, Pulpocañón, Rayo Aurora, Rayo Burbuja, Salpicadura, Último Lugar, Vasto Impacto, Viento Hielo, Viraje\nTier 2: Agua Lodosa, Aguzar, Anulación, Azote, Bostezo (N), Bote, Buceo, Cabeza de Hierro, Cascada, Ciclón, Danza Lluvia, Derribo, Escaldar, Foco Resplandor, Golpe Cuerpo, Hidroariete, Meteorobola, Mimético, Niebla Clara, Paisaje Nevado, Pulso Dragón, Ráfaga Escamas, Rayo Hielo, Rayo Señal, Surf, Torbellino, Venganza, Viento Cortante\nTier 3: Bote, Cabezazo, Cometa Draco, Doble Filo, Enfado, Gigaimpacto, Hidrobomba (N), Hiperrayo, Salmuera, Vendaval, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias"
+      }
+    }
+  },
+  {
+    "name": "Goldeen",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0118.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "15Kg, 0.6m (2, Pequeño)",
+      "weightClass": 2,
+      "habitats": "Agua Dulce",
+      "eggGroup1": "Agua 2",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 5 }, "atk": { "base": 7 }, "def": { "base": 6 },
+        "spatk": { "base": 4 }, "spdef": { "base": 5 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 1, "swim": 5, "jump": 1, "sky": 0, "burrow": 0, "power": 1
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 20, "nextStage": "Seaking", "criteria": "Nivel 20"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Pararrayos, Piel Seca",
+        "abilitiesAdvanced": "Velo Fresco, Nado Rápido",
+        "abilitiesHigh": "Cuerno Salvaje",
+        "movesLevelUp": "1 Acua Jet, 1 Látigo, 1 Hidrochorro, 6 Supersónico, 8 Danza Lluvia, 11 Ataque Furia, 13 Acua Aro, 16 Viraje, 18 Cornada, 21 Agilidad, 23 Cascada, 26 Pico Taladro, 28 Branquibocado, 31 Taladradora, 34 Empapar, 36 Azote, 40 Megacuerno, 43 Danza Aleteo, 47 Envite Acuático, 50 Perforador",
+        "movesTutor": "Tier 1: Agilidad, Bofetón Lodo, Chapoteo Lodo, Cuerno Certero, Danza Espada, Disparo Lodo, Furia, Golpe Cabeza, Hidropulso, Meteoros, Pistola Agua, Psicorrayo, Rayo Burbuja, Viento Hielo, Viraje\nTier 2: Acua Cola, Agua Lodosa, Bote, Buceo, Cascada, Danza Lluvia, Derribo, Desarme, Escaldar, Golpe Cuerpo, Golpe Mordaza, Mimético, Niebla, Paisaje Nevado, Puya Nociva, Ráfaga Escamas, Rayo Hielo, Rayo Señal, Surf, Taladradora, Torbellino, Venganza\nTier 3: Bote, Cabezazo, Doble Filo, Hidrobomba, Megacuerno, Perforador, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Seaking",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0119.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Omnívoro",
+      "size": "39Kg, 1.3m (3, Mediano)",
+      "weightClass": 3,
+      "habitats": "Agua Dulce",
+      "eggGroup1": "Agua 2",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 8 }, "atk": { "base": 9 }, "def": { "base": 7 },
+        "spatk": { "base": 6 }, "spdef": { "base": 8 }, "spd": { "base": 7 }
+      },
+      "capabilities": {
+        "overland": 1, "swim": 6, "jump": 2, "sky": 0, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+4", "combat": "3d6+2",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Pararrayos, Piel Seca",
+        "abilitiesAdvanced": "Velo Fresco, Nado Rápido",
+        "abilitiesHigh": "Cuerno Salvaje",
+        "movesLevelUp": "Evo Danza Acuática, 1 Látigo, 1 Hidrochorro, 6 Supersónico, 8 Danza Lluvia, 11 Ataque Furia, 13 Acua Aro, 16 Viraje, 18 Cornada, 21 Agilidad, 23 Cascada, 26 Pico Taladro, 28 Branquibocado, 31 Taladradora, 34 Empapar, 36 Azote, 40 Megacuerno, 43 Danza Aleteo, 47 Envite Acuático, 50 Perforador",
+        "movesTutor": "Tier 1: Agilidad, Bofetón Lodo, Chapoteo Lodo, Cuerno Certero, Danza Espada, Disparo Lodo, Furia, Golpe Cabeza, Hidropulso, Meteoros, Pistola Agua, Psicorrayo, Rayo Burbuja, Viento Hielo, Viraje\nTier 2: Acua Cola, Agua Lodosa, Bote, Buceo, Cascada, Danza Lluvia, Derribo, Desarme, Escaldar, Golpe Cuerpo, Golpe Mordaza, Mimético, Niebla, Paisaje Nevado, Puya Nociva (N), Ráfaga Escamas, Rayo Hielo, Rayo Señal, Surf, Taladradora, Torbellino, Venganza\nTier 3: Aguante, Bote, Cabezazo, Doble Filo, Gigaimpacto, Hidrobomba, Hiperrayo, Megacuerno (N), Perforador, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Océano), Branquias, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Staryu",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0120.png",
+    "system": {
+      "type1": "agua",
+      "type2": "",
+      "diet": "Herbívoro",
+      "size": "34.5Kg, 0.8m (3, Pequeño)",
+      "weightClass": 3,
+      "habitats": "Océano",
+      "eggGroup1": "Agua 3",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 3 }, "atk": { "base": 5 }, "def": { "base": 6 },
+        "spatk": { "base": 7 }, "spdef": { "base": 6 }, "spd": { "base": 9 }
+      },
+      "capabilities": {
+        "overland": 1, "swim": 3, "jump": 1, "sky": 4, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+4", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+4", "perception": "3d6+2", "focus": "3d6+0"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 25, "nextStage": "Starmie", "criteria": "Piedra Agua"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cura Natural, Iluminación",
+        "abilitiesAdvanced": "Cálculo Final, Giro Estrellado",
+        "abilitiesHigh": "Aceleración Mitótica",
+        "movesLevelUp": "1 Fortaleza, 1 Placaje, 4 Pistola Agua, 7 Giro Rápido, 10 Recuperación, 13 Psicoonda, 16 Meteoros, 18 Rayo Burbuja, 22 Camuflaje, 24 Giro Bola, 28 Salmuera, 31 Reducción, 35 Resplandor, 37 Joya de Luz, 40 Rayo Confuso, 42 Psíquico, 46 Pantalla de Luz, 49 Masa Cósmica, 53 Hidrobomba",
+        "movesTutor": "Tier 1: Destello, Furia, Golpe Cabeza, Hidropulso, Masa Cósmica, Meteoros, Pistola Agua, Psicoonda, Rayo Aurora, Rayo Burbuja, Viento Hielo, Viraje\nTier 2: Autosugestión, Barrera, Brillo Mágico, Buceo, Cascada, Ciclón, Danza Lluvia, Derribo, Escaldar, Foco Resplandor, Giro Bola, Joya de Luz, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Psicoonda, Psíquico, Rayo, Rayo Hielo, Rayo Señal, Reciclaje, Reflejo, Supersónico, Surf, Teletransporte, Torbellino, Triataque, Venganza\nTier 3: Cabezazo, Capa Mágica, Divide Dolor, Doble Filo, Electrocañón, Gravedad, Hidrobomba, Salmuera, Trueno, Ventisca",
+        "specialCapabilities": "Branquias, Luminoso, Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Starmie",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0121.png",
+    "system": {
+      "type1": "agua",
+      "type2": "psíquico",
+      "diet": "Herbívoro",
+      "size": "80Kg, 1.1m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Océano",
+      "eggGroup1": "Agua 3",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": { "male": 0, "female": 0, "genderless": true },
+      "stats": {
+        "hp": { "base": 6 }, "atk": { "base": 8 }, "def": { "base": 9 },
+        "spatk": { "base": 10 }, "spdef": { "base": 9 }, "spd": { "base": 12 }
+      },
+      "capabilities": {
+        "overland": 1, "swim": 6, "jump": 1, "sky": 6, "burrow": 0, "power": 3
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+0", "combat": "3d6+0",
+        "stealth": "3d6+4", "perception": "3d6+4", "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Cura Natural, Iluminación",
+        "abilitiesAdvanced": "Cálculo Final, Giro Estrellado",
+        "abilitiesHigh": "Aceleración Mitótica",
+        "movesLevelUp": "4 Pistola Agua, 7 Giro Rápido, 10 Recuperación, 13 Psicoonda, 16 Meteoros, 18 Rayo Burbuja, 22 Camuflaje, 24 Giro Bola, 28 Salmuera, 31 Reducción, 35 Resplandor, 37 Joya de Luz, 40 Rayo Confuso, 42 Psíquico, 46 Pantalla de Luz, 49 Masa Cósmica, 53 Hidrobomba",
+        "movesTutor": "Tier 1: Agilidad, Destello, Furia, Golpe Cabeza, Hidropulso, Hierba Lazo, Masa Cósmica, Meteoros (N), Pistola Agua, Psicocorte, Psicoonda, Rayo Aurora, Rayo Burbuja, Viento Hielo, Viraje\nTier 2: Autosugestión, Barrera, Brillo Mágico, Buceo, Cambio de Banda, Cascada, Ciclón, Comesueños, Danza Lluvia, Derribo, Escaldar, Foco Resplandor, Giro Bola, Intercambio, Joya de Luz, Mimético, Onda Trueno, Paisaje Nevado, Pantalla de Luz, Pesadilla, Psicocarga, Psicoonda, Psíquico, Rayo, Rayo Hielo, Rayo Señal, Reciclaje, Reflejo, Supersónico, Surf, Telequinesis, Teletransporte, Torbellino, Triataque, Truco, Venganza\nTier 3: Alud, Cabezazo, Capa Mágica, Divide Dolor, Doble Filo, Electrocañón, Espacio Raro, Foco (N), Gigaimpacto, Gravedad, Hidrobomba (N), Hiperrayo, Salmuera, Trueno, Ventisca",
+        "specialCapabilities": "Branquias, Luminoso"
+      }
+    }
+  },
+  {
+    "name": "Mime Jr.",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0439.png",
+    "system": {
+      "type1": "psíquico",
+      "type2": "hada",
+      "diet": "Omnívoro",
+      "size": "13Kg, 0.6m (2, Pequeño)",
+      "weightClass": 2,
+      "habitats": "Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 2 }, "atk": { "base": 3 }, "def": { "base": 5 },
+        "spatk": { "base": 7 }, "spdef": { "base": 9 }, "spd": { "base": 6 }
+      },
+      "capabilities": {
+        "overland": 3, "swim": 1, "jump": 1, "sky": 0, "burrow": 0, "power": 2
+      },
+      "skills": {
+        "acrobatics": "3d6+2", "athletics": "3d6+0", "combat": "2d6+0",
+        "stealth": "3d6+0", "perception": "3d6+0", "focus": "3d6+2"
+      },
+      "evolution": {
+        "stage": 1, "evoLevel": 20, "nextStage": "Mr. Mime, Mr. Mime Galar", "criteria": "Saber Mimético"
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Insonorizar, Filtro",
+        "abilitiesAdvanced": "Experto, Imitador",
+        "abilitiesHigh": "Muro Perfecto",
+        "movesLevelUp": "1 Confusión, 1 Destructor, 1 Barrera, 1 Cosquillas, 4 Copión, 6 Meditación, 8 Otra Vez, 10 Viento Feérico, 12 Doble Bofetón, 14 Mimético, 16 Imitación, 20 Psicorrayo, 22 Reflejo, 22 Pantalla de Luz, 26 Truco, 28 Protección, 30 Sustituto, 32 Reciclaje, 34 Brillo Mágico, 36 Velo Sagrado, 40 Golpe Bajo, 42 Relevo, 46 Psíquico, 50 Danza Caos",
+        "movesTutor": "Tier 1: Antojo, Bofetón Lodo, Cosquillas, Destello, Encanto, Golpe Cabeza, Hierba Lazo, Ladrón, Maquinación, Meteoros, Mofa, Onda Voltio, Paz Mental, Poder Reserva, Rayo Carga, Refuerzo, Relevo, Sorpresa, Viento Hielo\nTier 2: Acoso, Alboroto, Autosugestión, Bola Sombra, Brillo Mágico, Cabezazo Zen, Cambio de Banda, Campo de Niebla, Campo Psíquico, Comesueños, Danza Caos, Danza Lluvia, Demolición, Día Soleado, Hipnosis, Intercambio, Isofuerza, Lanzamiento, Mimético, Onda Trueno, Otra Vez, Pantalla de Luz, Psicocarga, Psíquico, Puño Drenaje, Puño Trueno, Rayo, Rayo Confuso, Rayo Señal, Reciclaje, Reflejo, Robo, Señuelo, Telequinesis, Tormento, Truco, Velo Sagrado\nTier 3: Capa Mágica, Deseo Cura, Espabila, Espacio Raro, Premonición, Puño Certero, Rayo Solar, Trueno",
+        "specialCapabilities": "Potencial Latente"
+      }
+    }
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0122.png",
+    "system": {
+      "type1": "psíquico",
+      "type2": "hada",
+      "diet": "Omnívoro",
+      "size": "54.5Kg, 1.3m (4, Mediano)",
+      "weightClass": 4,
+      "habitats": "Urbano",
+      "eggGroup1": "Humanoide",
+      "eggGroup2": "",
+      "hatchDays": 13,
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 4 }, "atk": { "base": 5 }, "def": { "base": 7 },
+        "spatk": { "base": 10 }, "spdef": { "base": 12 }, "spd": { "base": 9 }
+      },
+      "capabilities": {
+        "overland": 5, "swim": 3, "jump": 1, "sky": 0, "burrow": 0, "power": 5
+      },
+      "skills": {
+        "acrobatics": "3d6+0", "athletics": "3d6+3", "combat": "3d6+0",
+        "stealth": "3d6+3", "perception": "3d6+5", "focus": "3d6+7"
+      },
+      "evolution": {
+        "stage": 2, "evoLevel": 0, "nextStage": "", "criteria": ""
+      },
+      "megaEvo": { "hasMega": false },
+      "specialForms": { "hasGMax": false, "hasTera": false },
+      "lists": {
+        "abilitiesBasic": "Insonorizar, Filtro",
+        "abilitiesAdvanced": "Experto, Imitador",
+        "abilitiesHigh": "Muro Perfecto",
+        "movesLevelUp": "4 Copión, 6 Meditación, 8 Otra Vez, 10 Viento Feérico, 12 Doble Bofetón, 14 Mimético, 16 Imitación, 20 Psicorrayo, 22 Reflejo, 22 Pantalla de Luz, 26 Truco, 28 Protección, 30 Sustituto, 32 Reciclaje, 34 Brillo Mágico, 36 Velo Sagrado, 40 Golpe Bajo, 42 Psíquico, 46 Relevo, 50 Danza Caos",
+        "movesTutor": "Tier 1: Antojo, Bofetón Lodo, Cosquillas, Defensa Férrea, Destello, Encanto, Furia, Golpe Aéreo, Golpe Cabeza, Hierba Lazo, Hoja Mágica (N), Ladrón, Llama Embrujada, Maquinación, Mofa, Onda Voltio, Paz Mental, Poder Reserva, Psicoonda, Puño Incremento, Rayo Carga, Refuerzo, Relevo, Sorpresa, Viento Hielo\nTier 2: Acoso, Alboroto, Anticipo (N), Autosugestión, Bola Sombra, Brillo Mágico, Cabezazo Zen, Cambiaalmas (N), Cambio de Banda, Campo de Niebla (N), Campo Psíquico, Comesueños, Contraataque, Danza Caos, Danza Lluvia, Demolición, Derribo, Día Soleado, Energibola, Golpe Cuerpo, Hipnosis, Intercambio, Isofuerza, Lanzamiento, Megapuño, Metrónomo, Mimético, Onda Trueno, Otra Vez, Pantalla de Luz, Pesadilla, Proteccion (N), Psicocarga, Psicoonda, Psíquico, Puño Drenaje, Puño Fuego, Puño Hielo, Puño Trueno, Rayo, Rayo Confuso, Rayo Señal, Reciclaje, Reflejo, Robo, Señuelo, Sísmico, Sumisión, Telequinesis, Teletransporte, Tormento, Truco, Vasta Fuerza, Vasta Guardia (N), Velo Sagrado, Vendetta, Venganza\nTier 3: Cabezazo, Capa Mágica, Deseo Cura, Doble Filo, Electrocañón, Espabila, Espacio Raro, Gigaimpacto, Hiperrayo, Imitación, Juego Sucio, Megapatada, Onda Certera, Premonición, Puño Certero, Puño Dinámico, Rayo Solar, Trueno",
+        "specialCapabilities": "Telepático, Telequinético"
+      }
+    }
+  }
+]
+
