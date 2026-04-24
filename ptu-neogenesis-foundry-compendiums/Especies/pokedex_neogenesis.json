@@ -5852,7 +5852,7 @@
   {
     "name": "Annihilape",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0057.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0979.png",
     "system": {
       "type1": "lucha",
       "type2": "fantasma",
@@ -12482,7 +12482,7 @@
   {
     "name": "Blissey",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0113.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/242.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -19112,7 +19112,7 @@
   {
     "name": "Azurill",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0182.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0298.png",
     "system": {
       "type1": "normal",
       "type2": "hada",
@@ -19346,7 +19346,7 @@
   {
     "name": "Bonsly",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0184.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0438.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -19814,7 +19814,7 @@
   {
     "name": "Ambipom",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0190.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0424.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -20438,7 +20438,7 @@
   {
     "name": "Clodsire",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0195.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0980.png",
     "system": {
       "type1": "veneno",
       "type2": "tierra",
@@ -30032,7 +30032,7 @@
   {
     "name": "Budew",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0314.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0406.png",
     "system": {
       "type1": "planta",
       "type2": "veneno",
@@ -33620,7 +33620,7 @@
   {
     "name": "Chingling",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0357.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0433.png",
     "system": {
       "type1": "psíquico",
       "type2": "ninguno",
@@ -45242,7 +45242,7 @@
   {
     "name": "Basculegion Macho",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0550.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0902.png",
     "system": {
       "type1": "agua",
       "type2": "fantasma",
@@ -45320,7 +45320,7 @@
   {
     "name": "Basculegion Hembra",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0550.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0902-Female.png",
     "system": {
       "type1": "agua",
       "type2": "fantasma",
@@ -46646,7 +46646,7 @@
   {
     "name": "Cofagrigus",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0562.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0563.png",
     "system": {
       "type1": "fantasma",
       "type2": "ninguno",
@@ -55616,7 +55616,7 @@
   {
     "name": "Aegislash Filo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0681.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0681-Blade.png",
     "system": {
       "type1": "fantasma",
       "type2": "acero",
@@ -69578,7 +69578,7 @@
   {
     "name": "Archaludon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0884.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/1018.png",
     "system": {
       "type1": "acero",
       "type2": "dragón",
@@ -71840,7 +71840,7 @@
   {
     "name": "Arboliva",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0913.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0930.png",
     "system": {
       "type1": "planta",
       "type2": "normal",
@@ -72230,7 +72230,7 @@
   {
     "name": "Charcadet",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0918.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0935.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -72308,7 +72308,7 @@
   {
     "name": "Armarouge",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0919.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0936.png",
     "system": {
       "type1": "fuego",
       "type2": "psíquico",
@@ -72386,7 +72386,7 @@
   {
     "name": "Ceruledge",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0920.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0937.png",
     "system": {
       "type1": "fuego",
       "type2": "fantasma",
@@ -72542,7 +72542,7 @@
   {
     "name": "Bellibolt",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0922.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0939.png",
     "system": {
       "type1": "eléctrico",
       "type2": "ninguno",
@@ -73088,7 +73088,7 @@
   {
     "name": "Bramblin",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0929.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0946.png",
     "system": {
       "type1": "planta",
       "type2": "fantasma",
@@ -73166,7 +73166,7 @@
   {
     "name": "Brambleghast",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0930.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0947.png",
     "system": {
       "type1": "planta",
       "type2": "fantasma",
@@ -73478,7 +73478,7 @@
   {
     "name": "Capsakid",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0934.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0951.png",
     "system": {
       "type1": "planta",
       "type2": "ninguno",
@@ -74336,7 +74336,7 @@
   {
     "name": "Bombirdier",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0945.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0962.png",
     "system": {
       "type1": "volador",
       "type2": "siniestro",
@@ -75350,7 +75350,7 @@
   {
     "name": "Cetoddle",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0958.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0974.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -75428,7 +75428,7 @@
   {
     "name": "Cetitan",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0959.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0975.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -75818,7 +75818,7 @@
   {
     "name": "Arctibax",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0964.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0997.png",
     "system": {
       "type1": "dragón",
       "type2": "hielo",
@@ -75896,7 +75896,7 @@
   {
     "name": "Baxcalibur",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0965.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0998.png",
     "system": {
       "type1": "dragón",
       "type2": "hielo",
