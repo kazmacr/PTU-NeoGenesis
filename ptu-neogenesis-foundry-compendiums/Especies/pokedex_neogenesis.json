@@ -1484,7 +1484,7 @@
   {
     "name": "Raticate",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0019.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0020.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -1562,7 +1562,7 @@
   {
     "name": "Rattata Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0020-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0019-Alola.png",
     "system": {
       "type1": "siniestro",
       "type2": "normal",
@@ -2030,7 +2030,7 @@
   {
     "name": "Pichu",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0025.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0172.png",
     "system": {
       "type1": "eléctrico",
       "type2": "ninguno",
@@ -2420,7 +2420,7 @@
   {
     "name": "Sandslash",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0027.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0028.png",
     "system": {
       "type1": "tierra",
       "type2": "ninguno",
@@ -2498,7 +2498,7 @@
   {
     "name": "Sandshrew Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0028-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0027-Alola.png",
     "system": {
       "type1": "hielo",
       "type2": "acero",
@@ -3122,7 +3122,7 @@
   {
     "name": "Cleffa",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0034.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0173.png",
     "system": {
       "type1": "hada",
       "type2": "ninguno",
@@ -3434,7 +3434,7 @@
   {
     "name": "Ninetales",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0037.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0038.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -3512,7 +3512,7 @@
   {
     "name": "Vulpix Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0038-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0037-Alola.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -3668,7 +3668,7 @@
   {
     "name": "Igglybuff",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0039.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0174.png",
     "system": {
       "type1": "normal",
       "type2": "hada",
