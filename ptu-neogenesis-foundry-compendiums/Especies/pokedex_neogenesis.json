@@ -2032,7 +2032,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0172.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.3m (1, Pequeño)",
@@ -2110,7 +2110,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0025.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -2188,7 +2188,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0026.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.8m (3, Pequeño)",
@@ -2266,8 +2266,8 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0026-Alola.png",
     "system": {
-      "type1": "eléctrico",
-      "type2": "psíquico",
+      "type1": "electrico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "0.7m (2, Pequeño)",
       "weightClass": 2,
@@ -4058,7 +4058,7 @@
   {
     "name": "Crobat",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0042.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/00169.png",
     "system": {
       "type1": "veneno",
       "type2": "volador",
@@ -4370,7 +4370,7 @@
   {
     "name": "Bellossom",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0045.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0182.png",
     "system": {
       "type1": "planta",
       "type2": "ninguno",
@@ -4916,7 +4916,7 @@
   {
     "name": "Diglett Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0051-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0050-Alola.png",
     "system": {
       "type1": "tierra",
       "type2": "acero",
@@ -5150,7 +5150,7 @@
   {
     "name": "Persian",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0052.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0053.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -5228,7 +5228,7 @@
   {
     "name": "Meowth Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0053-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0052-Alola.png",
     "system": {
       "type1": "siniestro",
       "type2": "ninguno",
@@ -5384,7 +5384,7 @@
   {
     "name": "Meowth Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0053-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0863.png",
     "system": {
       "type1": "acero",
       "type2": "ninguno",
@@ -6086,7 +6086,7 @@
   {
     "name": "Growlithe Hisui",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0059-Hisui.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0058-Hisui.png",
     "system": {
       "type1": "fuego",
       "type2": "roca",
@@ -6476,7 +6476,7 @@
   {
     "name": "Politoed",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0062.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0186.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -6556,7 +6556,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0063.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "0.9m (2, Pequeño)",
@@ -6634,7 +6634,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0064.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1.3m (4, Mediano)",
@@ -6712,7 +6712,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0065.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1.5m (3, Mediano)",
@@ -7490,7 +7490,7 @@
   {
     "name": "Graveler",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0074.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0075.png",
     "system": {
       "type1": "roca",
       "type2": "tierra",
@@ -7568,7 +7568,7 @@
   {
     "name": "Golem",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0074.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0076.png",
     "system": {
       "type1": "roca",
       "type2": "tierra",
@@ -7646,10 +7646,10 @@
   {
     "name": "Geodude Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0075-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0074-Alola.png",
     "system": {
       "type1": "roca",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Terrávoro",
       "size": "0.4m (2, Pequeño)",
       "weightClass": 2,
@@ -7727,7 +7727,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0075-Alola.png",
     "system": {
       "type1": "roca",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Terrávoro",
       "size": "1m (5, Mediano)",
       "weightClass": 5,
@@ -7802,10 +7802,10 @@
   {
     "name": "Golem Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0075-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0076-Alola.png",
     "system": {
       "type1": "roca",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Terrávoro",
       "size": "1.7m (6, Mediano)",
       "weightClass": 6,
@@ -7958,7 +7958,7 @@
   {
     "name": "Rapidash",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0077.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0078.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -8036,9 +8036,9 @@
   {
     "name": "Ponyta Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0078-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0077-Galar.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.8m (2, Pequeño)",
@@ -8116,7 +8116,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0078-Galar.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Herbívoro",
       "size": "1.7m (4, Mediano)",
@@ -8195,7 +8195,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0079.png",
     "system": {
       "type1": "agua",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.2m (3, Mediano)",
       "weightClass": 3,
@@ -8273,7 +8273,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0080.png",
     "system": {
       "type1": "agua",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.6m (4, Mediano)",
       "weightClass": 4,
@@ -8348,10 +8348,10 @@
   {
     "name": "Slowking",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0080.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0199.png",
     "system": {
       "type1": "agua",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "2m (4, Mediano)",
       "weightClass": 4,
@@ -8426,9 +8426,9 @@
   {
     "name": "Slowpoke Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0080-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0079-Galar.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.2m (3, Mediano)",
@@ -8507,7 +8507,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0080-Galar.png",
     "system": {
       "type1": "veneno",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.6m (4, Mediano)",
       "weightClass": 4,
@@ -8582,10 +8582,10 @@
   {
     "name": "Slowking Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0080-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0199-Galar.png",
     "system": {
       "type1": "veneno",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.8m (4, Mediano)",
       "weightClass": 4,
@@ -8662,7 +8662,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0081.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "acero",
       "diet": "Ergóvoro",
       "size": "0.3m (1, Pequeño)",
@@ -8740,7 +8740,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0082.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "acero",
       "diet": "Ergóvoro",
       "size": "1m (4, Mediano)",
@@ -8816,9 +8816,9 @@
   {
     "name": "Magnezone",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0082.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0462.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "acero",
       "diet": "Ergóvoro",
       "size": "1.2m (5, Mediano)",
@@ -9050,7 +9050,7 @@
   {
     "name": "Sirfetch'd",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0083.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0865.png",
     "system": {
       "type1": "lucha",
       "type2": "ninguno",
@@ -9596,7 +9596,7 @@
   {
     "name": "Grimer Alola",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0089-Alola.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0088-Alola.png",
     "system": {
       "type1": "veneno",
       "type2": "siniestro",
@@ -10220,7 +10220,7 @@
   {
     "name": "Steelix",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0095.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0208.png",
     "system": {
       "type1": "acero",
       "type2": "tierra",
@@ -10300,7 +10300,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0096.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1m (3, Mediano)",
@@ -10378,7 +10378,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0097.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.6m (4, Mediano)",
@@ -10612,7 +10612,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0100.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro",
       "size": "0.5m (1, Pequeño)",
@@ -10690,7 +10690,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0101.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro",
       "size": "1.2m (4, Mediano)",
@@ -10766,9 +10766,9 @@
   {
     "name": "Voltorb Hisui",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0101-Hisui.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0100-Hisui.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "planta",
       "diet": "Ergóvoro",
       "size": "0.5m (2, Pequeño)",
@@ -10846,7 +10846,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0101-Hisui.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "planta",
       "diet": "Ergóvoro",
       "size": "1.2m (4, Mediano)",
@@ -10925,7 +10925,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0102.png",
     "system": {
       "type1": "planta",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Fotótrofo",
       "size": "0.4m (1, Pequeño)",
       "weightClass": 1,
@@ -11003,7 +11003,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0103.png",
     "system": {
       "type1": "planta",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Fotótrofo",
       "size": "2m (5, Grande)",
       "weightClass": 5,
@@ -11081,7 +11081,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0103-Alola.png",
     "system": {
       "type1": "planta",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Fotótrofo",
       "size": "10.9m (6, Enorme)",
       "weightClass": 6,
@@ -11390,7 +11390,7 @@
   {
     "name": "Tyrogue",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0105.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0236.png",
     "system": {
       "type1": "lucha",
       "type2": "ninguno",
@@ -11445,7 +11445,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Hitmonlee",
+        "nextStage": "Hitmonlee, Hitmonchan, Hitmontop",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -11624,7 +11624,7 @@
   {
     "name": "Hitmontop",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0107.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0237.png",
     "system": {
       "type1": "lucha",
       "type2": "ninguno",
@@ -12248,7 +12248,7 @@
   {
     "name": "Rhyperior",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0112.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0464.png",
     "system": {
       "type1": "tierra",
       "type2": "roca",
@@ -12326,7 +12326,7 @@
   {
     "name": "Happiny",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0112.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0440.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -12482,7 +12482,7 @@
   {
     "name": "Blissey",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/242.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0242.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -12638,7 +12638,7 @@
   {
     "name": "Tangrowth",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0114.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0465.png",
     "system": {
       "type1": "planta",
       "type2": "ninguno",
@@ -12950,10 +12950,10 @@
   {
     "name": "Kingdra",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0117.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0230.png",
     "system": {
       "type1": "agua",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Omnívoro",
       "size": "1.8m (5, Mediano)",
       "weightClass": 5,
@@ -13265,7 +13265,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0121.png",
     "system": {
       "type1": "agua",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.1m (4, Mediano)",
       "weightClass": 4,
@@ -13340,9 +13340,9 @@
   {
     "name": "Mime Jr.",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0122.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0439.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Omnívoro",
       "size": "0.6m (2, Pequeño)",
@@ -13395,7 +13395,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Mr. Mime",
+        "nextStage": "Mr. Mime, Mr. Mime Galar",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -13420,7 +13420,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0122.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Omnívoro",
       "size": "1.3m (4, Mediano)",
@@ -13499,7 +13499,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0122-Galar.png",
     "system": {
       "type1": "hielo",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.4m (4, Mediano)",
       "weightClass": 4,
@@ -13574,10 +13574,10 @@
   {
     "name": "Mr. Rime",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0122.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0866.png",
     "system": {
       "type1": "hielo",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.5m (4, Mediano)",
       "weightClass": 4,
@@ -13730,7 +13730,7 @@
   {
     "name": "Scizor",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0123.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0212.png",
     "system": {
       "type1": "bicho",
       "type2": "acero",
@@ -13808,7 +13808,7 @@
   {
     "name": "Kleavor",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0123.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0900.png",
     "system": {
       "type1": "bicho",
       "type2": "roca",
@@ -13886,10 +13886,10 @@
   {
     "name": "Smoochum",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0123.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0238.png",
     "system": {
       "type1": "hielo",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "0.7m (1, Pequeño)",
       "weightClass": 1,
@@ -13967,7 +13967,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0124.png",
     "system": {
       "type1": "hielo",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.4m (3, Mediano)",
       "weightClass": 3,
@@ -14042,9 +14042,9 @@
   {
     "name": "Elekid",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0124.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0239.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro, Herbívoro",
       "size": "0.6m (2, Pequeño)",
@@ -14122,7 +14122,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0125.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro, Omnívoro",
       "size": "1.1m (3, Mediano)",
@@ -14198,9 +14198,9 @@
   {
     "name": "Electivire",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0125.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0466.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro, Omnívoro",
       "size": "1.8m (5, Mediano)",
@@ -14276,7 +14276,7 @@
   {
     "name": "Magby",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0126.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0240.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -14432,7 +14432,7 @@
   {
     "name": "Magmortar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0126.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0467.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -14666,7 +14666,7 @@
   {
     "name": "Tauros Paldea Combatiente",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea-Combat-Breed.png",
     "system": {
       "type1": "lucha",
       "type2": "ninguno",
@@ -14744,7 +14744,7 @@
   {
     "name": "Tauros Paldea Ardiente",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea-Blaze-Brred.png",
     "system": {
       "type1": "lucha",
       "type2": "fuego",
@@ -14822,7 +14822,7 @@
   {
     "name": "Tauros Paldea Acuático",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea-Aqua-Breed.png",
     "system": {
       "type1": "lucha",
       "type2": "agua",
@@ -15267,7 +15267,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Todas",
+        "nextStage": "Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon, Sylveon",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -15290,7 +15290,7 @@
   {
     "name": "Vaporeon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0134.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -15368,9 +15368,9 @@
   {
     "name": "Jolteon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0135.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "0.8m (2, Pequeño)",
@@ -15446,7 +15446,7 @@
   {
     "name": "Flareon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0136.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -15524,9 +15524,9 @@
   {
     "name": "Espeon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0196.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "0.9m (3, Pequeño)",
@@ -15602,7 +15602,7 @@
   {
     "name": "Umbreon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0197.png",
     "system": {
       "type1": "siniestro",
       "type2": "ninguno",
@@ -15680,7 +15680,7 @@
   {
     "name": "Leafeon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0470.png",
     "system": {
       "type1": "planta",
       "type2": "ninguno",
@@ -15758,7 +15758,7 @@
   {
     "name": "Glaceon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0471.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -15836,7 +15836,7 @@
   {
     "name": "Sylveon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0133.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0700.png",
     "system": {
       "type1": "hada",
       "type2": "ninguno",
@@ -15992,7 +15992,7 @@
   {
     "name": "Porygon2",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0137.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0233.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -16070,7 +16070,7 @@
   {
     "name": "Porygon-Z",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0137.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0474.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -16538,7 +16538,7 @@
   {
     "name": "Munchlax",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0142.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0446.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -16696,7 +16696,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0147.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1.8m (1, Mediano)",
@@ -16774,7 +16774,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0148.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "4m (2, Grande)",
@@ -16852,7 +16852,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0149.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "volador",
       "diet": "Omnívoro",
       "size": "2.2m (6, Grande)",
@@ -18335,7 +18335,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0170.png",
     "system": {
       "type1": "agua",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Herbívoro",
       "size": "0.5m (2, Pequeño)",
       "weightClass": 2,
@@ -18413,7 +18413,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0171.png",
     "system": {
       "type1": "agua",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Herbívoro",
       "size": "1.2m (2, Mediano)",
       "weightClass": 2,
@@ -18644,7 +18644,7 @@
   {
     "name": "Togekiss",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0176.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0468.png",
     "system": {
       "type1": "hada",
       "type2": "volador",
@@ -18724,7 +18724,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0177.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "0.2m (1, Pequeño)",
@@ -18802,7 +18802,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0178.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Fotótrofo",
       "size": "1.5m (2, Mediano)",
@@ -18880,7 +18880,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0179.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.6m (1, Pequeño)",
@@ -18958,7 +18958,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0180.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.8m (2, Pequeño)",
@@ -19036,7 +19036,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0181.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.4m (4, Mediano)",
@@ -20126,7 +20126,7 @@
   {
     "name": "Yanmega",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0193.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0469.png",
     "system": {
       "type1": "bicho",
       "type2": "volador",
@@ -20360,7 +20360,7 @@
   {
     "name": "Wooper Paldea",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0195-Paldea.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0194-Paldea.png",
     "system": {
       "type1": "veneno",
       "type2": "tierra",
@@ -20594,7 +20594,7 @@
   {
     "name": "Honchkrow",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0198.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0430.png",
     "system": {
       "type1": "siniestro",
       "type2": "volador",
@@ -20750,7 +20750,7 @@
   {
     "name": "Mismagius",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0200.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0429.png",
     "system": {
       "type1": "fantasma",
       "type2": "ninguno",
@@ -20830,7 +20830,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0201.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Nulívoro",
       "size": "0.5m (1, Pequeño)",
@@ -20906,9 +20906,9 @@
   {
     "name": "Wynaut",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0201.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0360.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.6m (2, Pequeño)",
@@ -20986,7 +20986,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0202.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.3m (3, Mediano)",
@@ -21065,7 +21065,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0203.png",
     "system": {
       "type1": "normal",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.5m (3, Mediano)",
       "weightClass": 3,
@@ -21140,10 +21140,10 @@
   {
     "name": "Farigiraf",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0203.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0981.png",
     "system": {
       "type1": "normal",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "3.2m (5, Grande)",
       "weightClass": 5,
@@ -21452,13 +21452,91 @@
   {
     "name": "Dudunsparce",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0206.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0982.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "4m (3, Grande)",
       "weightClass": 3,
+      "habitats": "Bosque, Cueva, Desierto, Pradera",
+      "eggGroup1": "Campo",
+      "eggGroup2": "",
+      "hatchDays": 10,
+      "gender": {
+        "male": 50.0,
+        "female": 50.0,
+        "genderless": false
+      },
+      "stats": {
+        "hp": {
+          "base": 13
+        },
+        "atk": {
+          "base": 10
+        },
+        "def": {
+          "base": 8
+        },
+        "spatk": {
+          "base": 9
+        },
+        "spdef": {
+          "base": 8
+        },
+        "spd": {
+          "base": 6
+        }
+      },
+      "capabilities": {
+        "overland": 5,
+        "swim": 4,
+        "jump": 1,
+        "sky": 0,
+        "burrow": 8,
+        "power": 4
+      },
+      "skills": {
+        "acrobatics": "3d6+4",
+        "athletics": "3d6+2",
+        "combat": "3d6+0",
+        "stealth": "3d6+8",
+        "perception": "3d6+2",
+        "focus": "3d6+4"
+      },
+      "evolution": {
+        "stage": 2,
+        "evoLevel": 0,
+        "nextStage": "",
+        "criteria": ""
+      },
+      "megaEvo": {
+        "hasMega": false
+      },
+      "specialForms": {
+        "hasGMax": false,
+        "hasTera": true
+      },
+      "lists": {
+        "abilitiesBasic": "Dicha, Fuga",
+        "abilitiesAdvanced": "Cobardía, Sebo",
+        "abilitiesHigh": "Huída Subterránea",
+        "movesLevelUp": "3 Rencor, 6 Rodar, 8 Persecución, 11 Deslumbrar, 13 Azote, 16 Chirrido, 18 Poder Pasado, 21 Golpe Cuerpo, 23 Taladradora, 26 Bostezo, 28 Excavar, 31 Hipertaladro, 33 Respiro, 36 Tajo Aéreo, 38 Carga Dragón, 41 Enrosque, 43 Aguante, 46 Doble Filo, 48 Esfuerzo, 50 Vendaval, 52 Estruendo",
+        "movesTutor": "Tier 1: Agilidad, Agua Fría, Amnesia, Atadura, Bofetón Lodo, Brinco, Calcinación, Cara Susto, Chirrido, Cola Veneno, Cuerno Certero, Disparo Lodo, Furia, Golpe Cabeza, Golpe Rastrero, Golpe Roca (N), Hidropulso, Impresionar, Ladrón, Mordisco, Onda Voltio, Paz Mental, Poder Pasado, Poder Reserva, Rayo Carga, Refuerzo, Relevo, Represalia, Rizo Defensa, Rodar, Terratemblor, Tumba Rocas, Vasto Impacto\n\nTier 2: Acua Cola, Ala Bis, Alboroto, Autosugestión, Avalancha, Bola Sombra, Cabezazo Zen, Cola Dragón, Comesueños, Contraataque, Danza Lluvia, Derribo, Día Soleado, Esfuerzo, Excavar, Fuerza (N), Giro Bola, Golpe Cuerpo, Golpe Mordaza, Lanzallamas, Mimético, Onda Trueno, Pesadilla, Pirueta Helada, Plancha, Plancha Corporal, Pulso de Campo, Puya Nociva, Ráfaga Escamas, Rayo, Rayo Hielo, Rencor, Tajo Aéreo, Taladradora, Tierra Viva, Tormenta de Arena, Trampa Rocas, Venganza, Viento Afín, Voltio Cruel, Vozarrón\n\nTier 3: As Oculto, Capa Mágica, Cola Férrea, Cuerpo Pesado, Divide Dolor, Doble Filo, Electrocañón, Enfado, Gigaimpacto, Hiperrayo, Infortunio, Llamarada, Pataleta, Rayo Solar, Respiro, Roca Afilada, Terremoto, Trueno, Última Baza, Vendaval, Ventisca",
+        "specialCapabilities": "Terreno Dominado: (Cueva), Visión Nocturna"
+      }
+    }
+  },
+  {
+    "name": "Dudunsparce Trinodular",
+    "type": "species",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0982-Three-Segment.png",
+    "system": {
+      "type1": "normal",
+      "type2": "ninguno",
+      "diet": "Herbívoro",
+      "size": "6m (4, Grande)",
+      "weightClass": 4,
       "habitats": "Bosque, Cueva, Desierto, Pradera",
       "eggGroup1": "Campo",
       "eggGroup2": "",
@@ -21608,7 +21686,7 @@
   {
     "name": "Gliscor",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0207.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0472.png",
     "system": {
       "type1": "tierra",
       "type2": "volador",
@@ -21998,7 +22076,7 @@
   {
     "name": "Overqwil",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0211.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0904.png",
     "system": {
       "type1": "siniestro",
       "type2": "veneno",
@@ -22310,7 +22388,7 @@
   {
     "name": "Weavile",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0215.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0461.png",
     "system": {
       "type1": "siniestro",
       "type2": "hielo",
@@ -22466,7 +22544,7 @@
   {
     "name": "Sneasler",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0215.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0903.png",
     "system": {
       "type1": "lucha",
       "type2": "veneno",
@@ -22700,7 +22778,7 @@
   {
     "name": "Ursaluna",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0217.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0901.png",
     "system": {
       "type1": "tierra",
       "type2": "normal",
@@ -22778,7 +22856,7 @@
   {
     "name": "Ursaluna Carmesí",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0217.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0217-Bloodmoon.png",
     "system": {
       "type1": "tierra",
       "type2": "normal",
@@ -23168,7 +23246,7 @@
   {
     "name": "Mamoswine",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0221.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0864.png",
     "system": {
       "type1": "hielo",
       "type2": "tierra",
@@ -23714,7 +23792,7 @@
   {
     "name": "Mantyke",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0226.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0458.png",
     "system": {
       "type1": "agua",
       "type2": "volador",
@@ -24338,10 +24416,10 @@
   {
     "name": "Wyrdeer",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0234.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/00899.png",
     "system": {
       "type1": "normal",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.8m (4, Mediano)",
       "weightClass": 4,
@@ -25742,7 +25820,7 @@
   {
     "name": "Linoone",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0263.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0264.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -25820,7 +25898,7 @@
   {
     "name": "Zigzagoon Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0264-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0263-Galar.png",
     "system": {
       "type1": "siniestro",
       "type2": "normal",
@@ -25976,7 +26054,7 @@
   {
     "name": "Obstagoon",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0264.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0862.png",
     "system": {
       "type1": "siniestro",
       "type2": "normal",
@@ -26109,7 +26187,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 12,
-        "nextStage": "Silcoon",
+        "nextStage": "Silcoon, Cascoon",
         "criteria": "Nivel 12"
       },
       "megaEvo": {
@@ -27226,7 +27304,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0280.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Omnívoro",
       "size": "0.4m (1, Pequeño)",
@@ -27304,7 +27382,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0281.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Omnívoro",
       "size": "0.8m (2, Pequeño)",
@@ -27357,7 +27435,7 @@
       "evolution": {
         "stage": 2,
         "evoLevel": 30,
-        "nextStage": "Gardevoir",
+        "nextStage": "Gardevoir, Gallade (Macho)",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -27382,7 +27460,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0282.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Omnívoro",
       "size": "1.6m (3, Mediano)",
@@ -27458,9 +27536,9 @@
   {
     "name": "Gallade",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0282.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0475.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "lucha",
       "diet": "Omnívoro",
       "size": "1.6m (4, Mediano)",
@@ -28784,7 +28862,7 @@
   {
     "name": "Probopass",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0299.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0476.png",
     "system": {
       "type1": "roca",
       "type2": "acero",
@@ -29411,7 +29489,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0307.png",
     "system": {
       "type1": "lucha",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "0.6m (1, Pequeño)",
       "weightClass": 1,
@@ -29489,7 +29567,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0308.png",
     "system": {
       "type1": "lucha",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.3m (3, Mediano)",
       "weightClass": 3,
@@ -29566,7 +29644,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0309.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.6m (2, Pequeño)",
@@ -29644,7 +29722,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0310.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "1.5m (3, Mediano)",
@@ -29722,7 +29800,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0311.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -29800,7 +29878,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0312.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -30188,7 +30266,7 @@
   {
     "name": "Roserade",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0315.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0407.png",
     "system": {
       "type1": "planta",
       "type2": "veneno",
@@ -30970,7 +31048,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0325.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.7m (3, Pequeño)",
@@ -31048,7 +31126,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0326.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.9m (4, Pequeño)",
@@ -31283,7 +31361,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0329.png",
     "system": {
       "type1": "tierra",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "1.1m (2, Mediano)",
       "weightClass": 2,
@@ -31361,7 +31439,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0330.png",
     "system": {
       "type1": "tierra",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "2m (4, Grande)",
       "weightClass": 4,
@@ -31672,7 +31750,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0334.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "1.1m (2, Mediano)",
@@ -31907,7 +31985,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0337.png",
     "system": {
       "type1": "roca",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Fotótrofo",
       "size": "1m (5, Mediano)",
       "weightClass": 5,
@@ -31985,7 +32063,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0338.png",
     "system": {
       "type1": "roca",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Fotótrofo",
       "size": "1.2m (5, Mediano)",
       "weightClass": 5,
@@ -32375,7 +32453,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0343.png",
     "system": {
       "type1": "tierra",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Terrávoro",
       "size": "0.5m (2, Pequeño)",
       "weightClass": 2,
@@ -32453,7 +32531,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0344.png",
     "system": {
       "type1": "tierra",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Terrávoro",
       "size": "1.5m (5, Mediano)",
       "weightClass": 5,
@@ -33464,7 +33542,7 @@
   {
     "name": "Dusknoir",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0356.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0477.png",
     "system": {
       "type1": "fantasma",
       "type2": "ninguno",
@@ -33622,7 +33700,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0433.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.2m (1, Pequeño)",
@@ -33700,7 +33778,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0358.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.6m (1, Pequeño)",
@@ -33909,7 +33987,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 30,
-        "nextStage": "Glalie",
+        "nextStage": "Glalie, Froslass (Hembra)",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -34010,7 +34088,7 @@
   {
     "name": "Froslass",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0362.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0478.png",
     "system": {
       "type1": "hielo",
       "type2": "fantasma",
@@ -34377,7 +34455,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Huntail",
+        "nextStage": "Huntail, Gorebyss",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -34714,7 +34792,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0371.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.6m (3, Pequeño)",
@@ -34792,7 +34870,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0372.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Nulívoro",
       "size": "1.1m (5, Mediano)",
@@ -34870,7 +34948,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0373.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "volador",
       "diet": "Carnívoro",
       "size": "1.5m (5, Grande)",
@@ -34949,7 +35027,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0374.png",
     "system": {
       "type1": "acero",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "0.6m (4, Pequeño)",
       "weightClass": 4,
@@ -35027,7 +35105,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0375.png",
     "system": {
       "type1": "acero",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.2m (6, Mediano)",
       "weightClass": 6,
@@ -35105,7 +35183,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0376.png",
     "system": {
       "type1": "acero",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.6m (6, Grande)",
       "weightClass": 6,
@@ -36430,7 +36508,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0403.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.5m (1, Pequeño)",
@@ -36508,7 +36586,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0404.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.9m (3, Mediano)",
@@ -36586,7 +36664,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0405.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "1.4m (3, Mediano)",
@@ -37029,7 +37107,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Wormadam",
+        "nextStage": "Wormadam Planta (Mujer), Wormadam Arena (Mujer), Wormadam Basura (Mujer), Mothim (Macho)",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -37107,7 +37185,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Wormadam",
+        "nextStage": "",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -37130,7 +37208,7 @@
   {
     "name": "Wormadam Arena",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0413.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0413-Sandy.png",
     "system": {
       "type1": "bicho",
       "type2": "tierra",
@@ -37185,7 +37263,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Wormadam",
+        "nextStage": "Wormadam Planta, Wormadam Arena, Wormadam Basura",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -37208,7 +37286,7 @@
   {
     "name": "Wormadam Basura",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0413.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0413-Trash.png",
     "system": {
       "type1": "bicho",
       "type2": "acero",
@@ -37263,7 +37341,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Wormadam",
+        "nextStage": "Wormadam Planta, Wormadam Arena, Wormadam Basura",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -37419,7 +37497,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Vespiquen",
+        "nextStage": "Vespiquen (Mujer)",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -37522,7 +37600,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0417.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -38693,7 +38771,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0436.png",
     "system": {
       "type1": "acero",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Nulívoro",
       "size": "0.5m (4, Pequeño)",
       "weightClass": 4,
@@ -38771,7 +38849,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0437.png",
     "system": {
       "type1": "acero",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Nulívoro",
       "size": "1.3m (5, Mediano)",
       "weightClass": 5,
@@ -39004,7 +39082,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0443.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "tierra",
       "diet": "Carnívoro",
       "size": "0.7m (2, Pequeño)",
@@ -39082,7 +39160,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0444.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "tierra",
       "diet": "Carnívoro",
       "size": "1.4m (4, Mediano)",
@@ -39160,7 +39238,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0445.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "tierra",
       "diet": "Carnívoro",
       "size": "1.9m (4, Grande)",
@@ -40252,7 +40330,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0479.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "fantasma",
       "diet": "Nulívoro",
       "size": "0.3m (1, Pequeño)",
@@ -40328,9 +40406,9 @@
   {
     "name": "Rotom Calor",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0479.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0479-Heat.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "fuego",
       "diet": "Nulívoro",
       "size": "0.3m (1, Pequeño)",
@@ -40406,9 +40484,9 @@
   {
     "name": "Rotom Lavado",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0479.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0479-Wash.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "agua",
       "diet": "Nulívoro",
       "size": "0.3m (1, Pequeño)",
@@ -40484,9 +40562,9 @@
   {
     "name": "Rotom Corte",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0479.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0479-Mow.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "planta",
       "diet": "Nulívoro",
       "size": "0.3m (1, Pequeño)",
@@ -40562,9 +40640,9 @@
   {
     "name": "Rotom Frío",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0479.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0479-Frost.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "hielo",
       "diet": "Nulívoro",
       "size": "0.3m (1, Pequeño)",
@@ -40640,9 +40718,9 @@
   {
     "name": "Rotom Ventilador",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0479.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0479-Fan.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "volador",
       "diet": "Nulívoro",
       "size": "0.3m (1, Pequeño)",
@@ -42514,7 +42592,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0517.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.6m (2, Pequeño)",
@@ -42592,7 +42670,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0518.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.1m (4, Mediano)",
@@ -42904,7 +42982,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0522.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.8m (3, Pequeño)",
@@ -42982,7 +43060,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0523.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.6m (4, Mediano)",
@@ -43294,7 +43372,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0527.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -43372,7 +43450,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0528.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "0.9m (1, Pequeño)",
@@ -45710,7 +45788,7 @@
   {
     "name": "Darmanitan",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0554.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0555.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -45788,10 +45866,10 @@
   {
     "name": "Darmanitan Zen",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0554.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0555-Zen.png",
     "system": {
       "type1": "fuego",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "1.3m (4, Mediano)",
       "weightClass": 4,
@@ -45866,7 +45944,7 @@
   {
     "name": "Darumaka Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0555-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0554-Galar.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -45944,7 +46022,7 @@
   {
     "name": "Darmanitan Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0555-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0555-Galar-Standard.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -46022,7 +46100,7 @@
   {
     "name": "Darmanitan Zen Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0555-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0555-Galar-Zen.png",
     "system": {
       "type1": "hielo",
       "type2": "fuego",
@@ -46492,7 +46570,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0561.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "1.4m (2, Mediano)",
@@ -46724,7 +46802,7 @@
   {
     "name": "Yamask Galar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0563-Galar.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0562-Galar.png",
     "system": {
       "type1": "tierra",
       "type2": "fantasma",
@@ -46802,7 +46880,7 @@
   {
     "name": "Runerigus",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0563.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0867.png",
     "system": {
       "type1": "tierra",
       "type2": "fantasma",
@@ -47504,7 +47582,7 @@
   {
     "name": "Zorua Hisui",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0571-Hisui.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0570-Hisui.png",
     "system": {
       "type1": "normal",
       "type2": "fantasma",
@@ -47818,7 +47896,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0574.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -47896,7 +47974,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0575.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.7m (2, Pequeño)",
@@ -47974,7 +48052,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0576.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.5m (3, Mediano)",
@@ -48052,7 +48130,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0577.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.3m (1, Pequeño)",
@@ -48130,7 +48208,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0578.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "0.6m (1, Pequeño)",
@@ -48208,7 +48286,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0579.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1m (2, Mediano)",
@@ -48832,7 +48910,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0587.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -49457,7 +49535,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0595.png",
     "system": {
       "type1": "bicho",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Carnívoro",
       "size": "0.1m (1, Pequeño)",
       "weightClass": 1,
@@ -49535,7 +49613,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0596.png",
     "system": {
       "type1": "bicho",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Carnívoro",
       "size": "0.8m (2, Pequeño)",
       "weightClass": 2,
@@ -50002,7 +50080,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0602.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro",
       "size": "0.2m (1, Pequeño)",
@@ -50080,7 +50158,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0603.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Ergóvoro",
       "size": "1.2m (2, Mediano)",
@@ -50158,7 +50236,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0604.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro, Ergóvoro",
       "size": "2.1m (4, Grande)",
@@ -50236,7 +50314,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0605.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Nulívoro",
       "size": "0.5m (1, Pequeño)",
@@ -50314,7 +50392,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0606.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Nulívoro",
       "size": "1m (3, Mediano)",
@@ -50626,7 +50704,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0610.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "0.6m (2, Pequeño)",
@@ -50704,7 +50782,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0611.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1m (3, Mediano)",
@@ -50782,7 +50860,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0612.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1.8m (5, Mediano)",
@@ -51251,7 +51329,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0618.png",
     "system": {
       "type1": "tierra",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Carnívoro",
       "size": "0.7m (1, Pequeño)",
       "weightClass": 1,
@@ -51562,7 +51640,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0621.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Carnívoro, Terrávoro",
       "size": "1.6m (5, Mediano)",
@@ -52264,7 +52342,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0628-Hisui.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Carnívoro",
       "size": "1.7m (3, Mediano)",
@@ -52655,7 +52733,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0633.png",
     "system": {
       "type1": "siniestro",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "0.8m (2, Pequeño)",
       "weightClass": 2,
@@ -52733,7 +52811,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0634.png",
     "system": {
       "type1": "siniestro",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "1.4m (4, Mediano)",
       "weightClass": 4,
@@ -52811,7 +52889,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0635.png",
     "system": {
       "type1": "siniestro",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "1.8m (5, Grande)",
       "weightClass": 5,
@@ -53435,7 +53513,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0655.png",
     "system": {
       "type1": "fuego",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.5m (3, Mediano)",
       "weightClass": 3,
@@ -55150,7 +55228,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0677.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.3m (1, Pequeño)",
@@ -55226,9 +55304,9 @@
   {
     "name": "Meowstic Macho",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0678.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0678-Male.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.6m (1, Pequeño)",
@@ -55304,9 +55382,9 @@
   {
     "name": "Meowstic Hembra",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0678.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0678-Female.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.6m (1, Pequeño)",
@@ -56009,7 +56087,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0686.png",
     "system": {
       "type1": "siniestro",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Carnívoro",
       "size": "0.4m (1, Pequeño)",
       "weightClass": 1,
@@ -56087,7 +56165,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0687.png",
     "system": {
       "type1": "siniestro",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Carnívoro",
       "size": "1.5m (3, Mediano)",
       "weightClass": 3,
@@ -56399,7 +56477,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0691.png",
     "system": {
       "type1": "veneno",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "1.8m (4, Mediano)",
       "weightClass": 4,
@@ -56633,7 +56711,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0694.png",
     "system": {
       "type1": "normal",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Fotótrofo",
       "size": "0.5m (1, Pequeño)",
       "weightClass": 1,
@@ -56711,7 +56789,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0695.png",
     "system": {
       "type1": "normal",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Fotótrofo",
       "size": "1m (2, Mediano)",
       "weightClass": 2,
@@ -56789,7 +56867,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0696.png",
     "system": {
       "type1": "roca",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "0.8m (3, Pequeño)",
       "weightClass": 3,
@@ -56867,7 +56945,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0697.png",
     "system": {
       "type1": "roca",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "2.5m (6, Grande)",
       "weightClass": 6,
@@ -57178,7 +57256,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0702.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "hada",
       "diet": "Herbívoro, Ergóvoro",
       "size": "0.2m (1, Pequeño)",
@@ -57334,7 +57412,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0704.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.3m (1, Pequeño)",
@@ -57412,7 +57490,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0705.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.8m (2, Pequeño)",
@@ -57490,7 +57568,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0706.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "2m (5, Grande)",
@@ -57566,10 +57644,10 @@
   {
     "name": "Sliggoo Hisui",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0706-Hisui.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0705-Hisui.png",
     "system": {
       "type1": "acero",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "0.7m (4, Pequeño)",
       "weightClass": 4,
@@ -57647,7 +57725,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0706-Hisui.png",
     "system": {
       "type1": "acero",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "1.7m (6, Grande)",
       "weightClass": 6,
@@ -58349,7 +58427,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0714.png",
     "system": {
       "type1": "volador",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Omnívoro",
       "size": "0.5m (1, Pequeño)",
       "weightClass": 1,
@@ -58427,7 +58505,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0715.png",
     "system": {
       "type1": "volador",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Omnívoro",
       "size": "1.5m (4, Grande)",
       "weightClass": 4,
@@ -59753,7 +59831,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0737.png",
     "system": {
       "type1": "bicho",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Herbívoro",
       "size": "0.5m (1, Pequeño)",
       "weightClass": 1,
@@ -59831,7 +59909,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0738.png",
     "system": {
       "type1": "bicho",
-      "type2": "eléctrico",
+      "type2": "electrico",
       "diet": "Herbívoro",
       "size": "1.5m (3, Mediano)",
       "weightClass": 3,
@@ -60062,9 +60140,9 @@
   {
     "name": "Oricorio Animado",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0741.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0741-Pom-Pom.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "0.6m (1, Pequeño)",
@@ -60140,9 +60218,9 @@
   {
     "name": "Oricorio Plácido",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0741.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0741-Pau.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "volador",
       "diet": "Herbívoro",
       "size": "0.6m (1, Pequeño)",
@@ -60296,7 +60374,7 @@
   {
     "name": "Oricorio Refinado",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0741.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0741-Sensu.png",
     "system": {
       "type1": "fantasma",
       "type2": "volador",
@@ -60585,7 +60663,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Lycanroc (Todas)",
+        "nextStage": "Lycanroc Diurna, Lycanroc, Nocturna, Lycanroc Crepuscular",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -60686,7 +60764,7 @@
   {
     "name": "Lycanroc Nocturna",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0745.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0745-Midnight.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -60764,7 +60842,7 @@
   {
     "name": "Lycanroc Crepuscular",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0745.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0745-Dusk.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -60920,7 +60998,7 @@
   {
     "name": "Wishiwashi Banco",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0746.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0746-School.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -61833,7 +61911,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 30,
-        "nextStage": "Salazzle",
+        "nextStage": "Salazzle (Mujer)",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -62405,7 +62483,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0765.png",
     "system": {
       "type1": "normal",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Herbívoro",
       "size": "1.5m (4, Mediano)",
       "weightClass": 4,
@@ -63026,7 +63104,7 @@
   {
     "name": "Minior Núcleo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0774.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0774-Red.png",
     "system": {
       "type1": "roca",
       "type2": "volador",
@@ -63185,7 +63263,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0776.png",
     "system": {
       "type1": "fuego",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Terrávoro",
       "size": "2m (6, Grande)",
       "weightClass": 6,
@@ -63262,7 +63340,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0777.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "acero",
       "diet": "Herbívoro",
       "size": "0.3m (1, Pequeño)",
@@ -63419,7 +63497,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0779.png",
     "system": {
       "type1": "agua",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Carnívoro",
       "size": "0.9m (2, Pequeño)",
       "weightClass": 2,
@@ -63497,7 +63575,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0780.png",
     "system": {
       "type1": "normal",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "3m (5, Enorme)",
       "weightClass": 5,
@@ -63652,7 +63730,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0782.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.6m (3, Pequeño)",
@@ -63730,7 +63808,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0783.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "lucha",
       "diet": "Carnívoro",
       "size": "1.2m (3, Mediano)",
@@ -63808,7 +63886,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0784.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "lucha",
       "diet": "Carnívoro",
       "size": "1.6m (4, Grande)",
@@ -65057,7 +65135,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0825.png",
     "system": {
       "type1": "bicho",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Nulívoro",
       "size": "0.4m (2, Pequeño)",
       "weightClass": 2,
@@ -65135,7 +65213,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0826.png",
     "system": {
       "type1": "bicho",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Nulívoro",
       "size": "0.4m (3, Pequeño)",
       "weightClass": 3,
@@ -65836,7 +65914,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0835.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "0.3m (2, Pequeño)",
@@ -65914,7 +65992,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0836.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Carnívoro",
       "size": "1m (3, Mediano)",
@@ -66227,7 +66305,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0840.png",
     "system": {
       "type1": "planta",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "0.2m (1, Pequeño)",
       "weightClass": 1,
@@ -66279,7 +66357,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Flapple",
+        "nextStage": "Flapple, Appletun, Dipplin",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -66305,7 +66383,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0841.png",
     "system": {
       "type1": "planta",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "0.3m (1, Pequeño)",
       "weightClass": 1,
@@ -66383,7 +66461,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0842.png",
     "system": {
       "type1": "planta",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "0.4m (2, Pequeño)",
       "weightClass": 2,
@@ -66458,10 +66536,10 @@
   {
     "name": "Dipplin",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0842.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/1011.png",
     "system": {
       "type1": "planta",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "4Kg (1, Pequeño)",
       "weightClass": 1,
@@ -66536,10 +66614,10 @@
   {
     "name": "Hydrapple",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0842.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/1019.png",
     "system": {
       "type1": "planta",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "1.8m (4, Mediano)",
       "weightClass": 4,
@@ -67006,7 +67084,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0848.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "veneno",
       "diet": "Omnívoro",
       "size": "0.4m (2, Pequeño)",
@@ -67084,7 +67162,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0849.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "veneno",
       "diet": "Omnívoro",
       "size": "1.6m (3, Mediano)",
@@ -67630,7 +67708,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0856.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -67708,7 +67786,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0857.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.6m (1, Pequeño)",
@@ -67786,7 +67864,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0858.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "hada",
       "diet": "Herbívoro",
       "size": "2.1m (1, Mediano)",
@@ -68332,7 +68410,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0871.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.3m (1, Pequeño)",
@@ -68720,7 +68798,7 @@
   {
     "name": "Eiscue Cara Deshielo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0875.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0875-Noice.png",
     "system": {
       "type1": "hielo",
       "type2": "ninguno",
@@ -68798,9 +68876,9 @@
   {
     "name": "Indeedee Hembra",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0876.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0876-Female.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "normal",
       "diet": "Herbívoro",
       "size": "0.9m (3, Pequeño)",
@@ -68878,7 +68956,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0876.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "normal",
       "diet": "Herbívoro",
       "size": "0.9m (3, Pequeño)",
@@ -68956,7 +69034,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0877.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "siniestro",
       "diet": "Omnívoro",
       "size": "0.3m (1, Pequeño)",
@@ -69190,8 +69268,8 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0880.png",
     "system": {
-      "type1": "eléctrico",
-      "type2": "dragón",
+      "type1": "electrico",
+      "type2": "dragon",
       "diet": "Herbívoro",
       "size": "1.8m (5, Grande)",
       "weightClass": 5,
@@ -69268,7 +69346,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0881.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "hielo",
       "diet": "Herbívoro",
       "size": "2.3m (5, Grande)",
@@ -69347,7 +69425,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0882.png",
     "system": {
       "type1": "agua",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Carnívoro",
       "size": "2.3m (5, Grande)",
       "weightClass": 5,
@@ -69503,7 +69581,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0884.png",
     "system": {
       "type1": "acero",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Terrávoro",
       "size": "1.8m (2, Mediano)",
       "weightClass": 2,
@@ -69581,7 +69659,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/1018.png",
     "system": {
       "type1": "acero",
-      "type2": "dragón",
+      "type2": "dragon",
       "diet": "Terrávoro",
       "size": "2m (4, Grande)",
       "weightClass": 4,
@@ -69658,7 +69736,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0885.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "fantasma",
       "diet": "Nulívoro",
       "size": "0.5m (1, Pequeño)",
@@ -69736,7 +69814,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0886.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "fantasma",
       "diet": "Nulívoro",
       "size": "1.4m (2, Mediano)",
@@ -69814,7 +69892,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0887.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "fantasma",
       "diet": "Nulívoro",
       "size": "3m (4, Enorme)",
@@ -69890,7 +69968,7 @@
   {
     "name": "Sprigatito",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0888.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0906.png",
     "system": {
       "type1": "planta",
       "type2": "ninguno",
@@ -69968,7 +70046,7 @@
   {
     "name": "Floragato",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0889.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0907.png",
     "system": {
       "type1": "planta",
       "type2": "ninguno",
@@ -70046,7 +70124,7 @@
   {
     "name": "Meowscarada",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0890.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0908.png",
     "system": {
       "type1": "planta",
       "type2": "siniestro",
@@ -70124,7 +70202,7 @@
   {
     "name": "Fuecoco",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0891.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0909.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -70202,7 +70280,7 @@
   {
     "name": "Crocalor",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0892.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0910.png",
     "system": {
       "type1": "fuego",
       "type2": "ninguno",
@@ -70280,7 +70358,7 @@
   {
     "name": "Skeledirge",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0893.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0911.png",
     "system": {
       "type1": "fuego",
       "type2": "fantasma",
@@ -70358,7 +70436,7 @@
   {
     "name": "Quaxly",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0894.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0912.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -70436,7 +70514,7 @@
   {
     "name": "Quaxwell",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0895.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0913.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -70514,7 +70592,7 @@
   {
     "name": "Quaquaval",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0896.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0914.png",
     "system": {
       "type1": "agua",
       "type2": "lucha",
@@ -70592,7 +70670,7 @@
   {
     "name": "Lechonk",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0897.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0915.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -70670,7 +70748,7 @@
   {
     "name": "Oinkologne Macho",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0898.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0916-Male.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -70748,7 +70826,7 @@
   {
     "name": "Oinkologne Hembra",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0899.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0916-Female.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -70826,7 +70904,7 @@
   {
     "name": "Tarountula",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0900.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0917.png",
     "system": {
       "type1": "bicho",
       "type2": "ninguno",
@@ -70904,7 +70982,7 @@
   {
     "name": "Spidops",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0901.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0918.png",
     "system": {
       "type1": "bicho",
       "type2": "ninguno",
@@ -70982,7 +71060,7 @@
   {
     "name": "Nymble",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0902.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0919.png",
     "system": {
       "type1": "bicho",
       "type2": "ninguno",
@@ -71060,7 +71138,7 @@
   {
     "name": "Lokix",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0903.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0920.png",
     "system": {
       "type1": "bicho",
       "type2": "siniestro",
@@ -71138,9 +71216,9 @@
   {
     "name": "Pawmi",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0904.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0921.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.3m (1, Pequeño)",
@@ -71216,9 +71294,9 @@
   {
     "name": "Pawmo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0905.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0922.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "lucha",
       "diet": "Herbívoro",
       "size": "0.4m (1, Pequeño)",
@@ -71294,9 +71372,9 @@
   {
     "name": "Pawmot",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0906.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0923.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "lucha",
       "diet": "Herbívoro",
       "size": "0.9m (3, Pequeño)",
@@ -71372,7 +71450,7 @@
   {
     "name": "Tandemaus",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0907.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0924.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -71450,7 +71528,7 @@
   {
     "name": "Maushold",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0908.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0925.png",
     "system": {
       "type1": "normal",
       "type2": "ninguno",
@@ -71528,7 +71606,7 @@
   {
     "name": "Fidough",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0909.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0926.png",
     "system": {
       "type1": "hada",
       "type2": "ninguno",
@@ -71606,7 +71684,7 @@
   {
     "name": "Dachsbun",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0910.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0926.png",
     "system": {
       "type1": "hada",
       "type2": "ninguno",
@@ -71684,7 +71762,7 @@
   {
     "name": "Smoliv",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0911.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0927.png",
     "system": {
       "type1": "planta",
       "type2": "normal",
@@ -71762,7 +71840,7 @@
   {
     "name": "Dolliv",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0912.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0928.png",
     "system": {
       "type1": "planta",
       "type2": "normal",
@@ -71918,7 +71996,7 @@
   {
     "name": "Squawkabilly",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0914.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0931.png",
     "system": {
       "type1": "normal",
       "type2": "volador",
@@ -71996,7 +72074,7 @@
   {
     "name": "Nacli",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0915.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0932.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -72074,7 +72152,7 @@
   {
     "name": "Naclstack",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0916.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0933.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -72152,7 +72230,7 @@
   {
     "name": "Garganacl",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0917.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0934.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -72311,7 +72389,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0936.png",
     "system": {
       "type1": "fuego",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Nulívoro",
       "size": "1.5m (4, Mediano)",
       "weightClass": 4,
@@ -72466,7 +72544,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0921.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "0.3m (1, Pequeño)",
@@ -72544,7 +72622,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0939.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "ninguno",
       "diet": "Omnívoro",
       "size": "1.2m (5, Mediano)",
@@ -72622,7 +72700,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0923.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "volador",
       "diet": "Carnívoro",
       "size": "0.4m (1, Pequeño)",
@@ -72700,7 +72778,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0924.png",
     "system": {
-      "type1": "eléctrico",
+      "type1": "electrico",
       "type2": "volador",
       "diet": "Carnívoro",
       "size": "1.4m (3, Grande)",
@@ -73715,7 +73793,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0937.png",
     "system": {
       "type1": "bicho",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Omnívoro",
       "size": "0.3m (1, Pequeño)",
       "weightClass": 1,
@@ -73792,7 +73870,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0938.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "0.2m (1, Pequeño)",
@@ -73870,7 +73948,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0939.png",
     "system": {
-      "type1": "psíquico",
+      "type1": "psiquico",
       "type2": "ninguno",
       "diet": "Herbívoro",
       "size": "1.9m (4, Grande)",
@@ -74806,7 +74884,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0951.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "normal",
       "diet": "Omnívoro",
       "size": "1.6m (4, Mediano)",
@@ -75509,7 +75587,7 @@
     "img": "systems/ptu-neogenesis/assets/images/species/images/0960.png",
     "system": {
       "type1": "agua",
-      "type2": "psíquico",
+      "type2": "psiquico",
       "diet": "Carnívoro",
       "size": "2.5m (4, Grande)",
       "weightClass": 4,
@@ -75664,7 +75742,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0962.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "agua",
       "diet": "Carnívoro",
       "size": "0.3m (1, Pequeño)",
@@ -75742,7 +75820,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0963.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "hielo",
       "diet": "Carnívoro",
       "size": "0.5m (2, Pequeño)",
@@ -75820,7 +75898,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0997.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "hielo",
       "diet": "Carnívoro",
       "size": "0.8m (3, Pequeño)",
@@ -75898,7 +75976,7 @@
     "type": "species",
     "img": "systems/ptu-neogenesis/assets/images/species/images/0998.png",
     "system": {
-      "type1": "dragón",
+      "type1": "dragon",
       "type2": "hielo",
       "diet": "Carnívoro",
       "size": "2.1m (6, Grande)",
