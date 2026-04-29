@@ -1,86 +1,65 @@
-// Importar Clases de Documentos
+// 1. IMPORTACIONES
 import { PTUNGActor } from "./documents/actor.mjs";
-// Importar Clases de Hojas (Sheets)
 import { PTUNGActorSheet } from "./sheets/actor-sheet.mjs";
-// Importar Configuración
 import { PTUNG } from "./helpers/config.mjs";
+// IMPORTANTE: Importamos la clase de los movimientos
+import { PTUNeogenesisItemSheet } from "./sheets/item-move-sheet.mjs";
 
-export class PTUNeogenesisItemSheet extends ItemSheet {
-    static get defaultOptions() {
-        return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["ptu-neogenesis", "sheet", "item"],
-            width: 600,
-            height: 550, // Lo hice un poco más alto para que los campos respiren mejor
-            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "datos" }]
-        });
-    }
-
-    get template() {
-        return `systems/ptu-neogenesis/templates/item/item-${this.item.type}-sheet.hbs`;
-    }
-
-    // NUEVO: Esta función prepara y envía los datos al HTML
-    async getData(options) {
-        // Obtenemos los datos base que Foundry genera para el ítem
-        const context = await super.getData(options);
-        
-        // Inyectamos nuestro diccionario de configuración (Tipos, Categorías, etc.)
-        // Asumo que tu diccionario global se llama CONFIG.PTUNG (basado en tu cuaderno de diseño)
-        context.config = CONFIG.PTUNG; 
-        
-        // Creamos un atajo directo a "system" para que el HTML lea variables como {{system.diet}}
-        context.system = context.item.system;
-        
-        return context;
-    }
-}
-
-/* -------------------------------------------- */
-/* Inicialización del Sistema                  */
-/* -------------------------------------------- */
-
-Hooks.once('init', async function() {
-
+Hooks.once('init', async function () {
   console.log(`PTU Neo Genesis | Inicializando Sistema`);
 
-  // Registrar el objeto de configuración global para que sea accesible en todo el sistema
+  // 1. CONFIGURACIÓN GLOBAL
   CONFIG.PTUNG = PTUNG;
-
-  // Definir clases personalizadas para los Documentos
   CONFIG.Actor.documentClass = PTUNGActor;
 
-  // Registrar las hojas de Actor (Sheets)
+  // 2. CONFIGURACIÓN DE ICONOS POR DEFECTO
+  // Esto asigna la imagen en la interfaz visual de Foundry
+  const itemIcons = {
+    "move": "icons/svg/d20-grey.svg",
+    "species": "systems/ptu-neogenesis/assets/images/species/images/0000.jpg",
+    "ability": "icons/svg/book.svg",
+    "feature": "icons/svg/aura.svg"
+  };
+
+  Object.entries(itemIcons).forEach(([type, path]) => {
+    CONFIG.Item.typeIcons[type] = path;
+  });
+
+  CONFIG.Item.documentClass.DEFAULT_ICON = "icons/svg/item-bag.svg";
+
+  // 3. REGISTRAR HOJA DE ACTOR
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("ptu-neogenesis", PTUNGActorSheet, {
-    types: ["pokemon"], // De momento solo para el Pokémon
-    makeDefault: true,
-    label: "PTUNG.SheetLabels.Pokemon"
+    types: ["pokemon"],
+    makeDefault: true
   });
 
-  // --- Ayudantes lógicos para el HTML (Handlebars Helpers) ---
-  Handlebars.registerHelper('eq', function (a, b) { return a === b; });
-  Handlebars.registerHelper('ne', function (a, b) { return a !== b; });
-  Handlebars.registerHelper('lt', function (a, b) { return a < b; });
-  Handlebars.registerHelper('concat', function (...args) {
-    // Une los textos ignorando el último argumento interno de Handlebars
-    return args.slice(0, -1).join('');
+  // 4. REGISTRAR HOJA DE ITEMS
+  Items.unregisterSheet("core", ItemSheet);
+  Items.registerSheet("ptu-neogenesis", PTUNeogenesisItemSheet, { 
+    makeDefault: true 
   });
-  // --------------------------------------------------------------------------
-
-  // Pre-cargar plantillas de Handlebars (Opcional por ahora, útil para partials)
-  // return preloadHandlebarsTemplates();
-
-  // Desregistrar la hoja por defecto de Foundry
-    Items.unregisterSheet("core", ItemSheet);
-    
-    // Registrar tu nueva hoja personalizada
-    Items.registerSheet("ptu-neogenesis", PTUNeogenesisItemSheet, { makeDefault: true });
 });
 
 /* -------------------------------------------- */
-/* Configuración después de que el juego cargue */
+/* INTERCEPTOR DE CREACIÓN (FUERZA BRUTA)      */
 /* -------------------------------------------- */
+// Este Hook se dispara justo antes de que un item se guarde en la base de datos.
+// Obliga a Foundry a usar nuestros iconos ignorando la caché.
+Hooks.on("preCreateItem", (item, data, options, userId) => {
+  // Si el item no tiene imagen o tiene la bolsa por defecto, aplicamos la nuestra
+  if (!data.img || data.img === "icons/svg/item-bag.svg") {
+    const defaultIcons = {
+      "move": "icons/svg/d20-grey.svg",
+      "species": "systems/ptu-neogenesis/assets/images/species/images/0000.jpg",
+      "ability": "icons/svg/book.svg",
+      "feature": "icons/svg/aura.svg",
+      "gear": "icons/svg/item-bag.svg",
+      "poketrait": "icons/svg/dna.svg"
+    };
 
-Hooks.once('ready', async function() {
-  // Aquí podemos poner lógica que ocurra al abrir el mundo, como migraciones.
+    if (defaultIcons[item.type]) {
+      item.updateSource({ img: defaultIcons[item.type] });
+    }
+  }
 });

@@ -1,0 +1,98 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <header class="sheet-header flexrow"
+        style="margin-bottom: 15px; border-bottom: 2px solid #333; padding-bottom: 10px;">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"
+            style="border: 1px solid #7a7971; border-radius: 5px;" />
+
+        <div class="header-details flexcol" style="padding-left: 15px;">
+            <h1 class="charname" style="margin: 0; border: none;">
+                <input name="name" type="text" value="{{item.name}}" placeholder="Nombre del Movimiento"
+                    style="font-size: 24px; font-weight: bold; width: 95%; border: none; background: transparent;" />
+            </h1>
+
+            <div style="display: flex; gap: 20px; margin-top: 10px;">
+                <div class="resource flexrow align-center" style="display: flex; align-items: center; gap: 5px;">
+                    <img src="systems/ptu-neogenesis/assets/images/types/{{system.type}}.png" alt="{{system.type}}"
+                        width="24" height="24" onerror="this.style.display='none'" style="border: none;" />
+                    <label style="font-weight: bold;">Tipo:</label>
+                    <select name="system.type" style="height: 28px;">
+                        {{selectOptions config.tipos selected=system.type blank="-- Ninguno --"}}
+                    </select>
+                </div>
+
+                <div class="resource flexrow align-center" style="display: flex; align-items: center; gap: 5px;">
+                    <img src="systems/ptu-neogenesis/assets/images/damage-category/{{system.category}}.png"
+                        alt="{{system.category}}" width="24" height="24" onerror="this.style.display='none'"
+                        style="border: none;" />
+                    <label style="font-weight: bold;">Categoría:</label>
+                    <select name="system.category" style="height: 28px;">
+                        {{selectOptions config.categorias selected=system.category blank="-- Ninguno --"}}
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="sheet-body">
+        <div class="grid grid-4col"
+            style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 15px;">
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Frecuencia</label>
+                <input type="text" name="system.frequency" value="{{system.frequency}}" placeholder="Ej. A Voluntad..."
+                    style="width: 100%;" />
+            </div>
+
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Rango</label>
+                <input type="text" name="system.range" value="{{system.range}}" placeholder="Ej. Cuerpo a Cuerpo..."
+                    style="width: 100%;" />
+            </div>
+
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">CP</label>
+                <input type="text" name="system.cp" value="{{#if system.cp}}{{system.cp}}{{else}}---{{/if}}"
+                    placeholder="---" style="width: 100%; text-align: center;" />
+            </div>
+
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Daño Base</label>
+                <input type="number" name="system.damageBase" value="{{system.damageBase}}" data-dtype="Number"
+                    placeholder="0" style="width: 100%; text-align: center;" />
+            </div>
+        </div>
+
+        <div class="resource flexrow align-center" style="margin-bottom: 20px; display: flex; gap: 10px; align-items: center;">
+            <label style="font-weight: bold; font-size: 11px; text-transform: uppercase; white-space: nowrap;">Propiedades:</label>
+            <input type="text" name="system.properties" value="{{system.properties}}" placeholder="Ej: Lluvia de Golpes, Cortante ..." style="margin-left:-145px; width: 100%; height: 26px; border: 1px solid #7a7971; border-radius: 3px; padding-left: 5px; background: rgba(0,0,0,0.02);" />
+            <label style="font-weight: bold; font-size: 11px; text-transform: uppercase; white-space: nowrap;">Palabras Clave:</label>
+            <input type="text" name="system.keywords" value="{{system.keywords}}" placeholder="Ej: Puño Férreo, Bola, Cortante ..." style="margin-left:-130px; width: 100%; height: 26px; border: 1px solid #7a7971; border-radius: 3px; padding-left: 5px; background: rgba(0,0,0,0.02);" />
+        </div>
+
+        <div class="resource effect-box"
+            style="border: 1px solid #7a7971; padding: 10px; border-radius: 5px; background: rgba(0,0,0,0.05);">
+            <label
+                style="font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #7a7971;">Efectos</label>
+            <textarea name="system.effects" rows="6"
+                style="width: 100%; border: none; background: transparent; resize: vertical;"
+                placeholder="Describe los efectos mecánicos del movimiento aquí ...">{{system.effects}}</textarea>
+        </div>
+
+        <div class="resource effect-box"
+            style="border: 1px solid #7a7971; padding: 10px; border-radius: 5px; background: rgba(0,0,0,0.05); margin-top: 15px;">
+            <label
+                style="font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #7a7971;">Concursos</label>
+            <div class="grid grid-2col" style="margin-bottom: 10px;">
+                <div class="form-group">
+                    <label>Atributo:</label>
+                    <select name="system.contestType" style="flex: 1;">
+                        {{selectOptions config.pokochos selected=system.contestType blank="--- Ninguno ---"}}
+                    </select>
+                </div>
+            </div>
+            <textarea name="system.contestEffects" rows="6"
+                style="width: 100%; border: none; background: transparent; resize: vertical;"
+                placeholder="Describe los efectos para concursos aquí ...">{{system.contestEffects}}</textarea>
+        </div>
+    </section>
+</form>

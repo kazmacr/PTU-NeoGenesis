@@ -42,7 +42,7 @@ PTUNG.tipos = {
 PTUNG.categorias = {
   "fisico":"Físico",
   "especial":"Especial",
-  "estado":"Estado"
+  "estatus":"Estatus"
 };
 
 /**
@@ -217,18 +217,67 @@ PTUNG.nature = {
 /**
  *  Modificadores de Combate (MC)
  */
-  PTUNG.combatStages = {
-    "-6": "-6",
-    "-5": "-5",
-    "-4": "-4",
-    "-3": "-3",
-    "-2": "-2",
-    "-1": "-1",
-    "0": "0",
-    "1": "+1",
-    "2": "+2",
-    "3": "+3",
-    "4": "+4",
-    "5": "+5",
-    "6": "+6"
-  };
+PTUNG.combatStages = {
+  "-6": "-6",
+  "-5": "-5",
+  "-4": "-4",
+  "-3": "-3",
+  "-2": "-2",
+  "-1": "-1",
+  "0": "0",
+  "1": "+1",
+  "2": "+2",
+  "3": "+3",
+  "4": "+4",
+  "5": "+5",
+  "6": "+6"
+};
+
+/**
+  * Lista de palabras claves de movimientos
+  */
+PTUNG.keywords = {
+  "potencia_bruta": "Potencia Bruta",
+  "garra_dura": "Garra Dura",
+  "experto": "Experto",
+  "audaz": "Audaz",
+  "puno_ferreo": "Puño Férreo",
+  "megadisparador": "Megadisparador",
+  "solista": "Solista",
+  "mandibula_fuerte": "Mandíbula Fuerte",
+  "cortante": "Cortante",
+  "bola": "Bola",
+  "patada": "Patada"
+};
+
+/**
+ * Lista de propiedades de referencias para los movimientos
+ */
+PTUNG.properties = {
+  "amistoso": "Amistoso",
+  "atravesar": "Atravesar",
+  "bola": "Bola",
+  "colmillo": "Colmillo", 
+  "condicion": "Condición", 
+  "cortante": "Cortante",
+  "curacion": "Curación",
+  "danza": "Danza",
+  "devastador": "Devastador",
+  "embestir": "Embestir",
+  "extenuante": "Extenuante",
+  "golpes_duales": "Golpes Duales",
+  "ilusorio": "Ilusorio",
+  "inestable": "Inestable",
+  "lluvia_golpes": "Lluvia de Golpes",
+  "patada": "Patada",
+  "polvo": "Polvo",
+  "preparacion": "Preparación",
+  "prioridad": "Prioridad",
+  "puño": "Puño",
+  "rafaga": "Ráfaga",
+  "retroceso": "Retroceso",
+  "social": "Social",
+  "sonico": "Sónico",
+  "temerario": "Temerario",
+  "terrestre": "Terrestre",
+};

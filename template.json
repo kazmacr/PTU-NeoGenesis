@@ -127,27 +127,26 @@
     }
   },
   "Item": {
-    "types": [
-      "move",
-      "ability",
-      "feature",
-      "poketrait",
-      "gear",
-      "species"
-    ],
+    "types": ["move", "ability", "feature", "poketrait", "gear", "species"],
     "htmlFields": [
-      "description"
+      "description",
+      "effects"
     ],
     "templates": {},
     "move": {
+      "img": "icons/svg/d20-grey.svg",
       "description": "",
       "type": "Normal",
       "category": "Físico",
       "frequency": "A Voluntad",
       "range": "Cuerpo a cuerpo, 1 Objetivo",
-      "ac": 2,
-      "damageBase": 1,
-      "effects": ""
+      "properties": "",
+      "cp": "",
+      "damageBase": 0,
+      "keywords": "",
+      "effects": "",
+      "contestEffects": "",
+      "contestType": "belleza"
     },
     "ability": {
       "description": "",
@@ -171,6 +170,7 @@
       "weight": 0
     },
     "species": {
+      "img": "systems/ptu-neogenesis/assets/images/species/images/0000.jpg",
       "type1": "",
       "type2": "",
       "diet": "",
