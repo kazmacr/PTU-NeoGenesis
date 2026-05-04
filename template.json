@@ -127,7 +127,7 @@
     }
   },
   "Item": {
-    "types": ["move", "ability", "feature", "poketrait", "gear", "species"],
+    "types": ["move", "ability", "feature", "poketrait", "gear", "species", "trait"],
     "htmlFields": [
       "description",
       "effects"
@@ -152,16 +152,26 @@
       "description": "",
       "frequency": "Pasivo",
       "trigger": "",
-      "effect": ""
+      "effect": "",
+      "notes": ""
     },
     "feature": {
       "description": "",
       "prerequisites": "",
-      "frequency": "Pasivo",
+      "frequency": "",
+      "category": "",
+      "subcategory": "",
       "tags": ""
     },
+    "trait": {
+      "description": "",
+      "prerequisites": "",
+      "frequency": "",
+      "notes": ""
+    },
     "poketrait": {
-      "description": ""
+      "description": "",
+      "prerequisites": ""
     },
     "gear": {
       "description": "",

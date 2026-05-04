@@ -1,0 +1,605 @@
+[
+  {
+    "name": "Aroma Irresistible",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario suma su Rango de Atletismo o Concentración al usar la Capacidad Aromático.",
+      "prerequisites": "Nivel 20 y la Capacidad Aromático.\n1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Un Atributo del usuario sube un Rango. Este Poké Rasgo se puede adquirir varias veces, eligiendo un Atributo diferente cada vez.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Acrobacias)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Acrobacias del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Astucia)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Astucia del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Atletismo)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Atletismo del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Carisma)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Carisma del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Combate)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Combate del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Concentración)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Concentración del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Ed. General)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Ed. General del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Ed. Médica)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Ed. Médica del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Ed. Oculta)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Ed. Oculta del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Ed. Pokémon)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Ed. Pokémon del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Ed. Tecnológica)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Ed. Tecnológica del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Intimidación)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Intimidación del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Intuición)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Intuición del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Liderazgo)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Liderazgo del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Percepción)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Percepción del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Sigilo)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Sigilo del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Atributo Mejorado (Supervivencia)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Atributo de Supervivencia del usuario sube un Rango.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Bruto",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Si el usuario golpea al usar como Acción Estándar la Maniobra Derribar, Desarmar o Empujar, puede usar un Forcejeo contra el objetivo como Acción Gratis, que golpea automáticamente.",
+      "prerequisites": "Nivel 20 y Atletismo o Combate en Adepto\n1 PT"
+    }
+  },
+  {
+    "name": "Burbuja Personal",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario puede utilizar su Capacidad Nado fuera del agua en lugar de Suelo. Cuando está en el agua, su Nado sube en +1, y la Precisión y Daño de sus ataques de Agua en +1 y +5 respectivamente",
+      "prerequisites": "Grupo Agua 2 o Agua 3. \n1 PT"
+    }
+  },
+  {
+    "name": "Castigador",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario puede utilizar Movimientos de DB 5 o menos (no cuenta DB variable), de X Objetivos, en lugar de Forcejeos en Ataques de Oportunidad.",
+      "prerequisites": "Nivel 20 y Forcejeo Elemental.\n2 PT"
+    }
+  },
+  {
+    "name": "Coloso",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario gana +3 al Daño y de Reducción de Daño por cada Tamaño por encima de Mediano",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Conexión Avanzada",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Movimiento mencionado en una Habilidad Conexión del usuario ya no cuenta para su Límite de Movimientos.",
+      "prerequisites": "Una Habilidad Conexión.\n1 PT"
+    }
+  },
+  {
+    "name": "Conflicto Mixto",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Uno de los Stats Ofensivos del usuario pasa a ser ignorado por el BSP (no puede ocupar ningún puesto) y en su lugar recibe los mismos Puntos por BSP que reciba el otro Stat.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Energía Alternativa Tier 1",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Un Movimiento de Tier 1 del usuario cambia de Físico a Especial o viceversa. Los PT se reembolsan si este se olvida.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Energía Alternativa Tier 2",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Un Movimiento de Tier 2 del usuario cambia de Físico a Especial o viceversa. Los PT se reembolsan si este se olvida.",
+      "prerequisites": "2 PT"
+    }
+  },
+  {
+    "name": "Energía Alternativa Tier 3",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Un Movimiento de Tier 3 del usuario cambia de Físico a Especial o viceversa. Los PT se reembolsan si este se olvida.",
+      "prerequisites": "3 PT"
+    }
+  },
+  {
+    "name": "Entrenamiento de Precisión",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El CP de un Movimiento del usuario con CP 3 o más baja en -1. Este Poké Rasgo se puede adquirir hasta 3 veces, seleccionando Movimientos diferentes cada vez.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Expandir Horizontes",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Pokémon gana 2 Puntos de Tutor. Un Pokémon puede ser objetivo de Expandir Horizontes solo una vez. Debe ser el Pokémon de un Mentor con el Talento Expandir Horizontes.",
+      "prerequisites": "El Entrenador posee Mentor y Expandir Horizontes\n0 PT"
+    }
+  },
+  {
+    "name": "Extralargo",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Rango de los ataques Melé del usuario aumenta en 1 metro adicional.",
+      "prerequisites": "Nivel 20 y Extensible\n1 PT"
+    }
+  },
+  {
+    "name": "Forcejeo Elemental",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Los Forcejeos del usuario pueden ser de uno de sus Tipos Elementales, pueden ser Físicos o Especiales y pueden usarse como si su Rango fuera de 6 metros.",
+      "prerequisites": "1 PT"
+    }
+  },
+  {
+    "name": "Fuerza Latente",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Todos los Stats Base del usuario suben en +1 pero no puede Evolucionar.",
+      "prerequisites": "Nivel 15 y la Capacidad Potencial Latente.\n1 PT"
+    }
+  },
+  {
+    "name": "Habilidad Oculta",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario gana una Habilidad adicional de su Lista de Habilidades.",
+      "prerequisites": "Nivel 60\n3 PT"
+    }
+  },
+  {
+    "name": "Instinto de Presa",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Si el usuario golpea con un Movimiento Dañino Melé de Normal puede Destrabarse como Acción Gratis hasta una distancia igual a su Rango de Acrobacias o Sigilo. Esto no consume su Capacidad de Desplazamiento.",
+      "prerequisites": "Nivel 15, Tipo Normal y no tener Poké Músculo ni Puntería Fundamental\n0 PT"
+    }
+  },
+  {
+    "name": "Instinto Materno",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Las crías del usuario nacen con la Capacidad Dependiente.",
+      "prerequisites": "Nivel 25 y Hembra\n2 PT"
+    }
+  },
+  {
+    "name": "Invisibilidad Extendida",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario sube la duración máxima de la Capacidad Invisibilidad a 8 minutos.",
+      "prerequisites": "Nivel 20 y la Capacidad Invisibilidad.\n1 PT"
+    }
+  },
+  {
+    "name": "Lapa",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Los objetivos Agarrados por el usuario sufren -2 a las Pruebas para dejar de estarlo. El usuario puede utilizar la Maniobra Agarrar en lugar de Forcejeos en Ataques de Oportunidad.",
+      "prerequisites": "Nivel 20 y Atletismo o Combate en Adepto.\n2 PT"
+    }
+  },
+  {
+    "name": "Lectura Lejana",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Rango de Concentración del usuario sube en +2 al calcular el Rango de Telepático.",
+      "prerequisites": "Nivel 20 y la Capacidad Telepático.\n1 PT"
+    }
+  },
+  {
+    "name": "Luchador Traicionero",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Dos veces por Escena el usuario puede usar la Maniobra Truco Sucio como Acción Rápida.",
+      "prerequisites": "Nivel 20 y 2 de los siguientes Atributos en Novato: Acrobacias, Atletismo o Sigilo\n2 PT"
+    }
+  },
+  {
+    "name": "Maestría Telequinética",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El rango de Concentración del usuario sube en +2 al calcular los efectos de la Capacidad Telequinético.",
+      "prerequisites": "Nivel 20 y la Capacidad Telequinético.\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Una Capacidad de Desplazamiento del usuario sube en +2. Este Poké Rasgo se puede adquirir varias veces, seleccionando una Capacidad diferente cada vez.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada (Cavar)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Cavar del usuario sube en +2. No puede volver a elegir Cavar con este Poké Rasgo.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada (Cielo)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Cielo del usuario sube en +2. No puede volver a elegir Cielo con este Poké Rasgo.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada (Levitar)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Levitar del usuario sube en +2. No puede volver a elegir Levitar con este Poké Rasgo.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada (Nado)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Nado del usuario sube en +2. No puede volver a elegir Nado con este Poké Rasgo.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada (Suelo)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Suelo del usuario sube en +2. No puede volver a elegir Suelo con este Poké Rasgo.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Movilidad Avanzada (Teleportación)",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Teleportación del usuario sube en +2. No puede volver a elegir Teleportación con este Poké Rasgo. No se actualiza automáticamente.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Oportunista",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Cada Ronda, el usuario puede realizar 2 Ataques de Oportunidad en vez de 1",
+      "prerequisites": "Percepción o Sigilo en Adepto.\n1 PT"
+    }
+  },
+  {
+    "name": "Poké Músculo",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Si el usuario quiere, sus Movimientos Dañinos de Normal empujan al objetivo tantos metros como su Rango de Atletismo o Combate.",
+      "prerequisites": "Nivel 15, Tipo Normal y no tener Instinto de Presa ni Puntería Fundamental\n0 PT"
+    }
+  },
+  {
+    "name": "Potencial Despertado",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario suma los Stats Base de su especie y el resultado lo resta a 45. El usuario gana Puntos de Stats iguales al resultado de la resta.",
+      "prerequisites": "Nivel 30 y la Capacidad Potencial Latente.\n2 PT"
+    }
+  },
+  {
+    "name": "Pulso Aural",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario gana la Capacidad Pulso Aural.",
+      "prerequisites": "Nivel 30 y la Capacidad Sentido Aural.\n2 PT"
+    }
+  },
+  {
+    "name": "Puntería Fundamental",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La CP de los Movimientos Dañinos de Normal del usuario baja en la mitad de su Rango de Concentración o Percepción (Mínimo CP 0).",
+      "prerequisites": "Nivel 15, Tipo Normal y no tener Poké Músculo ni Instinto de Presa\n0 PT"
+    }
+  },
+  {
+    "name": "Reflejos Agudos",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Una vez por turno el usuario puede realizar la Maniobra Apuntar, Eludir o Potenciar como Acción Gratis.",
+      "prerequisites": "30 de Velocidad\n1 PT"
+    }
+  },
+  {
+    "name": "Resbaladizo",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario suma la mitad de su Capacidad Nado a su Suelo. Si termina su turno en el agua, el usuario gana un Tick de Vida Temporal.",
+      "prerequisites": "Grupo Agua 1 o Agua 3. \n2 PT"
+    }
+  },
+  {
+    "name": "Sabueso",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario añade su Rango de Concentración al usar la Capacidad Rastreador.",
+      "prerequisites": "Nivel 20 y la Capacidad Rastreador.\n1 PT"
+    }
+  },
+  {
+    "name": "Saltimbanqui",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Salto del usuario sube en +1.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Seda Precisa",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario puede usar su Capacidad Tejedor con un Rango de 6 metros y con CP 3 en lugar de 6.",
+      "prerequisites": "Nivel 20 y la Capacidad Tejedor.\n1 PT"
+    }
+  },
+  {
+    "name": "Sismómetro",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario suma su Rango de Percepción al usar la Capacidad Sismosentido.",
+      "prerequisites": "Nivel 20 y la Capacidad Sismosentido.\n1 PT"
+    }
+  },
+  {
+    "name": "Sobrepasar",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Una vez por Ronda, cuando el usuario causa Daño Directo a un objetivo con 20 de Iniciativa menos que él, puede realizar un Forcejeo contra este como Acción Gratis.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Técnicas Latentes",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El usuario aprende un Movimiento de una de sus Evoluciones Finales. El Movimiento debe ser de la Lista de Movimientos por Nivel y respetar las reglas de Tier, este se considera Natural. Ahora el usuario puede aprender los Movimientos de Tutor de la Evolución Final elegida. Se puede adquirir hasta 3 veces eligiendo la misma Evolución Final.",
+      "prerequisites": "Fuerza Latente\n1 PT"
+    }
+  },
+  {
+    "name": "Vigoroso",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "La Capacidad Vigor del usuario sube en +2.",
+      "prerequisites": "Nivel 20\n1 PT"
+    }
+  },
+  {
+    "name": "Zapador",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Dos veces por Escena el usuario puede usar la Capacidad Terraformación como Acción Rápida.",
+      "prerequisites": "Capacidad Terraformación\n1 PT"
+    }
+  },
+  {
+    "name": "Digital Avatar",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Pokémon puede sumergirse en sistemas y redes informáticos y obtener un 3d6 en Educación Tecnológica si no tenía previamente Educación Tecnológica.",
+      "prerequisites": "Datajack Augmentation\n1 PT"
+    }
+  },
+  {
+    "name": "Gravity Training",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Pokémon gana 2 puntos para expandir su Capacidad Gravitic Tolerance en cualquier dirección. Si no tiene la Capacidad Gravitic Tolerance, podrá colocar estos puntos a partir de su Home Gravity (normalmente para un Pokémon adaptado a la gravedad terrestre su valor de Home Gravity será 3).",
+      "prerequisites": "Ninguno\n1 PT"
+    }
+  },
+  {
+    "name": "Psychic Navigator",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "Otorga la Capacidad Psychic Navigator.",
+      "prerequisites": "Tipo Psíquico y Nivel 20\n2 PT"
+    }
+  },
+  {
+    "name": "Vehicle Training",
+    "type": "poketrait",
+    "img": "icons/svg/dna.svg",
+    "system": {
+      "description": "El Pokémon puede conducir vehículos que estén debidamente equipados para la especie como Acción Estándar.",
+      "prerequisites": "Un Cuerpo apropiado.\n1 PT"
+    }
+  }
+]

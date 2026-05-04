@@ -1,0 +1,58 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <header class="sheet-header flexrow"
+        style="margin-bottom: 15px; border-bottom: 2px solid #333; padding-bottom: 10px;">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"
+            style="border: 1px solid #7a7971; border-radius: 5px; max-width: 64px; max-height: 64px;" />
+
+        <div class="header-details flexcol" style="padding-left: 15px; justify-content: center; width: 100%;">
+            <h1 class="charname" style="margin: 0; border: none;">
+                <input name="name" type="text" value="{{item.name}}" placeholder="Nombre de la Habilidad"
+                    style="font-size: 24px; font-weight: bold; width: 100%; border: none; background: transparent;" />
+            </h1>
+        </div>
+    </header>
+
+    <section class="sheet-body">
+        <!-- FRECUENCIA -->
+        <div class="grid grid-2col" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 15px;">
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Frecuencia</label>
+                <input type="text" name="system.frequency" value="{{system.frequency}}" 
+                    placeholder="Ej. Pasivo, Escena..." style="width: 100%; height: 28px;" />
+            </div>
+        </div>
+
+        <!-- DESENCADENANTE (TRIGGER) -->
+        <div class="resource effect-box"
+            style="border: 1px solid #7a7971; padding: 10px; border-radius: 5px; background: rgba(0,0,0,0.02); margin-bottom: 15px;">
+            <label style="font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #7a7971; font-size: 11px; text-transform: uppercase;">
+                Desencadenante
+            </label>
+            <textarea name="system.trigger" rows="2"
+                style="width: 100%; border: none; background: transparent; resize: vertical;"
+                placeholder="Ej. Al ser golpeado por un ataque Melé...">{{system.trigger}}</textarea>
+        </div>
+
+        <!-- EFECTO (EFFECT) -->
+        <div class="resource effect-box"
+            style="border: 1px solid #7a7971; padding: 10px; border-radius: 5px; background: rgba(0,0,0,0.05); margin-bottom: 15px;">
+            <label style="font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #7a7971; font-size: 11px; text-transform: uppercase;">
+                Efecto
+            </label>
+            <textarea name="system.effect" rows="5"
+                style="width: 100%; border: none; background: transparent; resize: vertical;"
+                placeholder="Describe el efecto mecánico aquí...">{{system.effect}}</textarea>
+        </div>
+
+        <!-- DESCRIPCIÓN GENERAL (DESCRIPTION) -->
+        <div class="resource effect-box"
+            style="border: 1px dashed #7a7971; padding: 10px; border-radius: 5px; background: transparent;">
+            <label style="font-weight: bold; color: #555; display: block; margin-bottom: 5px; border-bottom: 1px dashed #7a7971; font-size: 11px; text-transform: uppercase;">
+                Descripción / Notas Adicionales
+            </label>
+            <textarea name="system.description" rows="3"
+                style="width: 100%; border: none; background: transparent; resize: vertical;"
+                placeholder="Descripción narrativa o texto extra de la habilidad...">{{system.description}}</textarea>
+        </div>
+    </section>
+</form>

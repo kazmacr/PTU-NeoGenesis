@@ -4058,7 +4058,7 @@
   {
     "name": "Crobat",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0169.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/00169.png",
     "system": {
       "type1": "veneno",
       "type2": "volador",
@@ -8247,7 +8247,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 30,
-        "nextStage": "Slowbro",
+        "nextStage": "Slowbro, Slowking",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -8481,7 +8481,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 30,
-        "nextStage": "Slowbro Galar",
+        "nextStage": "Slowbro Galar, Slowking Galar",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -14744,7 +14744,7 @@
   {
     "name": "Tauros Paldea Ardiente",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea-Blaze-Breed.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0128-Paldea-Blaze-Brred.png",
     "system": {
       "type1": "lucha",
       "type2": "fuego",
@@ -17295,7 +17295,7 @@
       "evolution": {
         "stage": 2,
         "evoLevel": 30,
-        "nextStage": "Typhlosion, Typhlosion Hisui",
+        "nextStage": "Typhlosion",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -21429,7 +21429,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Dudunsparce, Dudunsparce Trinodular",
+        "nextStage": "Dudunsparce",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -22755,7 +22755,7 @@
       "evolution": {
         "stage": 2,
         "evoLevel": 35,
-        "nextStage": "Ursaluna",
+        "nextStage": "Ursaluna, Ursaluna Carmesí",
         "criteria": "Nivel 35"
       },
       "megaEvo": {
@@ -22856,7 +22856,7 @@
   {
     "name": "Ursaluna Carmesí",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0901-Bloodmoon.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0217-Bloodmoon.png",
     "system": {
       "type1": "tierra",
       "type2": "normal",
@@ -23246,7 +23246,7 @@
   {
     "name": "Mamoswine",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0473.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0864.png",
     "system": {
       "type1": "hielo",
       "type2": "tierra",
@@ -37107,7 +37107,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Wormadam Planta (Mujer), Wormadam Arena (Mujer), Wormadam Basura (Mujer), Mothim (Macho)",
+        "nextStage": "Wormadam Planta (hembra), Wormadam Arena (hembra), Wormadam Basura (hembra), Mothim (Macho)",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -37497,7 +37497,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Vespiquen (Mujer)",
+        "nextStage": "Vespiquen (hembra)",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -40383,7 +40383,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 0,
-        "nextStage": "Rotom Calor, Rotom Lavado, Rotom Corte, Rotom Frío, Rotom Ventilador",
+        "nextStage": "",
         "criteria": ""
       },
       "megaEvo": {
@@ -40461,7 +40461,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 0,
-        "nextStage": "Rotom Calor, Rotom Lavado, Rotom Corte, Rotom Frío, Rotom Ventilador",
+        "nextStage": "",
         "criteria": ""
       },
       "megaEvo": {
@@ -40539,7 +40539,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 0,
-        "nextStage": "Rotom Calor, Rotom Lavado, Rotom Corte, Rotom Frío, Rotom Ventilador",
+        "nextStage": "",
         "criteria": ""
       },
       "megaEvo": {
@@ -40617,7 +40617,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 0,
-        "nextStage": "Rotom Calor, Rotom Lavado, Rotom Corte, Rotom Frío, Rotom Ventilador",
+        "nextStage": "",
         "criteria": ""
       },
       "megaEvo": {
@@ -40695,7 +40695,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 0,
-        "nextStage": "Rotom Calor, Rotom Lavado, Rotom Corte, Rotom Frío, Rotom Ventilador",
+        "nextStage": "",
         "criteria": ""
       },
       "megaEvo": {
@@ -40773,7 +40773,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 0,
-        "nextStage": "Rotom Calor, Rotom Lavado, Rotom Corte, Rotom Frío, Rotom Ventilador",
+        "nextStage": "",
         "criteria": ""
       },
       "megaEvo": {
@@ -45297,7 +45297,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Basculegion (M/H)",
+        "nextStage": "Basculegion M, Basculegion H",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -55281,7 +55281,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Meowstic (M/H)",
+        "nextStage": "Meowstic Macho, Meowstic Hembra",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -55593,7 +55593,7 @@
       "evolution": {
         "stage": 2,
         "evoLevel": 40,
-        "nextStage": "Aegislash",
+        "nextStage": "Aegislash Escudo, Aegislash Filo",
         "criteria": "Nivel 40"
       },
       "megaEvo": {
@@ -61911,7 +61911,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 30,
-        "nextStage": "Salazzle (Mujer)",
+        "nextStage": "Salazzle (hembra)",
         "criteria": "Nivel 30"
       },
       "megaEvo": {
@@ -70725,7 +70725,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 20,
-        "nextStage": "Oinkologne (M), Oinkologne (H)",
+        "nextStage": "Oinkologne Macho, Oinkologne Hembra",
         "criteria": "Nivel 20"
       },
       "megaEvo": {
@@ -71684,7 +71684,7 @@
   {
     "name": "Dachsbun",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0927.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0926.png",
     "system": {
       "type1": "hada",
       "type2": "ninguno",
@@ -71762,7 +71762,7 @@
   {
     "name": "Smoliv",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0928.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0927.png",
     "system": {
       "type1": "planta",
       "type2": "normal",
@@ -71840,7 +71840,7 @@
   {
     "name": "Dolliv",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0929.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0928.png",
     "system": {
       "type1": "planta",
       "type2": "normal",
@@ -72542,7 +72542,7 @@
   {
     "name": "Tadbulb",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0938.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0921.png",
     "system": {
       "type1": "electrico",
       "type2": "ninguno",
@@ -72698,7 +72698,7 @@
   {
     "name": "Wattrel",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0940.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0923.png",
     "system": {
       "type1": "electrico",
       "type2": "volador",
@@ -72776,7 +72776,7 @@
   {
     "name": "Kilowattrel",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0941.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0924.png",
     "system": {
       "type1": "electrico",
       "type2": "volador",
@@ -72854,7 +72854,7 @@
   {
     "name": "Maschiff",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0942.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0925.png",
     "system": {
       "type1": "siniestro",
       "type2": "ninguno",
@@ -72932,7 +72932,7 @@
   {
     "name": "Mabosstiff",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0943.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0926.png",
     "system": {
       "type1": "siniestro",
       "type2": "ninguno",
@@ -73010,7 +73010,7 @@
   {
     "name": "Shroodle",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0944.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0927.png",
     "system": {
       "type1": "veneno",
       "type2": "normal",
@@ -73088,7 +73088,7 @@
   {
     "name": "Grafaiai",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0945.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0928.png",
     "system": {
       "type1": "veneno",
       "type2": "normal",
@@ -73322,7 +73322,7 @@
   {
     "name": "Toedscool",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0948.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0931.png",
     "system": {
       "type1": "tierra",
       "type2": "planta",
@@ -73400,7 +73400,7 @@
   {
     "name": "Toedscruel",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0949.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0932.png",
     "system": {
       "type1": "tierra",
       "type2": "planta",
@@ -73478,7 +73478,7 @@
   {
     "name": "Klawf",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0950.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0933.png",
     "system": {
       "type1": "roca",
       "type2": "ninguno",
@@ -73634,7 +73634,7 @@
   {
     "name": "Scovillain",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0952.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0935.png",
     "system": {
       "type1": "planta",
       "type2": "fuego",
@@ -73712,7 +73712,7 @@
   {
     "name": "Rellor",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0953.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0936.png",
     "system": {
       "type1": "bicho",
       "type2": "ninguno",
@@ -73790,7 +73790,7 @@
   {
     "name": "Rabsca",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0954.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0937.png",
     "system": {
       "type1": "bicho",
       "type2": "psiquico",
@@ -73868,7 +73868,7 @@
   {
     "name": "Flittle",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0955.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0938.png",
     "system": {
       "type1": "psiquico",
       "type2": "ninguno",
@@ -73946,7 +73946,7 @@
   {
     "name": "Espathra",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0956.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0939.png",
     "system": {
       "type1": "psiquico",
       "type2": "ninguno",
@@ -74024,7 +74024,7 @@
   {
     "name": "Tinkatink",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0957.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0940.png",
     "system": {
       "type1": "hada",
       "type2": "acero",
@@ -74102,7 +74102,7 @@
   {
     "name": "Tinkatuff",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0958.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0941.png",
     "system": {
       "type1": "hada",
       "type2": "acero",
@@ -74180,7 +74180,7 @@
   {
     "name": "Tinkaton",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0959.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0942.png",
     "system": {
       "type1": "hada",
       "type2": "acero",
@@ -74258,7 +74258,7 @@
   {
     "name": "Wiglett",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0960.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0943.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -74336,7 +74336,7 @@
   {
     "name": "Wugtrio",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0961.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0944.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -74492,7 +74492,7 @@
   {
     "name": "Finizen",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0963.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0946.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -74547,7 +74547,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Palafin Ingenuo",
+        "nextStage": "Palafin",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -74570,7 +74570,7 @@
   {
     "name": "Palafin Ingenuo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0964.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0947.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -74625,7 +74625,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Palafin Heroico",
+        "nextStage": "Palafin",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -74648,7 +74648,7 @@
   {
     "name": "Palafin Heroico",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0964-Hero.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0948.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -74703,7 +74703,7 @@
       "evolution": {
         "stage": 1,
         "evoLevel": 25,
-        "nextStage": "Palafin Ingenuo",
+        "nextStage": "Palafin",
         "criteria": "Nivel 25"
       },
       "megaEvo": {
@@ -74726,7 +74726,7 @@
   {
     "name": "Varoom",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0965.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0949.png",
     "system": {
       "type1": "acero",
       "type2": "veneno",
@@ -74804,7 +74804,7 @@
   {
     "name": "Revavroom",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0966.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0950.png",
     "system": {
       "type1": "acero",
       "type2": "veneno",
@@ -74882,7 +74882,7 @@
   {
     "name": "Cyclizar",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0967.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0951.png",
     "system": {
       "type1": "dragon",
       "type2": "normal",
@@ -74960,7 +74960,7 @@
   {
     "name": "Orthworm",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0968.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0952.png",
     "system": {
       "type1": "acero",
       "type2": "ninguno",
@@ -75038,7 +75038,7 @@
   {
     "name": "Glimmet",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0969.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0953.png",
     "system": {
       "type1": "roca",
       "type2": "veneno",
@@ -75116,7 +75116,7 @@
   {
     "name": "Glimmora",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0970.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0954.png",
     "system": {
       "type1": "roca",
       "type2": "veneno",
@@ -75194,7 +75194,7 @@
   {
     "name": "Greavard",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0971.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0955.png",
     "system": {
       "type1": "fantasma",
       "type2": "ninguno",
@@ -75272,7 +75272,7 @@
   {
     "name": "Houndstone",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0972.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0956.png",
     "system": {
       "type1": "fantasma",
       "type2": "ninguno",
@@ -75350,7 +75350,7 @@
   {
     "name": "Flamigo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0973.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0957.png",
     "system": {
       "type1": "volador",
       "type2": "lucha",
@@ -75584,7 +75584,7 @@
   {
     "name": "Veluza",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0976.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0960.png",
     "system": {
       "type1": "agua",
       "type2": "psiquico",
@@ -75662,7 +75662,7 @@
   {
     "name": "Dondozo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0977.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0961.png",
     "system": {
       "type1": "agua",
       "type2": "ninguno",
@@ -75740,7 +75740,7 @@
   {
     "name": "Tatsugiri",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0978.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0962.png",
     "system": {
       "type1": "dragon",
       "type2": "agua",
@@ -75818,7 +75818,7 @@
   {
     "name": "Frigibax",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0996.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0963.png",
     "system": {
       "type1": "dragon",
       "type2": "hielo",
@@ -76050,87 +76050,9 @@
     }
   },
   {
-    "name": "Gimmighoul Cofre",
+    "name": "Gimmighoul",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0999.png",
-    "system": {
-      "type1": "fantasma",
-      "type2": "ninguno",
-      "diet": "Nulívoro",
-      "size": "0.3m (1, Pequeño)",
-      "weightClass": 1,
-      "habitats": "Bosque, Montaña, Pradera",
-      "eggGroup1": "Desconocido",
-      "eggGroup2": "",
-      "hatchDays": 10,
-      "gender": {
-        "male": 50,
-        "female": 50,
-        "genderless": false
-      },
-      "stats": {
-        "hp": {
-          "base": 5
-        },
-        "atk": {
-          "base": 3
-        },
-        "def": {
-          "base": 7
-        },
-        "spatk": {
-          "base": 8
-        },
-        "spdef": {
-          "base": 7
-        },
-        "spd": {
-          "base": 1
-        }
-      },
-      "capabilities": {
-        "overland": 3,
-        "swim": 2,
-        "jump": 0,
-        "sky": 0,
-        "burrow": 0,
-        "power": 3
-      },
-      "skills": {
-        "acrobatics": "3d6+1",
-        "athletics": "3d6+0",
-        "combat": "3d6+0",
-        "stealth": "3d6+4",
-        "perception": "3d6+2",
-        "focus": "3d6+0"
-      },
-      "evolution": {
-        "stage": 1,
-        "evoLevel": 25,
-        "nextStage": "Gholdengo",
-        "criteria": "Nivel 25"
-      },
-      "megaEvo": {
-        "hasMega": false
-      },
-      "specialForms": {
-        "hasGMax": false,
-        "hasTera": true
-      },
-      "lists": {
-        "abilitiesBasic": "Cargamento",
-        "abilitiesAdvanced": "Cobardía, Caparazón, Funda",
-        "abilitiesHigh": "Antibalas",
-        "movesLevelUp": "1 Día De Pago, 1 Impresionar, 1 Refugio, 4 Tinieblas, 7 Eco Metálico, 10 Maquinación, 13 Brillo Metálico, 16 Rayo Confuso, 19 Disparo Espejo, 22 Envidia Ardiente, 25 Bola Sombra, 27 Joya De Luz, 30 Foco Resplandor, 33 Brillo Mágico, 35 Recuperación, 37 Robo, 40 Fiebre Dorada, 43 Sustituto, 46 Hechizar, 49 Poltergeist, 52 Legado",
-        "movesTutor": "Tier 1: Ladrón, Maquinación, Tinieblas\n\nTier 2: Bola Sombra, Derribo, Joya de Luz, Pantalla de Luz, Rayo Confuso, Reflejo\n\nTier 3: Infortunio",
-        "specialCapabilities": "Terreno Dominado: (Urbano), Fortuna, Potencial Latente, Sigiloso,"
-      }
-    }
-  },
-  {
-    "name": "Gimmighoul Andante",
-    "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/0999-roamie.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0966.png",
     "system": {
       "type1": "fantasma",
       "type2": "ninguno",
@@ -76208,7 +76130,7 @@
   {
     "name": "Gholdengo",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/1000.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0967.png",
     "system": {
       "type1": "acero",
       "type2": "fantasma",
@@ -76286,7 +76208,7 @@
   {
     "name": "Poltchageist",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/1012.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0968.png",
     "system": {
       "type1": "planta",
       "type2": "fantasma",
@@ -76364,7 +76286,7 @@
   {
     "name": "Sinistcha",
     "type": "species",
-    "img": "systems/ptu-neogenesis/assets/images/species/images/1013.png",
+    "img": "systems/ptu-neogenesis/assets/images/species/images/0969.png",
     "system": {
       "type1": "planta",
       "type2": "fantasma",

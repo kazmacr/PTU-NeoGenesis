@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor Excel a JSON - NeoGénesis</title>
+    <!-- Cargamos la librería SheetJS para leer Excel directamente en el navegador -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #1e1e1e; color: white; padding: 50px; text-align: center; }
+        .box { border: 2px dashed #ffcb05; padding: 40px; border-radius: 10px; background: #2b2b2b; display: inline-block; }
+        input[type="file"] { margin-top: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2 style="color: #ffcb05;">Generador de db_complementos.json</h2>
+        <p>Sube tu archivo Excel (.xlsx) y obtén tu JSON al instante.</p>
+        <input type="file" id="inputExcel" accept=".xlsx, .xls" />
+    </div>
+
+    <script>
+        document.getElementById('inputExcel').addEventListener('change', function(e) {
+            var file = e.target.files[0];
+            if (!file) return;
+
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                var data = new Uint8Array(e.target.result);
+                var workbook = XLSX.read(data, {type: 'array'});
+                
+                var db = { movimientos: [], habilidades: [], pokerasgos: [] };
+                
+                // 1. Procesar Movimientos (range: 1 ignora la primera fila que tiene celdas vacías)
+                if (workbook.Sheets['Movimientos']) {
+                    var movs = XLSX.utils.sheet_to_json(workbook.Sheets['Movimientos'], {range: 1, defval: ""});
+                    movs.forEach(row => {
+                        if(row['Nombre']) {
+                            db.movimientos.push({
+                                Name: String(row['Nombre']).trim(),
+                                Type: String(row['Tipo'] || "").trim().charAt(0).toUpperCase() + String(row['Tipo'] || "").trim().slice(1).toLowerCase(),
+                                DType: String(row['Categoría'] || "").trim().charAt(0).toUpperCase() + String(row['Categoría'] || "").trim().slice(1).toLowerCase(),
+                                DB: (row['DB'] === '--' || !row['DB']) ? 0 : (parseInt(row['DB']) || row['DB']),
+                                Freq: String(row['Frecuencia'] || "").trim(),
+                                AC: (row['CP'] === '--' || !row['CP']) ? 0 : (parseInt(row['CP']) || row['CP']),
+                                Range: String(row['Rango'] || "").trim(),
+                                Effects: String(row['Efectos'] || "").trim()
+                            });
+                        }
+                    });
+                }
+                
+                // 2. Procesar Habilidades
+                if (workbook.Sheets['Habilidades']) {
+                    var habs = XLSX.utils.sheet_to_json(workbook.Sheets['Habilidades'], {defval: ""});
+                    habs.forEach(row => {
+                        if(row['Nombre']) {
+                            db.habilidades.push({
+                                Name: String(row['Nombre']).trim(),
+                                Freq: String(row['Frecuencia'] || "").trim(),
+                                Info: String(row['Efecto'] || "").trim()
+                            });
+                        }
+                    });
+                }
+                
+                // 3. Procesar Pokérasgos (Mapeando 'Coste' como Prerequisitos)
+                if (workbook.Sheets['Pokerasgos']) {
+                    var rasg = XLSX.utils.sheet_to_json(workbook.Sheets['Pokerasgos'], {defval: ""});
+                    rasg.forEach(row => {
+                        if(row['Nombre']) {
+                            db.pokerasgos.push({
+                                Name: String(row['Nombre']).trim(),
+                                Prerequisitos: String(row['Coste'] || "").trim(),
+                                Info: String(row['Efecto'] || "").trim()
+                            });
+                        }
+                    });
+                }
+                
+                // Generar y forzar la descarga del JSON
+                var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(db, null, 2));
+                var downloadAnchorNode = document.createElement('a');
+                downloadAnchorNode.setAttribute("href", dataStr);
+                downloadAnchorNode.setAttribute("download", "db_complementos.json");
+                document.body.appendChild(downloadAnchorNode); 
+                downloadAnchorNode.click();
+                downloadAnchorNode.remove();
+                
+                alert("¡Archivo db_complementos.json generado con éxito!");
+            };
+            reader.readAsArrayBuffer(file);
+        });
+    </script>
+</body>
+</html>

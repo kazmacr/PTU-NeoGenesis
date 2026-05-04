@@ -1,0 +1,50 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    <header class="sheet-header flexrow"
+        style="margin-bottom: 15px; border-bottom: 2px solid #333; padding-bottom: 10px;">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"
+            style="border: 1px solid #7a7971; border-radius: 5px; max-width: 64px; max-height: 64px;" />
+
+        <div class="header-details flexcol" style="padding-left: 15px; justify-content: center; width: 100%;">
+            <h1 class="charname" style="margin: 0; border: none;">
+                <input name="name" type="text" value="{{item.name}}" placeholder="Nombre del Rasgo"
+                    style="font-size: 24px; font-weight: bold; width: 100%; border: none; background: transparent;" />
+            </h1>
+        </div>
+    </header>
+
+    <section class="sheet-body">
+        <div class="grid grid-2col"
+            style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 15px;">
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Requisitos</label>
+                <input type="text" name="system.prerequisites" value="{{system.prerequisites}}" 
+                    placeholder="Ej. Nivel 2, Atributo en Novato..." style="width: 100%;" />
+            </div>
+
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Frecuencia / Acción</label>
+                <input type="text" name="system.frequency" value="{{system.frequency}}" 
+                    placeholder="Ej. Pasivo, A Voluntad..." style="width: 100%;" />
+            </div>
+        </div>
+
+        <div class="resource effect-box"
+            style="border: 1px solid #7a7971; padding: 10px; border-radius: 5px; background: rgba(0,0,0,0.05); margin-bottom: 15px;">
+            <label style="font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #7a7971;">Efecto</label>
+            <textarea name="system.description" rows="6"
+                style="width: 100%; border: none; background: transparent; resize: vertical;"
+                placeholder="Describe los efectos mecánicos y narrativos del rasgo aquí...">{{system.description}}</textarea>
+        </div>
+
+        <!-- CAMPO DE NOTAS PARA AUTOMATIZACIÓN -->
+        <div class="resource effect-box"
+            style="border: 1px solid #1e3a8a; padding: 10px; border-radius: 5px; background: rgba(30,58,138,0.05);">
+            <label style="font-weight: bold; color: #1e3a8a; display: block; margin-bottom: 5px; border-bottom: 1px solid #1e3a8a;">
+                Notas (Automatización y Opciones)
+            </label>
+            <textarea name="system.notes" rows="3"
+                style="width: 100%; border: none; background: transparent; resize: vertical; font-family: monospace;"
+                placeholder="Añade aquí las variables para macros, atributos a modificar o elecciones del jugador...">{{system.notes}}</textarea>
+        </div>
+    </section>
+</form>
