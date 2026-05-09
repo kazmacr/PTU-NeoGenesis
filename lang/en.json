@@ -3,7 +3,12 @@
     "Stats": {
       "Label": "Stats",
       "Added": "Añadido",
-      "hp": { "abbr": "PS", "name": "Puntos de Salud", "actual": "Actual", "max": "Máximo" },
+      "hp": {
+        "abbr": "PS",
+        "name": "Puntos de Salud",
+        "actual": "Actual",
+        "max": "Máximo"
+      },
       "atk": { "abbr": "ATK", "name": "Ataque" },
       "def": { "abbr": "DEF", "name": "Defensa" },
       "satk": { "abbr": "SATK", "name": "Ataque Especial" },
@@ -18,6 +23,37 @@
       "Loyalty": "Lealtad",
       "Loves": "Adora",
       "Hates": "Odia"
+    },
+    "Skills": {
+      "Rank": "Rango",
+      "Value": "Valor",
+      "Modifier": "Modificador",
+      "Roll": "Tirada",
+      "Ranks": {
+        "patetico": "Patético",
+        "inexperto": "Inexperto",
+        "novato": "Novato",
+        "adepto": "Adepto",
+        "experto": "Experto",
+        "maestro": "Maestro"
+      },
+      "acrobacias": "Acrobacias",
+      "atletismo": "Atletismo",
+      "combate": "Combate",
+      "intimidacion": "Intimidación",
+      "sigilo": "Sigilo",
+      "supervivencia": "Supervivencia",
+      "carisma": "Carisma",
+      "concentracion": "Concentración",
+      "intuicion": "Intuición",
+      "liderazgo": "Liderazgo",
+      "astucia": "Astucia",
+      "edGeneral": "Ed. General",
+      "edMedica": "Ed. Médica",
+      "edOculta": "Ed. Oculta",
+      "edPokemon": "Ed. Pokémon",
+      "edTecnologica": "Ed. Tecnológica",
+      "percepcion": "Percepción"
     },
     "BSP": {
       "Title": "Bono de Stats Principales (BSP)",
@@ -34,7 +70,7 @@
       "burrow": "Cavar",
       "power": "Vigor"
     },
-   "Evasion": {
+    "Evasion": {
       "physical": "Física",
       "special": "Especial",
       "speed": "Velocidad"
@@ -52,7 +88,6 @@
       "Inactive": "Efectos Inactivos"
     }
   },
-
   "TYPES": {
     "Actor": {
       "trainer": "Entrenador",

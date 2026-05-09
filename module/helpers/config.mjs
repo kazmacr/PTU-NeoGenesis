@@ -155,6 +155,15 @@ PTUNG.genero = {
   "ninguno": "Ninguno"
 };
 
+/**
+ * Genero del Entrenador 
+ */
+PTUNG.generoEntrenador = {
+  "hombre": "Hombre",
+  "mujer": "Mujer", 
+  "noSabe": "No Sabe"
+};
+
 /*
  * Efectos de Concurso (Descripciones completas)
  */
@@ -280,4 +289,36 @@ PTUNG.properties = {
   "sonico": "Sónico",
   "temerario": "Temerario",
   "terrestre": "Terrestre",
+};
+
+/**
+ * Rangos de los atributos
+ */
+PTUNG.ranks = {
+  "patetico": "Patético",
+  "inexperto": "Inexperto",
+  "novato": "Novato",
+  "adepto": "Adepto",
+  "experto": "Experto",
+  "maestro": "Maestro"
+};
+
+PTUNG.skills = {
+  "atletismo": "Atletismo",
+  "acrobacias": "Acrobacias",
+  "sigilo": "Sigilo",
+  "supervivencia": "Supervivencia",
+  "intimidacion": "Intimidación",
+  "persuasion": "Persuasión",
+  "edMedica": "Ed. Medica",
+  "edOculta": "Ed. Oculta",
+  "edPokemon": "Ed. Pokémon",
+  "edTecnologica": "Ed. Tecnológica",
+  "percepcion": "Percepción",
+  "edGeneral": "Ed. General",
+  "combate": "Combate",
+  "concentracion": "Concentración",
+  "intuicion": "Intuición",
+  "astucia": "Astucia",
+  "liderazgo": "Liderazgo"
 };

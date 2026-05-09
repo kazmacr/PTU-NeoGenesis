@@ -35,6 +35,23 @@
     </header>
 
     <section class="sheet-body">
+        {{!-- Fila de Configuración de Automatización --}}
+        <div class="automation-config flexrow" style="background: rgba(0,0,0,0.05); padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+            <label style="font-size: 11px; font-weight: bold;"><i class="fas fa-robot"></i> ¿ACTIVAR AUTOMATIZACIÓN?</label>
+            <input type="checkbox" name="system.automation.enabled" {{checked system.automation.enabled}} style="width: 20px; height: 20px;"/>
+        </div>
+
+        {{#if system.automation.enabled}}
+        <div class="item-automation-buttons flexrow" style="gap: 5px; margin-bottom: 15px;">
+            {{#each automationButtons as |btn|}}
+            <button type="button" class="btn-execute-automation" data-action="{{btn.action}}" 
+                style="display: inline-flex; align-items: center; background: #e1e1e1; border: 1px solid #999; border-radius: 4px; padding: 2px 8px; font-size: 11px; width: auto;">
+                <i class="fas fa-briefcase" style="margin-right: 5px; font-size: 10px;"></i> {{btn.label}}
+            </button>
+            {{/each}}
+        </div>
+        {{/if}}
+
         <div class="grid grid-4col"
             style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 15px;">
             <div class="resource flexcol">

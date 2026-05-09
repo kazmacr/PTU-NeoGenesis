@@ -1,3 +1,62 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
-    <h1>Plantilla de {{item.name}} en construcción</h1>
+    <header class="sheet-header flexrow" style="margin-bottom: 15px; border-bottom: 2px solid #333; padding-bottom: 10px;">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" 
+             style="border: 1px solid #7a7971; border-radius: 5px; max-width: 64px; max-height: 64px;" />
+        <div class="header-details flexcol" style="padding-left: 15px; justify-content: center; width: 100%;">
+            <h1 class="charname" style="margin: 0; border: none;">
+                <input name="name" type="text" value="{{item.name}}" placeholder="Nombre del Rasgo o Talento" 
+                       style="font-size: 24px; font-weight: bold; width: 100%; border: none; background: transparent;" />
+            </h1>
+        </div>
+    </header>
+
+    <section class="sheet-body">
+        {{!-- Fila de Configuración de Automatización --}}
+        <div class="automation-config flexrow" style="background: rgba(0,0,0,0.05); padding: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc;">
+            <label style="font-size: 11px; font-weight: bold;"><i class="fas fa-robot"></i> ¿ACTIVAR AUTOMATIZACIÓN?</label>
+            <input type="checkbox" name="system.automation.enabled" {{checked system.automation.enabled}} style="width: 20px; height: 20px;"/>
+        </div>
+
+        {{#if system.automation.enabled}}
+        <div class="item-automation-buttons flexrow" style="gap: 5px; margin-bottom: 15px;">
+            {{#each automationButtons as |btn|}}
+            <button type="button" class="btn-execute-automation" data-action="{{btn.action}}" 
+                style="display: inline-flex; align-items: center; background: #e1e1e1; border: 1px solid #999; border-radius: 4px; padding: 2px 8px; font-size: 11px; width: auto;">
+                <i class="fas fa-briefcase" style="margin-right: 5px; font-size: 10px;"></i> {{btn.label}}
+            </button>
+            {{/each}}
+        </div>
+        {{/if}}
+        
+        <div class="grid grid-2col" style="gap: 15px; margin-bottom: 15px;">
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Requisitos</label>
+                <input type="text" name="system.prerequisites" value="{{system.prerequisites}}" placeholder="Ej: Nivel 5, Maestro en Atletismo..." />
+            </div>
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Frecuencia</label>
+                <input type="text" name="system.frequency" value="{{system.frequency}}" placeholder="Ej: Escena, Diario, Estática..." />
+            </div>
+        </div>
+
+        <div class="grid grid-3col" style="gap: 10px; margin-bottom: 15px;">
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Categoría</label>
+                <input type="text" name="system.category" value="{{system.category}}" placeholder="Ej: Clase" />
+            </div>
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Subcategoría</label>
+                <input type="text" name="system.subcategory" value="{{system.subcategory}}" placeholder="Ej: Entrenador" />
+            </div>
+            <div class="resource flexcol">
+                <label style="font-weight: bold; font-size: 11px; text-transform: uppercase;">Etiquetas (Tags)</label>
+                <input type="text" name="system.tags" value="{{system.tags}}" placeholder="Ej: [Órden], [+Especial]" />
+            </div>
+        </div>
+
+        <div class="resource effect-box" style="border: 1px solid #7a7971; padding: 10px; border-radius: 5px; background: rgba(0,0,0,0.05);">
+            <label style="font-weight: bold; display: block; margin-bottom: 5px; border-bottom: 1px solid #7a7971;">Efecto</label>
+            {{editor enrichedDescription target="system.description" engine="prosemirror" button=true editable=editable}}
+        </div>
+    </section>
 </form>

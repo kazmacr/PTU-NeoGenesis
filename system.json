@@ -28,17 +28,17 @@
   "esmodules": ["module/ptu-neogenesis.mjs"],
   "styles": ["css/ptu-neogenesis.css"],
   "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "es",
-      "name": "Español",
-      "path": "lang/es.json"
-    }
-  ],
+  {
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  },
+  {
+    "lang": "es",
+    "name": "Español",
+    "path": "lang/es.json"
+  }
+],
   "packs": [],
   "packFolders": [],
   "socket": false,

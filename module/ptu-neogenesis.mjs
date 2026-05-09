@@ -5,6 +5,28 @@ import { PTUNG } from "./helpers/config.mjs";
 // IMPORTANTE: Importamos la clase de los movimientos
 import { PTUNeogenesisItemSheet } from "./sheets/item-move-sheet.mjs";
 
+/* -------------------------------------------- */
+/*  Handlebars Helpers                          */
+/* -------------------------------------------- */
+Handlebars.registerHelper('capitalize', function (str) {
+  if (!str || typeof str !== 'string') return "";
+  return str.charAt(0).toUpperCase() + str.slice(1);
+});
+
+// También necesitaremos estos para la lógica de la tabla
+Handlebars.registerHelper('eq', function (a, b) { return a === b; });
+Handlebars.registerHelper('ne', function (a, b) { return a !== b; });
+Handlebars.registerHelper('lt', function (a, b) { return a < b; });
+Handlebars.registerHelper('concat', function () {
+    let outStr = '';
+    for (let arg in arguments) {
+        if (typeof arguments[arg] != 'object') {
+            outStr += arguments[arg];
+        }
+    }
+    return outStr;
+});
+
 Hooks.once('init', async function () {
   console.log(`PTU Neo Genesis | Inicializando Sistema`);
 
@@ -30,7 +52,7 @@ Hooks.once('init', async function () {
   // 3. REGISTRAR HOJA DE ACTOR
   Actors.unregisterSheet("core", ActorSheet);
   Actors.registerSheet("ptu-neogenesis", PTUNGActorSheet, {
-    types: ["pokemon"],
+    types: ["pokemon", "trainer"],
     makeDefault: true
   });
 
@@ -62,4 +84,27 @@ Hooks.on("preCreateItem", (item, data, options, userId) => {
       item.updateSource({ img: defaultIcons[item.type] });
     }
   }
+});
+
+Hooks.once("ready", async function() {
+    // Solo el GM debe ejecutar la creación automática para evitar duplicados
+    if (!game.user.isGM) return;
+
+    const macroName = "Entrenamiento Intensivo";
+    const existingMacro = game.macros.find(m => m.name === macroName);
+
+    if (!existingMacro) {
+        const macroData = {
+            name: macroName,
+            type: "script",
+            img: "icons/svg/aura.svg",
+            command: `// Aquí va el código de la macro que ya pulimos anteriormente
+// (Copia el código completo de la macro de reemplazo aquí)
+`,
+            flags: { "ptung.autoCreated": true }
+        };
+
+        await Macro.create(macroData);
+        ui.notifications.info("Sistema PTU NeoGenesis: Macro de Entrenamiento creada automáticamente.");
+    }
 });

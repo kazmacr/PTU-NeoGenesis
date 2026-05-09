@@ -661,3 +661,68 @@
 .ptu-neogenesis.sheet.item header.sheet-header {
     flex: 0 0 auto;
 }
+
+/* Asegura que el editor de biografía sea visible y tenga espacio */
+.ptunga .editor {
+    min-height: 150px; /* Altura mínima para que el hover funcione */
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Estilo para el área de edición activa (ProseMirror) */
+.ptunga .prosemirror {
+    min-height: 140px;
+    height: 100%;
+}
+
+/* Asegura que el botón del lápiz sea visible sobre el fondo */
+.ptunga .editor .editor-edit {
+    color: #1e3a8a;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 4px;
+    top: 5px;
+    right: 5px;
+}
+
+.btn-import {
+  width: 25% !important; /* Forzamos un ancho pequeño para que el input text se más grande */        
+}
+
+/* ========================================== */
+/* SELECTORES DE ETAPAS DE COMBATE (MC)       */
+/* ========================================== */
+
+/* Usamos .ptunga que es la clase principal de tu ficha */
+.ptunga .mc-input {
+    width: 45px !important;   /* Un poco más de ancho para que respire */
+    height: 24px !important;  /* Altura suficiente para el texto */
+    padding: 0 2px !important; 
+    text-align: center !important;
+    text-align-last: center !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    background: #ffffff !important; 
+    border: 1px solid var(--ptu-border) !important;
+    border-radius: 4px !important;
+    color: var(--ptu-dark) !important;
+    cursor: pointer;
+    line-height: 24px !important; /* Centrado vertical */
+}
+
+/* Forzamos que la celda de la tabla no apriete al selector */
+.ptunga .ptu-table td {
+    vertical-align: middle !important;
+    padding: 4px 2px !important;
+    overflow: visible !important; /* Evita que el número se oculte si sobresale */
+}
+
+/* Estilo para cuando el selector está enfocado o brilla */
+.ptunga .mc-input:focus {
+    border-color: var(--ptu-red) !important;
+    box-shadow: 0 0 5px rgba(227, 53, 13, 0.3);
+    outline: none;
+}

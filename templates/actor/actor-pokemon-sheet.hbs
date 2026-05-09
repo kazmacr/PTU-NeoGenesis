@@ -1,4 +1,5 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
+    {{!-- Sheet Header --}}
     <header class="sheet-header flexrow">
         <div class="profile-hex-outer">
             <div class="profile-hex-inner">
@@ -6,23 +7,18 @@
                     width="100" />
             </div>
         </div>
-
         <div class="header-divider"></div>
-
         <div class="header-fields flexrow">
-
             <div class="header-main-info flexcol">
                 <h1 class="charname">
                     <input type="text" name="name" value="{{actor.name}}" placeholder="Mote del Pokémon" />
                 </h1>
-
                 <div class="resource-grid flexrow">
                     <div class="resource flex-group-center lv-resource">
                         <label class="resource-label">Nivel</label>
                         <input type="number" name="system.level" value="{{system.level}}" data-dtype="Number"
                             readonly />
                     </div>
-
                     <div class="resource hp-resource flexcol">
                         <label class="resource-label">{{localize "PTUNG.Stats.hp.name"}}</label>
                         <div class="resource-content hp-vertical-list">
@@ -39,16 +35,14 @@
                     </div>
                 </div>
             </div>
-
             <div class="header-logo-block flex-group-center">
                 <img src="systems/ptu-neogenesis/assets/images/logo_PTU_NeoGenesis.png" class="header-logo"
                     title="PTU Neo Genesis" />
             </div>
-
         </div>
-
     </header>
 
+    {{!-- Sheet Tab Navigation --}}
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="general">General</a>
         <a class="item" data-tab="combate">Combate</a>
@@ -58,29 +52,26 @@
         <a class="item" data-tab="importar">Importar</a>
     </nav>
 
+    {{!-- Sheet Body --}}
     <section class="sheet-body">
-
+        {{!-- General Tab --}}
         <div class="tab general" data-group="primary" data-tab="general">
             <div class="grid grid-2col">
                 <fieldset>
                     <legend>Detalles Específicos</legend>
                     <div class="form-group">
                         <label>Especie</label>
-                        <input type="text" name="system.species" value="{{system.species}}" placeholder="Arrastra del Compendium" readonly title="Arrastra una especie de Pokémon desde el Compendium" />
+                        <input type="text" name="system.species" value="{{system.species}}"
+                            placeholder="Arrastra del Compendium" readonly
+                            title="Arrastra una especie de Pokémon desde el Compendium" />
                     </div>
                     <div class="form-group">
                         <label>{{localize "PTUNG.Details.Type"}} 1</label>
                         <input type="text" name="system.type1" value="{{system.type1}}" placeholder="Hada" readonly />
-                        <!--select name="system.type1">
-                            {{selectOptions config.tipos selected=system.type1 blank=""}}
-                        </select -->
                     </div>
                     <div class="form-group">
                         <label>{{localize "PTUNG.Details.Type"}} 2</label>
                         <input type="text" name="system.type2" value="{{system.type2}}" placeholder="Fuego" readonly />
-                        <!--select name="system.type2">
-                            {{selectOptions config.tipos selected=system.type2 blank=""}}
-                        </select-->
                     </div>
                     <div class="form-group">
                         <label>Género</label>
@@ -89,7 +80,6 @@
                         </select>
                     </div>
                 </fieldset>
-
                 <fieldset>
                     <legend>Preferencias y Crianza</legend>
                     <div class="form-group">
@@ -107,9 +97,11 @@
                     <div class="form-group">
                         <label>{{localize "PTUNG.Details.EggGroup"}}</label>
                         <div class="input-group">
-                            <input type="text" name="system.egg_group1" value="{{system.egg_group1}}" placeholder="Grupo 1" readonly />
+                            <input type="text" name="system.eggGroup1" value="{{system.eggGroup1}}"
+                                placeholder="Grupo 1" readonly />
                             <span> | </span>
-                            <input type="text" name="system.egg_group2" value="{{system.egg_group2}}" placeholder="Grupo 2" readonly />
+                            <input type="text" name="system.eggGroup2" value="{{system.eggGroup2}}"
+                                placeholder="Grupo 2" readonly />
                         </div>
                     </div>
                     <div class="form-group flexrow">
@@ -119,59 +111,86 @@
                 </fieldset>
             </div>
 
-            <div class="tab general" data-group="primary" data-tab="general">
-                <div class="grid grid-2col">
+            {{!-- Nueva Fila: Capacidades/Notas (Izquierda) y Atributos (Derecha) --}}
+            <div class="grid grid-2col" style="margin-top: 15px; grid-template-columns: 1fr 1.2fr;">
+
+                {{!-- Lado Izquierdo: Capacidades y Notas --}}
+                <div class="flexcol" style="gap: 15px;">
+                    <fieldset class="special-capabilities-fieldset" style="min-height: 200px;">
+                        <legend>Capacidades Especiales</legend>
+                        <ol class="items-list plain-list">
+                            {{#each specialCapabilities as |item id|}}
+                            <li class="item flexcol" data-item-id="{{item._id}}">
+                                <div class="item-header flexrow">
+                                    <div class="item-name flexrow">
+                                        <h4>{{item.name}}</h4>
+                                    </div>
+                                    <div class="item-controls">
+                                        <a class="item-control item-edit" title="Editar"><i class="fas fa-edit"></i></a>
+                                        <a class="item-control item-delete" title="Eliminar"><i
+                                                class="fas fa-trash"></i></a>
+                                    </div>
+                                </div>
+                            </li>
+                            {{/each}}
+                        </ol>
+                        <div class="section-header flexrow" style="margin-top: 8px; padding-top: 5px;">
+                            <h4 style="font-size: 11px;">Agregar nueva</h4>
+                            <a class="item-control item-create" title="Agregar Capacidad"
+                                data-type="specialCapability"><i class="fas fa-plus"></i></a>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="player-notes" style="flex: 1;">
+                        <legend>Notas del Pokémon</legend>
+                        <textarea name="system.notes.general" placeholder="Escribe aquí notas sobre el Pokémon ..."
+                            style="width: 100%; height: 100%; min-height: 150px; resize: none; border: none; background: transparent;">{{system.notes.general}}</textarea>
+                    </fieldset>
                 </div>
 
-                <div class="grid grid-2col" style="margin-top: 15px;">
-
-                    <div class="flexcol">
-                        <fieldset class="special-capabilities-fieldset">
-                            <legend>Capacidades Especiales</legend>
-
-                            <ol class="items-list plain-list">
-                                
-                                {{#each specialCapabilities as |item id|}}
-                                <li class="item flexcol" data-item-id="{{item._id}}">
-                                    <div class="item-header flexrow">
-                                        <div class="item-name flexrow">
-                                            <h4>{{item.name}}</h4>
-                                        </div>
-                                        <div class="item-controls">
-                                            <a class="item-control item-edit" title="Editar"><i class="fas fa-edit"></i></a>
-                                            <a class="item-control item-delete" title="Eliminar"><i class="fas fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </li>
+                {{!-- Lado Derecho: Tabla de Atributos --}}
+                <div class="tab-skills-container">
+                    <fieldset style="height: 100%;">
+                        <legend>Atributos del Pokémon</legend>
+                        <table class="ptu-table skills-table text-tiny">
+                            <thead>
+                                <tr style="background: #E3350D; color: white;">
+                                    <th>Atributo</th>
+                                    <th title="Modificador">Mod.</th>
+                                    <th>Rango</th>
+                                    <th>Tirada</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each system.skills as |skill key|}}
+                                <tr class="skill-row {{key}}">
+                                    <td class="align-left" style="padding-left: 5px; font-size: 10px;">
+                                        <strong>{{localize (concat "PTUNG.Skills." key)}}</strong>
+                                    </td>
+                                    <td><input type="number" name="system.skills.{{key}}.mod" value="{{skill.mod}}"
+                                            style="width: 25px; height: 18px; padding: 0;" /></td>
+                                    <td>
+                                        <select name="system.skills.{{key}}.rank"
+                                            style="font-size: 9px; height: 18px; padding: 0;">
+                                            {{selectOptions @root.config.ranks selected=skill.rank}}
+                                        </select>
+                                    </td>
+                                    <td class="rollable" data-roll="{{skill.rollFormula}}" data-label="{{key}}"
+                                        style="cursor: pointer; background: rgba(0,0,0,0.05); font-weight: bold; text-align: center; font-size: 10px;">
+                                        {{skill.rollFormula}}
+                                    </td>
+                                </tr>
                                 {{/each}}
-                            </ol>
-
-                            <!--div class="section-header flexrow" style="margin-top: 8px; border-top: 1px solid var(--ptu-border); padding-top: 5px;" -->
-                            <div class="section-header flexrow" style="margin-top: 8px; padding-top: 5px;">
-                                <h4 style="margin: 0 -205px 0 0;">Agregar nueva</h4>
-                                <a class="item-control item-create" title="Agregar Capacidad Especial" data-type="specialCapability"><i class="fas fa-plus"></i>
-                                </a>
-                            </div>
-                        </fieldset>
-                    </div>
-
-                    <div class="flexcol">
-                        <fieldset class="player-notes"
-                            style="height: 100%; display: flex; flex-direction: column; margin: 0;">
-                            <legend>Notas del Pokémon</legend>
-                            <textarea name="system.notes.general" placeholder="Escribe aquí notas sobre el Pokémon ..."
-                                style="flex: 1; resize: none; min-height: 120px; border: none; background: transparent;">{{system.notes.general}}</textarea>
-                        </fieldset>
-                    </div>
-
+                            </tbody>
+                        </table>
+                    </fieldset>
                 </div>
             </div>
         </div>
 
+        {{!-- Combate Tab --}}
         <div class="tab combate" data-group="primary" data-tab="combate">
-
             <div class="combat-top-area flexrow">
-
                 <div class="combat-col-desplazamiento">
                     <fieldset>
                         <legend>{{localize "PTUNG.Capabilities.Title"}}</legend>
@@ -180,23 +199,19 @@
                                 <div class="form-group stacked">
                                     <label>{{localize "PTUNG.Capabilities.overland"}}</label>
                                     <div class="desplazamiento flexrow flex-group-center cap-input-wrapper">
-                                        <input type="number" name="system.capabilities.overland.base"
-                                            value="{{system.capabilities.overland.base}}" data-dtype="Number"
-                                            readonly />
+                                       <span style="font-weight: bold; font-size: 14px;">{{system.capabilities.suelo}}</span>
                                     </div>
                                 </div>
                                 <div class="form-group stacked">
                                     <label>{{localize "PTUNG.Capabilities.swim"}}</label>
                                     <div class="desplazamiento flexrow flex-group-center cap-input-wrapper">
-                                        <input type="number" name="system.capabilities.swim.base"
-                                            value="{{system.capabilities.swim.base}}" data-dtype="Number" readonly />
+                                       <span style="font-weight: bold; font-size: 14px;">{{system.capabilities.nado}}</span>
                                     </div>
                                 </div>
                                 <div class="form-group stacked">
                                     <label>{{localize "PTUNG.Capabilities.jump"}}</label>
                                     <div class="desplazamiento flexrow flex-group-center cap-input-wrapper">
-                                        <input type="number" name="system.capabilities.jump.base"
-                                            value="{{system.capabilities.jump.base}}" data-dtype="Number" />
+                                        <span style="font-weight: bold; font-size: 14px;">{{system.capabilities.salto}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -204,31 +219,26 @@
                                 <div class="form-group stacked">
                                     <label>{{localize "PTUNG.Capabilities.sky"}}</label>
                                     <div class="desplazamiento flexrow flex-group-center cap-input-wrapper">
-                                        <input type="number" name="system.capabilities.sky.base"
-                                            value="{{system.capabilities.sky.base}}" data-dtype="Number" readonly />
+                                        <span style="font-weight: bold; font-size: 14px;">{{system.capabilities.cielo}}</span>
                                     </div>
                                 </div>
                                 <div class="form-group stacked">
                                     <label>{{localize "PTUNG.Capabilities.burrow"}}</label>
                                     <div class="desplazamiento flexrow flex-group-center cap-input-wrapper">
-                                        <input type="number" name="system.capabilities.burrow.base"
-                                            value="{{system.capabilities.burrow.base}}" data-dtype="Number" readonly />
+                                        <span style="font-weight: bold; font-size: 14px;">{{system.capabilities.cavar}}</span>
                                     </div>
                                 </div>
                                 <div class="form-group stacked">
                                     <label>{{localize "PTUNG.Capabilities.power"}}</label>
                                     <div class="desplazamiento flexrow flex-group-center cap-input-wrapper">
-                                        <input type="number" name="system.capabilities.power.base"
-                                            value="{{system.capabilities.power.base}}" data-dtype="Number" readonly />
+                                        <span style="font-weight: bold; font-size: 14px;">{{system.capabilities.power.total}}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
                 </div>
-
                 <div class="combat-col-center flexcol">
-
                     <div class="combat-col-stats">
                         <table class="ptu-table">
                             <thead>
@@ -275,7 +285,6 @@
                             </tbody>
                         </table>
                     </div>
-
                     <fieldset class="equipment-buffs-section">
                         <legend>Equipamiento</legend>
                         <div class="grid grid-3col">
@@ -296,13 +305,10 @@
                             </div>
                         </div>
                     </fieldset>
-
                 </div>
-
                 <div class="combat-col-defensas flexcol">
                     <fieldset class="evasiones-box">
                         <legend title="Evasiones y Reducción de Daño">Evasiones y DR</legend>
-
                         <div class="form-group evasiones-header">
                             <label>Evasión</label>
                             <div class="flexrow">
@@ -310,7 +316,6 @@
                                 <span class="eva-head-final">Final</span>
                             </div>
                         </div>
-
                         {{#each system.evasion as |evas key|}}
                         <div class="form-group evasion-row">
                             <label>{{localize (concat "PTUNG.Evasion." key)}}</label>
@@ -321,21 +326,23 @@
                             </div>
                         </div>
                         {{/each}}
-
                         <div class="form-group dr-row">
                             <label>Reducción Daño (DR)</label>
                             <input type="number" name="system.health.dr" value="{{system.health.dr}}"
                                 data-dtype="Number" placeholder="0" />
                         </div>
-
+                        <div class="form-group dr-row">
+                            <label>Bono a Salvación</label>
+                            <input type="number" name="system.saveChecks" value="{{system.saveChecks}}"
+                                data-dtype="Number" placeholder="0" readonly title="Modificado por Entrenamientos/Efectos" />
+                        </div>
                         <div class="form-group init-row">
                             <span class="init-total"></span>
                             <button type="button" class="roll-initiative" title="Lanzar Iniciativa"><i
                                     class="fas fa-dice-d20"></i>
-                                Lanzar Iniciativa [{{system.stats.spd.total}}] </button>
+                                Lanzar Iniciativa [{{system.initiative.value}}] </button>
                         </div>
                     </fieldset>
-
                     <fieldset>
                         <legend>Umbrales de Daño</legend>
                         <div class="health-thresholds grid grid-2col">
@@ -350,11 +357,8 @@
                             </div>
                         </div>
                     </fieldset>
-
                 </div>
-
             </div>
-
             <div class="combat-bottom-area">
                 <div class="moves-section">
                     <div class="section-header flexrow">
@@ -364,7 +368,6 @@
                                 class="fas fa-plus"></i></a>
                         {{/if}}
                     </div>
-
                     <ol class="items-list">
                         <li class="item flexrow list-header">
                             <div class="item-name">Nombre</div>
@@ -375,7 +378,6 @@
                             <div class="item-detail">Efecto</div>
                             <div class="item-controls"></div>
                         </li>
-
                         {{#each moves as |item id|}}
                         <li class="item flexrow" data-item-id="{{item._id}}">
                             <div class="item-name flexrow">
@@ -399,7 +401,6 @@
                     </ol>
                 </div>
             </div>
-
         </div>
 
         <div class="tab habilidades" data-group="primary" data-tab="habilidades">
@@ -728,12 +729,25 @@
             </fieldset>
         </div>
 
+        {{!-- Pestaña Importar --}}
         <div class="tab importar" data-group="primary" data-tab="importar">
-            <p>Aquí se pega el enlace de la ficha de Google Sheets.</p>
-            <div class="form-group">
-                <input type="text" id="import-sheet-url" placeholder="https://docs.google.com/spreadsheets/d/..." />
-                <button type="button" id="btn-import-sheet"><i class="fas fa-file-import"></i>Importar Datos</button>
-            </div>
+            <fieldset>
+                <legend>Importar desde Google Sheets (Pokémon)</legend>
+                <div class="form-group" style="display: flex; gap: 10px; border: none;">
+                    {{!-- Input largo --}}
+                    <input type="text" id="import-sheet-url" placeholder="https://docs.google.com/spreadsheets/d/..."
+                        style="flex: 4; height: 28px;" />
+
+                    {{!-- Botón angosto --}}
+                    <button type="button" id="btn-import-sheet"
+                        style="flex: 1; max-width: 120px; white-space: nowrap; height: 28px; line-height: normal;">
+                        <i class="fas fa-file-import"></i> Importar
+                    </button>
+                </div>
+                <p class="notes" style="font-size: 10px; margin-top: 5px; color: #666;">
+                    Esta función sobrescribirá los datos actuales de especie y stats base del Pokémon.
+                </p>
+            </fieldset>
         </div>
 
     </section>
