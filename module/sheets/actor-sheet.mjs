@@ -180,9 +180,77 @@ export class PTUNGActorSheet extends ActorSheet {
     return this.actor.createEmbeddedDocuments("Item", [itemData]);
   }
 
-  /** @override */
-  _onDropItem(event, data) {
-    // Aquí implementaremos la lógica para heredar stats de la especie pronto
+/**
+ * Evento para que al arrastrar a una especie a la ficha del pokémon se importen los datos del 
+ * mismo a la ficha para que pueda ser construida la ficha.
+ */
+/** @override */
+  async _onDropItem(event, data) {
+    // 1. Obtenemos el ítem que se está soltando desde el Compendio o la barra lateral
+    const item = await Item.fromDropData(data);
+    
+    // 2. Verificamos si es un ítem de tipo "species" y si el actor es un "pokemon"
+    if (item.type === "species" && this.actor.type === "pokemon") {
+      return this._importSpeciesData(item);
+    }
+
+    // Si no es una especie, dejamos que Foundry maneje el drop normalmente (añadir el ítem al inventario)
     return super._onDropItem(event, data);
   }
+
+  /**
+   * Lógica para mapear los datos de la Especie al Pokémon
+   */
+  async _importSpeciesData(species) {
+    const sData = species.system;
+    
+    // Función auxiliar para extraer el rango de habilidad (ej: de "3d6+4" extrae el 3)
+    const parseSkill = (skillString) => {
+      if (!skillString) return 2;
+      const match = skillString.match(/^(\d)d6/);
+      return match ? parseInt(match[1]) : 2;
+    };
+
+    // 1. Preparar el objeto de actualización con mapeo de Inglés -> Español
+    const updateData = {
+      "name": species.name,
+      "img": species.img, // Usa la ruta directa: systems/ptu-neogenesis/assets/images/species/images/XXXX.png
+      "prototypeToken.texture.src": species.img,
+      
+      "system.species": species.name,
+      "system.type1": sData.type1 || "",
+      "system.type2": sData.type2 || "",
+      
+      // STATS 
+      "system.stats.hp.base": sData.stats?.hp?.base || 0,
+      "system.stats.atk.base": sData.stats?.atk?.base || 0,
+      "system.stats.def.base": sData.stats?.def?.base || 0,
+      "system.stats.satk.base": sData.stats?.spatk?.base || 0,
+      "system.stats.sdef.base": sData.stats?.spdef?.base || 0,
+      "system.stats.spd.base": sData.stats?.spd?.base || 0,
+
+      // CAPACIDADES
+      "system.capabilities.suelo": sData.capabilities?.overland || 0,
+      "system.capabilities.nado": sData.capabilities?.swim || 0,
+      "system.capabilities.salto": sData.capabilities?.jump || 0,
+      "system.capabilities.cielo": sData.capabilities?.sky || 0,
+      "system.capabilities.cavar": sData.capabilities?.burrow || 0,
+      "system.capabilities.vigor": sData.capabilities?.power || 0,
+
+      // ATRIBUTOS 
+      "system.skills.acrobacia.base": parseSkill(sData.skills?.acrobatics),
+      "system.skills.atletismo.base": parseSkill(sData.skills?.athletics),
+      "system.skills.combate.base": parseSkill(sData.skills?.combat),
+      "system.skills.sigilo.base": parseSkill(sData.skills?.stealth),
+      "system.skills.percepcion.base": parseSkill(sData.skills?.perception),
+      "system.skills.enfoque.base": parseSkill(sData.skills?.focus)
+    };
+
+    // 2. Aplicar los cambios al actor
+    await this.actor.update(updateData);
+    
+    // 3. Notificación detallada
+    ui.notifications.info(`Especie ${species.name} importada correctamente con imagen y capacidades.`);
+  }
+
 }
