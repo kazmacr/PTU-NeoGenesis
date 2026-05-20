@@ -199,58 +199,65 @@ export class PTUNGActorSheet extends ActorSheet {
   }
 
   /**
-   * Lógica para mapear los datos de la Especie al Pokémon
+   * Importación avanzada adaptada exactamente al template.json de Neo Genesis
    */
   async _importSpeciesData(species) {
     const sData = species.system;
     
-    // Función auxiliar para extraer el rango de habilidad (ej: de "3d6+4" extrae el 3)
+    // Función auxiliar para extraer el rango de habilidad de los JSON (ej: de "3d6+4" extrae el 3)
     const parseSkill = (skillString) => {
-      if (!skillString) return 2;
-      const match = skillString.match(/^(\d)d6/);
+      if (!skillString) return 2; // El valor base de tu template es 2
+      const match = String(skillString).match(/^(\d)d6/);
       return match ? parseInt(match[1]) : 2;
     };
 
-    // 1. Preparar el objeto de actualización con mapeo de Inglés -> Español
+    // 1. Obtenemos el valor buscando el nombre en Inglés (de los JSON) o en Español
+    const getSkill = (eng, spa) => parseSkill(sData.skills?.[eng] || sData.skills?.[spa]);
+
     const updateData = {
       "name": species.name,
-      "img": species.img, // Usa la ruta directa: systems/ptu-neogenesis/assets/images/species/images/XXXX.png
+      "img": species.img,
       "prototypeToken.texture.src": species.img,
       
       "system.species": species.name,
       "system.type1": sData.type1 || "",
       "system.type2": sData.type2 || "",
       
-      // STATS 
+      // ---------------------------------------------------
+      // 1. STATS (Usamos .base según tu template)
+      // ---------------------------------------------------
       "system.stats.hp.base": sData.stats?.hp?.base || 0,
       "system.stats.atk.base": sData.stats?.atk?.base || 0,
       "system.stats.def.base": sData.stats?.def?.base || 0,
-      "system.stats.satk.base": sData.stats?.spatk?.base || 0,
-      "system.stats.sdef.base": sData.stats?.spdef?.base || 0,
+      "system.stats.satk.base": sData.stats?.spatk?.base || sData.stats?.satk?.base || 0,
+      "system.stats.sdef.base": sData.stats?.spdef?.base || sData.stats?.sdef?.base || 0,
       "system.stats.spd.base": sData.stats?.spd?.base || 0,
 
-      // CAPACIDADES
-      "system.capabilities.suelo": sData.capabilities?.overland || 0,
-      "system.capabilities.nado": sData.capabilities?.swim || 0,
-      "system.capabilities.salto": sData.capabilities?.jump || 0,
-      "system.capabilities.cielo": sData.capabilities?.sky || 0,
-      "system.capabilities.cavar": sData.capabilities?.burrow || 0,
-      "system.capabilities.vigor": sData.capabilities?.power || 0,
+      // ---------------------------------------------------
+      // 2. CAPACIDADES (Usamos inglés y .base según tu template)
+      // ---------------------------------------------------
+      "system.capabilities.overland.base": sData.capabilities?.overland || 0,
+      "system.capabilities.swim.base": sData.capabilities?.swim || 0,
+      "system.capabilities.jump.base": sData.capabilities?.jump || 0,
+      "system.capabilities.sky.base": sData.capabilities?.sky || 0,
+      "system.capabilities.burrow.base": sData.capabilities?.burrow || 0,
+      "system.capabilities.power.base": sData.capabilities?.power || 0,
 
-      // ATRIBUTOS 
-      "system.skills.acrobacia.base": parseSkill(sData.skills?.acrobatics),
-      "system.skills.atletismo.base": parseSkill(sData.skills?.athletics),
-      "system.skills.combate.base": parseSkill(sData.skills?.combat),
-      "system.skills.sigilo.base": parseSkill(sData.skills?.stealth),
-      "system.skills.percepcion.base": parseSkill(sData.skills?.perception),
-      "system.skills.enfoque.base": parseSkill(sData.skills?.focus)
+      // ---------------------------------------------------
+      // 3. SKILLS / HABILIDADES (Usamos los nombres en español y .value)
+      // ---------------------------------------------------
+      "system.skills.acrobacias.value": getSkill("acrobatics", "acrobacias"),
+      "system.skills.atletismo.value": getSkill("athletics", "atletismo"),
+      "system.skills.combate.value": getSkill("combat", "combate"),
+      "system.skills.sigilo.value": getSkill("stealth", "sigilo"),
+      "system.skills.percepcion.value": getSkill("perception", "percepcion"),
+      "system.skills.concentracion.value": getSkill("focus", "concentracion")
     };
 
     // 2. Aplicar los cambios al actor
     await this.actor.update(updateData);
     
-    // 3. Notificación detallada
-    ui.notifications.info(`Especie ${species.name} importada correctamente con imagen y capacidades.`);
+    ui.notifications.info(`Especie ${species.name} importada correctamente.`);
   }
 
 }
