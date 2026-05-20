@@ -29,6 +29,46 @@ export class PTUNGActor extends Actor {
     }
   }
 
+  /**
+   * Cálculos automatizados exclusivos para Pokémon
+   */
+  _preparePokemonDerivedData(system) {
+    // --------------------------------------------------------
+    // 1. CÁLCULO DE EVASIONES
+    // --------------------------------------------------------
+    const defTotal = system.stats.def.total || 0;
+    const sdefTotal = system.stats.sdef.total || 0;
+    const velTotal = system.stats.spd.total || 0;
+
+    system.evasion.physical.value = Math.floor(defTotal / 5) + (system.evasion.physical.mod || 0);
+    system.evasion.special.value  = Math.floor(sdefTotal / 5) + (system.evasion.special.mod || 0);
+    system.evasion.speed.value    = Math.floor(velTotal / 5) + (system.evasion.speed.mod || 0);
+
+    // --------------------------------------------------------
+    // 2. CÁLCULO DE PUNTOS DE SALUD (MAX HP)
+    // --------------------------------------------------------
+    const psPuro = (system.stats.hp.base || 0) + (system.stats.hp.added || 0) + (system.stats.hp.natureModifier || 0);
+    const defPura = (system.stats.def.base || 0) + (system.stats.def.added || 0) + (system.stats.def.natureModifier || 0);
+    const sdefPura = (system.stats.sdef.base || 0) + (system.stats.sdef.added || 0) + (system.stats.sdef.natureModifier || 0);
+
+    const statsDefensivos = defPura + sdefPura; // DEF + SDEF (Sin MC)
+    
+    // A) Vida máxima SIN heridas
+    const maxHpSinHeridas = (psPuro * 3) + statsDefensivos + 10;
+    system.health.maxSinHeridas = maxHpSinHeridas; 
+    
+    // B) Vida máxima CON heridas
+    const heridas = system.health.injuries || 0;
+    
+    // Se resta el 10% (0.1) por cada herida
+    const penalizacionHeridas = Math.floor(maxHpSinHeridas * (heridas * 0.1));
+    const maxHpFinal = maxHpSinHeridas - penalizacionHeridas;
+
+    // Asignamos el valor final para que actualice el token
+    system.health.max = maxHpFinal;
+  }
+
+
   /** @override */
   prepareDerivedData() {
     super.prepareDerivedData();

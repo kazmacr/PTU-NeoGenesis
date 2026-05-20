@@ -2,7 +2,7 @@
   "Actor": {
     "types": ["trainer", "pokemon"],
     "htmlFields": ["biography"],
-    "templates": {
+   "templates": {
       "baseModifiers": {
         "modifiers": {
           "accuracy": 0,
@@ -21,11 +21,11 @@
       "experience": 0,
       "actionPoints": { "total": 5, "bonded": 0, "spent": 0, "value": 5 },
       "stats": {
-        "hp": { "base": 5, "added": 0 },
+        "hp": { "base": 5, "added": 0},
         "atk": { "base": 5, "added": 0 },
         "def": { "base": 5, "added": 0 },
-        "satk": { "base": 5, "added": 0 },
-        "sdef": { "base": 5, "added": 0 },
+        "satk": { "base": 5, "added": 0},
+        "sdef": { "base": 5, "added": 0},
         "spd": { "base": 5, "added": 0 }
       },
       "biography": "",
@@ -43,7 +43,7 @@
         "cavar": 0
       },
       "skills": {
-        "acrobacias": { "value": 2, "mod": 0, "rank": "inexperto", "rankedLevel": 2 },
+        "acrobacias": { "value": 2, "mod": 0, "rank": "inexperto", "rankedLevel": 2},
         "atletismo": { "value": 2, "mod": 0, "rank": "inexperto", "rankedLevel": 2 },
         "combate": { "value": 2, "mod": 0, "rank": "inexperto", "rankedLevel": 2 },
         "intimidacion": { "value": 2, "mod": 0, "rank": "inexperto", "rankedLevel": 2 },
@@ -67,7 +67,14 @@
       "species": "",
       "health": { "value": 10, "min": 0, "max": 10, "injuries": 0, "dr": 0, "tick": 0, "half": 0, "third": 0, "quarter": 0, "eighth": 0, "sixteenth": 0 },
       "biography": "",
-      "bsp": { "primary": "hp", "secondary": "atk", "tertiary": "def", "mod1": 0, "mod2": 0, "mod3": 0 },
+      "bsp": {
+        "primary": "hp",
+        "secondary": "atk",
+        "tertiary": "def",
+        "mod1": 0,
+        "mod2": 0,
+        "mod3": 0
+      },
       "experience": 0,
       "nextLevelExp": 0,
       "loyalty": 2,
@@ -122,8 +129,18 @@
         "edTecnologica": { "value": 2, "mod": 0, "rank": "inexperto" },
         "liderazgo": { "value": 2, "mod": 0, "rank": "inexperto" }
       },
-      "equipment": { "held": "", "extra": "", "food": "" },
-      "contestStats": { "alarde": 0, "belleza": 0, "dulzura": 0, "ingenio": 0, "dureza": 0 },
+      "equipment": {
+        "held": "",
+        "extra": "",
+        "food": ""
+      },
+      "contestStats": {
+        "alarde": 0,
+        "belleza": 0,
+        "dulzura": 0,
+        "ingenio": 0,
+        "dureza": 0
+      },
       "contestDice": { "bonus": 0 },
       "pokochos": [],
       "vitaminas": [],
@@ -135,36 +152,142 @@
     }
   },
   "Item": {
-    "types": ["move", "ability", "feature", "poketrait", "gear", "species", "trait", "specialCapability"],
+    "types": ["move", "ability", "feature", "poketrait", "gear", "species", "trait"],
     "htmlFields": ["description", "effects", "contestEffects"],
     "templates": {
       "automationData": {
-        "automation": { "enabled": false }
+        "automation": {
+          "enabled": false
+        }
       }
     },
-    "move": { "templates": ["automationData"], "img": "icons/svg/d20-grey.svg", "description": "", "type": "Normal", "category": "Físico", "frequency": "A Voluntad", "range": "Cuerpo a cuerpo, 1 Objetivo", "properties": "", "cp": "", "damageBase": 0, "keywords": "", "effects": "", "contestEffects": "", "contestType": "belleza", "contestEffectName": "", "contestEffectKey": "" },
-    "ability": { "templates": ["automationData"], "description": "", "frequency": "Pasivo", "trigger": "", "effect": "", "notes": "" },
-    "feature": { "templates": ["automationData"], "description": "", "prerequisites": "", "frequency": "", "category": "", "subcategory": "", "tags": "" },
-    "trait": { "templates": ["automationData"], "description": "", "prerequisites": "", "frequency": "", "notes": "" },
-    "poketrait": { "templates": ["automationData"], "description": "", "prerequisites": "" },
-    "gear": { "templates": ["automationData"], "description": "", "quantity": 1, "price": 0, "weight": 0 },
-    "species": {
-      "img": "systems/ptu-neogenesis/assets/images/species/images/0000.jpg",
-      "type1": "", "type2": "", "diet": "", "eggGroup1": "", "eggGroup2": "", "hatchDays": 0, "size": "", "weightClass": "", "habitats": "",
-      "gender": { "male": 50, "female": 50, "genderless": false },
-      "stats": { "hp": { "base": 0 }, "atk": { "base": 0 }, "def": { "base": 0 }, "satk": { "base": 0 }, "sdef": { "base": 0 }, "spd": { "base": 0 } },
-      "capabilities": { "overland": 0, "swim": 0, "jump": 0, "sky": 0, "burrow": 0, "power": 0 },
-      "skills": { "acrobacias": "", "atletismo": "", "combate": "", "sigilo": "", "supervivencia": "", "percepcion": "", "concentracion": "", "intuicion": "", "astucia": "", "intimidacion": "", "carisma": "", "edGeneral": "", "edMedica": "", "edOculta": "", "edPokemon": "", "edTecnologica": "", "liderazgo": "" },
-      "evolution": { "stage": 1, "nextStage": "", "criteria": "", "evoLevel": 0 },
-      "megaEvo": { "hasMega": false, "megaA": { "name": "", "stone": "", "ability": "", "img": "", "type1": "", "type2": "", "stats": { "atk": { "base": 0 }, "def": { "base": 0 }, "satk": { "base": 0 }, "sdef": { "base": 0 }, "spd": { "base": 0 } } }, "megaB": { "hasMegaB": false, "name": "", "stone": "", "ability": "", "img": "", "type1": "", "type2": "", "stats": { "atk": { "base": 0 }, "def": { "base": 0 }, "satk": { "base": 0 }, "sdef": { "base": 0 }, "spd": { "base": 0 } } } },
-      "specialForms": { "hasGMax": false, "gmax": { "name": "", "gmaxMove": "", "ability": "", "height": "", "img": "" }, "hasTera": false, "tera": { "fixedType": "", "teraBlastMod": "", "img": "" } },
-      "lists": { "abilitiesBasic": "", "abilitiesAdvanced": "", "abilitiesHigh": "", "movesLevelUp": "", "movesTutor": "", "specialCapabilities": "" }
+    "move": {
+      "templates": ["automationData"],
+      "img": "icons/svg/d20-grey.svg",
+      "description": "",
+      "type": "Normal",
+      "category": "Físico",
+      "frequency": "A Voluntad",
+      "range": "Cuerpo a cuerpo, 1 Objetivo",
+      "properties": "",
+      "cp": "",
+      "damageBase": 0,
+      "keywords": "",
+      "effects": "",
+      "contestEffects": "",
+      "contestType": "belleza",
+      "contestEffectName": "",
+      "contestEffectKey": ""
     },
-    "specialCapability": {
+    "ability": {
       "templates": ["automationData"],
       "description": "",
+      "frequency": "Pasivo",
+      "trigger": "",
       "effect": "",
       "notes": ""
+    },
+    "feature": {
+      "templates": ["automationData"],
+      "description": "",
+      "prerequisites": "",
+      "frequency": "",
+      "category": "",
+      "subcategory": "",
+      "tags": ""
+    },
+    "trait": {
+      "templates": ["automationData"],
+      "description": "",
+      "prerequisites": "",
+      "frequency": "",
+      "notes": ""
+    },
+    "poketrait": {
+      "templates": ["automationData"],
+      "description": "",
+      "prerequisites": ""
+    },
+    "gear": {
+      "templates": ["automationData"],
+      "description": "",
+      "quantity": 1,
+      "price": 0,
+      "weight": 0
+    },
+    "species": {
+      "img": "systems/ptu-neogenesis/assets/images/species/images/0000.jpg",
+      "type1": "",
+      "type2": "",
+      "diet": "",
+      "eggGroup1": "",
+      "eggGroup2": "",
+      "hatchDays": 0,
+      "size": "",
+      "weightClass": "",
+      "habitats": "",
+      "gender": { "male": 50, "female": 50, "genderless": false },
+      "stats": {
+        "hp": { "base": 0 },
+        "atk": { "base": 0 },
+        "def": { "base": 0 },
+        "satk": { "base": 0 },
+        "sdef": { "base": 0 },
+        "spd": { "base": 0 }
+      },
+      "capabilities": {
+        "overland": 0,
+        "swim": 0,
+        "jump": 0,
+        "sky": 0,
+        "burrow": 0,
+        "power": 0
+      },
+      "skills": {
+        "acrobacias": "",
+        "atletismo": "",
+        "combate": "",
+        "sigilo": "",
+        "supervivencia": "",
+        "percepcion": "",
+        "concentracion": "",
+        "intuicion": "",
+        "astucia": "",
+        "intimidacion": "",
+        "carisma": "",
+        "edGeneral": "",
+        "edMedica": "",
+        "edOculta": "",
+        "edPokemon": "",
+        "edTecnologica": "",
+        "liderazgo": ""
+      },
+      "evolution": { "stage": 1, "nextStage": "", "criteria": "", "evoLevel": 0 },
+      "megaEvo": {
+        "hasMega": false,
+        "megaA": {
+          "name": "", "stone": "", "ability": "", "img": "", "type1": "", "type2": "",
+          "stats": { "atk": { "base": 0 }, "def": { "base": 0 }, "satk": { "base": 0 }, "sdef": { "base": 0 }, "spd": { "base": 0 } }
+        },
+        "megaB": {
+          "hasMegaB": false, "name": "", "stone": "", "ability": "", "img": "", "type1": "", "type2": "",
+          "stats": { "atk": { "base": 0 }, "def": { "base": 0 }, "satk": { "base": 0 }, "sdef": { "base": 0 }, "spd": { "base": 0 } }
+        }
+      },
+      "specialForms": {
+        "hasGMax": false,
+        "gmax": { "name": "", "gmaxMove": "", "ability": "", "height": "", "img": "" },
+        "hasTera": false,
+        "tera": { "fixedType": "", "teraBlastMod": "", "img": "" }
+      },
+      "lists": {
+        "abilitiesBasic": "",
+        "abilitiesAdvanced": "",
+        "abilitiesHigh": "",
+        "movesLevelUp": "",
+        "movesTutor": "",
+        "specialCapabilities": ""
+      }
     }
   }
 }
