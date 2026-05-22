@@ -19,18 +19,21 @@
                         <input type="number" name="system.level" value="{{system.level}}" data-dtype="Number"
                             readonly />
                     </div>
-                    <div class="resource hp-resource flexcol">
-                        <label class="resource-label">{{localize "PTUNG.Stats.hp.name"}}</label>
-                        <div class="resource-content hp-vertical-list">
-                            <div class="form-group actual-hp">
-                                <label>{{localize "PTUNG.Stats.hp.actual"}}</label>
-                                <input type="number" name="system.health.value" value="{{system.health.value}}"
-                                    data-dtype="Number" />
-                            </div>
-                            <div class="form-group max-hp">
-                                <label>{{localize "PTUNG.Stats.hp.max"}}</label>
-                                <input type="number" name="system.health.max" value="{{system.health.max}}" readonly />
-                            </div>
+                    <div class="form-group">
+                        <label>Puntos de Salud (PS)</label>
+                        <div class="input-group">
+                            <input type="number" name="system.health.value" value="{{system.health.value}}" 
+                                placeholder="Actual" title="Puntos de salud actuales" />
+                            
+                            <span> / </span>
+                            
+                            <input type="number" name="system.health.max" value="{{system.health.max}}" 
+                                placeholder="Máx con Heridas" readonly title="Vida máxima + heridas" />
+                            
+                            <span>|</span>
+                            
+                            <input type="number" value="{{system.health.maxSinHeridas}}" 
+                                placeholder="" readonly title="Vida máxima sin heridas" />
                         </div>
                     </div>
                 </div>
